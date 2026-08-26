@@ -17,10 +17,11 @@ env/
 .ruff_cache/
 
 # ============================================================
-# Local-only content (personal photos and source material)
+# Local-only content (personal photos, source material, session notes)
 # ============================================================
 photos/
 sources/
+build/
 
 # ============================================================
 # Logs / cache / temp
