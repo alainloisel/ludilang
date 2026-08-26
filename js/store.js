@@ -176,6 +176,19 @@ export function saveProgress(packId, progress) {
   lsSet("alo.progress." + packId, progress);
 }
 
+// Progression du mode Parcours : unités terminées et session interrompue.
+// Portée par cours, comme la progression SRS.
+export function getParcours(packId) {
+  return lsGet("alo.parcours." + packId, {
+    unitesTerminees: [],
+    session: null,
+  });
+}
+
+export function saveParcours(packId, data) {
+  lsSet("alo.parcours." + packId, data);
+}
+
 export function getCurrentPackId() {
   return localStorage.getItem("alo.currentPack") || null;
 }

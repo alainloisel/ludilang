@@ -220,6 +220,122 @@ select:focus, input:focus, textarea:focus { outline: 2px solid var(--violet); }
 .jeu-nom { font-weight: 800; }
 .jeu-desc { font-size: 0.75rem; color: var(--texte-2); line-height: 1.35; }
 
+/* ---------------- Mode Parcours ---------------- */
+
+.carte-parcours {
+  font: inherit;
+  color: var(--texte);
+  width: 100%;
+  background: linear-gradient(135deg, var(--violet), var(--rose));
+  border: none;
+  border-radius: var(--rayon);
+  padding: 18px 16px;
+  margin-bottom: 22px;
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: var(--ombre);
+  transition: transform 0.15s ease;
+}
+
+.carte-parcours:hover { transform: translateY(-3px) scale(1.01); }
+.carte-parcours:active { transform: scale(0.98); }
+
+.parcours-emoji { font-size: 2.4rem; }
+.parcours-texte { display: flex; flex-direction: column; gap: 3px; }
+.parcours-texte strong { font-size: 1.15rem; }
+.parcours-texte span { font-size: 0.8rem; opacity: 0.9; line-height: 1.35; }
+
+.titre-section {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--texte-2);
+  margin: 0 0 10px;
+}
+
+.grille-modes {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+}
+
+/* Une carte de mode reprend l'aspect d'une carte de jeu. */
+.carte-mode {
+  font: inherit;
+  color: var(--texte);
+  background: var(--carte);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--rayon);
+  padding: 20px 14px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: var(--ombre);
+  transition: transform 0.15s ease, border-color 0.15s;
+}
+
+.carte-mode:hover { transform: translateY(-3px) scale(1.02); border-color: var(--violet); }
+.carte-mode:active { transform: scale(0.98); }
+
+/* Frise d'avancement : une pastille par étape. */
+.parcours-frise {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 14px;
+}
+
+.pastille {
+  width: 9px;
+  height: 9px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.18);
+}
+
+.pastille.faite { background: var(--vert); }
+.pastille.active { background: var(--jaune); transform: scale(1.45); }
+
+.parcours-compteur {
+  font-size: 0.75rem;
+  color: var(--texte-2);
+  margin: 0 0 0 6px;
+}
+
+.parcours-suivant { font-size: 0.9rem; color: var(--texte-2); }
+
+/* Carte des unités : une ligne par unité, verrouillée tant que la
+   précédente n'est pas terminée. */
+.unite {
+  font: inherit;
+  color: var(--texte);
+  background: var(--carte);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--rayon);
+  padding: 14px 16px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 14px;
+  text-align: left;
+  cursor: pointer;
+  box-shadow: var(--ombre);
+  transition: transform 0.15s ease, border-color 0.15s;
+}
+
+.unite:not(.verrouille):hover { transform: translateX(4px); border-color: var(--violet); }
+.unite.verrouille { opacity: 0.45; filter: grayscale(0.8); cursor: not-allowed; }
+
+.unite-icone { font-size: 1.5rem; }
+.unite-texte { display: flex; flex-direction: column; gap: 3px; }
+
 .pied-accueil { margin-top: 4px; }
 
 /* ---------- Entête de jeu ---------- */

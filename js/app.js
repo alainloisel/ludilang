@@ -28,11 +28,15 @@ import {
   getCurrentPackId,
   setCurrentPackId,
   deleteImportedPack,
+  getParcours,
+  saveParcours,
 } from "./store.js";
 import { niveauActuel, enregistrerPartie, BADGES } from "./gamification.js";
 import { motsMaitrises } from "./srs.js";
 import { esc } from "./utils.js";
 import { ecranImport } from "./import.js";
+import { lancerParcours } from "./parcours.js";
+import { computeUnites } from "./parcours-plan.js";
 
 const JEUX = [
   flashcards,
@@ -139,6 +143,16 @@ function accueil() {
         <div class="stat"><strong>${player.badges.length}</strong><span>badges</span></div>
       </div>
 
+      <button class="carte-parcours" id="aller-parcours">
+        <span class="parcours-emoji">🚀</span>
+        <span class="parcours-texte">
+          <strong>Mon parcours</strong>
+          <span>Une série d'exercices choisis pour toi, du jeu au travail de fond.</span>
+        </span>
+      </button>
+
+      <h2 class="titre-section">Ou choisis ton jeu</h2>
+
       <div class="grille-jeux">
         ${JEUX.map(
           (j) => `
@@ -164,8 +178,139 @@ function accueil() {
   ecran.querySelectorAll(".carte-jeu").forEach((b) => {
     b.onclick = () => lancerJeu(JEUX.find((j) => j.meta.id === b.dataset.jeu));
   });
+  ecran.querySelector("#aller-parcours").onclick = ecranParcours;
   ecran.querySelector("#voir-badges").onclick = ecranBadges;
   ecran.querySelector("#aller-import").onclick = importer;
+}
+
+// ---------------- Parcours ----------------
+
+// Contexte commun passé au moteur de parcours (injection de dépendances :
+// parcours.js n'importe pas app.js, ce qui éviterait un cycle d'imports).
+function ctxParcours() {
+  const progress = getProgress(pack.id);
+  return {
+    pack,
+    progress,
+    saveProgress: () => saveProgress(pack.id, progress),
+    majHud,
+    retourAccueil: accueil,
+    getPlayerXp: () => getPlayer(pack.language).xp,
+    onSauver: (session) => {
+      const p = getParcours(pack.id);
+      p.session = session;
+      saveParcours(pack.id, p);
+    },
+    onUniteTerminee: (uniteId) => {
+      const p = getParcours(pack.id);
+      if (!p.unitesTerminees.includes(uniteId)) {
+        p.unitesTerminees.push(uniteId);
+        saveParcours(pack.id, p);
+      }
+    },
+  };
+}
+
+function ecranParcours() {
+  window.speechSynthesis?.cancel();
+  const enCours = getParcours(pack.id).session;
+
+  ecran.innerHTML = `
+    <div class="entete-jeu">
+      <button class="btn btn-ghost" id="retour">← Menu</button>
+      <h1 class="titre-jeu">🚀 Mon parcours</h1>
+    </div>
+    ${
+      enCours
+        ? `<button class="carte-parcours" id="reprendre">
+             <span class="parcours-emoji">▶️</span>
+             <span class="parcours-texte">
+               <strong>Reprendre la session</strong>
+               <span>Tu en étais à l'exercice ${enCours.idx + 1}. Il reprendra depuis le début.</span>
+             </span>
+           </button>`
+        : ""
+    }
+    <div class="grille-modes">
+      <button class="carte-mode" data-mode="lecon">
+        <span class="jeu-emoji">⚡</span>
+        <span class="jeu-nom">Leçon rapide</span>
+        <span class="jeu-desc">7 exercices enchaînés, environ 15 minutes.</span>
+      </button>
+      <button class="carte-mode" data-mode="unites">
+        <span class="jeu-emoji">🗺️</span>
+        <span class="jeu-nom">Parcours par unités</span>
+        <span class="jeu-desc">Avance thème par thème, une unité après l'autre.</span>
+      </button>
+      <button class="carte-mode" data-mode="libre">
+        <span class="jeu-emoji">♾️</span>
+        <span class="jeu-nom">Entraînement libre</span>
+        <span class="jeu-desc">Les exercices s'enchaînent, tu t'arrêtes quand tu veux.</span>
+      </button>
+    </div>`;
+
+  ecran.querySelector("#retour").onclick = accueil;
+  const reprendre = ecran.querySelector("#reprendre");
+  if (reprendre) {
+    reprendre.onclick = () => {
+      const unite = enCours.uniteId
+        ? computeUnites(pack).find((u) => u.id === enCours.uniteId)
+        : null;
+      lancerParcours(ecran, {
+        ...ctxParcours(),
+        mode: enCours.mode,
+        unite,
+        reprise: enCours,
+      });
+    };
+  }
+  ecran.querySelectorAll(".carte-mode").forEach((b) => {
+    b.onclick = () =>
+      b.dataset.mode === "unites"
+        ? ecranUnites()
+        : lancerParcours(ecran, { ...ctxParcours(), mode: b.dataset.mode });
+  });
+}
+
+function ecranUnites() {
+  const unites = computeUnites(pack);
+  const faites = getParcours(pack.id).unitesTerminees;
+  // Une unité est ouverte si la précédente est terminée.
+  const ouverte = (i) => i === 0 || faites.includes(unites[i - 1].id);
+
+  ecran.innerHTML = `
+    <div class="entete-jeu">
+      <button class="btn btn-ghost" id="retour">← Parcours</button>
+      <h1 class="titre-jeu">🗺️ Mes unités</h1>
+    </div>
+    <p class="parcours-compteur">${faites.length} / ${unites.length} unités terminées</p>
+    <div class="liste-points">
+      ${unites
+        .map((u, i) => {
+          const fait = faites.includes(u.id);
+          const libre = ouverte(i);
+          const icone = fait ? "✅" : libre ? "▶️" : "🔒";
+          return `<button class="point-grammaire unite ${libre ? "" : "verrouille"}"
+                    data-unite="${esc(u.id)}" ${libre ? "" : "disabled"}>
+            <span class="unite-icone">${icone}</span>
+            <span class="unite-texte">
+              <strong>Unité ${i + 1} — ${esc(u.titre)}</strong>
+              <span>${u.vocabIds.length} mots</span>
+            </span>
+          </button>`;
+        })
+        .join("")}
+    </div>`;
+
+  ecran.querySelector("#retour").onclick = ecranParcours;
+  ecran.querySelectorAll(".unite:not(.verrouille)").forEach((b) => {
+    b.onclick = () =>
+      lancerParcours(ecran, {
+        ...ctxParcours(),
+        mode: "unite",
+        unite: unites.find((u) => u.id === b.dataset.unite),
+      });
+  });
 }
 
 // ---------------- Lancement d'un jeu ----------------
