@@ -14,10 +14,14 @@ export const meta = {
 const NB_ITEMS = 6;
 
 export function start(container, ctx) {
-  if (!ttsDisponible()) {
+  if (!ttsDisponible(ctx.pack.language)) {
     container.innerHTML = `<div class="centre"><p class="gros-emoji">🔇</p>
       <h2>Pas de synthèse vocale</h2>
-      <p>Ton navigateur ne sait pas lire les textes à voix haute. Essaie avec Chrome ou Edge.</p></div>`;
+      <p>${
+        ttsDisponible()
+          ? `Aucune voix ${ctx.pack.language === "de" ? "allemande" : "anglaise"} n'est installée sur cet appareil. Ajoute-la dans les paramètres de langue de Windows (voix).`
+          : "Ton navigateur ne sait pas lire les textes à voix haute. Essaie avec Chrome ou Edge."
+      }</p></div>`;
     return;
   }
   // Mélange de phrases (prioritaires) et de mots de vocabulaire.

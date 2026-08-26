@@ -54,7 +54,7 @@ function construireQuestions(pack) {
         choix.push({
           type: "grammaire",
           question: ex.question,
-          options: [...ex.options],
+          options: shuffle([...ex.options]),
           bonne: ex.options[ex.bonne],
           point: g.titre,
         });

@@ -18,40 +18,57 @@ if (window.speechSynthesis) {
   };
 }
 
-export function ttsDisponible() {
-  return !!window.speechSynthesis;
+// Sans `langue`, vérifie juste que l'API existe. Avec `langue`, vérifie en
+// plus qu'une voix pour cette langue est bien installée sur l'appareil.
+export function ttsDisponible(langue) {
+  if (!window.speechSynthesis) return false;
+  return langue ? voixDisponible(langue) : true;
 }
 
-function meilleureVoix(langCode) {
+function candidatsVoix(langCode) {
   chargerVoix();
-  if (!voix || !voix.length) return null;
+  if (!voix || !voix.length) return [];
   const lc = langCode.toLowerCase().replace("_", "-");
   const langGroup = lc.slice(0, 2);
   const exacte = voix.filter(
     (v) => v.lang.toLowerCase().replace("_", "-") === lc,
   );
-  const proche = voix.filter((v) =>
+  if (exacte.length) return exacte;
+  return voix.filter((v) =>
     v.lang.toLowerCase().replace("_", "-").startsWith(langGroup),
   );
-  const candidates = exacte.length ? exacte : proche;
+}
+
+function meilleureVoix(langCode) {
+  const candidates = candidatsVoix(langCode);
+  if (!candidates.length) return null;
   // Les voix « naturelles / en ligne » sonnent mieux quand elles existent.
   return (
     candidates.find((v) => /natural|online/i.test(v.name)) ||
     candidates.find((v) => !v.localService) ||
-    candidates[0] ||
-    null
+    candidates[0]
   );
 }
 
+// Une voix existe-t-elle pour cette langue sur cet appareil ?
+export function voixDisponible(langue) {
+  return candidatsVoix(LANGUES[langue] || langue).length > 0;
+}
+
 // Prononce un texte dans la langue du pack ("en" ou "de").
+// Si aucune voix ne correspond à cette langue sur l'appareil, le navigateur
+// substituerait silencieusement sa voix par défaut (souvent le français sur
+// une machine sans voix allemande installée) : mieux vaut se taire que de
+// prononcer un mot allemand avec un accent français trompeur pour l'élève.
 export function parler(texte, langue, debit = 0.9) {
   if (!window.speechSynthesis) return;
+  const code = LANGUES[langue] || langue;
+  const v = meilleureVoix(code);
+  if (!v) return;
   speechSynthesis.cancel();
   const u = new SpeechSynthesisUtterance(texte);
-  const code = LANGUES[langue] || langue;
   u.lang = code;
-  const v = meilleureVoix(code);
-  if (v) u.voice = v;
+  u.voice = v;
   u.rate = debit;
   speechSynthesis.speak(u);
 }
