@@ -1,0 +1,1921 @@
+{
+  "id": "anglais-5eme-may-june",
+  "title": "Anglais 5e — May & June",
+  "language": "en",
+  "description": "Pack généré à partir des documents de cours de mai-juin : décrire sa maison, son appartement et sa chambre, dire l'heure et la date, l'internat de Summerhill et les règles de l'école, can/must/would, le prétérit et le récit de son livre préféré.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "a bedroom",
+      "traduction": "une chambre",
+      "exemple": "We sleep in a bedroom.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v2",
+      "mot": "a kitchen",
+      "traduction": "une cuisine",
+      "exemple": "A kitchen is where we cook and prepare meals.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v3",
+      "mot": "a living room",
+      "traduction": "un salon",
+      "exemple": "We watch TV or sit and relax in a living room.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v4",
+      "mot": "a dining room",
+      "traduction": "une salle à manger",
+      "exemple": "We eat our meals in a dining room.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v5",
+      "mot": "a bathroom",
+      "traduction": "une salle de bains",
+      "exemple": "We wash and brush our teeth in a bathroom.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v6",
+      "mot": "a toilet",
+      "traduction": "des toilettes",
+      "exemple": "There is just one toilet.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v7",
+      "mot": "a cellar",
+      "traduction": "une cave",
+      "exemple": "Yes, we have a cellar.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v8",
+      "mot": "an attic",
+      "traduction": "un grenier",
+      "exemple": "No, there isn't an attic.",
+      "theme": "La maison : les pièces"
+    },
+    {
+      "id": "v9",
+      "mot": "a guestroom",
+      "traduction": "une chambre d'amis",
+      "exemple": "There is also a guestroom.",
+      "theme": "La maison : les pièces"
+    },
+
+    {
+      "id": "v10",
+      "mot": "a study",
+      "traduction": "un bureau (la pièce)",
+      "exemple": "There is also a study.",
+      "theme": "Les autres pièces et les accès"
+    },
+    {
+      "id": "v11",
+      "mot": "a dressing room",
+      "traduction": "un dressing",
+      "exemple": "There is also a dressing room.",
+      "theme": "Les autres pièces et les accès"
+    },
+    {
+      "id": "v12",
+      "mot": "the stairs",
+      "traduction": "l'escalier",
+      "exemple": "We go up the stairs to get to the second floor.",
+      "theme": "Les autres pièces et les accès"
+    },
+    {
+      "id": "v13",
+      "mot": "a lift",
+      "traduction": "un ascenseur",
+      "exemple": "The machine to carry us to a higher floor is called a lift.",
+      "theme": "Les autres pièces et les accès"
+    },
+    {
+      "id": "v14",
+      "mot": "a front door",
+      "traduction": "une porte d'entrée",
+      "exemple": "The front door is brown.",
+      "theme": "Les autres pièces et les accès"
+    },
+    {
+      "id": "v15",
+      "mot": "a window",
+      "traduction": "une fenêtre",
+      "exemple": "We look outside through a window.",
+      "theme": "Les autres pièces et les accès"
+    },
+    {
+      "id": "v16",
+      "mot": "a balcony",
+      "traduction": "un balcon",
+      "exemple": "Do you have a balcony?",
+      "theme": "Les autres pièces et les accès"
+    },
+    {
+      "id": "v17",
+      "mot": "a gate",
+      "traduction": "un portail",
+      "exemple": "We close a gate to stop other people and animals coming into the garden.",
+      "theme": "Les autres pièces et les accès"
+    },
+
+    {
+      "id": "v18",
+      "mot": "a flat",
+      "traduction": "un appartement",
+      "exemple": "You live in a flat.",
+      "theme": "Appartement, maison et jardin"
+    },
+    {
+      "id": "v19",
+      "mot": "a house",
+      "traduction": "une maison",
+      "exemple": "How many floors does your house have?",
+      "theme": "Appartement, maison et jardin"
+    },
+    {
+      "id": "v20",
+      "mot": "a block",
+      "traduction": "un immeuble",
+      "exemple": "Is there a lift in your block?",
+      "theme": "Appartement, maison et jardin"
+    },
+    {
+      "id": "v21",
+      "mot": "a floor",
+      "traduction": "un étage",
+      "exemple": "Our house has two floors.",
+      "theme": "Appartement, maison et jardin"
+    },
+    {
+      "id": "v22",
+      "mot": "a garden",
+      "traduction": "un jardin",
+      "exemple": "We grow grass and flowers in a garden.",
+      "theme": "Appartement, maison et jardin"
+    },
+
+    {
+      "id": "v23",
+      "mot": "big",
+      "traduction": "grand",
+      "exemple": "My balcony is big.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v24",
+      "mot": "small",
+      "traduction": "petit",
+      "exemple": "My garden is small.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v25",
+      "mot": "sunny",
+      "traduction": "ensoleillé",
+      "exemple": "My garden is sunny.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v26",
+      "mot": "shady",
+      "traduction": "ombragé",
+      "exemple": "My balcony is shady.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v27",
+      "mot": "large",
+      "traduction": "grand, spacieux",
+      "exemple": "My bedroom is large.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v28",
+      "mot": "tidy",
+      "traduction": "rangé",
+      "exemple": "My bedroom is tidy.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v29",
+      "mot": "messy",
+      "traduction": "en désordre",
+      "exemple": "My bedroom is messy.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v30",
+      "mot": "my own",
+      "traduction": "à moi, personnel",
+      "exemple": "Yes, I have my own bathroom.",
+      "theme": "Décrire son logement"
+    },
+    {
+      "id": "v31",
+      "mot": "to share",
+      "traduction": "partager",
+      "exemple": "I share a bathroom with my parents.",
+      "theme": "Décrire son logement"
+    },
+
+    {
+      "id": "v32",
+      "mot": "red",
+      "traduction": "rouge",
+      "exemple": "The gate is red.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v33",
+      "mot": "yellow",
+      "traduction": "jaune",
+      "exemple": "The gate is yellow.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v34",
+      "mot": "green",
+      "traduction": "vert",
+      "exemple": "The gate is green.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v35",
+      "mot": "blue",
+      "traduction": "bleu",
+      "exemple": "The gate is blue.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v36",
+      "mot": "white",
+      "traduction": "blanc",
+      "exemple": "The gate is white.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v37",
+      "mot": "brown",
+      "traduction": "marron",
+      "exemple": "The gate is brown.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v38",
+      "mot": "black",
+      "traduction": "noir",
+      "exemple": "The gate is black.",
+      "theme": "Les couleurs"
+    },
+
+    {
+      "id": "v39",
+      "mot": "first",
+      "traduction": "premier",
+      "exemple": "I live on the first floor.",
+      "theme": "Les nombres ordinaux"
+    },
+    {
+      "id": "v40",
+      "mot": "second",
+      "traduction": "deuxième",
+      "exemple": "I live on the second floor.",
+      "theme": "Les nombres ordinaux"
+    },
+    {
+      "id": "v41",
+      "mot": "third",
+      "traduction": "troisième",
+      "exemple": "I live on the third floor.",
+      "theme": "Les nombres ordinaux"
+    },
+    {
+      "id": "v42",
+      "mot": "fourth",
+      "traduction": "quatrième",
+      "exemple": "I live on the fourth floor.",
+      "theme": "Les nombres ordinaux"
+    },
+    {
+      "id": "v43",
+      "mot": "fifth",
+      "traduction": "cinquième",
+      "exemple": "I live on the fifth floor.",
+      "theme": "Les nombres ordinaux"
+    },
+
+    {
+      "id": "v44",
+      "mot": "a bed",
+      "traduction": "un lit",
+      "exemple": "I have a bed.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v45",
+      "mot": "a bunk bed",
+      "traduction": "un lit superposé",
+      "exemple": "I have a bunk bed.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v46",
+      "mot": "a bedside table",
+      "traduction": "une table de chevet",
+      "exemple": "Next to the bed, there is a bedside table.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v47",
+      "mot": "a desk",
+      "traduction": "un bureau (le meuble)",
+      "exemple": "In my room, there is a desk.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v48",
+      "mot": "a closet",
+      "traduction": "un placard",
+      "exemple": "In my room, there is a closet.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v49",
+      "mot": "a chair",
+      "traduction": "une chaise",
+      "exemple": "In my room, there is a chair.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v50",
+      "mot": "a bookcase",
+      "traduction": "une bibliothèque (le meuble)",
+      "exemple": "In my room, there is a bookcase.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v51",
+      "mot": "a TV-set",
+      "traduction": "un téléviseur",
+      "exemple": "In my room, there is a TV-set.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v52",
+      "mot": "a poster",
+      "traduction": "une affiche",
+      "exemple": "On the walls, there are posters of One Piece.",
+      "theme": "La chambre : le mobilier"
+    },
+    {
+      "id": "v53",
+      "mot": "a wall",
+      "traduction": "un mur",
+      "exemple": "On the walls, there are posters.",
+      "theme": "La chambre : le mobilier"
+    },
+
+    {
+      "id": "v54",
+      "mot": "to read",
+      "traduction": "lire",
+      "exemple": "In my room, I like to read.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v55",
+      "mot": "to relax",
+      "traduction": "se détendre",
+      "exemple": "In my room, I like to relax.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v56",
+      "mot": "to write",
+      "traduction": "écrire",
+      "exemple": "In my room, I like to write.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v57",
+      "mot": "to draw",
+      "traduction": "dessiner",
+      "exemple": "I can draw.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v58",
+      "mot": "to play music",
+      "traduction": "jouer de la musique",
+      "exemple": "In my room, I like to play music.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v59",
+      "mot": "to listen to music",
+      "traduction": "écouter de la musique",
+      "exemple": "In my room, I like to listen to music.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v60",
+      "mot": "to dream",
+      "traduction": "rêver",
+      "exemple": "In my room, I like to dream.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v61",
+      "mot": "to think about life",
+      "traduction": "penser à la vie",
+      "exemple": "In my room, I like to think about life.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+    {
+      "id": "v62",
+      "mot": "to communicate with my friends",
+      "traduction": "communiquer avec mes amis",
+      "exemple": "In my room, I like to communicate with my friends.",
+      "theme": "Ce que j'aime faire dans ma chambre"
+    },
+
+    {
+      "id": "v63",
+      "mot": "What time is it?",
+      "traduction": "Quelle heure est-il ?",
+      "exemple": "What time is it right now?",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v64",
+      "mot": "o'clock",
+      "traduction": "heure pile",
+      "exemple": "It's five o'clock.",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v65",
+      "mot": "past",
+      "traduction": "après (les minutes après l'heure)",
+      "exemple": "It's ten past five.",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v66",
+      "mot": "to",
+      "traduction": "moins (les minutes avant l'heure)",
+      "exemple": "It's twenty to six.",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v67",
+      "mot": "(a) quarter past",
+      "traduction": "et quart",
+      "exemple": "It's a quarter past six.",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v68",
+      "mot": "half past",
+      "traduction": "et demie",
+      "exemple": "It's half past twelve.",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v69",
+      "mot": "to start school",
+      "traduction": "commencer l'école",
+      "exemple": "What time do you start school?",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v70",
+      "mot": "to finish school",
+      "traduction": "finir l'école",
+      "exemple": "I finish school at twelve o'clock.",
+      "theme": "L'heure"
+    },
+    {
+      "id": "v71",
+      "mot": "right now",
+      "traduction": "en ce moment",
+      "exemple": "What time is it right now?",
+      "theme": "L'heure"
+    },
+
+    {
+      "id": "v72",
+      "mot": "Monday",
+      "traduction": "lundi",
+      "exemple": "I start school on Monday.",
+      "theme": "Les jours de la semaine"
+    },
+    {
+      "id": "v73",
+      "mot": "Tuesday",
+      "traduction": "mardi",
+      "exemple": "I have English next Tuesday.",
+      "theme": "Les jours de la semaine"
+    },
+    {
+      "id": "v74",
+      "mot": "Wednesday",
+      "traduction": "mercredi",
+      "exemple": "I finish school at twelve on Wednesday.",
+      "theme": "Les jours de la semaine"
+    },
+    {
+      "id": "v75",
+      "mot": "Thursday",
+      "traduction": "jeudi",
+      "exemple": "We play games on Thursday.",
+      "theme": "Les jours de la semaine"
+    },
+    {
+      "id": "v76",
+      "mot": "Friday",
+      "traduction": "vendredi",
+      "exemple": "I study in the library on Friday.",
+      "theme": "Les jours de la semaine"
+    },
+    {
+      "id": "v77",
+      "mot": "Saturday",
+      "traduction": "samedi",
+      "exemple": "I relax in my room on Saturday.",
+      "theme": "Les jours de la semaine"
+    },
+    {
+      "id": "v78",
+      "mot": "Sunday",
+      "traduction": "dimanche",
+      "exemple": "I don't go to school on Sunday.",
+      "theme": "Les jours de la semaine"
+    },
+
+    {
+      "id": "v79",
+      "mot": "January",
+      "traduction": "janvier",
+      "exemple": "It is cold in January.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v80",
+      "mot": "February",
+      "traduction": "février",
+      "exemple": "I was born in February.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v81",
+      "mot": "March",
+      "traduction": "mars",
+      "exemple": "Spring begins in March.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v82",
+      "mot": "April",
+      "traduction": "avril",
+      "exemple": "Easter is in April.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v83",
+      "mot": "May",
+      "traduction": "mai",
+      "exemple": "It is sunny in May.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v84",
+      "mot": "June",
+      "traduction": "juin",
+      "exemple": "School finishes in June.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v85",
+      "mot": "July",
+      "traduction": "juillet",
+      "exemple": "I was born in July.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v86",
+      "mot": "August",
+      "traduction": "août",
+      "exemple": "It is too hot in August.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v87",
+      "mot": "September",
+      "traduction": "septembre",
+      "exemple": "We start school in September.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v88",
+      "mot": "October",
+      "traduction": "octobre",
+      "exemple": "Autumn is in October.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v89",
+      "mot": "November",
+      "traduction": "novembre",
+      "exemple": "It is cold in November.",
+      "theme": "Les mois de l'année"
+    },
+    {
+      "id": "v90",
+      "mot": "December",
+      "traduction": "décembre",
+      "exemple": "Winter begins in December.",
+      "theme": "Les mois de l'année"
+    },
+
+    {
+      "id": "v91",
+      "mot": "spring",
+      "traduction": "le printemps",
+      "exemple": "I like spring.",
+      "theme": "Les saisons et la date"
+    },
+    {
+      "id": "v92",
+      "mot": "summer",
+      "traduction": "l'été",
+      "exemple": "It is too hot in summer.",
+      "theme": "Les saisons et la date"
+    },
+    {
+      "id": "v93",
+      "mot": "autumn (fall)",
+      "traduction": "l'automne",
+      "exemple": "I like autumn.",
+      "theme": "Les saisons et la date"
+    },
+    {
+      "id": "v94",
+      "mot": "winter",
+      "traduction": "l'hiver",
+      "exemple": "The water is too cold in winter.",
+      "theme": "Les saisons et la date"
+    },
+    {
+      "id": "v95",
+      "mot": "to be born",
+      "traduction": "naître",
+      "exemple": "I was born on July 31st, 2012.",
+      "theme": "Les saisons et la date"
+    },
+    {
+      "id": "v96",
+      "mot": "Bastille Day",
+      "traduction": "le 14 Juillet",
+      "exemple": "The fourteenth of July is Bastille Day.",
+      "theme": "Les saisons et la date"
+    },
+    {
+      "id": "v97",
+      "mot": "fireworks",
+      "traduction": "des feux d'artifice",
+      "exemple": "No fireworks for me.",
+      "theme": "Les saisons et la date"
+    },
+
+    {
+      "id": "v98",
+      "mot": "a boarding school",
+      "traduction": "un internat",
+      "exemple": "A boarding school is a school where students sleep at school.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v99",
+      "mot": "a pupil",
+      "traduction": "un élève",
+      "exemple": "Pupils can hang out and play games.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v100",
+      "mot": "a student",
+      "traduction": "un élève, un étudiant",
+      "exemple": "Where do the students eat?",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v101",
+      "mot": "a formal lesson",
+      "traduction": "un cours classique",
+      "exemple": "They can choose to attend formal lessons.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v102",
+      "mot": "obligatory",
+      "traduction": "obligatoire",
+      "exemple": "Classes are not obligatory.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v103",
+      "mot": "to daydream",
+      "traduction": "rêvasser",
+      "exemple": "They can be by themselves to read or daydream.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v104",
+      "mot": "to hang out",
+      "traduction": "traîner, se retrouver",
+      "exemple": "Pupils can hang out in the open areas.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v105",
+      "mot": "to socialise",
+      "traduction": "être avec les autres",
+      "exemple": "Pupils can socialise and play games.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v106",
+      "mot": "to be creative",
+      "traduction": "être créatif",
+      "exemple": "Pupils can be creative.",
+      "theme": "L'internat de Summerhill"
+    },
+    {
+      "id": "v107",
+      "mot": "an open area",
+      "traduction": "un espace ouvert",
+      "exemple": "In Summerhill, there are also open areas.",
+      "theme": "L'internat de Summerhill"
+    },
+
+    {
+      "id": "v108",
+      "mot": "to do gardening",
+      "traduction": "faire du jardinage",
+      "exemple": "Pupils can learn how to do gardening.",
+      "theme": "Les activités et les lieux de l'école"
+    },
+    {
+      "id": "v109",
+      "mot": "to play chess",
+      "traduction": "jouer aux échecs",
+      "exemple": "Pupils can learn how to play chess.",
+      "theme": "Les activités et les lieux de l'école"
+    },
+    {
+      "id": "v110",
+      "mot": "to make a video",
+      "traduction": "faire une vidéo",
+      "exemple": "Pupils can learn how to make a video.",
+      "theme": "Les activités et les lieux de l'école"
+    },
+    {
+      "id": "v111",
+      "mot": "to play cricket",
+      "traduction": "jouer au cricket",
+      "exemple": "Where do they play cricket?",
+      "theme": "Les activités et les lieux de l'école"
+    },
+    {
+      "id": "v112",
+      "mot": "to study",
+      "traduction": "étudier",
+      "exemple": "Where do they study and read?",
+      "theme": "Les activités et les lieux de l'école"
+    },
+    {
+      "id": "v113",
+      "mot": "the library",
+      "traduction": "la bibliothèque",
+      "exemple": "They study in the library after class.",
+      "theme": "Les activités et les lieux de l'école"
+    },
+    {
+      "id": "v114",
+      "mot": "the canteen",
+      "traduction": "la cantine",
+      "exemple": "The students eat in the canteen.",
+      "theme": "Les activités et les lieux de l'école"
+    },
+    {
+      "id": "v115",
+      "mot": "a corridor",
+      "traduction": "un couloir",
+      "exemple": "They cannot run in the corridors.",
+      "theme": "Les activités et les lieux de l'école"
+    },
+
+    {
+      "id": "v116",
+      "mot": "a rule",
+      "traduction": "une règle",
+      "exemple": "There are too many rules in my opinion.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v117",
+      "mot": "strict",
+      "traduction": "strict",
+      "exemple": "It is not strict.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v118",
+      "mot": "to get up",
+      "traduction": "se lever",
+      "exemple": "They must get up at seven in the morning.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v119",
+      "mot": "to go to bed",
+      "traduction": "aller se coucher",
+      "exemple": "They must go to bed at nine.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v120",
+      "mot": "permission",
+      "traduction": "la permission",
+      "exemple": "They mustn't leave school without permission.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v121",
+      "mot": "to leave school",
+      "traduction": "quitter l'école",
+      "exemple": "They mustn't leave school without permission.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v122",
+      "mot": "to chew gum",
+      "traduction": "mâcher du chewing-gum",
+      "exemple": "In my ideal school, we could chew gum.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v123",
+      "mot": "to be polite",
+      "traduction": "être poli",
+      "exemple": "Children must be polite.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v124",
+      "mot": "to tidy my room",
+      "traduction": "ranger ma chambre",
+      "exemple": "I don't like to tidy my room.",
+      "theme": "Les règles de l'école"
+    },
+    {
+      "id": "v125",
+      "mot": "to pray to god",
+      "traduction": "prier Dieu",
+      "exemple": "Where do they pray to god?",
+      "theme": "Les règles de l'école"
+    },
+
+    {
+      "id": "v126",
+      "mot": "English",
+      "traduction": "l'anglais",
+      "exemple": "I can speak excellent English.",
+      "theme": "Les langues"
+    },
+    {
+      "id": "v127",
+      "mot": "French",
+      "traduction": "le français",
+      "exemple": "I can speak good French.",
+      "theme": "Les langues"
+    },
+    {
+      "id": "v128",
+      "mot": "Arabic",
+      "traduction": "l'arabe",
+      "exemple": "I can speak a little Arabic.",
+      "theme": "Les langues"
+    },
+    {
+      "id": "v129",
+      "mot": "Italian",
+      "traduction": "l'italien",
+      "exemple": "I can't speak Italian.",
+      "theme": "Les langues"
+    },
+    {
+      "id": "v130",
+      "mot": "Russian",
+      "traduction": "le russe",
+      "exemple": "I can't speak Russian.",
+      "theme": "Les langues"
+    },
+    {
+      "id": "v131",
+      "mot": "Chinese",
+      "traduction": "le chinois",
+      "exemple": "I can't speak Chinese.",
+      "theme": "Les langues"
+    },
+    {
+      "id": "v132",
+      "mot": "Finnish",
+      "traduction": "le finnois",
+      "exemple": "I can't speak Finnish.",
+      "theme": "Les langues"
+    },
+
+    {
+      "id": "v133",
+      "mot": "played (to play)",
+      "traduction": "j'ai joué",
+      "exemple": "Yesterday I played with my dog.",
+      "theme": "Le prétérit : verbes réguliers"
+    },
+    {
+      "id": "v134",
+      "mot": "worked (to work)",
+      "traduction": "j'ai travaillé",
+      "exemple": "Yesterday I worked.",
+      "theme": "Le prétérit : verbes réguliers"
+    },
+    {
+      "id": "v135",
+      "mot": "watched (to watch)",
+      "traduction": "j'ai regardé",
+      "exemple": "I watched a movie.",
+      "theme": "Le prétérit : verbes réguliers"
+    },
+    {
+      "id": "v136",
+      "mot": "listened (to listen)",
+      "traduction": "j'ai écouté",
+      "exemple": "I listened to music in my room.",
+      "theme": "Le prétérit : verbes réguliers"
+    },
+    {
+      "id": "v137",
+      "mot": "visited (to visit)",
+      "traduction": "j'ai rendu visite",
+      "exemple": "I visited my family.",
+      "theme": "Le prétérit : verbes réguliers"
+    },
+    {
+      "id": "v138",
+      "mot": "celebrated (to celebrate)",
+      "traduction": "j'ai fêté",
+      "exemple": "At Easter I celebrated Easter.",
+      "theme": "Le prétérit : verbes réguliers"
+    },
+    {
+      "id": "v139",
+      "mot": "enjoyed (to enjoy)",
+      "traduction": "j'ai apprécié",
+      "exemple": "Yes, I enjoyed the great outdoors.",
+      "theme": "Le prétérit : verbes réguliers"
+    },
+
+    {
+      "id": "v140",
+      "mot": "went (to go)",
+      "traduction": "je suis allé",
+      "exemple": "I went to my friends.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v141",
+      "mot": "did (to do)",
+      "traduction": "j'ai fait",
+      "exemple": "I did my homework.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v142",
+      "mot": "had (to have)",
+      "traduction": "j'ai eu",
+      "exemple": "I had a shower.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v143",
+      "mot": "began (to begin)",
+      "traduction": "j'ai commencé",
+      "exemple": "The class began at two.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v144",
+      "mot": "became (to become)",
+      "traduction": "je suis devenu",
+      "exemple": "He became a powerful pirate.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v145",
+      "mot": "broke (to break)",
+      "traduction": "j'ai cassé",
+      "exemple": "I broke my chair.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v146",
+      "mot": "was / were (to be)",
+      "traduction": "j'étais / nous étions",
+      "exemple": "Luffy was still a child.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v147",
+      "mot": "built (to build)",
+      "traduction": "j'ai construit",
+      "exemple": "They built a new school.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+    {
+      "id": "v148",
+      "mot": "burnt (to burn)",
+      "traduction": "j'ai brûlé",
+      "exemple": "The cake burnt in the kitchen.",
+      "theme": "Le prétérit : verbes irréguliers"
+    },
+
+    {
+      "id": "v149",
+      "mot": "yesterday",
+      "traduction": "hier",
+      "exemple": "Yesterday I did my homework.",
+      "theme": "Hier, ma journée"
+    },
+    {
+      "id": "v150",
+      "mot": "homework",
+      "traduction": "les devoirs",
+      "exemple": "I did my homework.",
+      "theme": "Hier, ma journée"
+    },
+    {
+      "id": "v151",
+      "mot": "a shower",
+      "traduction": "une douche",
+      "exemple": "I had a shower.",
+      "theme": "Hier, ma journée"
+    },
+    {
+      "id": "v152",
+      "mot": "a movie",
+      "traduction": "un film",
+      "exemple": "I watched a movie.",
+      "theme": "Hier, ma journée"
+    },
+    {
+      "id": "v153",
+      "mot": "a dog",
+      "traduction": "un chien",
+      "exemple": "I played with my dog.",
+      "theme": "Hier, ma journée"
+    },
+    {
+      "id": "v154",
+      "mot": "the holiday",
+      "traduction": "les vacances",
+      "exemple": "They can see their family during the holiday.",
+      "theme": "Hier, ma journée"
+    },
+    {
+      "id": "v155",
+      "mot": "my family",
+      "traduction": "ma famille",
+      "exemple": "I wouldn't see my family.",
+      "theme": "Hier, ma journée"
+    },
+
+    {
+      "id": "v156",
+      "mot": "my favourite book",
+      "traduction": "mon livre préféré",
+      "exemple": "My favourite book is One Piece.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v157",
+      "mot": "a story",
+      "traduction": "une histoire",
+      "exemple": "The story tells of Monkey D. Luffy.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v158",
+      "mot": "a pirate",
+      "traduction": "un pirate",
+      "exemple": "He dreams of becoming the Pirate King.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v159",
+      "mot": "a treasure",
+      "traduction": "un trésor",
+      "exemple": "He wants to find the treasure.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v160",
+      "mot": "a marine",
+      "traduction": "un marine, un soldat de la marine",
+      "exemple": "He was killed by the marines.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v161",
+      "mot": "an organization",
+      "traduction": "une organisation",
+      "exemple": "These marines are part of an organization.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v162",
+      "mot": "a bandit",
+      "traduction": "un bandit",
+      "exemple": "Bandits attacked his village.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v163",
+      "mot": "a village",
+      "traduction": "un village",
+      "exemple": "Bandits attacked his village.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v164",
+      "mot": "a hostage",
+      "traduction": "un otage",
+      "exemple": "The bandits took Luffy hostage.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v165",
+      "mot": "to set sail",
+      "traduction": "prendre la mer",
+      "exemple": "Ten years later, Luffy set sail again.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+    {
+      "id": "v166",
+      "mot": "a sea monster",
+      "traduction": "un monstre marin",
+      "exemple": "A sea monster devoured the bandits.",
+      "theme": "Mon livre préféré : One Piece"
+    },
+
+    {
+      "id": "v167",
+      "mot": "to protect",
+      "traduction": "protéger",
+      "exemple": "Shanks intervened and protected him.",
+      "theme": "Raconter une histoire"
+    },
+    {
+      "id": "v168",
+      "mot": "an idol",
+      "traduction": "une idole",
+      "exemple": "Shanks is Luffy's idol.",
+      "theme": "Raconter une histoire"
+    },
+    {
+      "id": "v169",
+      "mot": "unfortunately",
+      "traduction": "malheureusement",
+      "exemple": "Unfortunately, Shanks lost an arm.",
+      "theme": "Raconter une histoire"
+    },
+    {
+      "id": "v170",
+      "mot": "an arm",
+      "traduction": "un bras",
+      "exemple": "Shanks lost an arm in the process.",
+      "theme": "Raconter une histoire"
+    },
+    {
+      "id": "v171",
+      "mot": "an adventure",
+      "traduction": "une aventure",
+      "exemple": "After many adventures, he is now a powerful pirate.",
+      "theme": "Raconter une histoire"
+    },
+    {
+      "id": "v172",
+      "mot": "powerful",
+      "traduction": "puissant",
+      "exemple": "He is one of the four most powerful pirates in the world.",
+      "theme": "Raconter une histoire"
+    },
+    {
+      "id": "v173",
+      "mot": "funny",
+      "traduction": "drôle",
+      "exemple": "I like it because it's funny.",
+      "theme": "Raconter une histoire"
+    },
+    {
+      "id": "v174",
+      "mot": "interesting",
+      "traduction": "intéressant",
+      "exemple": "I like it because it's interesting.",
+      "theme": "Raconter une histoire"
+    },
+
+    {
+      "id": "v175",
+      "mot": "Easter",
+      "traduction": "Pâques",
+      "exemple": "At Easter I celebrated Easter.",
+      "theme": "Pâques et le grand air"
+    },
+    {
+      "id": "v176",
+      "mot": "a church",
+      "traduction": "une église",
+      "exemple": "No, I didn't go to church.",
+      "theme": "Pâques et le grand air"
+    },
+    {
+      "id": "v177",
+      "mot": "the great outdoors",
+      "traduction": "le grand air, la nature",
+      "exemple": "Yes, I enjoyed the great outdoors.",
+      "theme": "Pâques et le grand air"
+    },
+    {
+      "id": "v178",
+      "mot": "Christian",
+      "traduction": "chrétien",
+      "exemple": "I am not Christian.",
+      "theme": "Pâques et le grand air"
+    },
+    {
+      "id": "v179",
+      "mot": "a swimming suit",
+      "traduction": "un maillot de bain",
+      "exemple": "I can't swim because I don't have my swimming suit.",
+      "theme": "Pâques et le grand air"
+    },
+    {
+      "id": "v180",
+      "mot": "to swim",
+      "traduction": "nager",
+      "exemple": "I can't swim but I can sing.",
+      "theme": "Pâques et le grand air"
+    },
+    {
+      "id": "v181",
+      "mot": "to sing",
+      "traduction": "chanter",
+      "exemple": "I can't swim but I can sing.",
+      "theme": "Pâques et le grand air"
+    },
+
+    {
+      "id": "v182",
+      "mot": "too",
+      "traduction": "trop",
+      "exemple": "It is too hot to work.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v183",
+      "mot": "too many",
+      "traduction": "trop de",
+      "exemple": "There are too many rules in my opinion.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v184",
+      "mot": "a little",
+      "traduction": "un peu de",
+      "exemple": "I can speak a little Arabic.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v185",
+      "mot": "in my opinion",
+      "traduction": "à mon avis",
+      "exemple": "There are too many rules in my opinion.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v186",
+      "mot": "to need",
+      "traduction": "avoir besoin de",
+      "exemple": "To make a cake you need flour, eggs and sugar.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v187",
+      "mot": "good marks",
+      "traduction": "de bonnes notes",
+      "exemple": "I work a lot to get good marks.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v188",
+      "mot": "a language",
+      "traduction": "une langue",
+      "exemple": "Learning a language is a good way to train your memory.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v189",
+      "mot": "memory",
+      "traduction": "la mémoire",
+      "exemple": "Learning a language is a good way to train your memory.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v190",
+      "mot": "necessary",
+      "traduction": "nécessaire",
+      "exemple": "This language is necessary.",
+      "theme": "Expressions utiles"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "CAN / CAN'T (savoir faire, pouvoir)",
+      "explication": "CAN sert à dire ce qu'on sait faire ou ce qu'on a le droit de faire. Il ne prend jamais de -s et il est suivi du verbe sans TO : I can swim (et pas « I can to swim »). La négation est CAN'T (cannot). À la question, CAN se met avant le sujet : Can you help me?",
+      "exemples": [
+        "I can't swim but I can sing.",
+        "Can you help me please?",
+        "I can speak excellent English, good French and a little Arabic.",
+        "Pupils can learn how to play chess."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "I ___ swim but I can sing. (can, forme négative)",
+          "reponse": "can't"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ you help me please? (can)",
+          "reponse": "Can"
+        },
+        {
+          "type": "trous",
+          "phrase": "I can speak good French but I ___ speak Chinese. (can, forme négative)",
+          "reponse": "can't"
+        },
+        {
+          "type": "choix",
+          "question": "Pupils ___ learn how to do gardening.",
+          "options": ["can", "cans", "can to"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "___ I come?",
+          "options": ["Can", "Do can", "Am can"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "I can't swim ___ the water is too cold.",
+          "options": ["because", "too", "must"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["I", "can", "speak", "a", "little", "Arabic."]
+        },
+        { "type": "ordre", "mots": ["They", "can", "play", "a", "lot."] }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "MUST / MUSTN'T (obligation et interdiction)",
+      "explication": "MUST exprime une obligation : They must get up at seven. MUSTN'T exprime une interdiction : You mustn't laugh. Comme CAN, MUST est suivi du verbe sans TO et ne change jamais de forme. Attention à l'orthographe : mustn't, avec deux T.",
+      "exemples": [
+        "Children must be polite.",
+        "They must get up at seven in the morning.",
+        "You mustn't laugh, it is not funny!",
+        "They mustn't leave school without permission."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Children ___ be polite. (obligation)",
+          "reponse": "must"
+        },
+        {
+          "type": "trous",
+          "phrase": "You ___ laugh, it is not funny! (interdiction)",
+          "reponse": "mustn't"
+        },
+        {
+          "type": "trous",
+          "phrase": "They ___ leave school without permission. (interdiction)",
+          "reponse": "mustn't"
+        },
+        {
+          "type": "trous",
+          "phrase": "They ___ study in the library after class. (obligation)",
+          "reponse": "must"
+        },
+        {
+          "type": "choix",
+          "question": "« Ils ne doivent pas courir dans les couloirs » se dit :",
+          "options": [
+            "They must run in the corridors.",
+            "They mustn't run in the corridors.",
+            "They don't must run in the corridors."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Students must ___ formal lessons.",
+          "options": ["attend", "attends", "to attend"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["They", "must", "go", "to", "bed", "at", "nine."]
+        },
+        { "type": "ordre", "mots": ["Children", "must", "be", "polite."] }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "WOULD — Would you like…?",
+      "explication": "WOULD est le conditionnel : « aimerais-tu », « je ferais ». Would you like to go to Summerhill? On répond avec le modal seul : Yes, I would. / No, I wouldn't. WOULD est suivi du verbe sans TO : there would be, I would learn.",
+      "exemples": [
+        "Would you like to go to Summerhill school?",
+        "Yes, I would. / No, I wouldn't.",
+        "In my ideal school, there would be only nice teachers.",
+        "No, because I wouldn't see my family."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "___ you like to go to Abby's school? (would)",
+          "reponse": "Would"
+        },
+        {
+          "type": "trous",
+          "phrase": "Yes, I ___. (would)",
+          "reponse": "would"
+        },
+        {
+          "type": "trous",
+          "phrase": "No, because I ___ see my family. (would, forme négative)",
+          "reponse": "wouldn't"
+        },
+        {
+          "type": "trous",
+          "phrase": "In my ideal school, there ___ be only nice teachers. (would)",
+          "reponse": "would"
+        },
+        {
+          "type": "choix",
+          "question": "Would you like to live at a boarding school? — No, I ___.",
+          "options": ["wouldn't", "don't", "mustn't"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Yes, because I ___ make a lot of friends.",
+          "options": ["would", "am", "have"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["Would", "you", "like", "to", "go", "to", "Summerhill?"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["I", "would", "learn", "a", "lot", "more", "things."]
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "Le prétérit : les verbes réguliers en -ed",
+      "explication": "Pour raconter ce qui est fini (yesterday, at Easter, ten years later), on utilise le prétérit. Les verbes réguliers prennent -ed : work → worked, watch → watched, play → played, enjoy → enjoyed. Si le verbe finit déjà par -e, on ajoute juste -d : celebrate → celebrated. La forme est la même à toutes les personnes.",
+      "exemples": [
+        "Yesterday I played with my dog.",
+        "I watched a movie.",
+        "At Easter I celebrated Easter.",
+        "Yes, I enjoyed the great outdoors."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Yesterday I ___ with my dog. (play)",
+          "reponse": "played"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ a movie. (watch)",
+          "reponse": "watched"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ to music in my room. (listen)",
+          "reponse": "listened"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ a lot to get good marks. (work)",
+          "reponse": "worked"
+        },
+        {
+          "type": "trous",
+          "phrase": "At Easter I ___ Easter. (celebrate)",
+          "reponse": "celebrated"
+        },
+        {
+          "type": "choix",
+          "question": "Yes, I ___ the great outdoors.",
+          "options": ["enjoy", "enjoyed", "enjoying"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Last week I ___ my family.",
+          "options": ["visit", "visited", "visits"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["I", "watched", "a", "movie."] }
+      ]
+    },
+    {
+      "id": "g5",
+      "titre": "Le prétérit : les verbes irréguliers",
+      "explication": "Beaucoup de verbes très courants ne prennent pas -ed : il faut apprendre leur prétérit par cœur. go → went, do → did, have → had, begin → began, become → became, break → broke, be → was/were, build → built, burn → burnt. À la forme négative et à la question, on utilise DID + verbe à l'infinitif : I didn't go to church.",
+      "exemples": [
+        "Yesterday I did my homework.",
+        "I went to my friends.",
+        "I had a shower.",
+        "When Luffy was still a child, bandits attacked his village.",
+        "No, I didn't go to church."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Yesterday I ___ my homework. (do)",
+          "reponse": "did"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ to my friends. (go)",
+          "reponse": "went"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ a shower. (have)",
+          "reponse": "had"
+        },
+        {
+          "type": "trous",
+          "phrase": "The class ___ at two. (begin)",
+          "reponse": "began"
+        },
+        {
+          "type": "trous",
+          "phrase": "When Luffy ___ still a child, bandits attacked his village. (be)",
+          "reponse": "was"
+        },
+        {
+          "type": "choix",
+          "question": "Last Easter, I ___ go to church.",
+          "options": ["didn't", "don't", "wasn't"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "He ___ one of the most powerful pirates in the world.",
+          "options": ["become", "became", "becomed"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["I", "went", "to", "my", "friends."] }
+      ]
+    },
+    {
+      "id": "g6",
+      "titre": "THERE IS / THERE ARE (il y a)",
+      "explication": "THERE IS + singulier, THERE ARE + pluriel. Négation : there isn't / there aren't. Question : Is there…? / Are there…? On répond Yes, there is. / No, there isn't.",
+      "exemples": [
+        "Is there a lift in your block?",
+        "There is just one bathroom.",
+        "There are two toilets.",
+        "Next to the bed, there is a bedside table.",
+        "There aren't too many rules."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "There ___ just one toilet. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "trous",
+          "phrase": "There ___ two bathrooms. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ there an attic? — No, there isn't an attic. (be)",
+          "reponse": "Is"
+        },
+        {
+          "type": "trous",
+          "phrase": "At Summerhill, there ___ too many rules. (be, forme négative)",
+          "reponse": "aren't"
+        },
+        {
+          "type": "trous",
+          "phrase": "Next to the bed, there ___ a bedside table. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "choix",
+          "question": "___ there five bedrooms in your house?",
+          "options": ["Is", "Are", "Am"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "On the walls, there ___ posters of One Piece.",
+          "options": ["is", "are", "be"],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": ["Is", "there", "a", "lift", "in", "your", "block?"]
+        }
+      ]
+    },
+    {
+      "id": "g7",
+      "titre": "Donner l'heure",
+      "explication": "En anglais, on donne d'abord les minutes, puis l'heure. On utilise PAST (après) quand l'aiguille est sur la moitié droite du cadran, et TO (jusqu'à) quand elle est sur la moitié gauche. Pour une heure pile, on dit o'clock. Le quart se dit (a) quarter et la demie half past.",
+      "exemples": [
+        "It's five o'clock.",
+        "It's ten past five.",
+        "It's a quarter past six.",
+        "It's half past twelve.",
+        "It's twenty to six."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "It's a quarter ___ six. (5 h 45, on va jusqu'à six heures)",
+          "reponse": "to"
+        },
+        {
+          "type": "trous",
+          "phrase": "It's ten ___ five. (5 h 10, après cinq heures)",
+          "reponse": "past"
+        },
+        {
+          "type": "trous",
+          "phrase": "It's ___ past twelve. (12 h 30)",
+          "reponse": "half"
+        },
+        {
+          "type": "trous",
+          "phrase": "It's five ___. (5 h 00 pile)",
+          "reponse": "o'clock"
+        },
+        {
+          "type": "choix",
+          "question": "6 h 15 se dit :",
+          "options": [
+            "It's a quarter to six.",
+            "It's a quarter past six.",
+            "It's half past six."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "5 h 40 se dit :",
+          "options": [
+            "It's twenty past six.",
+            "It's twenty to six.",
+            "It's twenty to five."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": ["What", "time", "do", "you", "finish", "school", "today?"]
+        },
+        { "type": "ordre", "mots": ["It's", "half", "past", "five."] }
+      ]
+    },
+    {
+      "id": "g8",
+      "titre": "Donner la date",
+      "explication": "En anglais, les jours et les mois s'écrivent toujours avec une majuscule. La date s'écrit July 14th, 1789 ou 14th July 1789, et se lit July the fourteenth ou the fourteenth of July. Pour lire une année, on dit les deux premiers chiffres puis les deux derniers : 1998 = nineteen ninety-eight. Depuis 2000, on peut dire twenty twenty-two ou two thousand and twenty-two.",
+      "exemples": [
+        "I was born in July.",
+        "I was born on July 31st, 2012.",
+        "the fourteenth of July",
+        "nineteen ninety-eight"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "1998 se lit : nineteen ___-eight.",
+          "reponse": "ninety"
+        },
+        {
+          "type": "trous",
+          "phrase": "I was ___ on July 31st, 2012. (naître)",
+          "reponse": "born"
+        },
+        {
+          "type": "trous",
+          "phrase": "The fourteenth ___ July is Bastille Day. (préposition)",
+          "reponse": "of"
+        },
+        {
+          "type": "trous",
+          "phrase": "Le mois de mai s'écrit ___ en anglais.",
+          "reponse": "May"
+        },
+        {
+          "type": "choix",
+          "question": "1869 se lit :",
+          "options": [
+            "one thousand eight hundred sixty-nine",
+            "eighteen sixty-nine",
+            "eighteen hundred sixty and nine"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "2022 se lit :",
+          "options": [
+            "twenty twenty-two",
+            "twenty-two thousand",
+            "two twenty-two"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Quel jour vient après Wednesday ?",
+          "options": ["Tuesday", "Thursday", "Sunday"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["I", "was", "born", "in", "July."] }
+      ]
+    },
+    {
+      "id": "g9",
+      "titre": "TOO / TOO MANY (trop)",
+      "explication": "TOO + adjectif veut dire « trop » : the water is too cold. TOO MANY + nom pluriel veut dire « trop de » : too many rules. Et TOO + adjectif + TO + verbe veut dire « trop … pour … » : it is too hot to work.",
+      "exemples": [
+        "I can't swim because the water is too cold.",
+        "It is too hot to work.",
+        "There are too many rules in my opinion.",
+        "It's too good to be true."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "I can't swim because the water is ___ cold. (trop)",
+          "reponse": "too"
+        },
+        {
+          "type": "trous",
+          "phrase": "There are too ___ rules in my opinion. (trop de + pluriel)",
+          "reponse": "many"
+        },
+        {
+          "type": "trous",
+          "phrase": "It is too hot ___ work. (pour)",
+          "reponse": "to"
+        },
+        {
+          "type": "trous",
+          "phrase": "It's ___ good to be true. (trop)",
+          "reponse": "too"
+        },
+        {
+          "type": "choix",
+          "question": "There are ___ students in this classroom!",
+          "options": ["too much", "too many", "too"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "It's too good ___ true.",
+          "options": ["to be", "be", "for be"],
+          "bonne": 0
+        },
+        { "type": "ordre", "mots": ["It", "is", "too", "hot", "to", "work."] },
+        { "type": "ordre", "mots": ["There", "are", "too", "many", "rules."] }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "My favourite book is One Piece.",
+      "traduction": "Mon livre préféré est One Piece."
+    },
+    {
+      "id": "p2",
+      "texte": "I like it because it's funny and interesting.",
+      "traduction": "Je l'aime bien parce que c'est drôle et intéressant."
+    },
+    {
+      "id": "p3",
+      "texte": "We wash and brush our teeth in a bathroom.",
+      "traduction": "On se lave et on se brosse les dents dans une salle de bains."
+    },
+    {
+      "id": "p4",
+      "texte": "We go up the stairs to get to the second floor.",
+      "traduction": "On monte l'escalier pour aller au deuxième étage."
+    },
+    {
+      "id": "p5",
+      "texte": "Is there a lift in your block?",
+      "traduction": "Y a-t-il un ascenseur dans votre immeuble ?"
+    },
+    {
+      "id": "p6",
+      "texte": "There is just one bathroom and two toilets.",
+      "traduction": "Il y a seulement une salle de bains et deux toilettes."
+    },
+    {
+      "id": "p7",
+      "texte": "Next to the bed, there is a bedside table.",
+      "traduction": "À côté du lit, il y a une table de chevet."
+    },
+    {
+      "id": "p8",
+      "texte": "In my room, I like to read and to listen to music.",
+      "traduction": "Dans ma chambre, j'aime lire et écouter de la musique."
+    },
+    {
+      "id": "p9",
+      "texte": "Summerhill is a boarding school where students must decide each day how to use their time.",
+      "traduction": "Summerhill est un internat où les élèves doivent décider chaque jour comment utiliser leur temps."
+    },
+    {
+      "id": "p10",
+      "texte": "Classes are not obligatory and there aren't too many rules.",
+      "traduction": "Les cours ne sont pas obligatoires et il n'y a pas trop de règles."
+    },
+    {
+      "id": "p11",
+      "texte": "They must get up at seven in the morning and go to bed at nine.",
+      "traduction": "Ils doivent se lever à sept heures du matin et se coucher à neuf heures."
+    },
+    {
+      "id": "p12",
+      "texte": "They mustn't leave school without permission.",
+      "traduction": "Ils ne doivent pas quitter l'école sans permission."
+    },
+    {
+      "id": "p13",
+      "texte": "I can speak excellent English, good French and a little Arabic.",
+      "traduction": "Je parle un excellent anglais, un bon français et un peu d'arabe."
+    },
+    {
+      "id": "p14",
+      "texte": "Yesterday I did my homework and I watched a movie.",
+      "traduction": "Hier, j'ai fait mes devoirs et j'ai regardé un film."
+    },
+    {
+      "id": "p15",
+      "texte": "I can't swim because the water is too cold.",
+      "traduction": "Je ne sais pas nager parce que l'eau est trop froide."
+    }
+  ]
+}

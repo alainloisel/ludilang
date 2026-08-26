@@ -1,0 +1,482 @@
+{
+  "id": "demo-anglais-5e",
+  "language": "en",
+  "title": "Anglais 5e — Pack de démonstration",
+  "description": "Pack d'exemple : la météo, la routine, la nourriture, le collège et les loisirs.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "the weather",
+      "traduction": "la météo",
+      "exemple": "The weather is nice today.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v2",
+      "mot": "sunny",
+      "traduction": "ensoleillé",
+      "exemple": "It is sunny this morning.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v3",
+      "mot": "rainy",
+      "traduction": "pluvieux",
+      "exemple": "October is often rainy.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v4",
+      "mot": "cloudy",
+      "traduction": "nuageux",
+      "exemple": "The sky is cloudy.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v5",
+      "mot": "windy",
+      "traduction": "venteux",
+      "exemple": "It is very windy on the beach.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v6",
+      "mot": "the snow",
+      "traduction": "la neige",
+      "exemple": "I love the snow in winter.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v7",
+      "mot": "hot",
+      "traduction": "chaud",
+      "exemple": "It is hot in summer.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v8",
+      "mot": "cold",
+      "traduction": "froid",
+      "exemple": "It is cold in January.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v9",
+      "mot": "an umbrella",
+      "traduction": "un parapluie",
+      "exemple": "Take your umbrella, it is raining.",
+      "theme": "La météo"
+    },
+    {
+      "id": "v10",
+      "mot": "to wake up",
+      "traduction": "se réveiller",
+      "exemple": "I wake up at seven.",
+      "theme": "La routine"
+    },
+    {
+      "id": "v11",
+      "mot": "to get up",
+      "traduction": "se lever",
+      "exemple": "She gets up early.",
+      "theme": "La routine"
+    },
+    {
+      "id": "v12",
+      "mot": "to have breakfast",
+      "traduction": "prendre le petit-déjeuner",
+      "exemple": "We have breakfast at home.",
+      "theme": "La routine"
+    },
+    {
+      "id": "v13",
+      "mot": "to brush my teeth",
+      "traduction": "me brosser les dents",
+      "exemple": "I brush my teeth every morning.",
+      "theme": "La routine"
+    },
+    {
+      "id": "v14",
+      "mot": "to go to school",
+      "traduction": "aller à l'école",
+      "exemple": "They go to school by bus.",
+      "theme": "La routine"
+    },
+    {
+      "id": "v15",
+      "mot": "to do my homework",
+      "traduction": "faire mes devoirs",
+      "exemple": "I do my homework after school.",
+      "theme": "La routine"
+    },
+    {
+      "id": "v16",
+      "mot": "to go to bed",
+      "traduction": "aller se coucher",
+      "exemple": "He goes to bed at nine.",
+      "theme": "La routine"
+    },
+    {
+      "id": "v17",
+      "mot": "bread",
+      "traduction": "le pain",
+      "exemple": "I eat bread with butter.",
+      "theme": "La nourriture"
+    },
+    {
+      "id": "v18",
+      "mot": "milk",
+      "traduction": "le lait",
+      "exemple": "She drinks milk for breakfast.",
+      "theme": "La nourriture"
+    },
+    {
+      "id": "v19",
+      "mot": "an apple",
+      "traduction": "une pomme",
+      "exemple": "An apple a day is good for you.",
+      "theme": "La nourriture"
+    },
+    {
+      "id": "v20",
+      "mot": "chicken",
+      "traduction": "le poulet",
+      "exemple": "We eat chicken on Sundays.",
+      "theme": "La nourriture"
+    },
+    {
+      "id": "v21",
+      "mot": "vegetables",
+      "traduction": "les légumes",
+      "exemple": "Vegetables are good for your health.",
+      "theme": "La nourriture"
+    },
+    {
+      "id": "v22",
+      "mot": "lunch",
+      "traduction": "le déjeuner",
+      "exemple": "We have lunch at the canteen.",
+      "theme": "La nourriture"
+    },
+    {
+      "id": "v23",
+      "mot": "dinner",
+      "traduction": "le dîner",
+      "exemple": "Dinner is ready!",
+      "theme": "La nourriture"
+    },
+    {
+      "id": "v24",
+      "mot": "a schoolbag",
+      "traduction": "un cartable",
+      "exemple": "My schoolbag is very heavy.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v25",
+      "mot": "a ruler",
+      "traduction": "une règle",
+      "exemple": "Can I borrow your ruler?",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v26",
+      "mot": "a rubber",
+      "traduction": "une gomme",
+      "exemple": "I need a rubber to erase this.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v27",
+      "mot": "a copybook",
+      "traduction": "un cahier",
+      "exemple": "Write the date in your copybook.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v28",
+      "mot": "the playground",
+      "traduction": "la cour de récréation",
+      "exemple": "We play in the playground.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v29",
+      "mot": "a subject",
+      "traduction": "une matière",
+      "exemple": "My favourite subject is history.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v30",
+      "mot": "history",
+      "traduction": "l'histoire",
+      "exemple": "We have history on Mondays.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v31",
+      "mot": "to play football",
+      "traduction": "jouer au foot",
+      "exemple": "They play football after school.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v32",
+      "mot": "to read",
+      "traduction": "lire",
+      "exemple": "I like to read comics.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v33",
+      "mot": "to swim",
+      "traduction": "nager",
+      "exemple": "She can swim very fast.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v34",
+      "mot": "to draw",
+      "traduction": "dessiner",
+      "exemple": "He draws dragons in his copybook.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v35",
+      "mot": "a hobby",
+      "traduction": "un loisir",
+      "exemple": "Drawing is my favourite hobby.",
+      "theme": "Les loisirs"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "Le présent simple",
+      "explication": "On utilise le présent simple pour les habitudes et les vérités générales. Attention : à la 3e personne du singulier (he, she, it), on ajoute un -s au verbe (ou -es après o, ch, sh…).",
+      "exemples": [
+        "I play football on Sundays.",
+        "She goes to school by bus.",
+        "He watches TV in the evening."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "She ___ to school every day. (go)",
+          "reponse": "goes"
+        },
+        {
+          "type": "trous",
+          "phrase": "He ___ TV in the evening. (watch)",
+          "reponse": "watches"
+        },
+        {
+          "type": "trous",
+          "phrase": "They ___ football on Sundays. (play)",
+          "reponse": "play"
+        },
+        {
+          "type": "trous",
+          "phrase": "My sister ___ up at seven. (get)",
+          "reponse": "gets"
+        },
+        {
+          "type": "choix",
+          "question": "My brother ___ history.",
+          "options": ["like", "likes", "liking"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "We ___ breakfast at eight.",
+          "options": ["has", "have", "having"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["She", "gets", "up", "at", "seven"] },
+        {
+          "type": "ordre",
+          "mots": ["I", "brush", "my", "teeth", "every", "morning"]
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "Le présent en BE + -ING",
+      "explication": "Pour dire ce qui se passe en ce moment, on utilise BE (am / is / are) + verbe en -ING. Exemple : I am reading = je suis en train de lire.",
+      "exemples": [
+        "Look! It is raining.",
+        "I am doing my homework.",
+        "They are playing football now."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Look! It ___ raining. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "trous",
+          "phrase": "I am ___ my homework. (do)",
+          "reponse": "doing"
+        },
+        {
+          "type": "trous",
+          "phrase": "They ___ eating a sandwich. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "choix",
+          "question": "Listen! She ___ in the bathroom.",
+          "options": ["sings", "is singing", "sing"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "We ___ football now.",
+          "options": ["are playing", "play", "plays"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["They", "are", "playing", "football", "now"]
+        },
+        { "type": "ordre", "mots": ["He", "is", "doing", "his", "homework"] }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Can / can't",
+      "explication": "CAN exprime la capacité (je sais faire / je peux). Il ne prend jamais de -s et est suivi du verbe sans « to ». La négation est can't (cannot).",
+      "exemples": [
+        "She can swim very well.",
+        "I can't draw.",
+        "Can you play football?"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "She ___ swim very well. (savoir faire)",
+          "reponse": "can"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ draw, sorry! (ne pas savoir faire)",
+          "reponse": "can't"
+        },
+        {
+          "type": "choix",
+          "question": "My little brother ___ read yet.",
+          "options": ["can't", "don't can", "cans not"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "___ you swim?",
+          "options": ["Do can", "Can", "Are"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["Can", "you", "draw", "a", "dragon?"] },
+        { "type": "ordre", "mots": ["I", "can", "swim", "very", "fast"] }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "Les verbes irréguliers (Prétérit)",
+      "explication": "Au prétérit (le passé), les verbes réguliers prennent '-ed'. Mais les verbes irréguliers changent de forme et doivent être appris par cœur.",
+      "exemples": [
+        "I went to the cinema yesterday. (go ➜ went)",
+        "We had breakfast at eight. (have ➜ had)",
+        "He saw a big dog in the street. (see ➜ saw)"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Yesterday, I ___ to the cinema. (go)",
+          "reponse": "went"
+        },
+        {
+          "type": "trous",
+          "phrase": "We ___ breakfast at eight. (have)",
+          "reponse": "had"
+        },
+        {
+          "type": "trous",
+          "phrase": "He ___ a big dog in the street. (see)",
+          "reponse": "saw"
+        },
+        {
+          "type": "trous",
+          "phrase": "She ___ a letter to her friend. (write)",
+          "reponse": "wrote"
+        },
+        {
+          "type": "choix",
+          "question": "Yesterday, we ___ a nice teacher.",
+          "options": ["had", "haded", "have"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Last night, I ___ a good book.",
+          "options": ["readed", "read", "reads"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["I", "went", "to", "school", "yesterday"] },
+        { "type": "ordre", "mots": ["We", "saw", "a", "big", "dog"] }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "The weather is sunny today.",
+      "traduction": "Il fait beau aujourd'hui."
+    },
+    {
+      "id": "p2",
+      "texte": "I get up at seven o'clock.",
+      "traduction": "Je me lève à sept heures."
+    },
+    {
+      "id": "p3",
+      "texte": "She has breakfast with her brother.",
+      "traduction": "Elle prend le petit-déjeuner avec son frère."
+    },
+    {
+      "id": "p4",
+      "texte": "We go to school by bus.",
+      "traduction": "Nous allons à l'école en bus."
+    },
+    {
+      "id": "p5",
+      "texte": "He is doing his homework.",
+      "traduction": "Il est en train de faire ses devoirs."
+    },
+    {
+      "id": "p6",
+      "texte": "Can you play football with me?",
+      "traduction": "Peux-tu jouer au foot avec moi ?"
+    },
+    {
+      "id": "p7",
+      "texte": "My favourite subject is history.",
+      "traduction": "Ma matière préférée est l'histoire."
+    },
+    {
+      "id": "p8",
+      "texte": "I can't swim but I can draw.",
+      "traduction": "Je ne sais pas nager mais je sais dessiner."
+    },
+    {
+      "id": "p9",
+      "texte": "They are eating a sandwich in the playground.",
+      "traduction": "Ils mangent un sandwich dans la cour de récréation."
+    },
+    {
+      "id": "p10",
+      "texte": "It is raining, take your umbrella.",
+      "traduction": "Il pleut, prends ton parapluie."
+    }
+  ]
+}

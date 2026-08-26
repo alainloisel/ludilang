@@ -1,0 +1,15 @@
+{
+  "name": "AloLangues — Réviser anglais et allemand",
+  "short_name": "AloLangues",
+  "description": "Révise le vocabulaire et la grammaire de TON cours avec des jeux, de l'écoute et de la prononciation.",
+  "lang": "fr",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#14102a",
+  "theme_color": "#1b1035",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}

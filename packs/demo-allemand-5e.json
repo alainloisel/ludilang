@@ -1,0 +1,433 @@
+{
+  "id": "demo-allemand-5e",
+  "language": "de",
+  "title": "Allemand 5e — Pack de démonstration",
+  "description": "Pack d'exemple : se présenter, la famille, l'école et les loisirs.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "Hallo",
+      "traduction": "salut",
+      "exemple": "Hallo, wie geht's?",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v2",
+      "mot": "ich heiße",
+      "traduction": "je m'appelle",
+      "exemple": "Ich heiße Emma.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v3",
+      "mot": "Wie geht's?",
+      "traduction": "comment ça va ?",
+      "exemple": "Hallo Max, wie geht's?",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v4",
+      "mot": "gut",
+      "traduction": "bien",
+      "exemple": "Mir geht es gut, danke.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v5",
+      "mot": "der Freund",
+      "traduction": "l'ami",
+      "exemple": "Max ist mein Freund.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v6",
+      "mot": "die Freundin",
+      "traduction": "l'amie",
+      "exemple": "Lena ist meine Freundin.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v7",
+      "mot": "wohnen",
+      "traduction": "habiter",
+      "exemple": "Ich wohne in Lyon.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v8",
+      "mot": "zwölf Jahre alt",
+      "traduction": "âgé de douze ans",
+      "exemple": "Ich bin zwölf Jahre alt.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v9",
+      "mot": "die Familie",
+      "traduction": "la famille",
+      "exemple": "Meine Familie ist groß.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v10",
+      "mot": "der Vater",
+      "traduction": "le père",
+      "exemple": "Mein Vater heißt Thomas.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v11",
+      "mot": "die Mutter",
+      "traduction": "la mère",
+      "exemple": "Meine Mutter ist nett.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v12",
+      "mot": "der Bruder",
+      "traduction": "le frère",
+      "exemple": "Das ist mein Bruder.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v13",
+      "mot": "die Schwester",
+      "traduction": "la sœur",
+      "exemple": "Meine Schwester ist vierzehn.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v14",
+      "mot": "die Großeltern",
+      "traduction": "les grands-parents",
+      "exemple": "Meine Großeltern wohnen in Berlin.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v15",
+      "mot": "der Hund",
+      "traduction": "le chien",
+      "exemple": "Der Hund heißt Rex.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v16",
+      "mot": "die Katze",
+      "traduction": "le chat",
+      "exemple": "Die Katze ist klein.",
+      "theme": "La famille"
+    },
+    {
+      "id": "v17",
+      "mot": "die Schule",
+      "traduction": "l'école",
+      "exemple": "Die Schule beginnt um acht.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v18",
+      "mot": "der Lehrer",
+      "traduction": "le professeur",
+      "exemple": "Der Lehrer ist sehr nett.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v19",
+      "mot": "die Klasse",
+      "traduction": "la classe",
+      "exemple": "Meine Klasse ist super.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v20",
+      "mot": "das Heft",
+      "traduction": "le cahier",
+      "exemple": "Das Heft ist blau.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v21",
+      "mot": "der Bleistift",
+      "traduction": "le crayon",
+      "exemple": "Ich brauche einen Bleistift.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v22",
+      "mot": "die Tasche",
+      "traduction": "le sac",
+      "exemple": "Meine Tasche ist schwer.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v23",
+      "mot": "das Fach",
+      "traduction": "la matière",
+      "exemple": "Deutsch ist mein Lieblingsfach.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v24",
+      "mot": "Deutsch",
+      "traduction": "l'allemand",
+      "exemple": "Wir lernen Deutsch.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v25",
+      "mot": "die Hausaufgaben",
+      "traduction": "les devoirs",
+      "exemple": "Ich mache meine Hausaufgaben.",
+      "theme": "L'école"
+    },
+    {
+      "id": "v26",
+      "mot": "das Hobby",
+      "traduction": "le loisir",
+      "exemple": "Mein Hobby ist Fußball.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v27",
+      "mot": "Fußball spielen",
+      "traduction": "jouer au foot",
+      "exemple": "Wir spielen am Wochenende Fußball.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v28",
+      "mot": "schwimmen",
+      "traduction": "nager",
+      "exemple": "Ich schwimme gern.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v29",
+      "mot": "lesen",
+      "traduction": "lire",
+      "exemple": "Lena liest gern Comics.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v30",
+      "mot": "Musik hören",
+      "traduction": "écouter de la musique",
+      "exemple": "Er hört gern Musik.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v31",
+      "mot": "tanzen",
+      "traduction": "danser",
+      "exemple": "Meine Schwester tanzt gern.",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v32",
+      "mot": "das Wochenende",
+      "traduction": "le week-end",
+      "exemple": "Das Wochenende ist super!",
+      "theme": "Les loisirs"
+    },
+    {
+      "id": "v33",
+      "mot": "gern",
+      "traduction": "volontiers, avec plaisir",
+      "exemple": "Ich spiele gern Fußball.",
+      "theme": "Les loisirs"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "Le présent des verbes",
+      "explication": "Au présent, on enlève -en de l'infinitif et on ajoute la terminaison : ich → -e, du → -st, er/sie/es → -t, wir → -en, ihr → -t, sie → -en. Exemple avec spielen : ich spiele, du spielst, er spielt.",
+      "exemples": [
+        "Ich wohne in Lyon.",
+        "Du spielst Fußball.",
+        "Er hört Musik."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Ich ___ in Paris. (wohnen)",
+          "reponse": "wohne"
+        },
+        {
+          "type": "trous",
+          "phrase": "Du ___ Fußball. (spielen)",
+          "reponse": "spielst"
+        },
+        {
+          "type": "trous",
+          "phrase": "Er ___ Musik. (hören)",
+          "reponse": "hört"
+        },
+        {
+          "type": "trous",
+          "phrase": "Meine Schwester ___ gern. (tanzen)",
+          "reponse": "tanzt"
+        },
+        {
+          "type": "choix",
+          "question": "Wir ___ Deutsch.",
+          "options": ["lernt", "lernen", "lernst"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Ihr ___ in Berlin.",
+          "options": ["wohnt", "wohnen", "wohne"],
+          "bonne": 0
+        },
+        { "type": "ordre", "mots": ["Ich", "spiele", "gern", "Fußball"] },
+        {
+          "type": "ordre",
+          "mots": ["Meine", "Mutter", "hört", "gern", "Musik"]
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "Les articles der, die, das",
+      "explication": "En allemand, chaque nom a un genre : der (masculin), die (féminin), das (neutre). Au pluriel, c'est toujours die. Il faut apprendre l'article avec chaque mot !",
+      "exemples": [
+        "der Hund, der Bruder (masculin)",
+        "die Katze, die Schule (féminin)",
+        "das Heft, das Hobby (neutre)"
+      ],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "___ Schule",
+          "options": ["der", "die", "das"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "___ Heft",
+          "options": ["der", "die", "das"],
+          "bonne": 2
+        },
+        {
+          "type": "choix",
+          "question": "___ Bruder",
+          "options": ["der", "die", "das"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "___ Katze",
+          "options": ["der", "die", "das"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "___ Hobby",
+          "options": ["der", "die", "das"],
+          "bonne": 2
+        },
+        {
+          "type": "trous",
+          "phrase": "___ Hund heißt Rex. (article)",
+          "reponse": "der"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ Katze ist klein. (article)",
+          "reponse": "die"
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Le verbe en 2e position",
+      "explication": "Dans une phrase déclarative allemande, le verbe conjugué est TOUJOURS en 2e position. Si la phrase commence par un complément (Am Wochenende, Heute…), le sujet passe après le verbe : Am Wochenende spiele ich Fußball.",
+      "exemples": [
+        "Ich spiele Fußball.",
+        "Am Wochenende spiele ich Fußball.",
+        "Heute hört er Musik."
+      ],
+      "exercices": [
+        {
+          "type": "ordre",
+          "mots": ["Am", "Wochenende", "spiele", "ich", "Fußball"]
+        },
+        { "type": "ordre", "mots": ["Heute", "hört", "er", "Musik"] },
+        {
+          "type": "ordre",
+          "mots": ["Meine", "Familie", "wohnt", "in", "Lyon"]
+        },
+        {
+          "type": "choix",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "Am Montag wir lernen Deutsch.",
+            "Am Montag lernen wir Deutsch."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "Heute ich mache die Hausaufgaben.",
+            "Heute mache ich die Hausaufgaben."
+          ],
+          "bonne": 1
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "Hallo, ich heiße Emma.",
+      "traduction": "Salut, je m'appelle Emma."
+    },
+    {
+      "id": "p2",
+      "texte": "Ich bin zwölf Jahre alt.",
+      "traduction": "J'ai douze ans."
+    },
+    {
+      "id": "p3",
+      "texte": "Ich wohne in Lyon.",
+      "traduction": "J'habite à Lyon."
+    },
+    {
+      "id": "p4",
+      "texte": "Das ist mein Bruder.",
+      "traduction": "C'est mon frère."
+    },
+    {
+      "id": "p5",
+      "texte": "Meine Schwester hört gern Musik.",
+      "traduction": "Ma sœur aime écouter de la musique."
+    },
+    {
+      "id": "p6",
+      "texte": "Wir spielen am Wochenende Fußball.",
+      "traduction": "Nous jouons au foot le week-end."
+    },
+    {
+      "id": "p7",
+      "texte": "Die Katze ist klein und süß.",
+      "traduction": "Le chat est petit et mignon."
+    },
+    {
+      "id": "p8",
+      "texte": "Ich mache meine Hausaufgaben.",
+      "traduction": "Je fais mes devoirs."
+    },
+    {
+      "id": "p9",
+      "texte": "Der Lehrer ist sehr nett.",
+      "traduction": "Le professeur est très gentil."
+    },
+    {
+      "id": "p10",
+      "texte": "Wie geht's? Mir geht es gut.",
+      "traduction": "Comment ça va ? Je vais bien."
+    }
+  ]
+}

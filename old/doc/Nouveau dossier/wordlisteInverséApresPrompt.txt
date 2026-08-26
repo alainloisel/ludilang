@@ -1,0 +1,131 @@
+classe ,class
+camarade de classe ,classmate
+club ou association ,club
+dictionnaire ,dictionary
+éducation ,education
+anglais (langue) ,english
+exercice ,exercise
+expliquer ,explain
+français (langue) ,french
+géographie ,geography
+histoire ,history
+sciences humaines ,humanities
+apprendre ,learn
+leçon ,lesson
+mathématiques ,math
+physique ,physics
+élèves ,pupils
+école ,school
+science ,science
+espagnol (langue) ,spanish
+étudiant ,student
+matière scolaire ,subject
+professeur ,teacher
+examen ou test ,test
+uniforme ,uniform
+activité ,activity
+animation japonaise ,anime
+art ,art
+film ,film
+hockey ,hockey
+instrument de musique ,instrument
+piano ,piano
+jouer ,play
+patinage ,skating
+sport ,sport
+nager ,swim
+télévision ,tv
+vidéo ,video
+animal ,animal
+chien ,dog
+fruit ,fruit
+jardin ,garden
+lions ,lions
+souris ,mouse
+nature ,nature
+animaux de compagnie ,pets
+planète ,planet
+araignées ,spiders
+arbre ,tree
+légumes ,vegetables
+eau ,water
+jour ,day
+lundi ,monday
+mardi ,tuesday
+mercredi ,wednesday
+jeudi ,thursday
+samedi ,saturday
+dimanche ,sunday
+janvier ,january
+février ,february
+septembre ,september
+novembre ,november
+vacances ,holidays
+aujourd'hui ,today
+année ,year
+effrayé ,afraid
+ennuyeux ,boring
+calme ,calm
+fou ,crazy
+pleurer ,cry
+rêve ,dream
+excitant ,exciting
+drôle ,funny
+grincheux ,grumpy
+heureux ,happy
+haine ou détester ,hate
+amour ou aimer ,love
+triste ,sad
+effrayant ,scary
+timide ,shy
+sourire ,smile
+désolé ,sorry
+mangé ,ate
+attaqué ,attacked
+devenir ,become
+choisir ,choose
+venir ,come
+décrire ,describe
+faire ,do
+conduire ,drive
+manger ,eat
+trouver ,find
+obtenir ,get
+donner ,give
+aller ,go
+entendre ,hear
+aider ,help
+savoir ,know
+rire ,laugh
+regarder ,look
+lire ,read
+courir ,run
+dire ,say
+voir ,see
+dormir ,sleep
+arrêter ,stop
+prendre ,take
+penser ,think
+écrire ,write
+garçon ,boy
+fille ,girl
+il ,he
+elle (objet) ou son/sa ,her
+lui ,him
+son/sa ,his
+je ,i
+cela ,it
+roi ,king
+moi ,me
+mère ,mother
+mon/ma ,my
+notre ,our
+gens ,people
+elle ,she
+eux ,them
+ils/elles ,they
+nous ,us
+nous ,we
+qui ,who
+tu/vous ,you
+ton/votre ,your

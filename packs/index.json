@@ -1,0 +1,24 @@
+{
+  "packs": [
+    {
+      "fichier": "demo-anglais-5e.json",
+      "id": "demo-anglais-5e"
+    },
+    {
+      "fichier": "demo-allemand-5e.json",
+      "id": "demo-allemand-5e"
+    },
+    {
+      "fichier": "revisions-pdf.json",
+      "id": "revisions-pdf"
+    },
+    {
+      "fichier": "cahier-anglais-college.json",
+      "id": "cahier-anglais-college"
+    },
+    {
+      "fichier": "anglais-5eme-may-june.json",
+      "id": "anglais-5eme-may-june"
+    }
+  ]
+}

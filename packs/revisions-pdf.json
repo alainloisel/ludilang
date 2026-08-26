@@ -1,0 +1,448 @@
+{
+  "id": "revisions-pdf",
+  "language": "en",
+  "title": "Anglais 5e — Fiches de Révision",
+  "description": "Pack de révision complet généré à partir de revisions.pdf : l'école, les résolutions de début d'année, exprimer ses réactions et opinions.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "help others",
+      "traduction": "aider les autres",
+      "exemple": "I want to help others this year.",
+      "theme": "Résolutions"
+    },
+    {
+      "id": "v2",
+      "mot": "work hard",
+      "traduction": "travailler dur",
+      "exemple": "She must work hard at school.",
+      "theme": "Résolutions"
+    },
+    {
+      "id": "v3",
+      "mot": "eat less junk food",
+      "traduction": "manger moins de cochonneries",
+      "exemple": "I will eat less junk food this year.",
+      "theme": "Résolutions"
+    },
+    {
+      "id": "v4",
+      "mot": "exercise more",
+      "traduction": "faire plus d'exercice",
+      "exemple": "You can exercise more in the gym.",
+      "theme": "Résolutions"
+    },
+    {
+      "id": "v5",
+      "mot": "tell lies",
+      "traduction": "dire des mensonges",
+      "exemple": "We must not tell lies.",
+      "theme": "Résolutions"
+    },
+    {
+      "id": "v6",
+      "mot": "be grumpy",
+      "traduction": "être grincheux",
+      "exemple": "Don't be grumpy today!",
+      "theme": "Résolutions"
+    },
+    {
+      "id": "v7",
+      "mot": "a library",
+      "traduction": "une bibliothèque",
+      "exemple": "Is there a library in your school?",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v8",
+      "mot": "lockers",
+      "traduction": "des casiers",
+      "exemple": "There are no lockers in the corridors.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v9",
+      "mot": "a gym",
+      "traduction": "un gymnase",
+      "exemple": "We play in the gym.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v10",
+      "mot": "a playground",
+      "traduction": "une cour de récréation",
+      "exemple": "We play games in the playground.",
+      "theme": "Le collège"
+    },
+    {
+      "id": "v11",
+      "mot": "IT",
+      "traduction": "la technologie (matière)",
+      "exemple": "We use computers in IT.",
+      "theme": "Matières scolaires"
+    },
+    {
+      "id": "v12",
+      "mot": "PE",
+      "traduction": "l'EPS (sport)",
+      "exemple": "Majority of students love PE.",
+      "theme": "Matières scolaires"
+    },
+    {
+      "id": "v13",
+      "mot": "science",
+      "traduction": "les sciences",
+      "exemple": "She loves science and doing experiments.",
+      "theme": "Matières scolaires"
+    },
+    {
+      "id": "v14",
+      "mot": "history",
+      "traduction": "l'histoire",
+      "exemple": "We learn about history and geography.",
+      "theme": "Matières scolaires"
+    },
+    {
+      "id": "v15",
+      "mot": "rock climbing",
+      "traduction": "l'escalade",
+      "exemple": "I like rock climbing, it is exciting.",
+      "theme": "Loisirs"
+    },
+    {
+      "id": "v16",
+      "mot": "cycling",
+      "traduction": "le vélo",
+      "exemple": "She likes cycling.",
+      "theme": "Loisirs"
+    },
+    {
+      "id": "v17",
+      "mot": "afraid of",
+      "traduction": "avoir peur de",
+      "exemple": "We are afraid of spiders.",
+      "theme": "Sentiments et réactions"
+    },
+    {
+      "id": "v18",
+      "mot": "excited",
+      "traduction": "excité",
+      "exemple": "I am excited about the new year.",
+      "theme": "Sentiments et réactions"
+    },
+    {
+      "id": "v19",
+      "mot": "shy",
+      "traduction": "timide",
+      "exemple": "I am a bit shy.",
+      "theme": "Sentiments et réactions"
+    },
+    {
+      "id": "v20",
+      "mot": "tiring",
+      "traduction": "fatigant",
+      "exemple": "Rock climbing is too tiring.",
+      "theme": "Sentiments et réactions"
+    },
+    {
+      "id": "v21",
+      "mot": "funny",
+      "traduction": "drôle",
+      "exemple": "This short movie is very funny.",
+      "theme": "Opinions"
+    },
+    {
+      "id": "v22",
+      "mot": "moving",
+      "traduction": "émouvant",
+      "exemple": "This book is moving.",
+      "theme": "Opinions"
+    },
+    {
+      "id": "v23",
+      "mot": "scary",
+      "traduction": "effrayant",
+      "exemple": "Spiders are very scary.",
+      "theme": "Opinions"
+    },
+    {
+      "id": "v24",
+      "mot": "boring",
+      "traduction": "ennuyeux",
+      "exemple": "I think that this film is boring.",
+      "theme": "Opinions"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "There is / There are (Il y a)",
+      "explication": "Pour dire 'il y a' : on utilise 'There is' devant un nom singulier, et 'There are' devant un nom pluriel. À la forme négative, on ajoute 'not' ou 'no'.",
+      "exemples": [
+        "There is one canteen.",
+        "There are two gyms.",
+        "There isn't any locker in the corridors."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "In my school, there ___ two IT rooms. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "trous",
+          "phrase": "There ___ one canteen. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "trous",
+          "phrase": "There ___ two playgrounds and one lab. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "choix",
+          "question": "___ any lockers in the corridors?",
+          "options": ["Is there", "Are there", "There are"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "There ___ no trees in the playground.",
+          "options": ["is", "are", "be"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["There", "is", "a", "swimming", "pool."] },
+        { "type": "ordre", "mots": ["There", "aren't", "any", "lockers."] }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "Must / Can (Les verbes modaux)",
+      "explication": "CAN exprime la capacité ou la permission (pouvoir, savoir faire). MUST exprime l'obligation (devoir). Ils ne prennent pas de '-s' à la 3e personne du singulier et sont suivis directement de la base verbale.",
+      "exemples": [
+        "We must not run in the corridors.",
+        "He can swim but he can't drive a boat.",
+        "Can you speak English?"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "We ___ not run in the corridors. (devoir)",
+          "reponse": "must"
+        },
+        {
+          "type": "trous",
+          "phrase": "He ___ swim but he can't drive a boat. (pouvoir)",
+          "reponse": "can"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ hear you, you have to repeat! (ne pas pouvoir)",
+          "reponse": "can't"
+        },
+        {
+          "type": "choix",
+          "question": "She ___ play hockey very well.",
+          "options": ["can", "cans", "can to"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "We ___ wear a uniform.",
+          "options": ["must", "musts", "must to"],
+          "bonne": 0
+        },
+        { "type": "ordre", "mots": ["We", "must", "do", "our", "homework."] },
+        { "type": "ordre", "mots": ["Can", "you", "speak", "English?"] }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Le présent simple : exprimer ses goûts",
+      "explication": "Pour parler de ses goûts, on utilise le présent simple. À la 3e personne du singulier (he, she, it), on ajoute un '-s' (ou '-es') au verbe. À la forme négative, on utilise 'doesn't' devant la base verbale.",
+      "exemples": [
+        "She loves science.",
+        "My best friend, Tom, likes foreign languages.",
+        "Hanna does not like her new school."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Amelia ___ science. (love)",
+          "reponse": "loves"
+        },
+        {
+          "type": "trous",
+          "phrase": "My best friend, Tom, ___ foreign languages. (like)",
+          "reponse": "likes"
+        },
+        {
+          "type": "trous",
+          "phrase": "She ___ not like football. (do)",
+          "reponse": "does"
+        },
+        {
+          "type": "choix",
+          "question": "Samuel ___ geography.",
+          "options": ["like", "likes", "liking"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "I ___ English.",
+          "options": ["hates", "hate", "hating"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["Does", "she", "like", "French?"] },
+        {
+          "type": "ordre",
+          "mots": ["She", "does", "not", "work", "every", "day."]
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "Les quantifieurs (Some, Many, A lot of, Not any)",
+      "explication": "Pour exprimer la quantité : 'many' et 'a lot of' signifient 'beaucoup de'. 'some' signifie 'certains' ou 'quelques'. À la négation, on utilise 'not any' ou 'no' pour exprimer une absence complète.",
+      "exemples": [
+        "In our school, there are many corridors.",
+        "There are some benches.",
+        "There are no trees."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "There are ___ benches in the playground. (quelques)",
+          "reponse": "some"
+        },
+        {
+          "type": "trous",
+          "phrase": "There are not ___ trees. (aucun)",
+          "reponse": "any"
+        },
+        {
+          "type": "trous",
+          "phrase": "There are ___ corridors in our school. (beaucoup)",
+          "reponse": "many"
+        },
+        {
+          "type": "choix",
+          "question": "In our school, ___ students play football.",
+          "options": ["many", "any", "no"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "There are ___ lockers in the corridors.",
+          "options": ["no", "not", "any"],
+          "bonne": 0
+        },
+        { "type": "ordre", "mots": ["There", "are", "not", "any", "trees."] },
+        { "type": "ordre", "mots": ["Many", "students", "play", "football."] }
+      ]
+    },
+    {
+      "id": "g5",
+      "titre": "Le verbe BE (Être)",
+      "explication": "Le verbe être se conjugue : I am, you are, he/she/it is, we/you/they are. Négation : am not, isn't, aren't.",
+      "exemples": [
+        "I am not afraid of spiders.",
+        "Lions are hungry.",
+        "She is alert and happy."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "The camel ___ not thirsty. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "trous",
+          "phrase": "Lions ___ hungry. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "trous",
+          "phrase": "We ___ afraid of spiders. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "choix",
+          "question": "Are they in the garden? No, they ___.",
+          "options": ["are not", "aren't", "is not"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "___ you okay?",
+          "options": ["Are", "Is", "Am"],
+          "bonne": 0
+        },
+        { "type": "ordre", "mots": ["She", "is", "alert", "and", "happy."] },
+        { "type": "ordre", "mots": ["I", "am", "not", "afraid."] }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "This year I will read more books.",
+      "traduction": "Cette année, je vais lire plus de livres."
+    },
+    {
+      "id": "p2",
+      "texte": "We must not run in the corridors.",
+      "traduction": "Nous ne devons pas courir dans les couloirs."
+    },
+    {
+      "id": "p3",
+      "texte": "He can swim but he can't drive a boat.",
+      "traduction": "Il sait nager mais il ne sait pas conduire de bateau."
+    },
+    {
+      "id": "p4",
+      "texte": "In our school there are many corridors.",
+      "traduction": "Dans notre école il y a beaucoup de couloirs."
+    },
+    {
+      "id": "p5",
+      "texte": "There are some benches in the playground.",
+      "traduction": "Il y a quelques bancs dans la cour de récréation."
+    },
+    {
+      "id": "p6",
+      "texte": "My favourite book is One Piece.",
+      "traduction": "Mon livre préféré est One Piece."
+    },
+    {
+      "id": "p7",
+      "texte": "She enjoys her classes because she loves science.",
+      "traduction": "Elle apprécie beaucoup ses cours parce qu'elle adore les sciences."
+    },
+    {
+      "id": "p8",
+      "texte": "It is cloudy and chilly today.",
+      "traduction": "C'est nuageux et frais aujourd'hui."
+    },
+    {
+      "id": "p9",
+      "texte": "Are there any instruments in the music room?",
+      "traduction": "Y a-t-il des instruments dans la salle de musique ?"
+    },
+    {
+      "id": "p10",
+      "texte": "We are afraid of spiders.",
+      "traduction": "Nous avons peur des araignées."
+    },
+    {
+      "id": "p11",
+      "texte": "This year I would like to contact my old friends.",
+      "traduction": "Cette année, j'aimerais contacter mes anciens amis."
+    },
+    {
+      "id": "p12",
+      "texte": "Eve is about a little girl who fights for the planet.",
+      "traduction": "Eve parle d'une petite fille qui se bat pour la planète."
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+.env*
+*.pem
+*.key
+*.crt
+*.p12
+
+.venv/
+node_modules/
+
+.git/
+
+secrets/
+
+**/.ssh/**
+**/.aws/**
+**/.config/**

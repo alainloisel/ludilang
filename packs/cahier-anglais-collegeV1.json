@@ -1,0 +1,741 @@
+{
+  "id": "cahier-anglais-college",
+  "language": "en",
+  "title": "Anglais 5e — Mon collège (cahier de cours)",
+  "description": "Pack généré à partir du cahier de cours : décrire son collège, ses matières et ses camarades, exprimer ses goûts, les quantifieurs, les verbes modaux et le prétérit.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "excellent education",
+      "traduction": "une éducation excellente",
+      "exemple": "It is excellent education.",
+      "theme": "Décrire son collège"
+    },
+    {
+      "id": "v2",
+      "mot": "a safe environment",
+      "traduction": "un environnement sûr",
+      "exemple": "It is a safe environment.",
+      "theme": "Décrire son collège"
+    },
+    {
+      "id": "v3",
+      "mot": "modern facilities",
+      "traduction": "des équipements modernes",
+      "exemple": "We have modern facilities.",
+      "theme": "Décrire son collège"
+    },
+    {
+      "id": "v4",
+      "mot": "a large theatre",
+      "traduction": "un grand théâtre",
+      "exemple": "There is a large theatre in our school.",
+      "theme": "Décrire son collège"
+    },
+    {
+      "id": "v5",
+      "mot": "quite big",
+      "traduction": "assez grand",
+      "exemple": "Our school is quite big.",
+      "theme": "Décrire son collège"
+    },
+
+    {
+      "id": "v6",
+      "mot": "science",
+      "traduction": "les sciences",
+      "exemple": "She loves science because she likes doing experiments.",
+      "theme": "Les matières scientifiques"
+    },
+    {
+      "id": "v7",
+      "mot": "maths",
+      "traduction": "les maths",
+      "exemple": "I like maths.",
+      "theme": "Les matières scientifiques"
+    },
+    {
+      "id": "v8",
+      "mot": "biology",
+      "traduction": "la biologie",
+      "exemple": "I don't like biology.",
+      "theme": "Les matières scientifiques"
+    },
+    {
+      "id": "v9",
+      "mot": "physics",
+      "traduction": "la physique",
+      "exemple": "She likes physics.",
+      "theme": "Les matières scientifiques"
+    },
+    {
+      "id": "v10",
+      "mot": "IT",
+      "traduction": "l'informatique",
+      "exemple": "I like IT.",
+      "theme": "Les matières scientifiques"
+    },
+    {
+      "id": "v11",
+      "mot": "food technology",
+      "traduction": "la technologie alimentaire",
+      "exemple": "I like food technology.",
+      "theme": "Les matières scientifiques"
+    },
+
+    {
+      "id": "v12",
+      "mot": "history",
+      "traduction": "l'histoire",
+      "exemple": "We learn about history and geography.",
+      "theme": "Les matières humanités"
+    },
+    {
+      "id": "v13",
+      "mot": "geography",
+      "traduction": "la géographie",
+      "exemple": "Samuel loves geography.",
+      "theme": "Les matières humanités"
+    },
+    {
+      "id": "v14",
+      "mot": "art and design",
+      "traduction": "les arts plastiques",
+      "exemple": "She doesn't like art very much because she can't draw.",
+      "theme": "Les matières humanités"
+    },
+    {
+      "id": "v15",
+      "mot": "French literature",
+      "traduction": "la littérature française",
+      "exemple": "I like French literature.",
+      "theme": "Les matières humanités"
+    },
+    {
+      "id": "v16",
+      "mot": "religious education",
+      "traduction": "l'éducation religieuse",
+      "exemple": "We don't have religious education.",
+      "theme": "Les matières humanités"
+    },
+    {
+      "id": "v17",
+      "mot": "PE",
+      "traduction": "l'EPS",
+      "exemple": "Majority of students love PE.",
+      "theme": "Les matières humanités"
+    },
+
+    {
+      "id": "v18",
+      "mot": "English",
+      "traduction": "l'anglais",
+      "exemple": "I hate English.",
+      "theme": "Les langues étrangères"
+    },
+    {
+      "id": "v19",
+      "mot": "Spanish",
+      "traduction": "l'espagnol",
+      "exemple": "Is she Spanish? No, she isn't Spanish.",
+      "theme": "Les langues étrangères"
+    },
+    {
+      "id": "v20",
+      "mot": "German",
+      "traduction": "l'allemand",
+      "exemple": "I love German.",
+      "theme": "Les langues étrangères"
+    },
+
+    {
+      "id": "v21",
+      "mot": "a swimming pool",
+      "traduction": "une piscine",
+      "exemple": "There is a swimming pool.",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v22",
+      "mot": "a playground",
+      "traduction": "une cour de récréation",
+      "exemple": "There are two playgrounds in our school.",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v23",
+      "mot": "a computer room",
+      "traduction": "une salle informatique",
+      "exemple": "In my school there are two IT rooms.",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v24",
+      "mot": "a canteen",
+      "traduction": "une cantine",
+      "exemple": "In my school there is one canteen.",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v25",
+      "mot": "a corridor",
+      "traduction": "un couloir",
+      "exemple": "We must not run in the corridors.",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v26",
+      "mot": "a gym",
+      "traduction": "un gymnase",
+      "exemple": "There is only one gym but we have a climbing wall.",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v27",
+      "mot": "a library",
+      "traduction": "une bibliothèque",
+      "exemple": "Is there a library in your school?",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v28",
+      "mot": "a lab",
+      "traduction": "un laboratoire",
+      "exemple": "There are two playgrounds and one lab.",
+      "theme": "Les lieux du collège"
+    },
+    {
+      "id": "v29",
+      "mot": "lockers",
+      "traduction": "des casiers",
+      "exemple": "There aren't any lockers in the corridors.",
+      "theme": "Les lieux du collège"
+    },
+
+    {
+      "id": "v30",
+      "mot": "a mate",
+      "traduction": "un camarade",
+      "exemple": "He is my mate.",
+      "theme": "Les camarades"
+    },
+    {
+      "id": "v31",
+      "mot": "classmates",
+      "traduction": "des camarades de classe",
+      "exemple": "They are my classmates.",
+      "theme": "Les camarades"
+    },
+    {
+      "id": "v32",
+      "mot": "schoolmates",
+      "traduction": "des camarades d'école",
+      "exemple": "We are schoolmates.",
+      "theme": "Les camarades"
+    },
+    {
+      "id": "v33",
+      "mot": "a roommate",
+      "traduction": "un camarade de chambre",
+      "exemple": "She is my roommate.",
+      "theme": "Les camarades"
+    },
+    {
+      "id": "v34",
+      "mot": "a flatmate",
+      "traduction": "un colocataire",
+      "exemple": "He is my flatmate.",
+      "theme": "Les camarades"
+    },
+
+    {
+      "id": "v35",
+      "mot": "to play chess",
+      "traduction": "jouer aux échecs",
+      "exemple": "I like to play chess.",
+      "theme": "Les activités extrascolaires"
+    },
+    {
+      "id": "v36",
+      "mot": "to play music",
+      "traduction": "jouer de la musique",
+      "exemple": "She likes to play music.",
+      "theme": "Les activités extrascolaires"
+    },
+    {
+      "id": "v37",
+      "mot": "to do gardening",
+      "traduction": "faire du jardinage",
+      "exemple": "He likes to do gardening.",
+      "theme": "Les activités extrascolaires"
+    },
+    {
+      "id": "v38",
+      "mot": "to play badminton",
+      "traduction": "jouer au badminton",
+      "exemple": "Some students play badminton.",
+      "theme": "Les activités extrascolaires"
+    },
+    {
+      "id": "v39",
+      "mot": "to play football",
+      "traduction": "jouer au foot",
+      "exemple": "Many students play football.",
+      "theme": "Les activités extrascolaires"
+    },
+    {
+      "id": "v40",
+      "mot": "to play hockey",
+      "traduction": "jouer au hockey",
+      "exemple": "A lot of students play hockey.",
+      "theme": "Les activités extrascolaires"
+    },
+    {
+      "id": "v41",
+      "mot": "rock climbing",
+      "traduction": "l'escalade",
+      "exemple": "I like rock climbing.",
+      "theme": "Les activités extrascolaires"
+    },
+
+    {
+      "id": "v42",
+      "mot": "to attend classes",
+      "traduction": "assister aux cours",
+      "exemple": "We must attend classes.",
+      "theme": "Les règles du collège"
+    },
+    {
+      "id": "v43",
+      "mot": "to be on time",
+      "traduction": "être à l'heure",
+      "exemple": "You must be on time.",
+      "theme": "Les règles du collège"
+    },
+    {
+      "id": "v44",
+      "mot": "to wear a uniform",
+      "traduction": "porter un uniforme",
+      "exemple": "Samuel does not like to wear a uniform.",
+      "theme": "Les règles du collège"
+    },
+    {
+      "id": "v45",
+      "mot": "to chew gum",
+      "traduction": "mâcher du chewing-gum",
+      "exemple": "We must not chew gum in class.",
+      "theme": "Les règles du collège"
+    },
+    {
+      "id": "v46",
+      "mot": "to do experiments",
+      "traduction": "faire des expériences",
+      "exemple": "Samuel loves to do experiments in the lab.",
+      "theme": "Les règles du collège"
+    },
+    {
+      "id": "v47",
+      "mot": "to pay attention",
+      "traduction": "faire attention",
+      "exemple": "We must pay attention in class.",
+      "theme": "Les règles du collège"
+    },
+
+    {
+      "id": "v48",
+      "mot": "the holidays",
+      "traduction": "les vacances",
+      "exemple": "What did you do during the holidays?",
+      "theme": "Le prétérit et les vacances"
+    },
+    {
+      "id": "v49",
+      "mot": "to go",
+      "traduction": "aller (prétérit : went)",
+      "exemple": "I went to Normandy.",
+      "theme": "Le prétérit et les vacances"
+    },
+    {
+      "id": "v50",
+      "mot": "to celebrate",
+      "traduction": "fêter (prétérit : celebrated)",
+      "exemple": "I celebrated Halloween.",
+      "theme": "Le prétérit et les vacances"
+    },
+    {
+      "id": "v51",
+      "mot": "the fun fair",
+      "traduction": "la foire",
+      "exemple": "We went to the fun fair.",
+      "theme": "Le prétérit et les vacances"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "Le verbe BE (être)",
+      "explication": "BE se conjugue : I am, you are, he/she/it is, we/you/they are. On peut faire des contractions à l'affirmatif (I'm, you're, he's...) et au négatif (isn't, aren't). À la forme interrogative, BE se place avant le sujet : Is she...? Are they...?",
+      "exemples": [
+        "She is alert and happy.",
+        "The camel is not thirsty.",
+        "Is she Spanish? No, she isn't Spanish."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "The camel ___ not thirsty. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "trous",
+          "phrase": "Lions ___ hungry. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ she Spanish? No, she isn't Spanish. (be)",
+          "reponse": "Is"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ they in the garden? No, they aren't in the garden. (be)",
+          "reponse": "Are"
+        },
+        {
+          "type": "choix",
+          "question": "We ___ afraid of spiders.",
+          "options": ["is", "are", "am"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "___ you OK?",
+          "options": ["Is", "Am", "Are"],
+          "bonne": 2
+        },
+        { "type": "ordre", "mots": ["She", "is", "alert", "and", "happy."] },
+        { "type": "ordre", "mots": ["The", "camel", "is", "not", "thirsty."] }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "There is / There are (Il y a)",
+      "explication": "Pour dire « il y a » : There is devant un nom singulier, There are devant un nom pluriel. À la forme négative : There isn't / There aren't, ou There is no / There are no.",
+      "exemples": [
+        "There is only one gym but we have a climbing wall.",
+        "There are two gyms and one theatre.",
+        "There aren't any lockers in the corridors."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "In my school there ___ one canteen. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "trous",
+          "phrase": "There ___ two playgrounds and one lab. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ there a library in your school? (be)",
+          "reponse": "Is"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ there any instruments in the music room? (be)",
+          "reponse": "Are"
+        },
+        {
+          "type": "choix",
+          "question": "There ___ any lockers in the corridors.",
+          "options": ["isn't", "aren't", "are"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "In my school there ___ two IT rooms.",
+          "options": ["is", "are", "be"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["There", "is", "a", "swimming", "pool."] },
+        { "type": "ordre", "mots": ["There", "aren't", "any", "lockers."] }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Exprimer ses goûts (love / like / hate)",
+      "explication": "Pour dire ce qu'on aime, on utilise love (adorer), like (aimer) ou hate (détester) + nom ou verbe en -ing. À la 3e personne du singulier (he, she, it), on ajoute -s : loves, likes, hates. À la forme négative, on utilise doesn't / does not devant le verbe.",
+      "exemples": [
+        "She loves science because she likes doing experiments.",
+        "Samuel hates tests.",
+        "Samuel does not like to wear a uniform."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "She ___ science. (love)",
+          "reponse": "loves"
+        },
+        {
+          "type": "trous",
+          "phrase": "Samuel ___ geography. (love)",
+          "reponse": "loves"
+        },
+        {
+          "type": "trous",
+          "phrase": "My best friend, Tom, ___ foreign languages. (like)",
+          "reponse": "likes"
+        },
+        {
+          "type": "trous",
+          "phrase": "Hanna ___ like her new school. (négation)",
+          "reponse": "does not"
+        },
+        {
+          "type": "choix",
+          "question": "You ___ playing football, and I love it.",
+          "options": ["hate", "hates", "hating"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Do you ___ acting?",
+          "options": ["like", "likes"],
+          "bonne": 0
+        },
+        { "type": "ordre", "mots": ["Samuel", "hates", "tests."] },
+        { "type": "ordre", "mots": ["She", "doesn't", "like", "football."] }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "Les quantifieurs (some, many, a lot of, not any, no)",
+      "explication": "Pour exprimer la quantité : some (quelques, certains), many et a lot of (beaucoup de). À la négation, on utilise not any ou no pour dire qu'il n'y en a aucun.",
+      "exemples": [
+        "In my school, some students play badminton.",
+        "In my school, many students play football, and a lot of students play hockey.",
+        "There are not any trees. There are no trees."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "In my school, ___ students play badminton. (quelques)",
+          "reponse": "some"
+        },
+        {
+          "type": "trous",
+          "phrase": "In my school, ___ students play football. (beaucoup)",
+          "reponse": "many"
+        },
+        {
+          "type": "trous",
+          "phrase": "In our school there are ___ corridors. (beaucoup)",
+          "reponse": "many"
+        },
+        {
+          "type": "trous",
+          "phrase": "There are ___ benches. (quelques)",
+          "reponse": "some"
+        },
+        {
+          "type": "choix",
+          "question": "There are not ___ trees.",
+          "options": ["any", "no", "some"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "There are ___ trees. (négation complète)",
+          "options": ["no", "any", "some"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "In",
+            "my",
+            "school,",
+            "some",
+            "students",
+            "play",
+            "badminton."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": ["A", "lot", "of", "students", "play", "hockey."]
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "titre": "Can / Must (les verbes modaux)",
+      "explication": "CAN exprime la capacité ou la permission (pouvoir, savoir faire). MUST exprime l'obligation (devoir). Ils ne prennent jamais de -s et sont suivis du verbe sans « to ». Négation : can't, must not.",
+      "exemples": [
+        "We can play in the playground.",
+        "He can swim but he can't drive a boat.",
+        "We must not run in the corridors.",
+        "They have to take the bus."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "We ___ play in the playground. (pouvoir)",
+          "reponse": "can"
+        },
+        {
+          "type": "trous",
+          "phrase": "He ___ swim but he can't drive a boat. (pouvoir)",
+          "reponse": "can"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ hear you, you have to repeat. (ne pas pouvoir)",
+          "reponse": "can't"
+        },
+        {
+          "type": "trous",
+          "phrase": "We ___ not run in the corridors. (devoir)",
+          "reponse": "must"
+        },
+        {
+          "type": "choix",
+          "question": "___ you speak English?",
+          "options": ["Can", "Must", "Do"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "They ___ to take the bus.",
+          "options": ["must", "have", "can"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["Can", "you", "speak", "English?"] },
+        {
+          "type": "ordre",
+          "mots": ["We", "must", "not", "run", "in", "the", "corridors."]
+        }
+      ]
+    },
+    {
+      "id": "g6",
+      "titre": "Le prétérit (raconter le passé)",
+      "explication": "Pour raconter des actions passées, les verbes réguliers prennent -ed (celebrate ➜ celebrated). Les verbes irréguliers changent de forme et se retiennent par cœur (go ➜ went). Pour poser une question au passé, on utilise did + base verbale.",
+      "exemples": [
+        "What did you do during the holidays?",
+        "I went to Normandy.",
+        "And I celebrated Halloween."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "What ___ you do during the holidays? (do)",
+          "reponse": "did"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ to Normandy during the holidays. (go)",
+          "reponse": "went"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ Halloween with my friends. (celebrate)",
+          "reponse": "celebrated"
+        },
+        {
+          "type": "choix",
+          "question": "Yesterday, I ___ to the fun fair.",
+          "options": ["go", "goed", "went"],
+          "bonne": 2
+        },
+        {
+          "type": "choix",
+          "question": "Last week, she ___ her birthday.",
+          "options": ["celebrate", "celebrated", "celebrating"],
+          "bonne": 1
+        },
+        { "type": "ordre", "mots": ["I", "went", "to", "Normandy."] },
+        { "type": "ordre", "mots": ["I", "celebrated", "Halloween."] }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "There is only one gym but we have a climbing wall.",
+      "traduction": "Il y a seulement un gymnase, mais nous avons un mur d'escalade."
+    },
+    {
+      "id": "p2",
+      "texte": "There aren't any lockers in the corridors.",
+      "traduction": "Il n'y a pas de casiers dans les couloirs."
+    },
+    {
+      "id": "p3",
+      "texte": "We learn about history and geography.",
+      "traduction": "Nous apprenons l'histoire et la géographie."
+    },
+    {
+      "id": "p4",
+      "texte": "She loves science because she likes doing experiments.",
+      "traduction": "Elle adore les sciences parce qu'elle aime faire des expériences."
+    },
+    {
+      "id": "p5",
+      "texte": "She doesn't like art very much because she can't draw.",
+      "traduction": "Elle n'aime pas beaucoup les arts plastiques parce qu'elle ne sait pas dessiner."
+    },
+    {
+      "id": "p6",
+      "texte": "Samuel loves geography but he hates tests.",
+      "traduction": "Samuel adore la géographie mais il déteste les contrôles."
+    },
+    {
+      "id": "p7",
+      "texte": "Samuel does not like to wear a uniform.",
+      "traduction": "Samuel n'aime pas porter un uniforme."
+    },
+    {
+      "id": "p8",
+      "texte": "Is there a library in your school?",
+      "traduction": "Y a-t-il une bibliothèque dans ton école ?"
+    },
+    {
+      "id": "p9",
+      "texte": "In my school, some students play badminton.",
+      "traduction": "Dans mon école, certains élèves jouent au badminton."
+    },
+    {
+      "id": "p10",
+      "texte": "In my school, many students play football, and a lot of students play hockey.",
+      "traduction": "Dans mon école, beaucoup d'élèves jouent au foot, et beaucoup d'élèves jouent au hockey."
+    },
+    {
+      "id": "p11",
+      "texte": "We must not run in the corridors.",
+      "traduction": "Nous ne devons pas courir dans les couloirs."
+    },
+    {
+      "id": "p12",
+      "texte": "He can swim but he can't drive a boat.",
+      "traduction": "Il sait nager mais il ne sait pas conduire un bateau."
+    },
+    {
+      "id": "p13",
+      "texte": "What did you do during the holidays?",
+      "traduction": "Qu'as-tu fait pendant les vacances ?"
+    },
+    {
+      "id": "p14",
+      "texte": "I went to Normandy and I celebrated Halloween.",
+      "traduction": "Je suis allé en Normandie et j'ai fêté Halloween."
+    },
+    {
+      "id": "p15",
+      "texte": "We are afraid of spiders.",
+      "traduction": "Nous avons peur des araignées."
+    }
+  ]
+}
