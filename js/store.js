@@ -63,8 +63,8 @@ export function validatePack(pack) {
   const errs = [];
   if (!pack || typeof pack !== "object") return ["Ce n'est pas un objet JSON."];
   if (!pack.id) errs.push("Champ « id » manquant.");
-  if (!["en", "de"].includes(pack.language))
-    errs.push('Champ « language » : doit être "en" ou "de".');
+  if (!["en", "de", "eu", "zh"].includes(pack.language))
+    errs.push('Champ « language » : doit être "en", "de", "eu" ou "zh".');
   if (!pack.title) errs.push("Champ « title » manquant.");
   if (!Array.isArray(pack.vocab) || pack.vocab.length < 4)
     errs.push("Il faut au moins 4 mots de vocabulaire.");

@@ -2,7 +2,7 @@
 // Stratégie « réseau d'abord, cache en secours » pour rester à jour
 // tout en marchant sans connexion.
 
-const CACHE = "alo-langues-v7";
+const CACHE = "alo-langues-v8";
 
 const COQUILLE = [
   "./",
@@ -76,8 +76,22 @@ self.addEventListener("fetch", (e) => {
   e.respondWith(
     reseau
       .then((rep) => {
-        const copie = rep.clone();
-        caches.open(CACHE).then((c) => c.put(e.request, copie));
+        // Chrome interdit de respondWith() une réponse "redirected" pour une
+        // requête de navigation (redirect mode "follow") : on la reconstruit
+        // en 302 propre pour que le navigateur refasse la navigation vers
+        // /_login (gate mot de passe) sans throw.
+        if (e.request.mode === "navigate" && rep.redirected) {
+          return new Response(null, {
+            status: 302,
+            headers: { Location: rep.url, "Cache-Control": "no-store" },
+          });
+        }
+        // Ne jamais mettre en cache une réponse d'erreur (ex : 401 du gate
+        // mot de passe) : sinon elle serait resservie plus tard hors-ligne.
+        if (rep.ok) {
+          const copie = rep.clone();
+          caches.open(CACHE).then((c) => c.put(e.request, copie));
+        }
         return rep;
       })
       .catch(() => caches.match(e.request)),

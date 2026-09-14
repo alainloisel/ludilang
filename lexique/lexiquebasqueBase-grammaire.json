@@ -1,0 +1,248 @@
+[
+  {
+    "id": "g1",
+    "titre": "Compter de 1 à 10",
+    "explication": "En basque on compte : bat (1), bi (2), hiru (3), lau (4), bost (5), sei (6), zazpi (7), zortzi (8), bederatzi (9), hamar (10). Le nombre se place après le nom : « etxe bat » veut dire « une maison ».",
+    "exemples": [
+      "bat, bi, hiru, lau, bost",
+      "sei, zazpi, zortzi, bederatzi, hamar",
+      "etxe bat = une maison"
+    ],
+    "exercices": [
+      {
+        "type": "trous",
+        "phrase": "Le chiffre 3 se dit ___ en basque.",
+        "reponse": "hiru"
+      },
+      {
+        "type": "trous",
+        "phrase": "Le chiffre 7 se dit ___ en basque.",
+        "reponse": "zazpi"
+      },
+      {
+        "type": "trous",
+        "phrase": "Le chiffre 10 se dit ___ en basque.",
+        "reponse": "hamar"
+      },
+      {
+        "type": "choix",
+        "question": "Comment dit-on « cinq » en basque ?",
+        "options": ["lau", "bost", "sei"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "Comment dit-on « neuf » en basque ?",
+        "options": ["zortzi", "bederatzi", "hamar"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "Que veut dire « bi » ?",
+        "options": ["un", "deux", "trois"],
+        "bonne": 1
+      },
+      { "type": "ordre", "mots": ["bat", "bi", "hiru", "lau", "bost"] },
+      {
+        "type": "ordre",
+        "mots": ["sei", "zazpi", "zortzi", "bederatzi", "hamar"]
+      }
+    ]
+  },
+  {
+    "id": "g2",
+    "titre": "Poser une question",
+    "explication": "Les mots pour questionner : nor (qui), zer (quoi), non (où), nola (comment), zenbat (combien), nori (à qui). Dans le Labourd on entend aussi nun à la place de non.",
+    "exemples": [
+      "nor ? = qui ?",
+      "non ? = où ?",
+      "zenbat ? = combien ?",
+      "nola ? = comment ?"
+    ],
+    "exercices": [
+      {
+        "type": "trous",
+        "phrase": "Pour demander « où », on dit ___ en basque.",
+        "reponse": "non"
+      },
+      {
+        "type": "trous",
+        "phrase": "Pour demander « combien », on dit ___ en basque.",
+        "reponse": "zenbat"
+      },
+      {
+        "type": "trous",
+        "phrase": "Pour demander « comment », on dit ___ en basque.",
+        "reponse": "nola"
+      },
+      {
+        "type": "choix",
+        "question": "Que veut dire « nor » ?",
+        "options": ["qui", "quoi", "où"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Que veut dire « zer » ?",
+        "options": ["qui", "quoi", "combien"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "« Nori » sert à demander…",
+        "options": ["à qui", "d'où", "pourquoi"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Dans le Labourd, « non » se dit aussi…",
+        "options": ["nun", "nola", "nork"],
+        "bonne": 0
+      }
+    ]
+  },
+  {
+    "id": "g3",
+    "titre": "Qui fait l'action ? la marque -k",
+    "explication": "En basque, celui qui fait l'action prend un -k à la fin du mot. Le lexique le montre par paires : ni → nik, gu → guk, zu → zuk, nor → nork, hau → honek. C'est la marque que les linguistes appellent l'ergatif : elle n'existe pas en français.",
+    "exemples": [
+      "ni → nik",
+      "gu → guk",
+      "zu → zuk",
+      "nor → nork",
+      "hau → honek"
+    ],
+    "exercices": [
+      {
+        "type": "trous",
+        "phrase": "ni → ___ (celui qui fait l'action)",
+        "reponse": "nik"
+      },
+      {
+        "type": "trous",
+        "phrase": "gu → ___ (ceux qui font l'action)",
+        "reponse": "guk"
+      },
+      {
+        "type": "trous",
+        "phrase": "zu → ___ (celui qui fait l'action)",
+        "reponse": "zuk"
+      },
+      {
+        "type": "trous",
+        "phrase": "nor → ___ (qui fait l'action ?)",
+        "reponse": "nork"
+      },
+      {
+        "type": "choix",
+        "question": "Quelle forme de « hau » fait l'action ?",
+        "options": ["hauek", "honi", "honek"],
+        "bonne": 2
+      },
+      {
+        "type": "choix",
+        "question": "La marque de celui qui fait l'action est…",
+        "options": ["-k", "-i", "-a"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "« Guk » veut dire…",
+        "options": ["nous (qui faisons)", "à nous", "notre"],
+        "bonne": 0
+      }
+    ]
+  },
+  {
+    "id": "g4",
+    "titre": "À qui ? la marque -i",
+    "explication": "Pour dire à qui on donne ou à qui on parle, le basque ajoute -i : ni → niri (à moi), gu → guri (à nous), zu → zuri (à toi), nor → nori (à qui), hau → honi (à celui-ci), hauek → hauei (à ceux-ci). Attention au piège : « zuri » veut dire « à toi », mais c'est aussi le mot pour « blanc ».",
+    "exemples": [
+      "ni → niri",
+      "gu → guri",
+      "nor → nori",
+      "hau → honi",
+      "hauek → hauei"
+    ],
+    "exercices": [
+      { "type": "trous", "phrase": "ni → ___ (à moi)", "reponse": "niri" },
+      { "type": "trous", "phrase": "gu → ___ (à nous)", "reponse": "guri" },
+      {
+        "type": "trous",
+        "phrase": "hau → ___ (à celui-ci)",
+        "reponse": "honi"
+      },
+      {
+        "type": "choix",
+        "question": "Comment dit-on « à qui » ?",
+        "options": ["nor", "nork", "nori"],
+        "bonne": 2
+      },
+      {
+        "type": "choix",
+        "question": "« Hauei » veut dire…",
+        "options": ["ceux-ci", "à ceux-ci", "de ceux-ci"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "La marque de « à qui » est…",
+        "options": ["-k", "-i", "-en"],
+        "bonne": 1
+      }
+    ]
+  },
+  {
+    "id": "g5",
+    "titre": "Fabriquer des mots",
+    "explication": "Le basque fabrique beaucoup de mots en ajoutant un morceau à la fin. À partir de hitz (le mot) on obtient hizki (la lettre), hizkuntza (la langue), hizketa (la conversation). -tegi et -alde marquent un lieu, -zain celui qui garde, -kari ce qui fait.",
+    "exemples": [
+      "hitz → hizki, hizkuntza, hizketa",
+      "ate (la porte) → atezain (le portier)",
+      "auzo (le voisinage) → auzotegi (le quartier)",
+      "egun (le jour) → egunkari (le journal)",
+      "hego (le sud) → hegoalde (la région sud)"
+    ],
+    "exercices": [
+      {
+        "type": "trous",
+        "phrase": "ate (la porte) + zain (le gardien) = ___ (le portier)",
+        "reponse": "atezain"
+      },
+      {
+        "type": "trous",
+        "phrase": "egun (le jour) donne ___ (le journal).",
+        "reponse": "egunkari"
+      },
+      {
+        "type": "trous",
+        "phrase": "bizi (vivre) donne ___ (le logement).",
+        "reponse": "bizitegi"
+      },
+      {
+        "type": "choix",
+        "question": "hitz + kuntza donne…",
+        "options": ["hizkuntza", "hizketa", "hizki"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Que veut dire « hegoalde » ?",
+        "options": ["la région nord", "la région sud", "la région est"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "« Teilatu » (le toit) est fabriqué à partir de…",
+        "options": ["teila (la tuile)", "toki (l'endroit)", "etxe (la maison)"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Le morceau -tegi indique…",
+        "options": ["un lieu", "une personne", "une couleur"],
+        "bonne": 0
+      }
+    ]
+  }
+]

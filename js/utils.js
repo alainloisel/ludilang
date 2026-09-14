@@ -73,6 +73,19 @@ export function esc(text) {
   );
 }
 
+// Un mot avec sa transcription en dessous (pinyin, romaji…) quand le pack en
+// fournit une. Sans transcription, rend exactement ce que rendait esc(mot).
+//
+// ⚠️ À n'utiliser que dans un LIBELLÉ affiché. Jamais dans un `data-val`, un
+// `similarity()` ni une égalité de réponse : les jeux comparent les réponses par
+// chaîne (quiz.js:169-172), et du HTML dans la valeur comparée casserait la
+// correction.
+export function motTranscrit(mot, transcription) {
+  return transcription
+    ? `${esc(mot)}<span class="transcription">${esc(transcription)}</span>`
+    : esc(mot);
+}
+
 // Crée un élément à partir d'un gabarit HTML.
 export function el(html) {
   const t = document.createElement("template");

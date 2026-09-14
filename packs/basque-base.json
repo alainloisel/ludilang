@@ -1,0 +1,2168 @@
+{
+  "id": "basque-base",
+  "language": "eu",
+  "title": "Basque — lexique de base",
+  "description": "Le lexique de base du basque : 316 mots classés par thèmes, les nombres, les mots interrogatifs et les marques de cas -k et -i.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "Aberats",
+      "traduction": "riche",
+      "theme": "Beau ou vieux ?"
+    },
+    {
+      "id": "v2",
+      "mot": "Adin",
+      "traduction": "l'âge",
+      "theme": "La santé, la vie et la mort"
+    },
+    {
+      "id": "v3",
+      "mot": "Agentzia",
+      "traduction": "l'agence",
+      "theme": "Le commerce et l'argent"
+    },
+    {
+      "id": "v4",
+      "mot": "Agertu",
+      "traduction": "apparaître",
+      "theme": "Voir et entendre"
+    },
+    {
+      "id": "v5",
+      "mot": "Agor",
+      "traduction": "sec, à sec",
+      "theme": "Juste ou sauvage ?"
+    },
+    {
+      "id": "v6",
+      "mot": "Agur",
+      "traduction": "bonjour, salut",
+      "theme": "Oui et non"
+    },
+    {
+      "id": "v7",
+      "mot": "Ahal",
+      "traduction": "pouvoir (être capable)",
+      "theme": "Vouloir, pouvoir, choisir"
+    },
+    {
+      "id": "v8",
+      "mot": "Ahantzi",
+      "traduction": "oublier",
+      "theme": "Savoir et se souvenir"
+    },
+    {
+      "id": "v9",
+      "mot": "Aharrausi",
+      "traduction": "le bâillement",
+      "theme": "Le corps"
+    },
+    {
+      "id": "v10",
+      "mot": "Aipatu",
+      "traduction": "mentionner, évoquer",
+      "theme": "La parole"
+    },
+    {
+      "id": "v11",
+      "mot": "Aita",
+      "traduction": "le père",
+      "theme": "La famille"
+    },
+    {
+      "id": "v12",
+      "mot": "Aitzin",
+      "traduction": "le devant, avant",
+      "theme": "Le lieu et les côtés"
+    },
+    {
+      "id": "v13",
+      "mot": "Alde",
+      "traduction": "le côté",
+      "theme": "Le lieu et les côtés"
+    },
+    {
+      "id": "v14",
+      "mot": "Altzari",
+      "traduction": "le meuble",
+      "theme": "Les meubles et les objets"
+    },
+    {
+      "id": "v15",
+      "mot": "Ama",
+      "traduction": "la mère",
+      "theme": "La famille"
+    },
+    {
+      "id": "v16",
+      "mot": "Amets",
+      "traduction": "le rêve",
+      "theme": "L'esprit et le cœur"
+    },
+    {
+      "id": "v17",
+      "mot": "Apal",
+      "traduction": "modeste, humble",
+      "theme": "Juste ou sauvage ?"
+    },
+    {
+      "id": "v18",
+      "mot": "Apez",
+      "traduction": "le prêtre",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v19",
+      "mot": "Arazo",
+      "traduction": "le problème",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v20",
+      "mot": "Arbaso",
+      "traduction": "l'ancêtre",
+      "theme": "La famille"
+    },
+    {
+      "id": "v21",
+      "mot": "Arbel",
+      "traduction": "l'ardoise, le tableau",
+      "theme": "L'école"
+    },
+    {
+      "id": "v22",
+      "mot": "Arbola",
+      "traduction": "l'arbre",
+      "theme": "Les plantes"
+    },
+    {
+      "id": "v23",
+      "mot": "Ardi",
+      "traduction": "la brebis",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v24",
+      "mot": "Argi",
+      "traduction": "la lumière",
+      "theme": "Le ciel et la lumière"
+    },
+    {
+      "id": "v25",
+      "mot": "Arratsalde",
+      "traduction": "l'après-midi",
+      "theme": "Les moments de la journée"
+    },
+    {
+      "id": "v26",
+      "mot": "Arte",
+      "traduction": "entre, jusqu'à",
+      "theme": "Combien ?"
+    },
+    {
+      "id": "v27",
+      "mot": "Aspaldi",
+      "traduction": "il y a longtemps",
+      "theme": "L'heure et le temps qui passe"
+    },
+    {
+      "id": "v28",
+      "mot": "Aste",
+      "traduction": "la semaine",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v29",
+      "mot": "Ate",
+      "traduction": "la porte",
+      "theme": "La maison"
+    },
+    {
+      "id": "v30",
+      "mot": "Atezain",
+      "traduction": "le portier",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v31",
+      "mot": "Atsegin",
+      "traduction": "le plaisir, agréable",
+      "theme": "Les sentiments"
+    },
+    {
+      "id": "v32",
+      "mot": "Atzeman",
+      "traduction": "attraper, saisir",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v33",
+      "mot": "Atzo",
+      "traduction": "hier",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v34",
+      "mot": "Aurpegi",
+      "traduction": "le visage",
+      "theme": "Le corps"
+    },
+    {
+      "id": "v35",
+      "mot": "Auzo",
+      "traduction": "le voisinage, le quartier",
+      "theme": "La ville et le village"
+    },
+    {
+      "id": "v36",
+      "mot": "Aztertu",
+      "traduction": "examiner, étudier",
+      "theme": "L'école"
+    },
+    {
+      "id": "v37",
+      "mot": "Babes",
+      "traduction": "la protection, l'abri",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v38",
+      "mot": "Bai",
+      "traduction": "oui",
+      "theme": "Oui et non"
+    },
+    {
+      "id": "v39",
+      "mot": "Bainu",
+      "traduction": "le bain",
+      "theme": "La santé, la vie et la mort"
+    },
+    {
+      "id": "v40",
+      "mot": "Bake",
+      "traduction": "la paix",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v41",
+      "mot": "Baratze",
+      "traduction": "le jardin potager",
+      "theme": "Les murs et le toit"
+    },
+    {
+      "id": "v42",
+      "mot": "Basa",
+      "traduction": "sauvage",
+      "theme": "Juste ou sauvage ?"
+    },
+    {
+      "id": "v43",
+      "mot": "Bat",
+      "traduction": "un (1)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v44",
+      "mot": "Batu",
+      "traduction": "réunir, rassembler",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v45",
+      "mot": "Batzuk",
+      "traduction": "quelques-uns",
+      "theme": "Combien ?"
+    },
+    {
+      "id": "v46",
+      "mot": "Baxera",
+      "traduction": "la vaisselle",
+      "theme": "Manger et boire"
+    },
+    {
+      "id": "v47",
+      "mot": "Bazter",
+      "traduction": "le bord, la lisière",
+      "theme": "Le paysage"
+    },
+    {
+      "id": "v48",
+      "mot": "Bederatzi",
+      "traduction": "neuf (9)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v49",
+      "mot": "Begi",
+      "traduction": "l'œil",
+      "theme": "Le corps"
+    },
+    {
+      "id": "v50",
+      "mot": "Behar",
+      "traduction": "devoir, avoir besoin",
+      "theme": "Vouloir, pouvoir, choisir"
+    },
+    {
+      "id": "v51",
+      "mot": "Beldur",
+      "traduction": "la peur",
+      "theme": "Les sentiments"
+    },
+    {
+      "id": "v52",
+      "mot": "Berdin",
+      "traduction": "pareil, égal",
+      "theme": "Facile ou difficile ?"
+    },
+    {
+      "id": "v53",
+      "mot": "Bere",
+      "traduction": "son, sa (à lui, à elle)",
+      "theme": "À qui c'est ?"
+    },
+    {
+      "id": "v54",
+      "mot": "Bereizi",
+      "traduction": "séparer, distinguer",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v55",
+      "mot": "Beren",
+      "traduction": "leur",
+      "theme": "À qui c'est ?"
+    },
+    {
+      "id": "v56",
+      "mot": "Berina",
+      "traduction": "la vitre",
+      "theme": "Les murs et le toit"
+    },
+    {
+      "id": "v57",
+      "mot": "Bero",
+      "traduction": "chaud",
+      "theme": "Le temps qu'il fait"
+    },
+    {
+      "id": "v58",
+      "mot": "Berri",
+      "traduction": "nouveau",
+      "theme": "Beau ou vieux ?"
+    },
+    {
+      "id": "v59",
+      "mot": "Bete",
+      "traduction": "remplir",
+      "theme": "Verbes : agir sur les choses"
+    },
+    {
+      "id": "v60",
+      "mot": "Bi",
+      "traduction": "deux (2)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v61",
+      "mot": "Bide",
+      "traduction": "le chemin",
+      "theme": "La ville et le village"
+    },
+    {
+      "id": "v62",
+      "mot": "Bihar",
+      "traduction": "demain",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v63",
+      "mot": "Bihi",
+      "traduction": "le grain",
+      "theme": "La terre et les pierres"
+    },
+    {
+      "id": "v64",
+      "mot": "Bilakatu",
+      "traduction": "devenir",
+      "theme": "Verbes : faire et devenir"
+    },
+    {
+      "id": "v65",
+      "mot": "Bilatu",
+      "traduction": "chercher",
+      "theme": "Vouloir, pouvoir, choisir"
+    },
+    {
+      "id": "v66",
+      "mot": "Bizi",
+      "traduction": "vivre, la vie",
+      "theme": "Verbes : faire et devenir"
+    },
+    {
+      "id": "v67",
+      "mot": "Biziki",
+      "traduction": "très, fortement",
+      "theme": "Combien ?"
+    },
+    {
+      "id": "v68",
+      "mot": "Bizitegi",
+      "traduction": "le logement",
+      "theme": "La maison"
+    },
+    {
+      "id": "v69",
+      "mot": "Bost",
+      "traduction": "cinq (5)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v70",
+      "mot": "Bulego",
+      "traduction": "le bureau",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v71",
+      "mot": "Burdin",
+      "traduction": "le fer",
+      "theme": "Les couleurs et les matières"
+    },
+    {
+      "id": "v72",
+      "mot": "Dantzatu",
+      "traduction": "danser",
+      "theme": "Les loisirs et les arts"
+    },
+    {
+      "id": "v73",
+      "mot": "Deitu",
+      "traduction": "appeler",
+      "theme": "La parole"
+    },
+    {
+      "id": "v74",
+      "mot": "Denbora",
+      "traduction": "le temps (qui passe)",
+      "theme": "L'heure et le temps qui passe"
+    },
+    {
+      "id": "v75",
+      "mot": "Diru",
+      "traduction": "l'argent",
+      "theme": "Le commerce et l'argent"
+    },
+    {
+      "id": "v76",
+      "mot": "Edan",
+      "traduction": "boire",
+      "theme": "Manger et boire"
+    },
+    {
+      "id": "v77",
+      "mot": "Eder",
+      "traduction": "beau",
+      "theme": "Beau ou vieux ?"
+    },
+    {
+      "id": "v78",
+      "mot": "Egia",
+      "traduction": "la vérité",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v79",
+      "mot": "Egin",
+      "traduction": "faire",
+      "theme": "Verbes : faire et devenir"
+    },
+    {
+      "id": "v80",
+      "mot": "Egon",
+      "traduction": "rester, se trouver",
+      "theme": "Verbes : faire et devenir"
+    },
+    {
+      "id": "v81",
+      "mot": "Eguerdi",
+      "traduction": "midi",
+      "theme": "Les moments de la journée"
+    },
+    {
+      "id": "v82",
+      "mot": "Egun",
+      "traduction": "le jour",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v83",
+      "mot": "Egunkari",
+      "traduction": "le journal",
+      "theme": "Les loisirs et les arts"
+    },
+    {
+      "id": "v84",
+      "mot": "Eguzki",
+      "traduction": "le soleil",
+      "theme": "Le ciel et la lumière"
+    },
+    {
+      "id": "v85",
+      "mot": "Eguzkialde",
+      "traduction": "l'est",
+      "theme": "Les points cardinaux"
+    },
+    {
+      "id": "v86",
+      "mot": "Elgar",
+      "traduction": "l'un l'autre",
+      "theme": "Les pronoms personnels"
+    },
+    {
+      "id": "v87",
+      "mot": "Elur",
+      "traduction": "la neige",
+      "theme": "Le temps qu'il fait"
+    },
+    {
+      "id": "v88",
+      "mot": "Eman",
+      "traduction": "donner",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v89",
+      "mot": "Emazte",
+      "traduction": "la femme, l'épouse",
+      "theme": "La famille"
+    },
+    {
+      "id": "v90",
+      "mot": "Entzun",
+      "traduction": "entendre, écouter",
+      "theme": "Voir et entendre"
+    },
+    {
+      "id": "v91",
+      "mot": "Eragin",
+      "traduction": "provoquer, faire agir",
+      "theme": "Verbes : faire et devenir"
+    },
+    {
+      "id": "v92",
+      "mot": "Erabili",
+      "traduction": "utiliser",
+      "theme": "Verbes : agir sur les choses"
+    },
+    {
+      "id": "v93",
+      "mot": "Eraikin",
+      "traduction": "le bâtiment",
+      "theme": "La ville et le village"
+    },
+    {
+      "id": "v94",
+      "mot": "Eraman",
+      "traduction": "emporter",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v95",
+      "mot": "Erdi",
+      "traduction": "la moitié, le milieu",
+      "theme": "Combien ?"
+    },
+    {
+      "id": "v96",
+      "mot": "Erori",
+      "traduction": "tomber",
+      "theme": "Verbes : bouger"
+    },
+    {
+      "id": "v97",
+      "mot": "Erosi",
+      "traduction": "acheter",
+      "theme": "Le commerce et l'argent"
+    },
+    {
+      "id": "v98",
+      "mot": "Erran",
+      "traduction": "dire",
+      "theme": "La parole"
+    },
+    {
+      "id": "v99",
+      "mot": "Erraz",
+      "traduction": "facile",
+      "theme": "Facile ou difficile ?"
+    },
+    {
+      "id": "v100",
+      "mot": "Esker",
+      "traduction": "le remerciement",
+      "theme": "Oui et non"
+    },
+    {
+      "id": "v101",
+      "mot": "Esku",
+      "traduction": "la main",
+      "theme": "Le corps"
+    },
+    {
+      "id": "v102",
+      "mot": "Etorri",
+      "traduction": "venir",
+      "theme": "Verbes : aller et venir"
+    },
+    {
+      "id": "v103",
+      "mot": "Etxe",
+      "traduction": "la maison",
+      "theme": "La maison"
+    },
+    {
+      "id": "v104",
+      "mot": "Euri",
+      "traduction": "la pluie",
+      "theme": "Le temps qu'il fait"
+    },
+    {
+      "id": "v105",
+      "mot": "Euskara",
+      "traduction": "la langue basque",
+      "theme": "La langue et les mots"
+    },
+    {
+      "id": "v106",
+      "mot": "Ez",
+      "traduction": "non, ne… pas",
+      "theme": "Oui et non"
+    },
+    {
+      "id": "v107",
+      "mot": "Ezagutu",
+      "traduction": "connaître",
+      "theme": "Savoir et se souvenir"
+    },
+    {
+      "id": "v108",
+      "mot": "Ezti",
+      "traduction": "le miel",
+      "theme": "Manger et boire"
+    },
+    {
+      "id": "v109",
+      "mot": "Finkatu",
+      "traduction": "fixer, établir",
+      "theme": "Vouloir, pouvoir, choisir"
+    },
+    {
+      "id": "v110",
+      "mot": "Gai",
+      "traduction": "le sujet, la matière",
+      "theme": "L'école"
+    },
+    {
+      "id": "v111",
+      "mot": "Galdegin",
+      "traduction": "demander",
+      "theme": "La parole"
+    },
+    {
+      "id": "v112",
+      "mot": "Galdu",
+      "traduction": "perdre",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v113",
+      "mot": "Garrantzi",
+      "traduction": "l'importance",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v114",
+      "mot": "Gatu",
+      "traduction": "le chat (forme labourdine)",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v115",
+      "mot": "Gau",
+      "traduction": "la nuit",
+      "theme": "Les moments de la journée"
+    },
+    {
+      "id": "v116",
+      "mot": "Gaur",
+      "traduction": "aujourd'hui",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v117",
+      "mot": "Gaztelu",
+      "traduction": "le château",
+      "theme": "La ville et le village"
+    },
+    {
+      "id": "v118",
+      "mot": "Gela",
+      "traduction": "la salle, la pièce",
+      "theme": "La maison"
+    },
+    {
+      "id": "v119",
+      "mot": "Gero",
+      "traduction": "plus tard, ensuite",
+      "theme": "L'heure et le temps qui passe"
+    },
+    {
+      "id": "v120",
+      "mot": "Gertatu",
+      "traduction": "arriver, se produire",
+      "theme": "Verbes : faire et devenir"
+    },
+    {
+      "id": "v121",
+      "mot": "Giltza",
+      "traduction": "la clé",
+      "theme": "La maison"
+    },
+    {
+      "id": "v122",
+      "mot": "Gizon",
+      "traduction": "l'homme",
+      "theme": "Les gens"
+    },
+    {
+      "id": "v123",
+      "mot": "Gogor",
+      "traduction": "dur",
+      "theme": "Facile ou difficile ?"
+    },
+    {
+      "id": "v124",
+      "mot": "Goiz",
+      "traduction": "le matin",
+      "theme": "Les moments de la journée"
+    },
+    {
+      "id": "v125",
+      "mot": "Gora",
+      "traduction": "vers le haut",
+      "theme": "Où ça ?"
+    },
+    {
+      "id": "v126",
+      "mot": "Gose",
+      "traduction": "la faim",
+      "theme": "Manger et boire"
+    },
+    {
+      "id": "v127",
+      "mot": "Gu",
+      "traduction": "nous",
+      "theme": "Les pronoms personnels"
+    },
+    {
+      "id": "v128",
+      "mot": "Gure",
+      "traduction": "notre",
+      "theme": "À qui c'est ?"
+    },
+    {
+      "id": "v129",
+      "mot": "Gustatu",
+      "traduction": "plaire",
+      "theme": "Les sentiments"
+    },
+    {
+      "id": "v130",
+      "mot": "Hamar",
+      "traduction": "dix (10)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v131",
+      "mot": "Handi",
+      "traduction": "grand",
+      "theme": "Grand ou petit ?"
+    },
+    {
+      "id": "v132",
+      "mot": "Haran",
+      "traduction": "la vallée",
+      "theme": "Le paysage"
+    },
+    {
+      "id": "v133",
+      "mot": "Haize",
+      "traduction": "le vent",
+      "theme": "Le temps qu'il fait"
+    },
+    {
+      "id": "v134",
+      "mot": "Harri",
+      "traduction": "la pierre",
+      "theme": "La terre et les pierres"
+    },
+    {
+      "id": "v135",
+      "mot": "Harritu",
+      "traduction": "s'étonner",
+      "theme": "Les sentiments"
+    },
+    {
+      "id": "v136",
+      "mot": "Hartu",
+      "traduction": "prendre",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v137",
+      "mot": "Hasi",
+      "traduction": "commencer",
+      "theme": "Verbes : faire et devenir"
+    },
+    {
+      "id": "v138",
+      "mot": "Hau",
+      "traduction": "celui-ci, ce…-ci",
+      "theme": "Les démonstratifs"
+    },
+    {
+      "id": "v139",
+      "mot": "Hauek",
+      "traduction": "ceux-ci",
+      "theme": "Les démonstratifs"
+    },
+    {
+      "id": "v140",
+      "mot": "Hauei",
+      "traduction": "à ceux-ci",
+      "theme": "Les démonstratifs"
+    },
+    {
+      "id": "v141",
+      "mot": "Haur",
+      "traduction": "l'enfant",
+      "theme": "La famille"
+    },
+    {
+      "id": "v142",
+      "mot": "Hautatu",
+      "traduction": "choisir",
+      "theme": "Vouloir, pouvoir, choisir"
+    },
+    {
+      "id": "v143",
+      "mot": "Hego",
+      "traduction": "le sud",
+      "theme": "Les points cardinaux"
+    },
+    {
+      "id": "v144",
+      "mot": "Hel egin",
+      "traduction": "appeler à l'aide",
+      "theme": "La parole"
+    },
+    {
+      "id": "v145",
+      "mot": "Helburu",
+      "traduction": "le but",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v146",
+      "mot": "Heldu",
+      "traduction": "arriver",
+      "theme": "Verbes : aller et venir"
+    },
+    {
+      "id": "v147",
+      "mot": "Hemen",
+      "traduction": "ici",
+      "theme": "Où ça ?"
+    },
+    {
+      "id": "v148",
+      "mot": "Herri",
+      "traduction": "le village, le pays",
+      "theme": "La ville et le village"
+    },
+    {
+      "id": "v149",
+      "mot": "Hertsi",
+      "traduction": "étroit, serré",
+      "theme": "Grand ou petit ?"
+    },
+    {
+      "id": "v150",
+      "mot": "Hetsi",
+      "traduction": "fermer",
+      "theme": "Verbes : agir sur les choses"
+    },
+    {
+      "id": "v151",
+      "mot": "Hil",
+      "traduction": "mourir, tuer",
+      "theme": "La santé, la vie et la mort"
+    },
+    {
+      "id": "v152",
+      "mot": "Hilabete",
+      "traduction": "le mois",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v153",
+      "mot": "Hiri",
+      "traduction": "la ville",
+      "theme": "La ville et le village"
+    },
+    {
+      "id": "v154",
+      "mot": "Hiru",
+      "traduction": "trois (3)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v156",
+      "mot": "Hodei",
+      "traduction": "le nuage",
+      "theme": "Le ciel et la lumière"
+    },
+    {
+      "id": "v157",
+      "mot": "Hitz",
+      "traduction": "le mot",
+      "theme": "La langue et les mots"
+    },
+    {
+      "id": "v158",
+      "mot": "Hitzordu",
+      "traduction": "le rendez-vous",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v159",
+      "mot": "Honi",
+      "traduction": "à celui-ci",
+      "theme": "Les démonstratifs"
+    },
+    {
+      "id": "v160",
+      "mot": "Hotz",
+      "traduction": "froid",
+      "theme": "Le temps qu'il fait"
+    },
+    {
+      "id": "v161",
+      "mot": "Hurbil",
+      "traduction": "proche",
+      "theme": "Où ça ?"
+    },
+    {
+      "id": "v162",
+      "mot": "Huts",
+      "traduction": "vide",
+      "theme": "Facile ou difficile ?"
+    },
+    {
+      "id": "v163",
+      "mot": "Ibai",
+      "traduction": "la rivière",
+      "theme": "L'eau"
+    },
+    {
+      "id": "v164",
+      "mot": "Ibar",
+      "traduction": "la plaine, le val",
+      "theme": "Le paysage"
+    },
+    {
+      "id": "v165",
+      "mot": "Ibili",
+      "traduction": "marcher, se promener",
+      "theme": "Verbes : bouger"
+    },
+    {
+      "id": "v166",
+      "mot": "Ideki",
+      "traduction": "ouvrir",
+      "theme": "Verbes : agir sur les choses"
+    },
+    {
+      "id": "v167",
+      "mot": "Iduri",
+      "traduction": "sembler, ressembler",
+      "theme": "Voir et entendre"
+    },
+    {
+      "id": "v168",
+      "mot": "Igan",
+      "traduction": "monter",
+      "theme": "Verbes : bouger"
+    },
+    {
+      "id": "v169",
+      "mot": "Igeri",
+      "traduction": "la nage",
+      "theme": "Verbes : bouger"
+    },
+    {
+      "id": "v170",
+      "mot": "Ikasi",
+      "traduction": "apprendre",
+      "theme": "L'école"
+    },
+    {
+      "id": "v171",
+      "mot": "Ikusi",
+      "traduction": "voir",
+      "theme": "Voir et entendre"
+    },
+    {
+      "id": "v172",
+      "mot": "Ilargi",
+      "traduction": "la lune",
+      "theme": "Le ciel et la lumière"
+    },
+    {
+      "id": "v173",
+      "mot": "Ipar",
+      "traduction": "le nord",
+      "theme": "Les points cardinaux"
+    },
+    {
+      "id": "v174",
+      "mot": "Irakurri",
+      "traduction": "lire",
+      "theme": "L'école"
+    },
+    {
+      "id": "v175",
+      "mot": "Irri",
+      "traduction": "le rire",
+      "theme": "L'esprit et le cœur"
+    },
+    {
+      "id": "v176",
+      "mot": "Irrati",
+      "traduction": "la radio",
+      "theme": "Les loisirs et les arts"
+    },
+    {
+      "id": "v177",
+      "mot": "Isurbide",
+      "traduction": "le conduit d'écoulement",
+      "theme": "L'eau"
+    },
+    {
+      "id": "v178",
+      "mot": "Isuri",
+      "traduction": "verser, couler",
+      "theme": "Verbes : agir sur les choses"
+    },
+    {
+      "id": "v179",
+      "mot": "Itsaso",
+      "traduction": "la mer",
+      "theme": "L'eau"
+    },
+    {
+      "id": "v180",
+      "mot": "Iturri",
+      "traduction": "la source, la fontaine",
+      "theme": "L'eau"
+    },
+    {
+      "id": "v181",
+      "mot": "Izen",
+      "traduction": "le nom",
+      "theme": "La langue et les mots"
+    },
+    {
+      "id": "v182",
+      "mot": "Izoztu",
+      "traduction": "geler",
+      "theme": "Le temps qu'il fait"
+    },
+    {
+      "id": "v183",
+      "mot": "Jakin",
+      "traduction": "savoir",
+      "theme": "Savoir et se souvenir"
+    },
+    {
+      "id": "v184",
+      "mot": "Jan",
+      "traduction": "manger",
+      "theme": "Manger et boire"
+    },
+    {
+      "id": "v185",
+      "mot": "Jende",
+      "traduction": "les gens",
+      "theme": "Les gens"
+    },
+    {
+      "id": "v186",
+      "mot": "Jin",
+      "traduction": "venir (forme labourdine)",
+      "theme": "Verbes : aller et venir"
+    },
+    {
+      "id": "v187",
+      "mot": "Joan",
+      "traduction": "aller, partir",
+      "theme": "Verbes : aller et venir"
+    },
+    {
+      "id": "v188",
+      "mot": "Kako",
+      "traduction": "le crochet",
+      "theme": "Les meubles et les objets"
+    },
+    {
+      "id": "v189",
+      "mot": "Kantatu",
+      "traduction": "chanter",
+      "theme": "Les loisirs et les arts"
+    },
+    {
+      "id": "v190",
+      "mot": "Karratu",
+      "traduction": "le carré",
+      "theme": "Les meubles et les objets"
+    },
+    {
+      "id": "v191",
+      "mot": "Kasu",
+      "traduction": "le cas, l'attention",
+      "theme": "L'esprit et le cœur"
+    },
+    {
+      "id": "v192",
+      "mot": "Katu",
+      "traduction": "le chat",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v193",
+      "mot": "Kobre",
+      "traduction": "le cuivre",
+      "theme": "Les couleurs et les matières"
+    },
+    {
+      "id": "v194",
+      "mot": "Kolore",
+      "traduction": "la couleur",
+      "theme": "Les couleurs et les matières"
+    },
+    {
+      "id": "v195",
+      "mot": "Laborari",
+      "traduction": "l'agriculteur",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v196",
+      "mot": "Laburtu",
+      "traduction": "raccourcir, résumer",
+      "theme": "Vouloir, pouvoir, choisir"
+    },
+    {
+      "id": "v197",
+      "mot": "Lagun",
+      "traduction": "l'ami, le compagnon",
+      "theme": "Les gens"
+    },
+    {
+      "id": "v198",
+      "mot": "Lan",
+      "traduction": "le travail",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v199",
+      "mot": "Landare",
+      "traduction": "la plante",
+      "theme": "Les plantes"
+    },
+    {
+      "id": "v200",
+      "mot": "Larre",
+      "traduction": "le pâturage",
+      "theme": "La terre et les pierres"
+    },
+    {
+      "id": "v201",
+      "mot": "Lau",
+      "traduction": "quatre (4)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v202",
+      "mot": "Lehen",
+      "traduction": "avant, premier",
+      "theme": "L'heure et le temps qui passe"
+    },
+    {
+      "id": "v203",
+      "mot": "Leiho",
+      "traduction": "la fenêtre",
+      "theme": "La maison"
+    },
+    {
+      "id": "v204",
+      "mot": "Leku",
+      "traduction": "le lieu",
+      "theme": "Le lieu et les côtés"
+    },
+    {
+      "id": "v205",
+      "mot": "Lohi",
+      "traduction": "la boue",
+      "theme": "La terre et les pierres"
+    },
+    {
+      "id": "v206",
+      "mot": "Lore",
+      "traduction": "la fleur",
+      "theme": "Les plantes"
+    },
+    {
+      "id": "v207",
+      "mot": "Lotu",
+      "traduction": "attacher, lier",
+      "theme": "Verbes : agir sur les choses"
+    },
+    {
+      "id": "v208",
+      "mot": "Lur",
+      "traduction": "la terre",
+      "theme": "La terre et les pierres"
+    },
+    {
+      "id": "v209",
+      "mot": "Luze",
+      "traduction": "long",
+      "theme": "Grand ou petit ?"
+    },
+    {
+      "id": "v210",
+      "mot": "Maitatu",
+      "traduction": "aimer",
+      "theme": "Les sentiments"
+    },
+    {
+      "id": "v211",
+      "mot": "Margotu",
+      "traduction": "peindre",
+      "theme": "Les loisirs et les arts"
+    },
+    {
+      "id": "v212",
+      "mot": "Marraztu",
+      "traduction": "dessiner",
+      "theme": "Les loisirs et les arts"
+    },
+    {
+      "id": "v213",
+      "mot": "Mendebalde",
+      "traduction": "l'ouest",
+      "theme": "Les points cardinaux"
+    },
+    {
+      "id": "v214",
+      "mot": "Mende",
+      "traduction": "le siècle",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v215",
+      "mot": "Mendi",
+      "traduction": "la montagne",
+      "theme": "Le paysage"
+    },
+    {
+      "id": "v216",
+      "mot": "Merkatu",
+      "traduction": "le marché",
+      "theme": "Le commerce et l'argent"
+    },
+    {
+      "id": "v217",
+      "mot": "Min",
+      "traduction": "la douleur",
+      "theme": "La santé, la vie et la mort"
+    },
+    {
+      "id": "v218",
+      "mot": "Mintzatu",
+      "traduction": "parler",
+      "theme": "La parole"
+    },
+    {
+      "id": "v219",
+      "mot": "Mirail",
+      "traduction": "le miroir",
+      "theme": "Les meubles et les objets"
+    },
+    {
+      "id": "v220",
+      "mot": "Mitra",
+      "traduction": "la mitre (coiffe de l'évêque)",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v221",
+      "mot": "Motz",
+      "traduction": "court",
+      "theme": "Grand ou petit ?"
+    },
+    {
+      "id": "v222",
+      "mot": "Muga",
+      "traduction": "la frontière, la limite",
+      "theme": "La ville et le village"
+    },
+    {
+      "id": "v223",
+      "mot": "Murru",
+      "traduction": "le mur",
+      "theme": "Les murs et le toit"
+    },
+    {
+      "id": "v224",
+      "mot": "Mutil",
+      "traduction": "le garçon",
+      "theme": "Les gens"
+    },
+    {
+      "id": "v225",
+      "mot": "Nagusi",
+      "traduction": "le chef, le patron",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v226",
+      "mot": "Nahi",
+      "traduction": "vouloir",
+      "theme": "Vouloir, pouvoir, choisir"
+    },
+    {
+      "id": "v227",
+      "mot": "Nekatu",
+      "traduction": "se fatiguer",
+      "theme": "La santé, la vie et la mort"
+    },
+    {
+      "id": "v228",
+      "mot": "Nere",
+      "traduction": "mon, ma",
+      "theme": "À qui c'est ?"
+    },
+    {
+      "id": "v229",
+      "mot": "Negu",
+      "traduction": "l'hiver",
+      "theme": "Les saisons"
+    },
+    {
+      "id": "v230",
+      "mot": "Neska",
+      "traduction": "la fille",
+      "theme": "Les gens"
+    },
+    {
+      "id": "v231",
+      "mot": "Ni",
+      "traduction": "je, moi",
+      "theme": "Les pronoms personnels"
+    },
+    {
+      "id": "v232",
+      "mot": "Nola",
+      "traduction": "comment",
+      "theme": "Les mots interrogatifs"
+    },
+    {
+      "id": "v233",
+      "mot": "Non",
+      "traduction": "où",
+      "theme": "Les mots interrogatifs"
+    },
+    {
+      "id": "v234",
+      "mot": "Nor",
+      "traduction": "qui",
+      "theme": "Les mots interrogatifs"
+    },
+    {
+      "id": "v235",
+      "mot": "Nori",
+      "traduction": "à qui",
+      "theme": "Les mots interrogatifs"
+    },
+    {
+      "id": "v236",
+      "mot": "Nun",
+      "traduction": "où (forme labourdine)",
+      "theme": "Les mots interrogatifs"
+    },
+    {
+      "id": "v237",
+      "mot": "Ohartu",
+      "traduction": "remarquer, s'apercevoir",
+      "theme": "Savoir et se souvenir"
+    },
+    {
+      "id": "v238",
+      "mot": "Oihal",
+      "traduction": "le tissu",
+      "theme": "Les meubles et les objets"
+    },
+    {
+      "id": "v239",
+      "mot": "Oihan",
+      "traduction": "la forêt",
+      "theme": "Le paysage"
+    },
+    {
+      "id": "v240",
+      "mot": "Oihu",
+      "traduction": "le cri",
+      "theme": "La parole"
+    },
+    {
+      "id": "v241",
+      "mot": "Oin",
+      "traduction": "le pied",
+      "theme": "Le corps"
+    },
+    {
+      "id": "v242",
+      "mot": "On",
+      "traduction": "bon",
+      "theme": "Juste ou sauvage ?"
+    },
+    {
+      "id": "v243",
+      "mot": "Ondo",
+      "traduction": "à côté de",
+      "theme": "Où ça ?"
+    },
+    {
+      "id": "v244",
+      "mot": "Ongi",
+      "traduction": "bien",
+      "theme": "Oui et non"
+    },
+    {
+      "id": "v245",
+      "mot": "Ontasun",
+      "traduction": "la bonté",
+      "theme": "L'esprit et le cœur"
+    },
+    {
+      "id": "v246",
+      "mot": "Ontsa",
+      "traduction": "bien (forme labourdine)",
+      "theme": "Oui et non"
+    },
+    {
+      "id": "v247",
+      "mot": "Orain",
+      "traduction": "maintenant",
+      "theme": "L'heure et le temps qui passe"
+    },
+    {
+      "id": "v248",
+      "mot": "Ordu",
+      "traduction": "l'heure",
+      "theme": "L'heure et le temps qui passe"
+    },
+    {
+      "id": "v249",
+      "mot": "Oren",
+      "traduction": "l'heure (forme labourdine)",
+      "theme": "L'heure et le temps qui passe"
+    },
+    {
+      "id": "v250",
+      "mot": "Oroitu",
+      "traduction": "se souvenir",
+      "theme": "Savoir et se souvenir"
+    },
+    {
+      "id": "v251",
+      "mot": "Ortzi",
+      "traduction": "le firmament (mot ancien)",
+      "theme": "Le ciel et la lumière"
+    },
+    {
+      "id": "v252",
+      "mot": "Osasun",
+      "traduction": "la santé",
+      "theme": "La santé, la vie et la mort"
+    },
+    {
+      "id": "v253",
+      "mot": "Oso",
+      "traduction": "très, tout à fait",
+      "theme": "Combien ?"
+    },
+    {
+      "id": "v254",
+      "mot": "Ospe",
+      "traduction": "la renommée",
+      "theme": "La vie en société"
+    },
+    {
+      "id": "v255",
+      "mot": "Otso",
+      "traduction": "le loup",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v256",
+      "mot": "Pagatu",
+      "traduction": "payer",
+      "theme": "Le commerce et l'argent"
+    },
+    {
+      "id": "v257",
+      "mot": "Paper",
+      "traduction": "le papier",
+      "theme": "L'école"
+    },
+    {
+      "id": "v258",
+      "mot": "Pasatu",
+      "traduction": "passer",
+      "theme": "Verbes : aller et venir"
+    },
+    {
+      "id": "v259",
+      "mot": "Pentze",
+      "traduction": "le pré",
+      "theme": "La terre et les pierres"
+    },
+    {
+      "id": "v260",
+      "mot": "Peto",
+      "traduction": "exact, juste",
+      "theme": "Facile ou difficile ?"
+    },
+    {
+      "id": "v261",
+      "mot": "Polit",
+      "traduction": "joli",
+      "theme": "Beau ou vieux ?"
+    },
+    {
+      "id": "v262",
+      "mot": "Presatu",
+      "traduction": "se presser",
+      "theme": "Verbes : bouger"
+    },
+    {
+      "id": "v263",
+      "mot": "Sakon",
+      "traduction": "profond",
+      "theme": "Grand ou petit ?"
+    },
+    {
+      "id": "v264",
+      "mot": "Saldu",
+      "traduction": "vendre",
+      "theme": "Le commerce et l'argent"
+    },
+    {
+      "id": "v265",
+      "mot": "Sartu",
+      "traduction": "entrer",
+      "theme": "Verbes : aller et venir"
+    },
+    {
+      "id": "v266",
+      "mot": "Sei",
+      "traduction": "six (6)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v267",
+      "mot": "Sen",
+      "traduction": "l'instinct, le bon sens",
+      "theme": "L'esprit et le cœur"
+    },
+    {
+      "id": "v268",
+      "mot": "Sortu",
+      "traduction": "naître, créer",
+      "theme": "La santé, la vie et la mort"
+    },
+    {
+      "id": "v269",
+      "mot": "Su",
+      "traduction": "le feu",
+      "theme": "La terre et les pierres"
+    },
+    {
+      "id": "v270",
+      "mot": "Sustrai",
+      "traduction": "la racine",
+      "theme": "Les plantes"
+    },
+    {
+      "id": "v271",
+      "mot": "Teila",
+      "traduction": "la tuile",
+      "theme": "Les murs et le toit"
+    },
+    {
+      "id": "v272",
+      "mot": "Teilatu",
+      "traduction": "le toit",
+      "theme": "Les murs et le toit"
+    },
+    {
+      "id": "v273",
+      "mot": "Tenperatura",
+      "traduction": "la température",
+      "theme": "Le temps qu'il fait"
+    },
+    {
+      "id": "v274",
+      "mot": "Tipi",
+      "traduction": "petit",
+      "theme": "Grand ou petit ?"
+    },
+    {
+      "id": "v275",
+      "mot": "Toki",
+      "traduction": "l'endroit",
+      "theme": "Le lieu et les côtés"
+    },
+    {
+      "id": "v276",
+      "mot": "Txakur",
+      "traduction": "le chien",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v277",
+      "mot": "Uda",
+      "traduction": "l'été",
+      "theme": "Les saisons"
+    },
+    {
+      "id": "v278",
+      "mot": "Udaberri",
+      "traduction": "le printemps",
+      "theme": "Les saisons"
+    },
+    {
+      "id": "v279",
+      "mot": "Udazken",
+      "traduction": "l'automne",
+      "theme": "Les saisons"
+    },
+    {
+      "id": "v280",
+      "mot": "Uhaitz",
+      "traduction": "le torrent",
+      "theme": "L'eau"
+    },
+    {
+      "id": "v281",
+      "mot": "Ulertu",
+      "traduction": "comprendre",
+      "theme": "Savoir et se souvenir"
+    },
+    {
+      "id": "v282",
+      "mot": "Untzi",
+      "traduction": "le récipient",
+      "theme": "Les meubles et les objets"
+    },
+    {
+      "id": "v283",
+      "mot": "Ur",
+      "traduction": "l'eau",
+      "theme": "L'eau"
+    },
+    {
+      "id": "v284",
+      "mot": "Urre",
+      "traduction": "l'or",
+      "theme": "Les couleurs et les matières"
+    },
+    {
+      "id": "v285",
+      "mot": "Urrun",
+      "traduction": "loin",
+      "theme": "Où ça ?"
+    },
+    {
+      "id": "v286",
+      "mot": "Urtaro",
+      "traduction": "la saison",
+      "theme": "Les saisons"
+    },
+    {
+      "id": "v287",
+      "mot": "Urte",
+      "traduction": "l'année",
+      "theme": "Le calendrier"
+    },
+    {
+      "id": "v288",
+      "mot": "Utzi",
+      "traduction": "laisser",
+      "theme": "Prendre et donner"
+    },
+    {
+      "id": "v289",
+      "mot": "Xakur",
+      "traduction": "le chien (forme labourdine)",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v290",
+      "mot": "Ximindegi",
+      "traduction": "la cheminée",
+      "theme": "Les murs et le toit"
+    },
+    {
+      "id": "v291",
+      "mot": "Xoko",
+      "traduction": "le coin (forme labourdine)",
+      "theme": "Le lieu et les côtés"
+    },
+    {
+      "id": "v292",
+      "mot": "Xuri",
+      "traduction": "blanc (forme labourdine)",
+      "theme": "Les couleurs et les matières"
+    },
+    {
+      "id": "v293",
+      "mot": "Xuxen",
+      "traduction": "droit (forme labourdine)",
+      "theme": "Juste ou sauvage ?"
+    },
+    {
+      "id": "v294",
+      "mot": "Zabal",
+      "traduction": "large",
+      "theme": "Grand ou petit ?"
+    },
+    {
+      "id": "v295",
+      "mot": "Zahar",
+      "traduction": "vieux",
+      "theme": "Beau ou vieux ?"
+    },
+    {
+      "id": "v296",
+      "mot": "Zail",
+      "traduction": "difficile",
+      "theme": "Facile ou difficile ?"
+    },
+    {
+      "id": "v297",
+      "mot": "Zain",
+      "traduction": "le gardien",
+      "theme": "Le travail et les métiers"
+    },
+    {
+      "id": "v298",
+      "mot": "Zakar",
+      "traduction": "brutal, rude",
+      "theme": "Facile ou difficile ?"
+    },
+    {
+      "id": "v299",
+      "mot": "Zakur",
+      "traduction": "le chien (gros chien)",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v300",
+      "mot": "Zaldi",
+      "traduction": "le cheval",
+      "theme": "Les animaux"
+    },
+    {
+      "id": "v301",
+      "mot": "Zazpi",
+      "traduction": "sept (7)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v302",
+      "mot": "Zeharkatu",
+      "traduction": "traverser",
+      "theme": "Verbes : bouger"
+    },
+    {
+      "id": "v303",
+      "mot": "Zenbat",
+      "traduction": "combien",
+      "theme": "Les mots interrogatifs"
+    },
+    {
+      "id": "v304",
+      "mot": "Zentzu",
+      "traduction": "le sens, la signification",
+      "theme": "La langue et les mots"
+    },
+    {
+      "id": "v305",
+      "mot": "Zer",
+      "traduction": "quoi, que",
+      "theme": "Les mots interrogatifs"
+    },
+    {
+      "id": "v306",
+      "mot": "Zeru",
+      "traduction": "le ciel",
+      "theme": "Le ciel et la lumière"
+    },
+    {
+      "id": "v307",
+      "mot": "Zoko",
+      "traduction": "le coin, le recoin",
+      "theme": "Le lieu et les côtés"
+    },
+    {
+      "id": "v308",
+      "mot": "Zori",
+      "traduction": "la chance, le sort",
+      "theme": "L'esprit et le cœur"
+    },
+    {
+      "id": "v309",
+      "mot": "Zorroztu",
+      "traduction": "aiguiser",
+      "theme": "Verbes : agir sur les choses"
+    },
+    {
+      "id": "v310",
+      "mot": "Zortzi",
+      "traduction": "huit (8)",
+      "theme": "Les nombres"
+    },
+    {
+      "id": "v311",
+      "mot": "Zu",
+      "traduction": "tu, vous",
+      "theme": "Les pronoms personnels"
+    },
+    {
+      "id": "v312",
+      "mot": "Zuek",
+      "traduction": "vous (plusieurs)",
+      "theme": "Les pronoms personnels"
+    },
+    {
+      "id": "v313",
+      "mot": "Zuen",
+      "traduction": "votre",
+      "theme": "À qui c'est ?"
+    },
+    {
+      "id": "v314",
+      "mot": "Zur",
+      "traduction": "le bois",
+      "theme": "Les couleurs et les matières"
+    },
+    {
+      "id": "v315",
+      "mot": "Zuri",
+      "traduction": "blanc",
+      "theme": "Les couleurs et les matières"
+    },
+    {
+      "id": "v316",
+      "mot": "Zure",
+      "traduction": "ton, ta",
+      "theme": "À qui c'est ?"
+    },
+    {
+      "id": "v317",
+      "mot": "Zuzen",
+      "traduction": "droit, correct",
+      "theme": "Juste ou sauvage ?"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "Compter de 1 à 10",
+      "explication": "En basque on compte : bat (1), bi (2), hiru (3), lau (4), bost (5), sei (6), zazpi (7), zortzi (8), bederatzi (9), hamar (10). Le nombre se place après le nom : « etxe bat » veut dire « une maison ».",
+      "exemples": [
+        "bat, bi, hiru, lau, bost",
+        "sei, zazpi, zortzi, bederatzi, hamar",
+        "etxe bat = une maison"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Le chiffre 3 se dit ___ en basque.",
+          "reponse": "hiru"
+        },
+        {
+          "type": "trous",
+          "phrase": "Le chiffre 7 se dit ___ en basque.",
+          "reponse": "zazpi"
+        },
+        {
+          "type": "trous",
+          "phrase": "Le chiffre 10 se dit ___ en basque.",
+          "reponse": "hamar"
+        },
+        {
+          "type": "choix",
+          "question": "Comment dit-on « cinq » en basque ?",
+          "options": ["lau", "bost", "sei"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Comment dit-on « neuf » en basque ?",
+          "options": ["zortzi", "bederatzi", "hamar"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Que veut dire « bi » ?",
+          "options": ["un", "deux", "trois"],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": ["bat", "bi", "hiru", "lau", "bost"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["sei", "zazpi", "zortzi", "bederatzi", "hamar"]
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "Poser une question",
+      "explication": "Les mots pour questionner : nor (qui), zer (quoi), non (où), nola (comment), zenbat (combien), nori (à qui). Dans le Labourd on entend aussi nun à la place de non.",
+      "exemples": [
+        "nor ? = qui ?",
+        "non ? = où ?",
+        "zenbat ? = combien ?",
+        "nola ? = comment ?"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Pour demander « où », on dit ___ en basque.",
+          "reponse": "non"
+        },
+        {
+          "type": "trous",
+          "phrase": "Pour demander « combien », on dit ___ en basque.",
+          "reponse": "zenbat"
+        },
+        {
+          "type": "trous",
+          "phrase": "Pour demander « comment », on dit ___ en basque.",
+          "reponse": "nola"
+        },
+        {
+          "type": "choix",
+          "question": "Que veut dire « nor » ?",
+          "options": ["qui", "quoi", "où"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Que veut dire « zer » ?",
+          "options": ["qui", "quoi", "combien"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "« Nori » sert à demander…",
+          "options": ["à qui", "d'où", "pourquoi"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Dans le Labourd, « non » se dit aussi…",
+          "options": ["nun", "nola", "nork"],
+          "bonne": 0
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Qui fait l'action ? la marque -k",
+      "explication": "En basque, celui qui fait l'action prend un -k à la fin du mot. Le lexique le montre par paires : ni → nik, gu → guk, zu → zuk, nor → nork, hau → honek. C'est la marque que les linguistes appellent l'ergatif : elle n'existe pas en français.",
+      "exemples": [
+        "ni → nik",
+        "gu → guk",
+        "zu → zuk",
+        "nor → nork",
+        "hau → honek"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "ni → ___ (celui qui fait l'action)",
+          "reponse": "nik"
+        },
+        {
+          "type": "trous",
+          "phrase": "gu → ___ (ceux qui font l'action)",
+          "reponse": "guk"
+        },
+        {
+          "type": "trous",
+          "phrase": "zu → ___ (celui qui fait l'action)",
+          "reponse": "zuk"
+        },
+        {
+          "type": "trous",
+          "phrase": "nor → ___ (qui fait l'action ?)",
+          "reponse": "nork"
+        },
+        {
+          "type": "choix",
+          "question": "Quelle forme de « hau » fait l'action ?",
+          "options": ["hauek", "honi", "honek"],
+          "bonne": 2
+        },
+        {
+          "type": "choix",
+          "question": "La marque de celui qui fait l'action est…",
+          "options": ["-k", "-i", "-a"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "« Guk » veut dire…",
+          "options": ["nous (qui faisons)", "à nous", "notre"],
+          "bonne": 0
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "À qui ? la marque -i",
+      "explication": "Pour dire à qui on donne ou à qui on parle, le basque ajoute -i : ni → niri (à moi), gu → guri (à nous), zu → zuri (à toi), nor → nori (à qui), hau → honi (à celui-ci), hauek → hauei (à ceux-ci). Attention au piège : « zuri » veut dire « à toi », mais c'est aussi le mot pour « blanc ».",
+      "exemples": [
+        "ni → niri",
+        "gu → guri",
+        "nor → nori",
+        "hau → honi",
+        "hauek → hauei"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "ni → ___ (à moi)",
+          "reponse": "niri"
+        },
+        {
+          "type": "trous",
+          "phrase": "gu → ___ (à nous)",
+          "reponse": "guri"
+        },
+        {
+          "type": "trous",
+          "phrase": "hau → ___ (à celui-ci)",
+          "reponse": "honi"
+        },
+        {
+          "type": "choix",
+          "question": "Comment dit-on « à qui » ?",
+          "options": ["nor", "nork", "nori"],
+          "bonne": 2
+        },
+        {
+          "type": "choix",
+          "question": "« Hauei » veut dire…",
+          "options": ["ceux-ci", "à ceux-ci", "de ceux-ci"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "La marque de « à qui » est…",
+          "options": ["-k", "-i", "-en"],
+          "bonne": 1
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "titre": "Fabriquer des mots",
+      "explication": "Le basque fabrique beaucoup de mots en ajoutant un morceau à la fin. À partir de hitz (le mot) on obtient hizki (la lettre), hizkuntza (la langue), hizketa (la conversation). -tegi et -alde marquent un lieu, -zain celui qui garde, -kari ce qui fait.",
+      "exemples": [
+        "hitz → hizki, hizkuntza, hizketa",
+        "ate (la porte) → atezain (le portier)",
+        "auzo (le voisinage) → auzotegi (le quartier)",
+        "egun (le jour) → egunkari (le journal)",
+        "hego (le sud) → hegoalde (la région sud)"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "ate (la porte) + zain (le gardien) = ___ (le portier)",
+          "reponse": "atezain"
+        },
+        {
+          "type": "trous",
+          "phrase": "egun (le jour) donne ___ (le journal).",
+          "reponse": "egunkari"
+        },
+        {
+          "type": "trous",
+          "phrase": "bizi (vivre) donne ___ (le logement).",
+          "reponse": "bizitegi"
+        },
+        {
+          "type": "choix",
+          "question": "hitz + kuntza donne…",
+          "options": ["hizkuntza", "hizketa", "hizki"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Que veut dire « hegoalde » ?",
+          "options": ["la région nord", "la région sud", "la région est"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "« Teilatu » (le toit) est fabriqué à partir de…",
+          "options": [
+            "teila (la tuile)",
+            "toki (l'endroit)",
+            "etxe (la maison)"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Le morceau -tegi indique…",
+          "options": ["un lieu", "une personne", "une couleur"],
+          "bonne": 0
+        }
+      ]
+    }
+  ],
+  "phrases": []
+}

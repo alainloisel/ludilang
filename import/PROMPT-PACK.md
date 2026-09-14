@@ -66,11 +66,18 @@ Réponds **uniquement** avec le JSON du pack, sans texte autour, selon ce schém
 
 ## Détails des champs
 
-- `language` : `"en"` pour l'anglais, `"de"` pour l'allemand.
+- `language` : `"en"` pour l'anglais, `"de"` pour l'allemand, `"eu"` pour le basque,
+  `"zh"` pour le chinois.
 - `vocab` : **tout** le vocabulaire du cours (mots et petites expressions), champ `mot`
   dans la langue étudiée, `traduction` en français, `exemple` = une phrase courte dans la
   langue étudiée qui utilise le mot, `theme` = regroupement en français (5 à 8 mots par
   thème environ). Ids `v1`, `v2`, …
+  - Champ optionnel `pinyin` : la transcription du mot (pinyin chinois, romaji…).
+    Quand il est là, l'app l'affiche sous le mot dans les jeux à cartes et à QCM.
+  - Les `traduction` doivent être **toutes différentes** : les QCM comparent les
+    réponses par chaîne, deux traductions identiques donnent deux boutons
+    indiscernables et une bonne réponse peut être comptée fausse. Distinguer par une
+    nuance (« le chien » / « le chien (forme labourdine) ») plutôt que de répéter.
 - `grammar` : un objet par point de grammaire du cours. `explication` en français,
   claire et courte (niveau collège). Pour chaque point, crée **6 à 8 exercices** variés :
   - `trous` : la phrase contient `___` et, si utile, une consigne entre parenthèses

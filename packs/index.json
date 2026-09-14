@@ -19,6 +19,14 @@
     {
       "fichier": "anglais-5eme-may-june.json",
       "id": "anglais-5eme-may-june"
+    },
+    {
+      "fichier": "basque-base.json",
+      "id": "basque-base"
+    },
+    {
+      "fichier": "chinois-base.json",
+      "id": "chinois-base"
     }
   ]
 }

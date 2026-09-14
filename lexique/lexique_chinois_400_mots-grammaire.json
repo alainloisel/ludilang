@@ -1,0 +1,201 @@
+[
+  {
+    "id": "g1",
+    "titre": "Les classificateurs",
+    "explication": "En chinois on ne compte pas les choses directement : entre le nombre et le nom il faut un petit mot, le classificateur. Le passe-partout est 个 (gè) : 三个人 = trois personnes. Devant un classificateur, « deux » se dit 两 (liǎng) et non 二 (èr).",
+    "exemples": [
+      "三 个 人 = trois personnes",
+      "两 个 苹果 = deux pommes",
+      "一 个 问题 = une question"
+    ],
+    "exercices": [
+      {
+        "type": "choix",
+        "question": "Quel mot met-on entre le nombre et le nom ?",
+        "options": ["个", "的", "了"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Comment dit-on « deux pommes » ?",
+        "options": ["二 个 苹果", "两 个 苹果", "两 苹果"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "« 三 个 学生 » veut dire…",
+        "options": ["trois élèves", "le troisième élève", "trois écoles"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Que veut dire 些 (xiē) ?",
+        "options": ["quelques", "tous", "chaque"],
+        "bonne": 0
+      },
+      { "type": "ordre", "mots": ["三", "个", "人"] },
+      { "type": "ordre", "mots": ["他", "有", "两", "个", "姐姐。"] },
+      { "type": "ordre", "mots": ["我", "想", "买", "一", "个", "手机。"] }
+    ]
+  },
+  {
+    "id": "g2",
+    "titre": "是 et 有",
+    "explication": "是 (shì) dit ce que quelqu'un ou quelque chose EST : 我是学生 = je suis étudiant. 有 (yǒu) dit ce qu'on A, ou qu'il y a : 我有一个哥哥 = j'ai un grand frère. Piège : devant un adjectif on n'emploie pas 是 mais 很 (hěn) — 他很高 = il est grand.",
+    "exemples": [
+      "我 是 学生。 = Je suis étudiant.",
+      "我 有 一 个 哥哥。 = J'ai un grand frère.",
+      "他 很 高。 = Il est grand."
+    ],
+    "exercices": [
+      {
+        "type": "choix",
+        "question": "« Je suis professeur » se dit…",
+        "options": ["我 是 老师", "我 有 老师", "我 很 老师"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "« Il est grand » se dit…",
+        "options": ["他 是 高", "他 很 高", "他 有 高"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "Que veut dire 有 ?",
+        "options": ["être", "avoir", "aller"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "« 她 有 一 个 女儿 » veut dire…",
+        "options": [
+          "Elle est une fille",
+          "Elle a une fille",
+          "Elle va chez sa fille"
+        ],
+        "bonne": 1
+      },
+      { "type": "ordre", "mots": ["我", "是", "学生。"] },
+      { "type": "ordre", "mots": ["他", "有", "三", "个", "朋友。"] },
+      { "type": "ordre", "mots": ["这", "个", "菜", "很", "好吃。"] }
+    ]
+  },
+  {
+    "id": "g3",
+    "titre": "Dire non : 不 et 没",
+    "explication": "Pour dire « ne… pas », 不 (bù) se place devant le verbe ou l'adjectif : 我不去 = je ne vais pas. Mais devant 有, et pour parler de ce qui n'a pas eu lieu, on emploie 没 (méi) : 我昨天没去 = hier je n'y suis pas allé.",
+    "exemples": [
+      "我 不 喜欢 咖啡。 = Je n'aime pas le café.",
+      "他 不 高。 = Il n'est pas grand.",
+      "我 没 去。 = Je n'y suis pas allé."
+    ],
+    "exercices": [
+      {
+        "type": "choix",
+        "question": "Comment dit-on « je n'aime pas » ?",
+        "options": ["我 不 喜欢", "我 没 喜欢", "我 喜欢 不"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Avec le verbe 有, la négation est…",
+        "options": ["不", "没", "吗"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "« 我 昨天 没 去 学校 » veut dire…",
+        "options": [
+          "Je ne vais pas à l'école",
+          "Hier je ne suis pas allé à l'école",
+          "Demain je n'irai pas à l'école"
+        ],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "Où se place la négation ?",
+        "options": [
+          "devant le verbe",
+          "après le verbe",
+          "à la fin de la phrase"
+        ],
+        "bonne": 0
+      },
+      { "type": "ordre", "mots": ["我", "不", "喜欢", "咖啡。"] },
+      { "type": "ordre", "mots": ["我", "昨天", "没", "去", "学校。"] },
+      { "type": "ordre", "mots": ["这", "个", "问题", "不", "难。"] }
+    ]
+  },
+  {
+    "id": "g4",
+    "titre": "Poser une question",
+    "explication": "Deux façons simples. 1) Ajouter 吗 (ma) à la fin d'une phrase affirmative, sans rien changer d'autre : 你是学生吗？ 2) Mettre un mot interrogatif (谁, 什么, 哪里, 怎么, 为什么, 几, 多少) à la place exacte du mot qu'on cherche, sans déplacer le reste : 你去哪里？ = tu vas où ?",
+    "exemples": ["你 是 学生 吗？", "你 去 哪里？", "这 是 什么？"],
+    "exercices": [
+      {
+        "type": "choix",
+        "question": "Quelle particule transforme une phrase en question ?",
+        "options": ["吗", "了", "的"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "« Où vas-tu ? » se dit…",
+        "options": ["哪里 你 去？", "你 去 哪里？", "去 你 哪里？"],
+        "bonne": 1
+      },
+      {
+        "type": "choix",
+        "question": "Que veut dire 为什么 ?",
+        "options": ["pourquoi", "comment", "combien"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Avec un mot interrogatif, l'ordre des mots…",
+        "options": ["ne change pas", "s'inverse", "met le verbe à la fin"],
+        "bonne": 0
+      },
+      { "type": "ordre", "mots": ["你", "是", "老师", "吗？"] },
+      { "type": "ordre", "mots": ["你", "家", "有", "几", "个", "人？"] },
+      { "type": "ordre", "mots": ["这", "是", "什么？"] }
+    ]
+  },
+  {
+    "id": "g5",
+    "titre": "La particule 了",
+    "explication": "了 (le) marque qu'une action est accomplie. Il se place après le verbe, ou à la fin de la phrase : 我吃了饭 = j'ai mangé. Ce n'est pas un temps du passé comme en français : c'est la marque que quelque chose est achevé ou a changé.",
+    "exemples": ["我 吃 了 饭。", "我们 到 了。", "他 走 了。"],
+    "exercices": [
+      {
+        "type": "choix",
+        "question": "Que marque 了 ?",
+        "options": ["une action accomplie", "une question", "une négation"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "« J'ai acheté un téléphone » se dit…",
+        "options": ["我 买 了 手机", "我 了 买 手机", "买 我 了 手机"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "Où se place 了 ?",
+        "options": ["après le verbe", "avant le verbe", "avant le sujet"],
+        "bonne": 0
+      },
+      {
+        "type": "choix",
+        "question": "« 他 走 了 » veut dire…",
+        "options": ["il part", "il est parti", "il ne part pas"],
+        "bonne": 1
+      },
+      { "type": "ordre", "mots": ["我们", "吃", "了", "晚饭。"] },
+      { "type": "ordre", "mots": ["他", "走", "了。"] },
+      { "type": "ordre", "mots": ["我", "看", "了", "电视。"] }
+    ]
+  }
+]

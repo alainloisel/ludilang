@@ -1,6 +1,6 @@
 // Memory : retrouver les paires mot ↔ traduction.
 
-import { sample, shuffle, esc, similarity } from "../utils.js";
+import { sample, shuffle, esc, similarity, motTranscrit } from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 
 export const meta = {
@@ -19,7 +19,7 @@ export function start(container, ctx) {
   );
   const cartes = shuffle(
     paires.flatMap((v) => [
-      { id: v.id, texte: v.mot, type: "mot" },
+      { id: v.id, texte: v.mot, pinyin: v.pinyin, type: "mot" },
       { id: v.id, texte: v.traduction, type: "trad" },
     ]),
   );
@@ -40,7 +40,7 @@ export function start(container, ctx) {
           (c, idx) => `
         <button class="carte-memory" data-idx="${idx}">
           <span class="face-cachee">❓</span>
-          <span class="face-texte">${esc(c.texte)}</span>
+          <span class="face-texte">${motTranscrit(c.texte, c.pinyin)}</span>
         </button>`,
         )
         .join("")}

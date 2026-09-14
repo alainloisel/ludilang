@@ -37,6 +37,7 @@ import { esc } from "./utils.js";
 import { ecranImport } from "./import.js";
 import { lancerParcours } from "./parcours.js";
 import { computeUnites } from "./parcours-plan.js";
+import { jeuxCompatibles } from "./parcours-catalogue.js";
 
 const JEUX = [
   flashcards,
@@ -59,7 +60,7 @@ const JEUX = [
   marathon,
   oreille,
 ];
-const DRAPEAUX = { en: "🇬🇧", de: "🇩🇪" };
+const DRAPEAUX = { en: "🇬🇧", de: "🇩🇪", zh: "🇨🇳" };
 
 const ecran = document.getElementById("ecran");
 const hud = document.getElementById("hud");
@@ -118,6 +119,11 @@ function accueil() {
 
   const progress = getProgress(pack.id);
   const maitrises = motsMaitrises(progress);
+  // On ne propose que les jeux qui ont un sens avec la langue et l'écriture du
+  // cours : inutile d'offrir le pendu sur des caractères chinois, ou les jeux à
+  // contenu anglais codé en dur sur un cours de basque.
+  const compatibles = new Set(jeuxCompatibles(pack));
+  const jeux = JEUX.filter((j) => compatibles.has(j.meta.id));
 
   ecran.innerHTML = `
     <section class="accueil">
@@ -154,14 +160,16 @@ function accueil() {
       <h2 class="titre-section">Ou choisis ton jeu</h2>
 
       <div class="grille-jeux">
-        ${JEUX.map(
-          (j) => `
+        ${jeux
+          .map(
+            (j) => `
           <button class="carte-jeu" data-jeu="${j.meta.id}">
             <span class="jeu-emoji">${j.meta.emoji}</span>
             <span class="jeu-nom">${esc(j.meta.nom)}</span>
             <span class="jeu-desc">${esc(j.meta.desc)}</span>
           </button>`,
-        ).join("")}
+          )
+          .join("")}
       </div>
 
       <div class="carte-boutons pied-accueil">

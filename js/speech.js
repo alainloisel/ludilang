@@ -3,7 +3,7 @@
 
 import { similarity } from "./utils.js";
 
-const LANGUES = { en: "en-GB", de: "de-DE" };
+const LANGUES = { en: "en-GB", de: "de-DE", zh: "zh-CN" };
 
 let voix = [];
 function chargerVoix() {

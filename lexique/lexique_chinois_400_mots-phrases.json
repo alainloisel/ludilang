@@ -1,0 +1,78 @@
+[
+  { "id": "p1", "texte": "我 是 学生。", "traduction": "Je suis étudiant." },
+  {
+    "id": "p2",
+    "texte": "你 是 老师 吗？",
+    "traduction": "Es-tu professeur ?"
+  },
+  {
+    "id": "p3",
+    "texte": "他 有 两 个 姐姐。",
+    "traduction": "Il a deux grandes sœurs."
+  },
+  {
+    "id": "p4",
+    "texte": "我 不 喜欢 咖啡。",
+    "traduction": "Je n'aime pas le café."
+  },
+  {
+    "id": "p5",
+    "texte": "我们 明天 去 北京。",
+    "traduction": "Nous allons à Pékin demain."
+  },
+  {
+    "id": "p6",
+    "texte": "她 每天 去 学校。",
+    "traduction": "Elle va à l'école tous les jours."
+  },
+  {
+    "id": "p7",
+    "texte": "这 个 苹果 很 好吃。",
+    "traduction": "Cette pomme est très bonne."
+  },
+  {
+    "id": "p8",
+    "texte": "我 的 手机 很 新。",
+    "traduction": "Mon téléphone est tout neuf."
+  },
+  {
+    "id": "p9",
+    "texte": "今天 天气 很 好。",
+    "traduction": "Il fait beau aujourd'hui."
+  },
+  {
+    "id": "p10",
+    "texte": "我 昨天 没 去 医院。",
+    "traduction": "Hier je ne suis pas allé à l'hôpital."
+  },
+  {
+    "id": "p11",
+    "texte": "老师 问 我 一 个 问题。",
+    "traduction": "Le professeur me pose une question."
+  },
+  {
+    "id": "p12",
+    "texte": "我 想 喝 茶。",
+    "traduction": "Je veux boire du thé."
+  },
+  {
+    "id": "p13",
+    "texte": "你 家 有 几 个 人？",
+    "traduction": "Combien de personnes y a-t-il dans ta famille ?"
+  },
+  {
+    "id": "p14",
+    "texte": "我 学习 汉语 因为 我 喜欢 中国。",
+    "traduction": "J'apprends le chinois parce que j'aime la Chine."
+  },
+  {
+    "id": "p15",
+    "texte": "他 的 狗 很 大。",
+    "traduction": "Son chien est très grand."
+  },
+  {
+    "id": "p16",
+    "texte": "我们 吃 了 晚饭。",
+    "traduction": "Nous avons dîné."
+  }
+]

@@ -1,7 +1,7 @@
 // Jeu : L'Intrus (Odd One Out)
 // L'élève doit trouver le mot qui n'appartient pas au même groupe/thème.
 
-import { sample, shuffle, esc, similarity } from "../utils.js";
+import { sample, shuffle, esc, similarity, motTranscrit } from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 
 export const meta = {
@@ -63,7 +63,7 @@ export function start(container, ctx) {
             .map(
               (v) => `
             <button class="btn option-intrus" data-id="${v.id}" style="padding: 24px 16px; font-size: 1.15rem; display: flex; flex-direction: column; align-items: center; gap: 8px;">
-              <span class="mot-intrus">${esc(v.mot)}</span>
+              <span class="mot-intrus">${motTranscrit(v.mot, v.pinyin)}</span>
               <span class="btn-son" style="font-size: 1rem; width: 28px; height: 28px; display: inline-flex; align-items: center; justify-content: center;">🔊</span>
             </button>`,
             )

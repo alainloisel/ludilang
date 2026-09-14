@@ -1,7 +1,7 @@
 // Quiz éclair : QCM chronométré mélangeant vocabulaire et grammaire,
 // avec combo de bonnes réponses.
 
-import { shuffle, sample, esc, similarity } from "../utils.js";
+import { shuffle, sample, esc, similarity, motTranscrit } from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 import { noter } from "../srs.js";
 
@@ -29,6 +29,7 @@ function construireQuestions(pack) {
         vocabId: v.id,
         dire: v.mot,
         question: `Que veut dire « ${v.mot} » ?`,
+        pinyin: v.pinyin,
         options: shuffle([
           v.traduction,
           ...distracteurs.map((d) => d.traduction),
@@ -66,6 +67,9 @@ function construireQuestions(pack) {
 
 export function start(container, ctx) {
   const questions = construireQuestions(ctx.pack);
+  // Les options ne transportent que des chaînes : ce répertoire retrouve la
+  // transcription d'un mot sans jamais toucher à la valeur comparée.
+  const pinyinDe = new Map(ctx.pack.vocab.map((v) => [v.mot, v.pinyin]));
   let i = 0,
     bonnes = 0,
     xp = 0,
@@ -100,9 +104,9 @@ export function start(container, ctx) {
       </div>
       <div class="chrono"><div id="chrono-barre" style="width:100%"></div></div>
       ${q.point ? `<p class="theme-chip">${esc(q.point)}</p>` : ""}
-      <h2 class="question">${esc(q.question)} ${q.dire ? `<button class="btn-son" id="dire">🔊</button>` : ""}</h2>
+      <h2 class="question">${esc(q.question)}${q.pinyin ? `<span class="transcription">${esc(q.pinyin)}</span>` : ""} ${q.dire ? `<button class="btn-son" id="dire">🔊</button>` : ""}</h2>
       <div class="options">
-        ${q.options.map((o) => `<button class="btn option" data-val="${esc(o)}">${esc(o)}</button>`).join("")}
+        ${q.options.map((o) => `<button class="btn option" data-val="${esc(o)}">${motTranscrit(o, pinyinDe.get(o))}</button>`).join("")}
       </div>
       <div id="feedback-micro" style="text-align: center; min-height: 24px; margin-top: 10px;"></div>`;
 

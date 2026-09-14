@@ -1,0 +1,3353 @@
+{
+  "id": "chinois-base",
+  "language": "zh",
+  "title": "Chinois — 400 mots utiles",
+  "description": "Les 400 mots chinois les plus fréquents (HSK 1 à 4), classés par thèmes avec le pinyin, plus les bases de la grammaire : classificateurs, 是/有, la négation, la question et 了.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "我",
+      "traduction": "je, moi",
+      "theme": "Les pronoms : une personne",
+      "pinyin": "wǒ"
+    },
+    {
+      "id": "v2",
+      "mot": "你",
+      "traduction": "tu, toi",
+      "theme": "Les pronoms : une personne",
+      "pinyin": "nǐ"
+    },
+    {
+      "id": "v3",
+      "mot": "您",
+      "traduction": "vous (poli)",
+      "theme": "Les pronoms : une personne",
+      "pinyin": "nín"
+    },
+    {
+      "id": "v4",
+      "mot": "他",
+      "traduction": "il, lui",
+      "theme": "Les pronoms : une personne",
+      "pinyin": "tā"
+    },
+    {
+      "id": "v5",
+      "mot": "她",
+      "traduction": "elle",
+      "theme": "Les pronoms : une personne",
+      "pinyin": "tā"
+    },
+    {
+      "id": "v6",
+      "mot": "它",
+      "traduction": "il/elle (chose, animal)",
+      "theme": "Les pronoms : une personne",
+      "pinyin": "tā"
+    },
+    {
+      "id": "v7",
+      "mot": "我们",
+      "traduction": "nous",
+      "theme": "Les pronoms : plusieurs, ceci et cela",
+      "pinyin": "wǒmen"
+    },
+    {
+      "id": "v8",
+      "mot": "你们",
+      "traduction": "vous (pluriel)",
+      "theme": "Les pronoms : plusieurs, ceci et cela",
+      "pinyin": "nǐmen"
+    },
+    {
+      "id": "v9",
+      "mot": "他们",
+      "traduction": "ils, eux",
+      "theme": "Les pronoms : plusieurs, ceci et cela",
+      "pinyin": "tāmen"
+    },
+    {
+      "id": "v10",
+      "mot": "这",
+      "traduction": "ce, cette, ceci",
+      "theme": "Les pronoms : plusieurs, ceci et cela",
+      "pinyin": "zhè"
+    },
+    {
+      "id": "v11",
+      "mot": "那",
+      "traduction": "ce, cette, cela (là-bas)",
+      "theme": "Les pronoms : plusieurs, ceci et cela",
+      "pinyin": "nà"
+    },
+    {
+      "id": "v12",
+      "mot": "这里",
+      "traduction": "ici",
+      "theme": "Les pronoms : plusieurs, ceci et cela",
+      "pinyin": "zhèlǐ"
+    },
+    {
+      "id": "v13",
+      "mot": "那里",
+      "traduction": "là-bas",
+      "theme": "Les pronoms : plusieurs, ceci et cela",
+      "pinyin": "nàlǐ"
+    },
+    {
+      "id": "v14",
+      "mot": "谁",
+      "traduction": "qui",
+      "theme": "Les mots pour questionner",
+      "pinyin": "shéi"
+    },
+    {
+      "id": "v15",
+      "mot": "什么",
+      "traduction": "quoi, quel",
+      "theme": "Les mots pour questionner",
+      "pinyin": "shénme"
+    },
+    {
+      "id": "v16",
+      "mot": "哪",
+      "traduction": "lequel",
+      "theme": "Les mots pour questionner",
+      "pinyin": "nǎ"
+    },
+    {
+      "id": "v17",
+      "mot": "哪里",
+      "traduction": "où",
+      "theme": "Les mots pour questionner",
+      "pinyin": "nǎlǐ"
+    },
+    {
+      "id": "v18",
+      "mot": "怎么",
+      "traduction": "comment",
+      "theme": "Les mots pour questionner",
+      "pinyin": "zěnme"
+    },
+    {
+      "id": "v19",
+      "mot": "为什么",
+      "traduction": "pourquoi",
+      "theme": "Les mots pour questionner",
+      "pinyin": "wèishénme"
+    },
+    {
+      "id": "v20",
+      "mot": "几",
+      "traduction": "combien (petit nombre)",
+      "theme": "Les mots pour questionner",
+      "pinyin": "jǐ"
+    },
+    {
+      "id": "v21",
+      "mot": "多少",
+      "traduction": "combien",
+      "theme": "Les mots pour questionner",
+      "pinyin": "duōshao"
+    },
+    {
+      "id": "v22",
+      "mot": "零",
+      "traduction": "zéro",
+      "theme": "Compter de 0 à 5",
+      "pinyin": "líng"
+    },
+    {
+      "id": "v23",
+      "mot": "一",
+      "traduction": "un",
+      "theme": "Compter de 0 à 5",
+      "pinyin": "yī"
+    },
+    {
+      "id": "v24",
+      "mot": "二",
+      "traduction": "deux",
+      "theme": "Compter de 0 à 5",
+      "pinyin": "èr"
+    },
+    {
+      "id": "v25",
+      "mot": "三",
+      "traduction": "trois",
+      "theme": "Compter de 0 à 5",
+      "pinyin": "sān"
+    },
+    {
+      "id": "v26",
+      "mot": "四",
+      "traduction": "quatre",
+      "theme": "Compter de 0 à 5",
+      "pinyin": "sì"
+    },
+    {
+      "id": "v27",
+      "mot": "五",
+      "traduction": "cinq",
+      "theme": "Compter de 0 à 5",
+      "pinyin": "wǔ"
+    },
+    {
+      "id": "v28",
+      "mot": "六",
+      "traduction": "six",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "liù"
+    },
+    {
+      "id": "v29",
+      "mot": "七",
+      "traduction": "sept",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "qī"
+    },
+    {
+      "id": "v30",
+      "mot": "八",
+      "traduction": "huit",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "bā"
+    },
+    {
+      "id": "v31",
+      "mot": "九",
+      "traduction": "neuf",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "jiǔ"
+    },
+    {
+      "id": "v32",
+      "mot": "十",
+      "traduction": "dix",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "shí"
+    },
+    {
+      "id": "v33",
+      "mot": "百",
+      "traduction": "cent",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "bǎi"
+    },
+    {
+      "id": "v34",
+      "mot": "千",
+      "traduction": "mille",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "qiān"
+    },
+    {
+      "id": "v35",
+      "mot": "万",
+      "traduction": "dix mille",
+      "theme": "Compter de 6 à dix mille",
+      "pinyin": "wàn"
+    },
+    {
+      "id": "v36",
+      "mot": "第一",
+      "traduction": "premier",
+      "theme": "Compter : les mots utiles",
+      "pinyin": "dì-yī"
+    },
+    {
+      "id": "v37",
+      "mot": "两",
+      "traduction": "deux (devant classificateur)",
+      "theme": "Compter : les mots utiles",
+      "pinyin": "liǎng"
+    },
+    {
+      "id": "v38",
+      "mot": "半",
+      "traduction": "moitié, demi",
+      "theme": "Compter : les mots utiles",
+      "pinyin": "bàn"
+    },
+    {
+      "id": "v39",
+      "mot": "次",
+      "traduction": "fois (occurrence)",
+      "theme": "Compter : les mots utiles",
+      "pinyin": "cì"
+    },
+    {
+      "id": "v40",
+      "mot": "个",
+      "traduction": "classificateur général",
+      "theme": "Compter : les mots utiles",
+      "pinyin": "gè"
+    },
+    {
+      "id": "v41",
+      "mot": "些",
+      "traduction": "quelques",
+      "theme": "Compter : les mots utiles",
+      "pinyin": "xiē"
+    },
+    {
+      "id": "v42",
+      "mot": "年",
+      "traduction": "année",
+      "theme": "Le calendrier",
+      "pinyin": "nián"
+    },
+    {
+      "id": "v43",
+      "mot": "月",
+      "traduction": "mois",
+      "theme": "Le calendrier",
+      "pinyin": "yuè"
+    },
+    {
+      "id": "v44",
+      "mot": "日",
+      "traduction": "jour, soleil",
+      "theme": "Le calendrier",
+      "pinyin": "rì"
+    },
+    {
+      "id": "v45",
+      "mot": "天",
+      "traduction": "jour, ciel",
+      "theme": "Le calendrier",
+      "pinyin": "tiān"
+    },
+    {
+      "id": "v46",
+      "mot": "星期",
+      "traduction": "semaine",
+      "theme": "Le calendrier",
+      "pinyin": "xīngqī"
+    },
+    {
+      "id": "v47",
+      "mot": "今天",
+      "traduction": "aujourd'hui",
+      "theme": "Aujourd'hui, demain, hier",
+      "pinyin": "jīntiān"
+    },
+    {
+      "id": "v48",
+      "mot": "明天",
+      "traduction": "demain",
+      "theme": "Aujourd'hui, demain, hier",
+      "pinyin": "míngtiān"
+    },
+    {
+      "id": "v49",
+      "mot": "昨天",
+      "traduction": "hier",
+      "theme": "Aujourd'hui, demain, hier",
+      "pinyin": "zuótiān"
+    },
+    {
+      "id": "v50",
+      "mot": "现在",
+      "traduction": "maintenant",
+      "theme": "Aujourd'hui, demain, hier",
+      "pinyin": "xiànzài"
+    },
+    {
+      "id": "v51",
+      "mot": "时候",
+      "traduction": "moment, époque",
+      "theme": "Aujourd'hui, demain, hier",
+      "pinyin": "shíhou"
+    },
+    {
+      "id": "v52",
+      "mot": "时间",
+      "traduction": "temps (durée)",
+      "theme": "Aujourd'hui, demain, hier",
+      "pinyin": "shíjiān"
+    },
+    {
+      "id": "v53",
+      "mot": "早上",
+      "traduction": "matin",
+      "theme": "Les moments de la journée",
+      "pinyin": "zǎoshang"
+    },
+    {
+      "id": "v54",
+      "mot": "上午",
+      "traduction": "matinée",
+      "theme": "Les moments de la journée",
+      "pinyin": "shàngwǔ"
+    },
+    {
+      "id": "v55",
+      "mot": "中午",
+      "traduction": "midi",
+      "theme": "Les moments de la journée",
+      "pinyin": "zhōngwǔ"
+    },
+    {
+      "id": "v56",
+      "mot": "下午",
+      "traduction": "après-midi",
+      "theme": "Les moments de la journée",
+      "pinyin": "xiàwǔ"
+    },
+    {
+      "id": "v57",
+      "mot": "晚上",
+      "traduction": "soir",
+      "theme": "Les moments de la journée",
+      "pinyin": "wǎnshang"
+    },
+    {
+      "id": "v58",
+      "mot": "夜里",
+      "traduction": "nuit",
+      "theme": "Les moments de la journée",
+      "pinyin": "yèlǐ"
+    },
+    {
+      "id": "v59",
+      "mot": "小时",
+      "traduction": "heure (durée)",
+      "theme": "L'heure et les instants",
+      "pinyin": "xiǎoshí"
+    },
+    {
+      "id": "v60",
+      "mot": "点",
+      "traduction": "heure (horloge)",
+      "theme": "L'heure et les instants",
+      "pinyin": "diǎn"
+    },
+    {
+      "id": "v61",
+      "mot": "分钟",
+      "traduction": "minute",
+      "theme": "L'heure et les instants",
+      "pinyin": "fēnzhōng"
+    },
+    {
+      "id": "v62",
+      "mot": "以前",
+      "traduction": "avant, autrefois",
+      "theme": "L'heure et les instants",
+      "pinyin": "yǐqián"
+    },
+    {
+      "id": "v63",
+      "mot": "以后",
+      "traduction": "après, plus tard",
+      "theme": "L'heure et les instants",
+      "pinyin": "yǐhòu"
+    },
+    {
+      "id": "v64",
+      "mot": "刚才",
+      "traduction": "il y a un instant",
+      "theme": "L'heure et les instants",
+      "pinyin": "gāngcái"
+    },
+    {
+      "id": "v65",
+      "mot": "马上",
+      "traduction": "tout de suite",
+      "theme": "L'heure et les instants",
+      "pinyin": "mǎshàng"
+    },
+    {
+      "id": "v66",
+      "mot": "已经",
+      "traduction": "déjà",
+      "theme": "Déjà, souvent, chaque jour",
+      "pinyin": "yǐjīng"
+    },
+    {
+      "id": "v67",
+      "mot": "正在",
+      "traduction": "en train de",
+      "theme": "Déjà, souvent, chaque jour",
+      "pinyin": "zhèngzài"
+    },
+    {
+      "id": "v68",
+      "mot": "常常",
+      "traduction": "souvent",
+      "theme": "Déjà, souvent, chaque jour",
+      "pinyin": "chángcháng"
+    },
+    {
+      "id": "v69",
+      "mot": "有时候",
+      "traduction": "parfois",
+      "theme": "Déjà, souvent, chaque jour",
+      "pinyin": "yǒushíhou"
+    },
+    {
+      "id": "v70",
+      "mot": "最后",
+      "traduction": "finalement, dernier",
+      "theme": "Déjà, souvent, chaque jour",
+      "pinyin": "zuìhòu"
+    },
+    {
+      "id": "v71",
+      "mot": "每天",
+      "traduction": "chaque jour",
+      "theme": "Déjà, souvent, chaque jour",
+      "pinyin": "měitiān"
+    },
+    {
+      "id": "v72",
+      "mot": "人",
+      "traduction": "personne, homme",
+      "theme": "La famille proche",
+      "pinyin": "rén"
+    },
+    {
+      "id": "v73",
+      "mot": "家",
+      "traduction": "famille, maison",
+      "theme": "La famille proche",
+      "pinyin": "jiā"
+    },
+    {
+      "id": "v74",
+      "mot": "爸爸",
+      "traduction": "papa",
+      "theme": "La famille proche",
+      "pinyin": "bàba"
+    },
+    {
+      "id": "v75",
+      "mot": "妈妈",
+      "traduction": "maman",
+      "theme": "La famille proche",
+      "pinyin": "māma"
+    },
+    {
+      "id": "v76",
+      "mot": "儿子",
+      "traduction": "fils",
+      "theme": "La famille proche",
+      "pinyin": "érzi"
+    },
+    {
+      "id": "v77",
+      "mot": "女儿",
+      "traduction": "fille",
+      "theme": "La famille proche",
+      "pinyin": "nǚ'ér"
+    },
+    {
+      "id": "v78",
+      "mot": "哥哥",
+      "traduction": "grand frère",
+      "theme": "Frères, sœurs et grands-parents",
+      "pinyin": "gēge"
+    },
+    {
+      "id": "v79",
+      "mot": "弟弟",
+      "traduction": "petit frère",
+      "theme": "Frères, sœurs et grands-parents",
+      "pinyin": "dìdi"
+    },
+    {
+      "id": "v80",
+      "mot": "姐姐",
+      "traduction": "grande sœur",
+      "theme": "Frères, sœurs et grands-parents",
+      "pinyin": "jiějie"
+    },
+    {
+      "id": "v81",
+      "mot": "妹妹",
+      "traduction": "petite sœur",
+      "theme": "Frères, sœurs et grands-parents",
+      "pinyin": "mèimei"
+    },
+    {
+      "id": "v82",
+      "mot": "爷爷",
+      "traduction": "grand-père paternel",
+      "theme": "Frères, sœurs et grands-parents",
+      "pinyin": "yéye"
+    },
+    {
+      "id": "v83",
+      "mot": "奶奶",
+      "traduction": "grand-mère paternelle",
+      "theme": "Frères, sœurs et grands-parents",
+      "pinyin": "nǎinai"
+    },
+    {
+      "id": "v84",
+      "mot": "先生",
+      "traduction": "monsieur",
+      "theme": "S'adresser aux gens",
+      "pinyin": "xiānsheng"
+    },
+    {
+      "id": "v85",
+      "mot": "女士",
+      "traduction": "madame",
+      "theme": "S'adresser aux gens",
+      "pinyin": "nǚshì"
+    },
+    {
+      "id": "v86",
+      "mot": "小姐",
+      "traduction": "mademoiselle",
+      "theme": "S'adresser aux gens",
+      "pinyin": "xiǎojiě"
+    },
+    {
+      "id": "v87",
+      "mot": "朋友",
+      "traduction": "ami",
+      "theme": "S'adresser aux gens",
+      "pinyin": "péngyou"
+    },
+    {
+      "id": "v88",
+      "mot": "孩子",
+      "traduction": "enfant",
+      "theme": "S'adresser aux gens",
+      "pinyin": "háizi"
+    },
+    {
+      "id": "v89",
+      "mot": "男人",
+      "traduction": "homme",
+      "theme": "À l'école et dans la rue",
+      "pinyin": "nánrén"
+    },
+    {
+      "id": "v90",
+      "mot": "女人",
+      "traduction": "femme",
+      "theme": "À l'école et dans la rue",
+      "pinyin": "nǚrén"
+    },
+    {
+      "id": "v91",
+      "mot": "老师",
+      "traduction": "professeur",
+      "theme": "À l'école et dans la rue",
+      "pinyin": "lǎoshī"
+    },
+    {
+      "id": "v92",
+      "mot": "学生",
+      "traduction": "élève, étudiant",
+      "theme": "À l'école et dans la rue",
+      "pinyin": "xuésheng"
+    },
+    {
+      "id": "v93",
+      "mot": "同学",
+      "traduction": "camarade de classe",
+      "theme": "À l'école et dans la rue",
+      "pinyin": "tóngxué"
+    },
+    {
+      "id": "v94",
+      "mot": "是",
+      "traduction": "être",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "shì"
+    },
+    {
+      "id": "v95",
+      "mot": "有",
+      "traduction": "avoir",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "yǒu"
+    },
+    {
+      "id": "v96",
+      "mot": "在",
+      "traduction": "être à, se trouver",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "zài"
+    },
+    {
+      "id": "v97",
+      "mot": "去",
+      "traduction": "aller",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "qù"
+    },
+    {
+      "id": "v98",
+      "mot": "来",
+      "traduction": "venir",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "lái"
+    },
+    {
+      "id": "v99",
+      "mot": "回",
+      "traduction": "retourner",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "huí"
+    },
+    {
+      "id": "v100",
+      "mot": "走",
+      "traduction": "marcher, partir",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "zǒu"
+    },
+    {
+      "id": "v101",
+      "mot": "到",
+      "traduction": "arriver",
+      "theme": "Verbes : être, avoir, aller",
+      "pinyin": "dào"
+    },
+    {
+      "id": "v102",
+      "mot": "吃",
+      "traduction": "manger",
+      "theme": "Verbes : manger et dormir",
+      "pinyin": "chī"
+    },
+    {
+      "id": "v103",
+      "mot": "喝",
+      "traduction": "boire",
+      "theme": "Verbes : manger et dormir",
+      "pinyin": "hē"
+    },
+    {
+      "id": "v104",
+      "mot": "睡觉",
+      "traduction": "dormir",
+      "theme": "Verbes : manger et dormir",
+      "pinyin": "shuìjiào"
+    },
+    {
+      "id": "v105",
+      "mot": "起床",
+      "traduction": "se lever",
+      "theme": "Verbes : manger et dormir",
+      "pinyin": "qǐchuáng"
+    },
+    {
+      "id": "v106",
+      "mot": "说",
+      "traduction": "dire, parler",
+      "theme": "Verbes : parler, écouter, lire",
+      "pinyin": "shuō"
+    },
+    {
+      "id": "v107",
+      "mot": "讲",
+      "traduction": "raconter, expliquer",
+      "theme": "Verbes : parler, écouter, lire",
+      "pinyin": "jiǎng"
+    },
+    {
+      "id": "v108",
+      "mot": "听",
+      "traduction": "écouter",
+      "theme": "Verbes : parler, écouter, lire",
+      "pinyin": "tīng"
+    },
+    {
+      "id": "v109",
+      "mot": "看",
+      "traduction": "regarder, voir",
+      "theme": "Verbes : parler, écouter, lire",
+      "pinyin": "kàn"
+    },
+    {
+      "id": "v110",
+      "mot": "看见",
+      "traduction": "apercevoir",
+      "theme": "Verbes : parler, écouter, lire",
+      "pinyin": "kànjiàn"
+    },
+    {
+      "id": "v111",
+      "mot": "写",
+      "traduction": "écrire",
+      "theme": "Verbes : parler, écouter, lire",
+      "pinyin": "xiě"
+    },
+    {
+      "id": "v112",
+      "mot": "读",
+      "traduction": "lire",
+      "theme": "Verbes : parler, écouter, lire",
+      "pinyin": "dú"
+    },
+    {
+      "id": "v113",
+      "mot": "学习",
+      "traduction": "apprendre, étudier",
+      "theme": "Verbes : apprendre et comprendre",
+      "pinyin": "xuéxí"
+    },
+    {
+      "id": "v114",
+      "mot": "教",
+      "traduction": "enseigner",
+      "theme": "Verbes : apprendre et comprendre",
+      "pinyin": "jiāo"
+    },
+    {
+      "id": "v115",
+      "mot": "知道",
+      "traduction": "savoir",
+      "theme": "Verbes : apprendre et comprendre",
+      "pinyin": "zhīdào"
+    },
+    {
+      "id": "v116",
+      "mot": "认识",
+      "traduction": "connaître (qqn)",
+      "theme": "Verbes : apprendre et comprendre",
+      "pinyin": "rènshi"
+    },
+    {
+      "id": "v117",
+      "mot": "懂",
+      "traduction": "comprendre",
+      "theme": "Verbes : apprendre et comprendre",
+      "pinyin": "dǒng"
+    },
+    {
+      "id": "v118",
+      "mot": "想",
+      "traduction": "penser, vouloir",
+      "theme": "Verbes : vouloir et pouvoir",
+      "pinyin": "xiǎng"
+    },
+    {
+      "id": "v119",
+      "mot": "要",
+      "traduction": "vouloir, falloir",
+      "theme": "Verbes : vouloir et pouvoir",
+      "pinyin": "yào"
+    },
+    {
+      "id": "v120",
+      "mot": "能",
+      "traduction": "pouvoir (capacité)",
+      "theme": "Verbes : vouloir et pouvoir",
+      "pinyin": "néng"
+    },
+    {
+      "id": "v121",
+      "mot": "可以",
+      "traduction": "pouvoir (permission)",
+      "theme": "Verbes : vouloir et pouvoir",
+      "pinyin": "kěyǐ"
+    },
+    {
+      "id": "v122",
+      "mot": "会",
+      "traduction": "savoir faire, il se peut",
+      "theme": "Verbes : vouloir et pouvoir",
+      "pinyin": "huì"
+    },
+    {
+      "id": "v123",
+      "mot": "需要",
+      "traduction": "avoir besoin de",
+      "theme": "Verbes : vouloir et pouvoir",
+      "pinyin": "xūyào"
+    },
+    {
+      "id": "v124",
+      "mot": "喜欢",
+      "traduction": "aimer",
+      "theme": "Verbes : aimer et espérer",
+      "pinyin": "xǐhuan"
+    },
+    {
+      "id": "v125",
+      "mot": "爱",
+      "traduction": "aimer (amour)",
+      "theme": "Verbes : aimer et espérer",
+      "pinyin": "ài"
+    },
+    {
+      "id": "v126",
+      "mot": "希望",
+      "traduction": "espérer",
+      "theme": "Verbes : aimer et espérer",
+      "pinyin": "xīwàng"
+    },
+    {
+      "id": "v127",
+      "mot": "觉得",
+      "traduction": "trouver que, penser",
+      "theme": "Verbes : aimer et espérer",
+      "pinyin": "juéde"
+    },
+    {
+      "id": "v128",
+      "mot": "做",
+      "traduction": "faire",
+      "theme": "Verbes : faire, acheter, donner",
+      "pinyin": "zuò"
+    },
+    {
+      "id": "v129",
+      "mot": "干",
+      "traduction": "faire (familier)",
+      "theme": "Verbes : faire, acheter, donner",
+      "pinyin": "gàn"
+    },
+    {
+      "id": "v130",
+      "mot": "买",
+      "traduction": "acheter",
+      "theme": "Verbes : faire, acheter, donner",
+      "pinyin": "mǎi"
+    },
+    {
+      "id": "v131",
+      "mot": "卖",
+      "traduction": "vendre",
+      "theme": "Verbes : faire, acheter, donner",
+      "pinyin": "mài"
+    },
+    {
+      "id": "v132",
+      "mot": "给",
+      "traduction": "donner",
+      "theme": "Verbes : faire, acheter, donner",
+      "pinyin": "gěi"
+    },
+    {
+      "id": "v133",
+      "mot": "拿",
+      "traduction": "prendre, tenir",
+      "theme": "Verbes : faire, acheter, donner",
+      "pinyin": "ná"
+    },
+    {
+      "id": "v134",
+      "mot": "放",
+      "traduction": "poser, mettre",
+      "theme": "Verbes : faire, acheter, donner",
+      "pinyin": "fàng"
+    },
+    {
+      "id": "v135",
+      "mot": "开",
+      "traduction": "ouvrir, allumer, conduire",
+      "theme": "Verbes : ouvrir, chercher, aider",
+      "pinyin": "kāi"
+    },
+    {
+      "id": "v136",
+      "mot": "关",
+      "traduction": "fermer, éteindre",
+      "theme": "Verbes : ouvrir, chercher, aider",
+      "pinyin": "guān"
+    },
+    {
+      "id": "v137",
+      "mot": "打开",
+      "traduction": "ouvrir",
+      "theme": "Verbes : ouvrir, chercher, aider",
+      "pinyin": "dǎkāi"
+    },
+    {
+      "id": "v138",
+      "mot": "找",
+      "traduction": "chercher",
+      "theme": "Verbes : ouvrir, chercher, aider",
+      "pinyin": "zhǎo"
+    },
+    {
+      "id": "v139",
+      "mot": "帮",
+      "traduction": "aider",
+      "theme": "Verbes : ouvrir, chercher, aider",
+      "pinyin": "bāng"
+    },
+    {
+      "id": "v140",
+      "mot": "帮助",
+      "traduction": "aider (nom/verbe)",
+      "theme": "Verbes : ouvrir, chercher, aider",
+      "pinyin": "bāngzhù"
+    },
+    {
+      "id": "v141",
+      "mot": "问",
+      "traduction": "demander",
+      "theme": "Verbes : demander et répondre",
+      "pinyin": "wèn"
+    },
+    {
+      "id": "v142",
+      "mot": "回答",
+      "traduction": "répondre",
+      "theme": "Verbes : demander et répondre",
+      "pinyin": "huídá"
+    },
+    {
+      "id": "v143",
+      "mot": "告诉",
+      "traduction": "dire, informer",
+      "theme": "Verbes : demander et répondre",
+      "pinyin": "gàosu"
+    },
+    {
+      "id": "v144",
+      "mot": "让",
+      "traduction": "laisser, faire faire",
+      "theme": "Verbes : demander et répondre",
+      "pinyin": "ràng"
+    },
+    {
+      "id": "v145",
+      "mot": "叫",
+      "traduction": "appeler, s'appeler",
+      "theme": "Verbes : demander et répondre",
+      "pinyin": "jiào"
+    },
+    {
+      "id": "v146",
+      "mot": "坐",
+      "traduction": "s'asseoir",
+      "theme": "Verbes : bouger et réagir",
+      "pinyin": "zuò"
+    },
+    {
+      "id": "v147",
+      "mot": "站",
+      "traduction": "se tenir debout",
+      "theme": "Verbes : bouger et réagir",
+      "pinyin": "zhàn"
+    },
+    {
+      "id": "v148",
+      "mot": "跑",
+      "traduction": "courir",
+      "theme": "Verbes : bouger et réagir",
+      "pinyin": "pǎo"
+    },
+    {
+      "id": "v149",
+      "mot": "跳",
+      "traduction": "sauter",
+      "theme": "Verbes : bouger et réagir",
+      "pinyin": "tiào"
+    },
+    {
+      "id": "v150",
+      "mot": "飞",
+      "traduction": "voler",
+      "theme": "Verbes : bouger et réagir",
+      "pinyin": "fēi"
+    },
+    {
+      "id": "v151",
+      "mot": "笑",
+      "traduction": "rire, sourire",
+      "theme": "Verbes : bouger et réagir",
+      "pinyin": "xiào"
+    },
+    {
+      "id": "v152",
+      "mot": "哭",
+      "traduction": "pleurer",
+      "theme": "Verbes : bouger et réagir",
+      "pinyin": "kū"
+    },
+    {
+      "id": "v153",
+      "mot": "唱",
+      "traduction": "chanter",
+      "theme": "Verbes : jouer, travailler, vivre",
+      "pinyin": "chàng"
+    },
+    {
+      "id": "v154",
+      "mot": "跳舞",
+      "traduction": "danser",
+      "theme": "Verbes : jouer, travailler, vivre",
+      "pinyin": "tiàowǔ"
+    },
+    {
+      "id": "v155",
+      "mot": "玩",
+      "traduction": "jouer",
+      "theme": "Verbes : jouer, travailler, vivre",
+      "pinyin": "wán"
+    },
+    {
+      "id": "v156",
+      "mot": "休息",
+      "traduction": "se reposer",
+      "theme": "Verbes : jouer, travailler, vivre",
+      "pinyin": "xiūxi"
+    },
+    {
+      "id": "v157",
+      "mot": "工作",
+      "traduction": "travailler",
+      "theme": "Verbes : jouer, travailler, vivre",
+      "pinyin": "gōngzuò"
+    },
+    {
+      "id": "v158",
+      "mot": "生活",
+      "traduction": "vivre, vie",
+      "theme": "Verbes : jouer, travailler, vivre",
+      "pinyin": "shēnghuó"
+    },
+    {
+      "id": "v159",
+      "mot": "住",
+      "traduction": "habiter",
+      "theme": "Verbes : jouer, travailler, vivre",
+      "pinyin": "zhù"
+    },
+    {
+      "id": "v160",
+      "mot": "开始",
+      "traduction": "commencer",
+      "theme": "Verbes : commencer et finir",
+      "pinyin": "kāishǐ"
+    },
+    {
+      "id": "v161",
+      "mot": "结束",
+      "traduction": "finir",
+      "theme": "Verbes : commencer et finir",
+      "pinyin": "jiéshù"
+    },
+    {
+      "id": "v162",
+      "mot": "完",
+      "traduction": "terminer, achever",
+      "theme": "Verbes : commencer et finir",
+      "pinyin": "wán"
+    },
+    {
+      "id": "v163",
+      "mot": "等",
+      "traduction": "attendre",
+      "theme": "Verbes : commencer et finir",
+      "pinyin": "děng"
+    },
+    {
+      "id": "v164",
+      "mot": "变",
+      "traduction": "changer",
+      "theme": "Verbes : commencer et finir",
+      "pinyin": "biàn"
+    },
+    {
+      "id": "v165",
+      "mot": "觉",
+      "traduction": "sentir (radical)",
+      "theme": "Verbes : commencer et finir",
+      "pinyin": "jué"
+    },
+    {
+      "id": "v166",
+      "mot": "大",
+      "traduction": "grand",
+      "theme": "Grand ou petit, bon ou mauvais",
+      "pinyin": "dà"
+    },
+    {
+      "id": "v167",
+      "mot": "小",
+      "traduction": "petit",
+      "theme": "Grand ou petit, bon ou mauvais",
+      "pinyin": "xiǎo"
+    },
+    {
+      "id": "v168",
+      "mot": "多",
+      "traduction": "nombreux, beaucoup",
+      "theme": "Grand ou petit, bon ou mauvais",
+      "pinyin": "duō"
+    },
+    {
+      "id": "v169",
+      "mot": "少",
+      "traduction": "peu",
+      "theme": "Grand ou petit, bon ou mauvais",
+      "pinyin": "shǎo"
+    },
+    {
+      "id": "v170",
+      "mot": "好",
+      "traduction": "bon, bien",
+      "theme": "Grand ou petit, bon ou mauvais",
+      "pinyin": "hǎo"
+    },
+    {
+      "id": "v171",
+      "mot": "坏",
+      "traduction": "mauvais, cassé",
+      "theme": "Grand ou petit, bon ou mauvais",
+      "pinyin": "huài"
+    },
+    {
+      "id": "v172",
+      "mot": "新",
+      "traduction": "nouveau",
+      "theme": "Neuf ou vieux, long ou court",
+      "pinyin": "xīn"
+    },
+    {
+      "id": "v173",
+      "mot": "旧",
+      "traduction": "vieux, ancien",
+      "theme": "Neuf ou vieux, long ou court",
+      "pinyin": "jiù"
+    },
+    {
+      "id": "v174",
+      "mot": "高",
+      "traduction": "haut, grand (taille)",
+      "theme": "Neuf ou vieux, long ou court",
+      "pinyin": "gāo"
+    },
+    {
+      "id": "v175",
+      "mot": "矮",
+      "traduction": "petit (taille)",
+      "theme": "Neuf ou vieux, long ou court",
+      "pinyin": "ǎi"
+    },
+    {
+      "id": "v176",
+      "mot": "长",
+      "traduction": "long",
+      "theme": "Neuf ou vieux, long ou court",
+      "pinyin": "cháng"
+    },
+    {
+      "id": "v177",
+      "mot": "短",
+      "traduction": "court",
+      "theme": "Neuf ou vieux, long ou court",
+      "pinyin": "duǎn"
+    },
+    {
+      "id": "v178",
+      "mot": "快",
+      "traduction": "rapide",
+      "theme": "Vite ou lentement, loin ou près",
+      "pinyin": "kuài"
+    },
+    {
+      "id": "v179",
+      "mot": "慢",
+      "traduction": "lent",
+      "theme": "Vite ou lentement, loin ou près",
+      "pinyin": "màn"
+    },
+    {
+      "id": "v180",
+      "mot": "早",
+      "traduction": "tôt",
+      "theme": "Vite ou lentement, loin ou près",
+      "pinyin": "zǎo"
+    },
+    {
+      "id": "v181",
+      "mot": "晚",
+      "traduction": "tard",
+      "theme": "Vite ou lentement, loin ou près",
+      "pinyin": "wǎn"
+    },
+    {
+      "id": "v182",
+      "mot": "远",
+      "traduction": "loin",
+      "theme": "Vite ou lentement, loin ou près",
+      "pinyin": "yuǎn"
+    },
+    {
+      "id": "v183",
+      "mot": "近",
+      "traduction": "proche",
+      "theme": "Vite ou lentement, loin ou près",
+      "pinyin": "jìn"
+    },
+    {
+      "id": "v184",
+      "mot": "热",
+      "traduction": "chaud",
+      "theme": "Chaud ou froid, cher ou bon marché",
+      "pinyin": "rè"
+    },
+    {
+      "id": "v185",
+      "mot": "冷",
+      "traduction": "froid",
+      "theme": "Chaud ou froid, cher ou bon marché",
+      "pinyin": "lěng"
+    },
+    {
+      "id": "v186",
+      "mot": "暖和",
+      "traduction": "tiède, doux",
+      "theme": "Chaud ou froid, cher ou bon marché",
+      "pinyin": "nuǎnhuo"
+    },
+    {
+      "id": "v187",
+      "mot": "凉快",
+      "traduction": "frais, agréable",
+      "theme": "Chaud ou froid, cher ou bon marché",
+      "pinyin": "liángkuai"
+    },
+    {
+      "id": "v188",
+      "mot": "贵",
+      "traduction": "cher",
+      "theme": "Chaud ou froid, cher ou bon marché",
+      "pinyin": "guì"
+    },
+    {
+      "id": "v189",
+      "mot": "便宜",
+      "traduction": "bon marché",
+      "theme": "Chaud ou froid, cher ou bon marché",
+      "pinyin": "piányi"
+    },
+    {
+      "id": "v190",
+      "mot": "难",
+      "traduction": "difficile",
+      "theme": "Facile, difficile, fatigué",
+      "pinyin": "nán"
+    },
+    {
+      "id": "v191",
+      "mot": "容易",
+      "traduction": "facile",
+      "theme": "Facile, difficile, fatigué",
+      "pinyin": "róngyì"
+    },
+    {
+      "id": "v192",
+      "mot": "重要",
+      "traduction": "important",
+      "theme": "Facile, difficile, fatigué",
+      "pinyin": "zhòngyào"
+    },
+    {
+      "id": "v193",
+      "mot": "忙",
+      "traduction": "occupé",
+      "theme": "Facile, difficile, fatigué",
+      "pinyin": "máng"
+    },
+    {
+      "id": "v194",
+      "mot": "累",
+      "traduction": "fatigué",
+      "theme": "Facile, difficile, fatigué",
+      "pinyin": "lèi"
+    },
+    {
+      "id": "v195",
+      "mot": "饿",
+      "traduction": "affamé",
+      "theme": "Facile, difficile, fatigué",
+      "pinyin": "è"
+    },
+    {
+      "id": "v196",
+      "mot": "渴",
+      "traduction": "assoiffé",
+      "theme": "Facile, difficile, fatigué",
+      "pinyin": "kě"
+    },
+    {
+      "id": "v197",
+      "mot": "干净",
+      "traduction": "propre",
+      "theme": "Propre, joli, gros",
+      "pinyin": "gānjìng"
+    },
+    {
+      "id": "v198",
+      "mot": "脏",
+      "traduction": "sale",
+      "theme": "Propre, joli, gros",
+      "pinyin": "zāng"
+    },
+    {
+      "id": "v199",
+      "mot": "漂亮",
+      "traduction": "joli",
+      "theme": "Propre, joli, gros",
+      "pinyin": "piàoliang"
+    },
+    {
+      "id": "v200",
+      "mot": "美",
+      "traduction": "beau",
+      "theme": "Propre, joli, gros",
+      "pinyin": "měi"
+    },
+    {
+      "id": "v201",
+      "mot": "丑",
+      "traduction": "laid",
+      "theme": "Propre, joli, gros",
+      "pinyin": "chǒu"
+    },
+    {
+      "id": "v202",
+      "mot": "胖",
+      "traduction": "gros",
+      "theme": "Propre, joli, gros",
+      "pinyin": "pàng"
+    },
+    {
+      "id": "v203",
+      "mot": "瘦",
+      "traduction": "mince",
+      "theme": "Propre, joli, gros",
+      "pinyin": "shòu"
+    },
+    {
+      "id": "v204",
+      "mot": "对",
+      "traduction": "correct, exact",
+      "theme": "Vrai ou faux, calme ou bruyant",
+      "pinyin": "duì"
+    },
+    {
+      "id": "v205",
+      "mot": "错",
+      "traduction": "faux, erreur",
+      "theme": "Vrai ou faux, calme ou bruyant",
+      "pinyin": "cuò"
+    },
+    {
+      "id": "v206",
+      "mot": "真",
+      "traduction": "vrai",
+      "theme": "Vrai ou faux, calme ou bruyant",
+      "pinyin": "zhēn"
+    },
+    {
+      "id": "v207",
+      "mot": "假",
+      "traduction": "faux, artificiel",
+      "theme": "Vrai ou faux, calme ou bruyant",
+      "pinyin": "jiǎ"
+    },
+    {
+      "id": "v208",
+      "mot": "安静",
+      "traduction": "calme",
+      "theme": "Vrai ou faux, calme ou bruyant",
+      "pinyin": "ānjìng"
+    },
+    {
+      "id": "v209",
+      "mot": "吵",
+      "traduction": "bruyant",
+      "theme": "Vrai ou faux, calme ou bruyant",
+      "pinyin": "chǎo"
+    },
+    {
+      "id": "v210",
+      "mot": "聪明",
+      "traduction": "intelligent",
+      "theme": "Intelligent, intéressant, content",
+      "pinyin": "cōngming"
+    },
+    {
+      "id": "v211",
+      "mot": "笨",
+      "traduction": "stupide",
+      "theme": "Intelligent, intéressant, content",
+      "pinyin": "bèn"
+    },
+    {
+      "id": "v212",
+      "mot": "有意思",
+      "traduction": "intéressant",
+      "theme": "Intelligent, intéressant, content",
+      "pinyin": "yǒuyìsi"
+    },
+    {
+      "id": "v213",
+      "mot": "无聊",
+      "traduction": "ennuyeux",
+      "theme": "Intelligent, intéressant, content",
+      "pinyin": "wúliáo"
+    },
+    {
+      "id": "v214",
+      "mot": "满意",
+      "traduction": "satisfait",
+      "theme": "Intelligent, intéressant, content",
+      "pinyin": "mǎnyì"
+    },
+    {
+      "id": "v215",
+      "mot": "方便",
+      "traduction": "pratique",
+      "theme": "Intelligent, intéressant, content",
+      "pinyin": "fāngbiàn"
+    },
+    {
+      "id": "v216",
+      "mot": "普通",
+      "traduction": "ordinaire",
+      "theme": "Simple ou compliqué, sûr ou dangereux",
+      "pinyin": "pǔtōng"
+    },
+    {
+      "id": "v217",
+      "mot": "特别",
+      "traduction": "spécial, particulièrement",
+      "theme": "Simple ou compliqué, sûr ou dangereux",
+      "pinyin": "tèbié"
+    },
+    {
+      "id": "v218",
+      "mot": "简单",
+      "traduction": "simple",
+      "theme": "Simple ou compliqué, sûr ou dangereux",
+      "pinyin": "jiǎndān"
+    },
+    {
+      "id": "v219",
+      "mot": "复杂",
+      "traduction": "compliqué",
+      "theme": "Simple ou compliqué, sûr ou dangereux",
+      "pinyin": "fùzá"
+    },
+    {
+      "id": "v220",
+      "mot": "危险",
+      "traduction": "dangereux",
+      "theme": "Simple ou compliqué, sûr ou dangereux",
+      "pinyin": "wēixiǎn"
+    },
+    {
+      "id": "v221",
+      "mot": "安全",
+      "traduction": "sûr",
+      "theme": "Simple ou compliqué, sûr ou dangereux",
+      "pinyin": "ānquán"
+    },
+    {
+      "id": "v222",
+      "mot": "健康",
+      "traduction": "en bonne santé",
+      "theme": "En forme, rassasié, plein",
+      "pinyin": "jiànkāng"
+    },
+    {
+      "id": "v223",
+      "mot": "舒服",
+      "traduction": "confortable",
+      "theme": "En forme, rassasié, plein",
+      "pinyin": "shūfu"
+    },
+    {
+      "id": "v224",
+      "mot": "饱",
+      "traduction": "rassasié",
+      "theme": "En forme, rassasié, plein",
+      "pinyin": "bǎo"
+    },
+    {
+      "id": "v225",
+      "mot": "空",
+      "traduction": "vide",
+      "theme": "En forme, rassasié, plein",
+      "pinyin": "kōng"
+    },
+    {
+      "id": "v226",
+      "mot": "满",
+      "traduction": "plein",
+      "theme": "En forme, rassasié, plein",
+      "pinyin": "mǎn"
+    },
+    {
+      "id": "v227",
+      "mot": "高兴",
+      "traduction": "content, heureux",
+      "theme": "Content ou triste",
+      "pinyin": "gāoxìng"
+    },
+    {
+      "id": "v228",
+      "mot": "快乐",
+      "traduction": "joyeux",
+      "theme": "Content ou triste",
+      "pinyin": "kuàilè"
+    },
+    {
+      "id": "v229",
+      "mot": "开心",
+      "traduction": "content",
+      "theme": "Content ou triste",
+      "pinyin": "kāixīn"
+    },
+    {
+      "id": "v230",
+      "mot": "难过",
+      "traduction": "triste",
+      "theme": "Content ou triste",
+      "pinyin": "nánguò"
+    },
+    {
+      "id": "v231",
+      "mot": "生气",
+      "traduction": "en colère",
+      "theme": "Content ou triste",
+      "pinyin": "shēngqì"
+    },
+    {
+      "id": "v232",
+      "mot": "害怕",
+      "traduction": "avoir peur",
+      "theme": "La peur et l'inquiétude",
+      "pinyin": "hàipà"
+    },
+    {
+      "id": "v233",
+      "mot": "担心",
+      "traduction": "s'inquiéter",
+      "theme": "La peur et l'inquiétude",
+      "pinyin": "dānxīn"
+    },
+    {
+      "id": "v234",
+      "mot": "紧张",
+      "traduction": "nerveux, tendu",
+      "theme": "La peur et l'inquiétude",
+      "pinyin": "jǐnzhāng"
+    },
+    {
+      "id": "v235",
+      "mot": "放心",
+      "traduction": "se rassurer",
+      "theme": "La peur et l'inquiétude",
+      "pinyin": "fàngxīn"
+    },
+    {
+      "id": "v236",
+      "mot": "惊讶",
+      "traduction": "surpris",
+      "theme": "La peur et l'inquiétude",
+      "pinyin": "jīngyà"
+    },
+    {
+      "id": "v237",
+      "mot": "失望",
+      "traduction": "déçu",
+      "theme": "Déçu, fier, merci",
+      "pinyin": "shīwàng"
+    },
+    {
+      "id": "v238",
+      "mot": "骄傲",
+      "traduction": "fier",
+      "theme": "Déçu, fier, merci",
+      "pinyin": "jiāo'ào"
+    },
+    {
+      "id": "v239",
+      "mot": "激动",
+      "traduction": "excité, ému",
+      "theme": "Déçu, fier, merci",
+      "pinyin": "jīdòng"
+    },
+    {
+      "id": "v240",
+      "mot": "感谢",
+      "traduction": "remercier",
+      "theme": "Déçu, fier, merci",
+      "pinyin": "gǎnxiè"
+    },
+    {
+      "id": "v241",
+      "mot": "对不起",
+      "traduction": "désolé",
+      "theme": "Déçu, fier, merci",
+      "pinyin": "duìbuqǐ"
+    },
+    {
+      "id": "v242",
+      "mot": "饭",
+      "traduction": "riz cuit, repas",
+      "theme": "Boire et manger : la base",
+      "pinyin": "fàn"
+    },
+    {
+      "id": "v243",
+      "mot": "菜",
+      "traduction": "plat, légume",
+      "theme": "Boire et manger : la base",
+      "pinyin": "cài"
+    },
+    {
+      "id": "v244",
+      "mot": "水",
+      "traduction": "eau",
+      "theme": "Boire et manger : la base",
+      "pinyin": "shuǐ"
+    },
+    {
+      "id": "v245",
+      "mot": "茶",
+      "traduction": "thé",
+      "theme": "Boire et manger : la base",
+      "pinyin": "chá"
+    },
+    {
+      "id": "v246",
+      "mot": "咖啡",
+      "traduction": "café",
+      "theme": "Boire et manger : la base",
+      "pinyin": "kāfēi"
+    },
+    {
+      "id": "v247",
+      "mot": "牛奶",
+      "traduction": "lait",
+      "theme": "Boire et manger : la base",
+      "pinyin": "niúnǎi"
+    },
+    {
+      "id": "v248",
+      "mot": "酒",
+      "traduction": "alcool",
+      "theme": "Boire et manger : la base",
+      "pinyin": "jiǔ"
+    },
+    {
+      "id": "v249",
+      "mot": "肉",
+      "traduction": "viande",
+      "theme": "Viande, poisson, pain",
+      "pinyin": "ròu"
+    },
+    {
+      "id": "v250",
+      "mot": "鱼",
+      "traduction": "poisson",
+      "theme": "Viande, poisson, pain",
+      "pinyin": "yú"
+    },
+    {
+      "id": "v251",
+      "mot": "鸡蛋",
+      "traduction": "œuf",
+      "theme": "Viande, poisson, pain",
+      "pinyin": "jīdàn"
+    },
+    {
+      "id": "v252",
+      "mot": "面包",
+      "traduction": "pain",
+      "theme": "Viande, poisson, pain",
+      "pinyin": "miànbāo"
+    },
+    {
+      "id": "v253",
+      "mot": "面条",
+      "traduction": "nouilles",
+      "theme": "Viande, poisson, pain",
+      "pinyin": "miàntiáo"
+    },
+    {
+      "id": "v254",
+      "mot": "米饭",
+      "traduction": "riz cuit",
+      "theme": "Viande, poisson, pain",
+      "pinyin": "mǐfàn"
+    },
+    {
+      "id": "v255",
+      "mot": "水果",
+      "traduction": "fruit",
+      "theme": "Fruits, légumes et condiments",
+      "pinyin": "shuǐguǒ"
+    },
+    {
+      "id": "v256",
+      "mot": "苹果",
+      "traduction": "pomme",
+      "theme": "Fruits, légumes et condiments",
+      "pinyin": "píngguǒ"
+    },
+    {
+      "id": "v257",
+      "mot": "香蕉",
+      "traduction": "banane",
+      "theme": "Fruits, légumes et condiments",
+      "pinyin": "xiāngjiāo"
+    },
+    {
+      "id": "v258",
+      "mot": "蔬菜",
+      "traduction": "légume",
+      "theme": "Fruits, légumes et condiments",
+      "pinyin": "shūcài"
+    },
+    {
+      "id": "v259",
+      "mot": "糖",
+      "traduction": "sucre, bonbon",
+      "theme": "Fruits, légumes et condiments",
+      "pinyin": "táng"
+    },
+    {
+      "id": "v260",
+      "mot": "盐",
+      "traduction": "sel",
+      "theme": "Fruits, légumes et condiments",
+      "pinyin": "yán"
+    },
+    {
+      "id": "v261",
+      "mot": "汤",
+      "traduction": "soupe",
+      "theme": "Fruits, légumes et condiments",
+      "pinyin": "tāng"
+    },
+    {
+      "id": "v262",
+      "mot": "早饭",
+      "traduction": "petit-déjeuner",
+      "theme": "Les repas",
+      "pinyin": "zǎofàn"
+    },
+    {
+      "id": "v263",
+      "mot": "午饭",
+      "traduction": "déjeuner",
+      "theme": "Les repas",
+      "pinyin": "wǔfàn"
+    },
+    {
+      "id": "v264",
+      "mot": "晚饭",
+      "traduction": "dîner",
+      "theme": "Les repas",
+      "pinyin": "wǎnfàn"
+    },
+    {
+      "id": "v265",
+      "mot": "餐厅",
+      "traduction": "restaurant",
+      "theme": "Les repas",
+      "pinyin": "cāntīng"
+    },
+    {
+      "id": "v266",
+      "mot": "好吃",
+      "traduction": "bon (goût)",
+      "theme": "Les goûts",
+      "pinyin": "hǎochī"
+    },
+    {
+      "id": "v267",
+      "mot": "好喝",
+      "traduction": "bon (à boire)",
+      "theme": "Les goûts",
+      "pinyin": "hǎohē"
+    },
+    {
+      "id": "v268",
+      "mot": "甜",
+      "traduction": "sucré",
+      "theme": "Les goûts",
+      "pinyin": "tián"
+    },
+    {
+      "id": "v269",
+      "mot": "辣",
+      "traduction": "épicé",
+      "theme": "Les goûts",
+      "pinyin": "là"
+    },
+    {
+      "id": "v270",
+      "mot": "咸",
+      "traduction": "salé",
+      "theme": "Les goûts",
+      "pinyin": "xián"
+    },
+    {
+      "id": "v271",
+      "mot": "酸",
+      "traduction": "aigre",
+      "theme": "Les goûts",
+      "pinyin": "suān"
+    },
+    {
+      "id": "v272",
+      "mot": "头",
+      "traduction": "tête",
+      "theme": "Le visage",
+      "pinyin": "tóu"
+    },
+    {
+      "id": "v273",
+      "mot": "脸",
+      "traduction": "visage",
+      "theme": "Le visage",
+      "pinyin": "liǎn"
+    },
+    {
+      "id": "v274",
+      "mot": "眼睛",
+      "traduction": "yeux",
+      "theme": "Le visage",
+      "pinyin": "yǎnjing"
+    },
+    {
+      "id": "v275",
+      "mot": "耳朵",
+      "traduction": "oreilles",
+      "theme": "Le visage",
+      "pinyin": "ěrduo"
+    },
+    {
+      "id": "v276",
+      "mot": "嘴",
+      "traduction": "bouche",
+      "theme": "Le visage",
+      "pinyin": "zuǐ"
+    },
+    {
+      "id": "v277",
+      "mot": "鼻子",
+      "traduction": "nez",
+      "theme": "Le visage",
+      "pinyin": "bízi"
+    },
+    {
+      "id": "v278",
+      "mot": "手",
+      "traduction": "main",
+      "theme": "Le corps",
+      "pinyin": "shǒu"
+    },
+    {
+      "id": "v279",
+      "mot": "脚",
+      "traduction": "pied",
+      "theme": "Le corps",
+      "pinyin": "jiǎo"
+    },
+    {
+      "id": "v280",
+      "mot": "身体",
+      "traduction": "corps, santé",
+      "theme": "Le corps",
+      "pinyin": "shēntǐ"
+    },
+    {
+      "id": "v281",
+      "mot": "心",
+      "traduction": "cœur",
+      "theme": "Le corps",
+      "pinyin": "xīn"
+    },
+    {
+      "id": "v282",
+      "mot": "头发",
+      "traduction": "cheveux",
+      "theme": "Le corps",
+      "pinyin": "tóufa"
+    },
+    {
+      "id": "v283",
+      "mot": "牙",
+      "traduction": "dent",
+      "theme": "Le corps",
+      "pinyin": "yá"
+    },
+    {
+      "id": "v284",
+      "mot": "生病",
+      "traduction": "tomber malade",
+      "theme": "Être malade",
+      "pinyin": "shēngbìng"
+    },
+    {
+      "id": "v285",
+      "mot": "病",
+      "traduction": "maladie",
+      "theme": "Être malade",
+      "pinyin": "bìng"
+    },
+    {
+      "id": "v286",
+      "mot": "医生",
+      "traduction": "médecin",
+      "theme": "Être malade",
+      "pinyin": "yīshēng"
+    },
+    {
+      "id": "v287",
+      "mot": "地方",
+      "traduction": "endroit",
+      "theme": "Le pays et la ville",
+      "pinyin": "dìfang"
+    },
+    {
+      "id": "v288",
+      "mot": "城市",
+      "traduction": "ville",
+      "theme": "Le pays et la ville",
+      "pinyin": "chéngshì"
+    },
+    {
+      "id": "v289",
+      "mot": "国家",
+      "traduction": "pays",
+      "theme": "Le pays et la ville",
+      "pinyin": "guójiā"
+    },
+    {
+      "id": "v290",
+      "mot": "中国",
+      "traduction": "Chine",
+      "theme": "Le pays et la ville",
+      "pinyin": "Zhōngguó"
+    },
+    {
+      "id": "v291",
+      "mot": "北京",
+      "traduction": "Pékin",
+      "theme": "Le pays et la ville",
+      "pinyin": "Běijīng"
+    },
+    {
+      "id": "v292",
+      "mot": "学校",
+      "traduction": "école",
+      "theme": "Le pays et la ville",
+      "pinyin": "xuéxiào"
+    },
+    {
+      "id": "v293",
+      "mot": "医院",
+      "traduction": "hôpital",
+      "theme": "Les lieux de la ville",
+      "pinyin": "yīyuàn"
+    },
+    {
+      "id": "v294",
+      "mot": "商店",
+      "traduction": "magasin",
+      "theme": "Les lieux de la ville",
+      "pinyin": "shāngdiàn"
+    },
+    {
+      "id": "v295",
+      "mot": "公司",
+      "traduction": "entreprise",
+      "theme": "Les lieux de la ville",
+      "pinyin": "gōngsī"
+    },
+    {
+      "id": "v296",
+      "mot": "银行",
+      "traduction": "banque",
+      "theme": "Les lieux de la ville",
+      "pinyin": "yínháng"
+    },
+    {
+      "id": "v297",
+      "mot": "公园",
+      "traduction": "parc",
+      "theme": "Les lieux de la ville",
+      "pinyin": "gōngyuán"
+    },
+    {
+      "id": "v298",
+      "mot": "机场",
+      "traduction": "aéroport",
+      "theme": "Les lieux de la ville",
+      "pinyin": "jīchǎng"
+    },
+    {
+      "id": "v299",
+      "mot": "车站",
+      "traduction": "gare, arrêt",
+      "theme": "Les lieux de la ville",
+      "pinyin": "chēzhàn"
+    },
+    {
+      "id": "v300",
+      "mot": "路",
+      "traduction": "route, chemin",
+      "theme": "Rues et bâtiments",
+      "pinyin": "lù"
+    },
+    {
+      "id": "v301",
+      "mot": "街",
+      "traduction": "rue",
+      "theme": "Rues et bâtiments",
+      "pinyin": "jiē"
+    },
+    {
+      "id": "v302",
+      "mot": "房子",
+      "traduction": "maison",
+      "theme": "Rues et bâtiments",
+      "pinyin": "fángzi"
+    },
+    {
+      "id": "v303",
+      "mot": "房间",
+      "traduction": "pièce, chambre",
+      "theme": "Rues et bâtiments",
+      "pinyin": "fángjiān"
+    },
+    {
+      "id": "v304",
+      "mot": "门",
+      "traduction": "porte",
+      "theme": "Rues et bâtiments",
+      "pinyin": "mén"
+    },
+    {
+      "id": "v305",
+      "mot": "窗户",
+      "traduction": "fenêtre",
+      "theme": "Rues et bâtiments",
+      "pinyin": "chuānghu"
+    },
+    {
+      "id": "v306",
+      "mot": "楼",
+      "traduction": "immeuble, étage",
+      "theme": "Rues et bâtiments",
+      "pinyin": "lóu"
+    },
+    {
+      "id": "v307",
+      "mot": "桌子",
+      "traduction": "table",
+      "theme": "Dans la maison",
+      "pinyin": "zhuōzi"
+    },
+    {
+      "id": "v308",
+      "mot": "椅子",
+      "traduction": "chaise",
+      "theme": "Dans la maison",
+      "pinyin": "yǐzi"
+    },
+    {
+      "id": "v309",
+      "mot": "床",
+      "traduction": "lit",
+      "theme": "Dans la maison",
+      "pinyin": "chuáng"
+    },
+    {
+      "id": "v310",
+      "mot": "厨房",
+      "traduction": "cuisine",
+      "theme": "Dans la maison",
+      "pinyin": "chúfáng"
+    },
+    {
+      "id": "v311",
+      "mot": "卫生间",
+      "traduction": "toilettes",
+      "theme": "Dans la maison",
+      "pinyin": "wèishēngjiān"
+    },
+    {
+      "id": "v312",
+      "mot": "车",
+      "traduction": "véhicule, voiture",
+      "theme": "Les véhicules",
+      "pinyin": "chē"
+    },
+    {
+      "id": "v313",
+      "mot": "汽车",
+      "traduction": "voiture",
+      "theme": "Les véhicules",
+      "pinyin": "qìchē"
+    },
+    {
+      "id": "v314",
+      "mot": "公共汽车",
+      "traduction": "bus",
+      "theme": "Les véhicules",
+      "pinyin": "gōnggòngqìchē"
+    },
+    {
+      "id": "v315",
+      "mot": "出租车",
+      "traduction": "taxi",
+      "theme": "Les véhicules",
+      "pinyin": "chūzūchē"
+    },
+    {
+      "id": "v316",
+      "mot": "火车",
+      "traduction": "train",
+      "theme": "Les véhicules",
+      "pinyin": "huǒchē"
+    },
+    {
+      "id": "v317",
+      "mot": "飞机",
+      "traduction": "avion",
+      "theme": "Les véhicules",
+      "pinyin": "fēijī"
+    },
+    {
+      "id": "v318",
+      "mot": "自行车",
+      "traduction": "vélo",
+      "theme": "Vélo, métro, bateau",
+      "pinyin": "zìxíngchē"
+    },
+    {
+      "id": "v319",
+      "mot": "地铁",
+      "traduction": "métro",
+      "theme": "Vélo, métro, bateau",
+      "pinyin": "dìtiě"
+    },
+    {
+      "id": "v320",
+      "mot": "船",
+      "traduction": "bateau",
+      "theme": "Vélo, métro, bateau",
+      "pinyin": "chuán"
+    },
+    {
+      "id": "v321",
+      "mot": "票",
+      "traduction": "billet",
+      "theme": "Vélo, métro, bateau",
+      "pinyin": "piào"
+    },
+    {
+      "id": "v322",
+      "mot": "开车",
+      "traduction": "conduire",
+      "theme": "Se déplacer et voyager",
+      "pinyin": "kāichē"
+    },
+    {
+      "id": "v323",
+      "mot": "骑",
+      "traduction": "monter (vélo, cheval)",
+      "theme": "Se déplacer et voyager",
+      "pinyin": "qí"
+    },
+    {
+      "id": "v324",
+      "mot": "坐车",
+      "traduction": "prendre un véhicule",
+      "theme": "Se déplacer et voyager",
+      "pinyin": "zuòchē"
+    },
+    {
+      "id": "v325",
+      "mot": "旅游",
+      "traduction": "voyager (tourisme)",
+      "theme": "Se déplacer et voyager",
+      "pinyin": "lǚyóu"
+    },
+    {
+      "id": "v326",
+      "mot": "旅行",
+      "traduction": "voyager",
+      "theme": "Se déplacer et voyager",
+      "pinyin": "lǚxíng"
+    },
+    {
+      "id": "v327",
+      "mot": "天气",
+      "traduction": "météo",
+      "theme": "Le ciel",
+      "pinyin": "tiānqì"
+    },
+    {
+      "id": "v328",
+      "mot": "太阳",
+      "traduction": "soleil",
+      "theme": "Le ciel",
+      "pinyin": "tàiyáng"
+    },
+    {
+      "id": "v329",
+      "mot": "月亮",
+      "traduction": "lune",
+      "theme": "Le ciel",
+      "pinyin": "yuèliang"
+    },
+    {
+      "id": "v330",
+      "mot": "星星",
+      "traduction": "étoile",
+      "theme": "Le ciel",
+      "pinyin": "xīngxing"
+    },
+    {
+      "id": "v331",
+      "mot": "云",
+      "traduction": "nuage",
+      "theme": "Le ciel",
+      "pinyin": "yún"
+    },
+    {
+      "id": "v332",
+      "mot": "雨",
+      "traduction": "pluie",
+      "theme": "Le temps qu'il fait",
+      "pinyin": "yǔ"
+    },
+    {
+      "id": "v333",
+      "mot": "雪",
+      "traduction": "neige",
+      "theme": "Le temps qu'il fait",
+      "pinyin": "xuě"
+    },
+    {
+      "id": "v334",
+      "mot": "风",
+      "traduction": "vent",
+      "theme": "Le temps qu'il fait",
+      "pinyin": "fēng"
+    },
+    {
+      "id": "v335",
+      "mot": "山",
+      "traduction": "montagne",
+      "theme": "Le paysage",
+      "pinyin": "shān"
+    },
+    {
+      "id": "v336",
+      "mot": "河",
+      "traduction": "rivière",
+      "theme": "Le paysage",
+      "pinyin": "hé"
+    },
+    {
+      "id": "v337",
+      "mot": "海",
+      "traduction": "mer",
+      "theme": "Le paysage",
+      "pinyin": "hǎi"
+    },
+    {
+      "id": "v338",
+      "mot": "树",
+      "traduction": "arbre",
+      "theme": "Le paysage",
+      "pinyin": "shù"
+    },
+    {
+      "id": "v339",
+      "mot": "花",
+      "traduction": "fleur",
+      "theme": "Le paysage",
+      "pinyin": "huā"
+    },
+    {
+      "id": "v340",
+      "mot": "草",
+      "traduction": "herbe",
+      "theme": "Le paysage",
+      "pinyin": "cǎo"
+    },
+    {
+      "id": "v341",
+      "mot": "地",
+      "traduction": "terre, sol",
+      "theme": "La terre et l'air",
+      "pinyin": "dì"
+    },
+    {
+      "id": "v342",
+      "mot": "天空",
+      "traduction": "ciel",
+      "theme": "La terre et l'air",
+      "pinyin": "tiānkōng"
+    },
+    {
+      "id": "v343",
+      "mot": "空气",
+      "traduction": "air",
+      "theme": "La terre et l'air",
+      "pinyin": "kōngqì"
+    },
+    {
+      "id": "v344",
+      "mot": "春天",
+      "traduction": "printemps",
+      "theme": "Les saisons",
+      "pinyin": "chūntiān"
+    },
+    {
+      "id": "v345",
+      "mot": "夏天",
+      "traduction": "été",
+      "theme": "Les saisons",
+      "pinyin": "xiàtiān"
+    },
+    {
+      "id": "v346",
+      "mot": "秋天",
+      "traduction": "automne",
+      "theme": "Les saisons",
+      "pinyin": "qiūtiān"
+    },
+    {
+      "id": "v347",
+      "mot": "冬天",
+      "traduction": "hiver",
+      "theme": "Les saisons",
+      "pinyin": "dōngtiān"
+    },
+    {
+      "id": "v348",
+      "mot": "狗",
+      "traduction": "chien",
+      "theme": "Les animaux familiers",
+      "pinyin": "gǒu"
+    },
+    {
+      "id": "v349",
+      "mot": "猫",
+      "traduction": "chat",
+      "theme": "Les animaux familiers",
+      "pinyin": "māo"
+    },
+    {
+      "id": "v350",
+      "mot": "鸟",
+      "traduction": "oiseau",
+      "theme": "Les animaux familiers",
+      "pinyin": "niǎo"
+    },
+    {
+      "id": "v351",
+      "mot": "马",
+      "traduction": "cheval",
+      "theme": "Les animaux familiers",
+      "pinyin": "mǎ"
+    },
+    {
+      "id": "v352",
+      "mot": "牛",
+      "traduction": "bœuf, vache",
+      "theme": "Les animaux familiers",
+      "pinyin": "niú"
+    },
+    {
+      "id": "v353",
+      "mot": "羊",
+      "traduction": "mouton",
+      "theme": "Les animaux familiers",
+      "pinyin": "yáng"
+    },
+    {
+      "id": "v354",
+      "mot": "猪",
+      "traduction": "cochon",
+      "theme": "Les autres animaux",
+      "pinyin": "zhū"
+    },
+    {
+      "id": "v355",
+      "mot": "老虎",
+      "traduction": "tigre",
+      "theme": "Les autres animaux",
+      "pinyin": "lǎohǔ"
+    },
+    {
+      "id": "v356",
+      "mot": "熊猫",
+      "traduction": "panda",
+      "theme": "Les autres animaux",
+      "pinyin": "xióngmāo"
+    },
+    {
+      "id": "v357",
+      "mot": "兔子",
+      "traduction": "lapin",
+      "theme": "Les autres animaux",
+      "pinyin": "tùzi"
+    },
+    {
+      "id": "v358",
+      "mot": "动物",
+      "traduction": "animal",
+      "theme": "Les autres animaux",
+      "pinyin": "dòngwù"
+    },
+    {
+      "id": "v359",
+      "mot": "颜色",
+      "traduction": "couleur",
+      "theme": "Les couleurs vives",
+      "pinyin": "yánsè"
+    },
+    {
+      "id": "v360",
+      "mot": "红色",
+      "traduction": "rouge",
+      "theme": "Les couleurs vives",
+      "pinyin": "hóngsè"
+    },
+    {
+      "id": "v361",
+      "mot": "黄色",
+      "traduction": "jaune",
+      "theme": "Les couleurs vives",
+      "pinyin": "huángsè"
+    },
+    {
+      "id": "v362",
+      "mot": "蓝色",
+      "traduction": "bleu",
+      "theme": "Les couleurs vives",
+      "pinyin": "lánsè"
+    },
+    {
+      "id": "v363",
+      "mot": "绿色",
+      "traduction": "vert",
+      "theme": "Les couleurs vives",
+      "pinyin": "lǜsè"
+    },
+    {
+      "id": "v364",
+      "mot": "白色",
+      "traduction": "blanc",
+      "theme": "Noir, blanc et les autres",
+      "pinyin": "báisè"
+    },
+    {
+      "id": "v365",
+      "mot": "黑色",
+      "traduction": "noir",
+      "theme": "Noir, blanc et les autres",
+      "pinyin": "hēisè"
+    },
+    {
+      "id": "v366",
+      "mot": "灰色",
+      "traduction": "gris",
+      "theme": "Noir, blanc et les autres",
+      "pinyin": "huīsè"
+    },
+    {
+      "id": "v367",
+      "mot": "紫色",
+      "traduction": "violet",
+      "theme": "Noir, blanc et les autres",
+      "pinyin": "zǐsè"
+    },
+    {
+      "id": "v368",
+      "mot": "橙色",
+      "traduction": "orange",
+      "theme": "Noir, blanc et les autres",
+      "pinyin": "chéngsè"
+    },
+    {
+      "id": "v369",
+      "mot": "衣服",
+      "traduction": "vêtements",
+      "theme": "S'habiller et son sac",
+      "pinyin": "yīfu"
+    },
+    {
+      "id": "v370",
+      "mot": "裤子",
+      "traduction": "pantalon",
+      "theme": "S'habiller et son sac",
+      "pinyin": "kùzi"
+    },
+    {
+      "id": "v371",
+      "mot": "鞋",
+      "traduction": "chaussures",
+      "theme": "S'habiller et son sac",
+      "pinyin": "xié"
+    },
+    {
+      "id": "v372",
+      "mot": "帽子",
+      "traduction": "chapeau",
+      "theme": "S'habiller et son sac",
+      "pinyin": "màozi"
+    },
+    {
+      "id": "v373",
+      "mot": "包",
+      "traduction": "sac",
+      "theme": "S'habiller et son sac",
+      "pinyin": "bāo"
+    },
+    {
+      "id": "v374",
+      "mot": "钱",
+      "traduction": "argent",
+      "theme": "S'habiller et son sac",
+      "pinyin": "qián"
+    },
+    {
+      "id": "v375",
+      "mot": "钱包",
+      "traduction": "portefeuille",
+      "theme": "S'habiller et son sac",
+      "pinyin": "qiánbāo"
+    },
+    {
+      "id": "v376",
+      "mot": "手机",
+      "traduction": "téléphone portable",
+      "theme": "Les objets de tous les jours",
+      "pinyin": "shǒujī"
+    },
+    {
+      "id": "v377",
+      "mot": "电脑",
+      "traduction": "ordinateur",
+      "theme": "Les objets de tous les jours",
+      "pinyin": "diànnǎo"
+    },
+    {
+      "id": "v378",
+      "mot": "电视",
+      "traduction": "télévision",
+      "theme": "Les objets de tous les jours",
+      "pinyin": "diànshì"
+    },
+    {
+      "id": "v379",
+      "mot": "书",
+      "traduction": "livre",
+      "theme": "Les objets de tous les jours",
+      "pinyin": "shū"
+    },
+    {
+      "id": "v380",
+      "mot": "纸",
+      "traduction": "papier",
+      "theme": "Les objets de tous les jours",
+      "pinyin": "zhǐ"
+    },
+    {
+      "id": "v381",
+      "mot": "笔",
+      "traduction": "stylo",
+      "theme": "Les objets de tous les jours",
+      "pinyin": "bǐ"
+    },
+    {
+      "id": "v382",
+      "mot": "钥匙",
+      "traduction": "clé",
+      "theme": "Les petits objets",
+      "pinyin": "yàoshi"
+    },
+    {
+      "id": "v383",
+      "mot": "伞",
+      "traduction": "parapluie",
+      "theme": "Les petits objets",
+      "pinyin": "sǎn"
+    },
+    {
+      "id": "v384",
+      "mot": "眼镜",
+      "traduction": "lunettes",
+      "theme": "Les petits objets",
+      "pinyin": "yǎnjìng"
+    },
+    {
+      "id": "v385",
+      "mot": "手表",
+      "traduction": "montre",
+      "theme": "Les petits objets",
+      "pinyin": "shǒubiǎo"
+    },
+    {
+      "id": "v386",
+      "mot": "照片",
+      "traduction": "photo",
+      "theme": "Les petits objets",
+      "pinyin": "zhàopiàn"
+    },
+    {
+      "id": "v387",
+      "mot": "礼物",
+      "traduction": "cadeau",
+      "theme": "Les petits objets",
+      "pinyin": "lǐwù"
+    },
+    {
+      "id": "v388",
+      "mot": "箱子",
+      "traduction": "boîte, valise",
+      "theme": "Les petits objets",
+      "pinyin": "xiāngzi"
+    },
+    {
+      "id": "v390",
+      "mot": "课",
+      "traduction": "cours",
+      "theme": "En classe",
+      "pinyin": "kè"
+    },
+    {
+      "id": "v391",
+      "mot": "考试",
+      "traduction": "examen",
+      "theme": "En classe",
+      "pinyin": "kǎoshì"
+    },
+    {
+      "id": "v392",
+      "mot": "问题",
+      "traduction": "problème, question",
+      "theme": "En classe",
+      "pinyin": "wèntí"
+    },
+    {
+      "id": "v393",
+      "mot": "答案",
+      "traduction": "réponse",
+      "theme": "En classe",
+      "pinyin": "dá'àn"
+    },
+    {
+      "id": "v394",
+      "mot": "作业",
+      "traduction": "devoirs",
+      "theme": "En classe",
+      "pinyin": "zuòyè"
+    },
+    {
+      "id": "v395",
+      "mot": "汉语",
+      "traduction": "chinois (langue)",
+      "theme": "Les langues et l'écriture",
+      "pinyin": "Hànyǔ"
+    },
+    {
+      "id": "v396",
+      "mot": "中文",
+      "traduction": "chinois (écrit/langue)",
+      "theme": "Les langues et l'écriture",
+      "pinyin": "Zhōngwén"
+    },
+    {
+      "id": "v397",
+      "mot": "英语",
+      "traduction": "anglais",
+      "theme": "Les langues et l'écriture",
+      "pinyin": "Yīngyǔ"
+    },
+    {
+      "id": "v398",
+      "mot": "字",
+      "traduction": "caractère (écriture)",
+      "theme": "Les langues et l'écriture",
+      "pinyin": "zì"
+    },
+    {
+      "id": "v399",
+      "mot": "词",
+      "traduction": "mot",
+      "theme": "Les langues et l'écriture",
+      "pinyin": "cí"
+    },
+    {
+      "id": "v400",
+      "mot": "句子",
+      "traduction": "phrase",
+      "theme": "Les langues et l'écriture",
+      "pinyin": "jùzi"
+    },
+    {
+      "id": "v402",
+      "mot": "经理",
+      "traduction": "directeur",
+      "theme": "Au travail",
+      "pinyin": "jīnglǐ"
+    },
+    {
+      "id": "v403",
+      "mot": "同事",
+      "traduction": "collègue",
+      "theme": "Au travail",
+      "pinyin": "tóngshì"
+    },
+    {
+      "id": "v404",
+      "mot": "会议",
+      "traduction": "réunion",
+      "theme": "Au travail",
+      "pinyin": "huìyì"
+    },
+    {
+      "id": "v405",
+      "mot": "电话",
+      "traduction": "téléphone (appareil/appel)",
+      "theme": "Au travail",
+      "pinyin": "diànhuà"
+    },
+    {
+      "id": "v406",
+      "mot": "邮件",
+      "traduction": "courrier, email",
+      "theme": "Au travail",
+      "pinyin": "yóujiàn"
+    },
+    {
+      "id": "v407",
+      "mot": "网",
+      "traduction": "réseau, internet",
+      "theme": "Au travail",
+      "pinyin": "wǎng"
+    },
+    {
+      "id": "v408",
+      "mot": "网络",
+      "traduction": "internet, réseau",
+      "theme": "Au travail",
+      "pinyin": "wǎngluò"
+    },
+    {
+      "id": "v409",
+      "mot": "的",
+      "traduction": "particule possessive/adjectivale",
+      "theme": "Les particules",
+      "pinyin": "de"
+    },
+    {
+      "id": "v410",
+      "mot": "了",
+      "traduction": "particule d'action accomplie",
+      "theme": "Les particules",
+      "pinyin": "le"
+    },
+    {
+      "id": "v411",
+      "mot": "吗",
+      "traduction": "particule interrogative",
+      "theme": "Les particules",
+      "pinyin": "ma"
+    },
+    {
+      "id": "v412",
+      "mot": "呢",
+      "traduction": "particule interrogative/continuité",
+      "theme": "Les particules",
+      "pinyin": "ne"
+    },
+    {
+      "id": "v413",
+      "mot": "吧",
+      "traduction": "particule de suggestion",
+      "theme": "Les particules",
+      "pinyin": "ba"
+    },
+    {
+      "id": "v414",
+      "mot": "不",
+      "traduction": "ne...pas",
+      "theme": "Dire non, dire beaucoup",
+      "pinyin": "bù"
+    },
+    {
+      "id": "v415",
+      "mot": "没",
+      "traduction": "ne...pas (avoir/passé)",
+      "theme": "Dire non, dire beaucoup",
+      "pinyin": "méi"
+    },
+    {
+      "id": "v416",
+      "mot": "也",
+      "traduction": "aussi",
+      "theme": "Dire non, dire beaucoup",
+      "pinyin": "yě"
+    },
+    {
+      "id": "v417",
+      "mot": "都",
+      "traduction": "tous",
+      "theme": "Dire non, dire beaucoup",
+      "pinyin": "dōu"
+    },
+    {
+      "id": "v418",
+      "mot": "很",
+      "traduction": "très",
+      "theme": "Dire non, dire beaucoup",
+      "pinyin": "hěn"
+    },
+    {
+      "id": "v419",
+      "mot": "太",
+      "traduction": "trop",
+      "theme": "Dire non, dire beaucoup",
+      "pinyin": "tài"
+    },
+    {
+      "id": "v420",
+      "mot": "非常",
+      "traduction": "extrêmement",
+      "theme": "Dire non, dire beaucoup",
+      "pinyin": "fēicháng"
+    },
+    {
+      "id": "v421",
+      "mot": "和",
+      "traduction": "et, avec",
+      "theme": "Relier deux idées",
+      "pinyin": "hé"
+    },
+    {
+      "id": "v422",
+      "mot": "跟",
+      "traduction": "avec, suivre",
+      "theme": "Relier deux idées",
+      "pinyin": "gēn"
+    },
+    {
+      "id": "v423",
+      "mot": "但是",
+      "traduction": "mais",
+      "theme": "Relier deux idées",
+      "pinyin": "dànshì"
+    },
+    {
+      "id": "v424",
+      "mot": "可是",
+      "traduction": "mais (familier)",
+      "theme": "Relier deux idées",
+      "pinyin": "kěshì"
+    },
+    {
+      "id": "v425",
+      "mot": "因为",
+      "traduction": "parce que",
+      "theme": "Relier deux idées",
+      "pinyin": "yīnwèi"
+    },
+    {
+      "id": "v426",
+      "mot": "所以",
+      "traduction": "donc",
+      "theme": "Relier deux idées",
+      "pinyin": "suǒyǐ"
+    },
+    {
+      "id": "v427",
+      "mot": "如果",
+      "traduction": "si (condition)",
+      "theme": "Relier deux idées",
+      "pinyin": "rúguǒ"
+    },
+    {
+      "id": "v428",
+      "mot": "虽然",
+      "traduction": "bien que",
+      "theme": "Relier deux idées",
+      "pinyin": "suīrán"
+    },
+    {
+      "id": "v429",
+      "mot": "还",
+      "traduction": "encore",
+      "theme": "Encore, alors, seulement",
+      "pinyin": "hái"
+    },
+    {
+      "id": "v430",
+      "mot": "再",
+      "traduction": "encore une fois",
+      "theme": "Encore, alors, seulement",
+      "pinyin": "zài"
+    },
+    {
+      "id": "v431",
+      "mot": "又",
+      "traduction": "encore (répétition passée)",
+      "theme": "Encore, alors, seulement",
+      "pinyin": "yòu"
+    },
+    {
+      "id": "v432",
+      "mot": "就",
+      "traduction": "alors, justement",
+      "theme": "Encore, alors, seulement",
+      "pinyin": "jiù"
+    },
+    {
+      "id": "v433",
+      "mot": "才",
+      "traduction": "seulement, ce n'est qu'alors",
+      "theme": "Encore, alors, seulement",
+      "pinyin": "cái"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "Les classificateurs",
+      "explication": "En chinois on ne compte pas les choses directement : entre le nombre et le nom il faut un petit mot, le classificateur. Le passe-partout est 个 (gè) : 三个人 = trois personnes. Devant un classificateur, « deux » se dit 两 (liǎng) et non 二 (èr).",
+      "exemples": [
+        "三 个 人 = trois personnes",
+        "两 个 苹果 = deux pommes",
+        "一 个 问题 = une question"
+      ],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "Quel mot met-on entre le nombre et le nom ?",
+          "options": ["个", "的", "了"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Comment dit-on « deux pommes » ?",
+          "options": ["二 个 苹果", "两 个 苹果", "两 苹果"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "« 三 个 学生 » veut dire…",
+          "options": ["trois élèves", "le troisième élève", "trois écoles"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Que veut dire 些 (xiē) ?",
+          "options": ["quelques", "tous", "chaque"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["三", "个", "人"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["他", "有", "两", "个", "姐姐。"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["我", "想", "买", "一", "个", "手机。"]
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "是 et 有",
+      "explication": "是 (shì) dit ce que quelqu'un ou quelque chose EST : 我是学生 = je suis étudiant. 有 (yǒu) dit ce qu'on A, ou qu'il y a : 我有一个哥哥 = j'ai un grand frère. Piège : devant un adjectif on n'emploie pas 是 mais 很 (hěn) — 他很高 = il est grand.",
+      "exemples": [
+        "我 是 学生。 = Je suis étudiant.",
+        "我 有 一 个 哥哥。 = J'ai un grand frère.",
+        "他 很 高。 = Il est grand."
+      ],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "« Je suis professeur » se dit…",
+          "options": ["我 是 老师", "我 有 老师", "我 很 老师"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "« Il est grand » se dit…",
+          "options": ["他 是 高", "他 很 高", "他 有 高"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Que veut dire 有 ?",
+          "options": ["être", "avoir", "aller"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "« 她 有 一 个 女儿 » veut dire…",
+          "options": [
+            "Elle est une fille",
+            "Elle a une fille",
+            "Elle va chez sa fille"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": ["我", "是", "学生。"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["他", "有", "三", "个", "朋友。"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["这", "个", "菜", "很", "好吃。"]
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Dire non : 不 et 没",
+      "explication": "Pour dire « ne… pas », 不 (bù) se place devant le verbe ou l'adjectif : 我不去 = je ne vais pas. Mais devant 有, et pour parler de ce qui n'a pas eu lieu, on emploie 没 (méi) : 我昨天没去 = hier je n'y suis pas allé.",
+      "exemples": [
+        "我 不 喜欢 咖啡。 = Je n'aime pas le café.",
+        "他 不 高。 = Il n'est pas grand.",
+        "我 没 去。 = Je n'y suis pas allé."
+      ],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "Comment dit-on « je n'aime pas » ?",
+          "options": ["我 不 喜欢", "我 没 喜欢", "我 喜欢 不"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Avec le verbe 有, la négation est…",
+          "options": ["不", "没", "吗"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "« 我 昨天 没 去 学校 » veut dire…",
+          "options": [
+            "Je ne vais pas à l'école",
+            "Hier je ne suis pas allé à l'école",
+            "Demain je n'irai pas à l'école"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Où se place la négation ?",
+          "options": [
+            "devant le verbe",
+            "après le verbe",
+            "à la fin de la phrase"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["我", "不", "喜欢", "咖啡。"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["我", "昨天", "没", "去", "学校。"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["这", "个", "问题", "不", "难。"]
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "Poser une question",
+      "explication": "Deux façons simples. 1) Ajouter 吗 (ma) à la fin d'une phrase affirmative, sans rien changer d'autre : 你是学生吗？ 2) Mettre un mot interrogatif (谁, 什么, 哪里, 怎么, 为什么, 几, 多少) à la place exacte du mot qu'on cherche, sans déplacer le reste : 你去哪里？ = tu vas où ?",
+      "exemples": ["你 是 学生 吗？", "你 去 哪里？", "这 是 什么？"],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "Quelle particule transforme une phrase en question ?",
+          "options": ["吗", "了", "的"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "« Où vas-tu ? » se dit…",
+          "options": ["哪里 你 去？", "你 去 哪里？", "去 你 哪里？"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Que veut dire 为什么 ?",
+          "options": ["pourquoi", "comment", "combien"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Avec un mot interrogatif, l'ordre des mots…",
+          "options": ["ne change pas", "s'inverse", "met le verbe à la fin"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["你", "是", "老师", "吗？"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["你", "家", "有", "几", "个", "人？"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["这", "是", "什么？"]
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "titre": "La particule 了",
+      "explication": "了 (le) marque qu'une action est accomplie. Il se place après le verbe, ou à la fin de la phrase : 我吃了饭 = j'ai mangé. Ce n'est pas un temps du passé comme en français : c'est la marque que quelque chose est achevé ou a changé.",
+      "exemples": ["我 吃 了 饭。", "我们 到 了。", "他 走 了。"],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "Que marque 了 ?",
+          "options": ["une action accomplie", "une question", "une négation"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "« J'ai acheté un téléphone » se dit…",
+          "options": ["我 买 了 手机", "我 了 买 手机", "买 我 了 手机"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Où se place 了 ?",
+          "options": ["après le verbe", "avant le verbe", "avant le sujet"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "« 他 走 了 » veut dire…",
+          "options": ["il part", "il est parti", "il ne part pas"],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": ["我们", "吃", "了", "晚饭。"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["他", "走", "了。"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["我", "看", "了", "电视。"]
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "我 是 学生。",
+      "traduction": "Je suis étudiant."
+    },
+    {
+      "id": "p2",
+      "texte": "你 是 老师 吗？",
+      "traduction": "Es-tu professeur ?"
+    },
+    {
+      "id": "p3",
+      "texte": "他 有 两 个 姐姐。",
+      "traduction": "Il a deux grandes sœurs."
+    },
+    {
+      "id": "p4",
+      "texte": "我 不 喜欢 咖啡。",
+      "traduction": "Je n'aime pas le café."
+    },
+    {
+      "id": "p5",
+      "texte": "我们 明天 去 北京。",
+      "traduction": "Nous allons à Pékin demain."
+    },
+    {
+      "id": "p6",
+      "texte": "她 每天 去 学校。",
+      "traduction": "Elle va à l'école tous les jours."
+    },
+    {
+      "id": "p7",
+      "texte": "这 个 苹果 很 好吃。",
+      "traduction": "Cette pomme est très bonne."
+    },
+    {
+      "id": "p8",
+      "texte": "我 的 手机 很 新。",
+      "traduction": "Mon téléphone est tout neuf."
+    },
+    {
+      "id": "p9",
+      "texte": "今天 天气 很 好。",
+      "traduction": "Il fait beau aujourd'hui."
+    },
+    {
+      "id": "p10",
+      "texte": "我 昨天 没 去 医院。",
+      "traduction": "Hier je ne suis pas allé à l'hôpital."
+    },
+    {
+      "id": "p11",
+      "texte": "老师 问 我 一 个 问题。",
+      "traduction": "Le professeur me pose une question."
+    },
+    {
+      "id": "p12",
+      "texte": "我 想 喝 茶。",
+      "traduction": "Je veux boire du thé."
+    },
+    {
+      "id": "p13",
+      "texte": "你 家 有 几 个 人？",
+      "traduction": "Combien de personnes y a-t-il dans ta famille ?"
+    },
+    {
+      "id": "p14",
+      "texte": "我 学习 汉语 因为 我 喜欢 中国。",
+      "traduction": "J'apprends le chinois parce que j'aime la Chine."
+    },
+    {
+      "id": "p15",
+      "texte": "他 的 狗 很 大。",
+      "traduction": "Son chien est très grand."
+    },
+    {
+      "id": "p16",
+      "texte": "我们 吃 了 晚饭。",
+      "traduction": "Nous avons dîné."
+    }
+  ]
+}

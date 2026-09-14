@@ -1,6 +1,6 @@
 import { cartesDues, noter } from "../srs.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
-import { esc, el, sample, similarity } from "../utils.js";
+import { esc, el, sample, similarity, motTranscrit } from "../utils.js";
 
 export const meta = {
   id: "flashcards",
@@ -57,7 +57,7 @@ export function start(container, ctx) {
         <div class="carte-flash" id="carte">
           <div class="carte-face carte-avant">
             <span class="theme-chip">${esc(v.theme || "")}</span>
-            <p class="carte-mot">${esc(v.mot)}</p>
+            <p class="carte-mot">${motTranscrit(v.mot, v.pinyin)}</p>
             <div style="display: flex; gap: 10px; align-items: center;">
               <button class="btn-son" data-say="mot" title="Écouter">🔊</button>
               ${microDisponible() ? `<button class="btn-micro-small" id="micro-devine" title="Prononcer la traduction">🎤</button>` : ""}

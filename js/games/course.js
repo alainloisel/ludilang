@@ -1,7 +1,7 @@
 // Jeu : La Course aux Étoiles (Speed Run)
 // Traduire le mot affiché en sélectionnant ou prononçant la bonne option avant la fin du temps imparti.
 
-import { sample, shuffle, esc, similarity } from "../utils.js";
+import { sample, shuffle, esc, similarity, motTranscrit } from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 
 export const meta = {
@@ -16,6 +16,9 @@ const TEMPS_LIMITE = 8; // secondes par question pour que ce soit un speed run!
 
 export function start(container, ctx) {
   const vocab = ctx.pack.vocab;
+  // Les options ne transportent que la chaîne du mot : on retrouve sa
+  // transcription par ce répertoire, sans toucher à la valeur comparée.
+  const pinyinDe = new Map(vocab.map((v) => [v.mot, v.pinyin]));
   let index = 0,
     bonnes = 0,
     xp = 0,
@@ -72,7 +75,7 @@ export function start(container, ctx) {
           .map(
             (opt) => `
           <button class="btn option-course" data-val="${esc(opt)}" style="padding: 18px 12px; font-size: 1.1rem; font-weight: 700; text-align: center;">
-            ${esc(opt)}
+            ${motTranscrit(opt, pinyinDe.get(opt))}
           </button>`,
           )
           .join("")}
