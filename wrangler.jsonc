@@ -1,0 +1,9 @@
+{
+  "name": "ludilang",
+  "compatibility_date": "2026-09-14",
+  "main": "worker/index.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS"
+  }
+}

@@ -1,5 +1,10 @@
 // Gate mot de passe pour le site (usage monoutilisateur).
 //
+// Déployé comme Cloudflare Worker (avec assets statiques via le binding
+// ASSETS, voir wrangler.jsonc) — PAS comme Cloudflare Pages. La convention
+// Pages Functions (`functions/_middleware.js`) ne s'applique pas à ce mode
+// de déploiement, d'où ce fichier.
+//
 // Formulaire + cookie signé plutôt que HTTP Basic Auth : le popup natif du
 // navigateur pour Basic Auth est peu fiable en PWA « ajoutée à l'écran
 // d'accueil » (écran blanc possible sur iOS). Le cookie, lui, est envoyé
@@ -7,8 +12,7 @@
 // en same-origin) une fois posé.
 //
 // Le mot de passe vient uniquement de la variable d'environnement Cloudflare
-// Pages `SITE_PASSWORD` (Settings → Environment variables, Production ET
-// Preview) — jamais commité dans le repo.
+// `SITE_PASSWORD` (secret du Worker) — jamais commité dans le repo.
 
 const COOKIE_NAME = "alo_auth";
 const LOGIN_PATH = "/_login";
@@ -65,60 +69,61 @@ function loginPage(erreur) {
 </html>`;
 }
 
-export async function onRequest(context) {
-  const { request, env, next } = context;
-  const url = new URL(request.url);
-  const secret = env.SITE_PASSWORD;
+export default {
+  async fetch(request, env) {
+    const url = new URL(request.url);
+    const secret = env.SITE_PASSWORD;
 
-  if (!secret) {
-    return new Response("SITE_PASSWORD non configuré côté Cloudflare Pages.", {
-      status: 500,
-    });
-  }
+    if (!secret) {
+      return new Response("SITE_PASSWORD non configuré côté Cloudflare.", {
+        status: 500,
+      });
+    }
 
-  const expectedCookie = await hmac(secret, "alo-auth-v1");
+    const expectedCookie = await hmac(secret, "alo-auth-v1");
 
-  if (url.pathname === LOGIN_PATH) {
-    if (request.method === "POST") {
-      const form = await request.formData();
-      const pwd = form.get("password");
-      if (timingSafeEqual(String(pwd || ""), secret)) {
-        const headers = new Headers({
-          Location: "/",
-          "Cache-Control": "no-store",
+    if (url.pathname === LOGIN_PATH) {
+      if (request.method === "POST") {
+        const form = await request.formData();
+        const pwd = form.get("password");
+        if (timingSafeEqual(String(pwd || ""), secret)) {
+          const headers = new Headers({
+            Location: "/",
+            "Cache-Control": "no-store",
+          });
+          headers.append(
+            "Set-Cookie",
+            `${COOKIE_NAME}=${expectedCookie}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${MAX_AGE}`,
+          );
+          return new Response(null, { status: 302, headers });
+        }
+        return new Response(loginPage(true), {
+          status: 401,
+          headers: {
+            "Content-Type": "text/html; charset=utf-8",
+            "Cache-Control": "no-store",
+          },
         });
-        headers.append(
-          "Set-Cookie",
-          `${COOKIE_NAME}=${expectedCookie}; Path=/; HttpOnly; Secure; SameSite=Lax; Max-Age=${MAX_AGE}`,
-        );
-        return new Response(null, { status: 302, headers });
       }
-      return new Response(loginPage(true), {
-        status: 401,
+      return new Response(loginPage(false), {
         headers: {
           "Content-Type": "text/html; charset=utf-8",
           "Cache-Control": "no-store",
         },
       });
     }
-    return new Response(loginPage(false), {
+
+    const cookie = getCookie(request, COOKIE_NAME);
+    if (timingSafeEqual(cookie, expectedCookie)) {
+      return env.ASSETS.fetch(request);
+    }
+
+    return new Response(null, {
+      status: 302,
       headers: {
-        "Content-Type": "text/html; charset=utf-8",
+        Location: `${url.origin}${LOGIN_PATH}`,
         "Cache-Control": "no-store",
       },
     });
-  }
-
-  const cookie = getCookie(request, COOKIE_NAME);
-  if (timingSafeEqual(cookie, expectedCookie)) {
-    return next();
-  }
-
-  return new Response(null, {
-    status: 302,
-    headers: {
-      Location: `${url.origin}${LOGIN_PATH}`,
-      "Cache-Control": "no-store",
-    },
-  });
-}
+  },
+};

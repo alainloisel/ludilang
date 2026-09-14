@@ -60,3 +60,50 @@ verrou d'accès simple plutôt qu'un vrai système multi-comptes.
 `basque-base.json` et `chinois-base.json`, qui ne sont pas encore commités.
 Si `packs/index.json` est poussé sans ces deux fichiers, l'app pointera vers
 des packs 404 en production.
+
+---
+
+## 2026-09-14 — Correction : le gate mot de passe ne s'exécutait pas (mauvais mode de déploiement)
+
+**Contexte** : après le premier déploiement, `ludilang.com` était accessible
+sans jamais demander le mot de passe. Diagnostic (`curl` sur `/_login`) : 404
+sec en GET et en POST → aucune logique ne tournait pour cette route.
+
+**Cause réelle** : le projet Cloudflare n'a pas été créé comme **Pages**
+(malgré ce qui avait été supposé) mais comme **Worker avec assets
+statiques**, déployé via Wrangler (log de build : `Uploaded ludilang`,
+`workers.dev`, `Current Version ID`). Or `functions/_middleware.js` est une
+convention **exclusive à Cloudflare Pages** — elle n'existe pas côté Workers,
+donc le fichier était juste envoyé tel quel comme asset statique et servi en
+clair sur `/functions/_middleware.js` (jamais exécuté).
+
+**Décision** : réécrire le gate comme un vrai Worker (`export default {
+fetch }` avec le binding `env.ASSETS`), déclaré explicitement via un
+`wrangler.jsonc` commité dans le repo — pour que le prochain build
+(Cloudflare Workers Builds, connecté au même repo GitHub) déploie ce Worker
+au lieu de retomber sur un déploiement « assets seuls » par défaut.
+
+**Fichiers créés/modifiés** :
+
+- `wrangler.jsonc` (nouveau) — déclare le Worker `ludilang`, l'entrée
+  `worker/index.js`, et le binding `ASSETS` pointant sur `./dist` (même
+  dossier de build trimmé que prévu pour Pages).
+- `worker/index.js` (nouveau) — même logique de gate que l'ancien
+  `functions/_middleware.js` (formulaire + cookie signé HMAC-SHA256 sur
+  `SITE_PASSWORD`), adaptée à l'API Workers : `env.ASSETS.fetch(request)` à
+  la place de `next()` de Pages Functions.
+- `functions/_middleware.js` (supprimé) — mort dans ce mode de déploiement.
+
+**Reste à faire (actions manuelles hors repo)** :
+
+1. Committer/pousser ces fichiers sur `main`.
+2. Dans le dashboard Cloudflare (Workers & Pages → `ludilang` → Settings) :
+   - Build command : `mkdir -p dist && cp -r index.html manifest.webmanifest sw.js css js icons packs import dist/`
+     (à vérifier/régler si pas déjà en place — le déploiement précédent
+     tournait peut-être sans étape de build du tout).
+   - Ajouter le secret `SITE_PASSWORD` pour ce **Worker** (Settings →
+     Variables and Secrets — écran différent de l'ancien réglage « Pages »
+     Production/Preview).
+3. Vérifier après redéploiement : `curl -I https://ludilang.com/_login` doit
+   renvoyer le formulaire de connexion (200), pas un 404 ; `/` sans cookie
+   doit rediriger (302) vers `/_login`.
