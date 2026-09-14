@@ -150,3 +150,35 @@ fix, purger le cache de la zone `ludilang.com` dans le dashboard Cloudflare
 (**Caching → Configuration → Purge Everything**, ou une purge ciblée sur
 `https://ludilang.com/`), puis revérifier avec `curl -I` que `/` répond bien
 302 sans cookie et n'affiche plus `CF-Cache-Status: HIT`.
+
+---
+
+## 2026-09-14 — Correction : les fichiers statiques passaient avant le Worker (`run_worker_first`)
+
+**Contexte** : après le commit `fe78fdd`, `/` restait accessible sans mot de
+passe. Test décisif : `/?nocache=<valeur aléatoire>` renvoyait aussi
+`CF-Cache-Status: HIT` — une URL unique ne peut pas sortir du cache CDN, donc
+le diagnostic « cache » de l'entrée précédente était **faux**.
+
+**Cause réelle** : avec Workers Static Assets, par défaut, une requête qui
+correspond à un fichier existant dans `dist/` (`/` → `index.html`,
+`/js/app.js`, etc.) est servie directement par la couche assets, **sans
+exécuter le Worker**. Le Worker ne tourne que pour les URL sans fichier
+(`/_login`, `/login`) — exactement ce qui était observé. L'en-tête
+`CF-Cache-Status: HIT` vient de cette couche assets, pas du cache de zone.
+
+**Décision** : ajouter `"run_worker_first": true` dans la section `assets` de
+`wrangler.jsonc`, pour que **toutes** les requêtes passent d'abord par
+`worker/index.js` (le gate), qui appelle ensuite `env.ASSETS.fetch()` si le
+cookie est valide. Coût : une exécution de Worker par requête — négligeable
+pour un site monoutilisateur (quota gratuit : 100 000 requêtes/jour).
+
+**Fichiers modifiés** :
+
+- `wrangler.jsonc` — `assets.run_worker_first: true`.
+- La purge de cache demandée dans l'entrée précédente n'était pas la
+  solution ; le `Cache-Control: private, no-store` ajouté dans
+  `worker/index.js` reste en place (sans effet négatif).
+
+**Reste à faire** : pousser, attendre le redéploiement, puis vérifier que
+`curl -I https://ludilang.com/` renvoie `302` vers `/_login` sans cookie.
