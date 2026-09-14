@@ -93,12 +93,17 @@ au lieu de retomber sur un déploiement « assets seuls » par défaut.
   `SITE_PASSWORD`), adaptée à l'API Workers : `env.ASSETS.fetch(request)` à
   la place de `next()` de Pages Functions.
 - `functions/_middleware.js` (supprimé) — mort dans ce mode de déploiement.
+- `robots.txt` (nouveau, `Disallow: /`) + `<meta name="robots" content="noindex, nofollow">`
+  dans `index.html` — le site est censé rester privé, autant l'exclure
+  explicitement de toute indexation en plus du mot de passe. `robots.txt`
+  reste servi sans authentification dans `worker/index.js` (sinon un crawler
+  qui ne se connecte pas ne verrait jamais le `Disallow`).
 
 **Reste à faire (actions manuelles hors repo)** :
 
 1. Committer/pousser ces fichiers sur `main`.
 2. Dans le dashboard Cloudflare (Workers & Pages → `ludilang` → Settings) :
-   - Build command : `mkdir -p dist && cp -r index.html manifest.webmanifest sw.js css js icons packs import dist/`
+   - Build command : `mkdir -p dist && cp -r index.html manifest.webmanifest sw.js robots.txt css js icons packs import dist/`
      (à vérifier/régler si pas déjà en place — le déploiement précédent
      tournait peut-être sans étape de build du tout).
    - Ajouter le secret `SITE_PASSWORD` pour ce **Worker** (Settings →
@@ -107,3 +112,41 @@ au lieu de retomber sur un déploiement « assets seuls » par défaut.
 3. Vérifier après redéploiement : `curl -I https://ludilang.com/_login` doit
    renvoyer le formulaire de connexion (200), pas un 404 ; `/` sans cookie
    doit rediriger (302) vers `/_login`.
+
+---
+
+## 2026-09-14 — Correction : `/` resservait une version en cache, sans repasser par le Worker
+
+**Contexte** : après déploiement du commit `f42df60` (« ludilang sécurisé »),
+`/_login` et `/login` fonctionnaient (redirection, formulaire), mais
+`ludilang.com/` restait accessible sans mot de passe. `curl -I` montrait
+`CF-Cache-Status: HIT` avec exactement les mêmes en-têtes que ceux observés
+_avant_ le déploiement du gate.
+
+**Cause réelle** : le CDN Cloudflare avait mis en cache la réponse de `/`
+depuis avant l'existence du Worker, et continuait à la resservir directement
+depuis l'edge sans jamais ré-invoquer `worker/index.js` — un nouveau
+déploiement de Worker ne purge pas automatiquement ce cache CDN.
+
+**Décision** : forcer `Cache-Control: private, no-store` sur toute réponse
+authentifiée renvoyée par le Worker (en plus des réponses du gate qui
+l'avaient déjà), pour que Cloudflare ne mette plus jamais en cache une page
+de ce site à l'edge — chaque requête doit systématiquement repasser par la
+vérification du cookie. La perte de perf est négligeable (site
+monoutilisateur) ; le mode hors-ligne de la PWA n'est pas affecté puisqu'il
+repose sur le Cache Storage propre du service worker (`sw.js`), pas sur le
+cache HTTP du navigateur/CDN.
+
+**Fichiers modifiés** :
+
+- `worker/index.js` — la réponse authentifiée (`env.ASSETS.fetch(request)`)
+  est reconstruite avec `Cache-Control: private, no-store` au lieu de
+  laisser passer l'en-tête par défaut (`public, max-age=0, must-revalidate`)
+  posé automatiquement par Cloudflare pour les assets statiques.
+
+**Reste à faire (action manuelle hors repo)** : un correctif de code ne peut
+pas effacer une entrée déjà en cache côté Cloudflare — après avoir poussé ce
+fix, purger le cache de la zone `ludilang.com` dans le dashboard Cloudflare
+(**Caching → Configuration → Purge Everything**, ou une purge ciblée sur
+`https://ludilang.com/`), puis revérifier avec `curl -I` que `/` répond bien
+302 sans cookie et n'affiche plus `CF-Cache-Status: HIT`.

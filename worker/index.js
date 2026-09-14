@@ -80,6 +80,12 @@ export default {
       });
     }
 
+    // robots.txt doit rester lisible sans authentification : un crawler ne
+    // se connecte pas, il faut qu'il voie le Disallow directement.
+    if (url.pathname === "/robots.txt") {
+      return env.ASSETS.fetch(request);
+    }
+
     const expectedCookie = await hmac(secret, "alo-auth-v1");
 
     if (url.pathname === LOGIN_PATH) {
@@ -115,7 +121,19 @@ export default {
 
     const cookie = getCookie(request, COOKIE_NAME);
     if (timingSafeEqual(cookie, expectedCookie)) {
-      return env.ASSETS.fetch(request);
+      const rep = await env.ASSETS.fetch(request);
+      // Le CDN Cloudflare met en cache les réponses des assets statiques par
+      // défaut (Cache-Control public, max-age=0, must-revalidate) — ça peut
+      // resservir une réponse à un visiteur non authentifié sans jamais
+      // repasser par ce Worker. On force "no-store" pour que chaque requête
+      // passe systématiquement par le gate.
+      const headers = new Headers(rep.headers);
+      headers.set("Cache-Control", "private, no-store");
+      return new Response(rep.body, {
+        status: rep.status,
+        statusText: rep.statusText,
+        headers,
+      });
     }
 
     return new Response(null, {
