@@ -20,7 +20,9 @@ env/
 # Local-only content (personal photos, source material, session notes)
 # ============================================================
 photos/
-sources/
+# sources/ : on versionne les transcriptions (.md), pas les PDF ni les autres fichiers
+sources/*
+!sources/*.md
 build/
 
 # ============================================================

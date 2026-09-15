@@ -1,28 +1,62 @@
 ---
 name: generate-pack
-description: Génère un pack de révision AloLangues (JSON) à partir d'un PDF de cours (verbatim), selon import/PROMPT-PACK.md, et l'enregistre dans packs/ + packs/index.json.
-argument-hint: "[chemin/vers/source.pdf]"
+description: Génère un pack de révision AloLangues (JSON) à partir d'un PDF de cours ou d'un dossier de photos du cahier (verbatim), selon import/PROMPT-PACK.md, et l'enregistre dans packs/ + packs/index.json.
+argument-hint: "[sources/cours.pdf | photos/<nom>]"
 ---
 
-# Générer un pack AloLangues à partir d'un PDF de cours
+# Générer un pack AloLangues à partir d'un PDF ou de photos de cours
 
 Cette skill reproduit, de façon systématique, le workflow utilisé pour générer un pack
-AloLangues à partir du verbatim d'un cahier de cours scanné en PDF : extraction du texte,
-génération du JSON du pack selon les règles d'`import/PROMPT-PACK.md`, validation,
-enregistrement dans `packs/`, et mise à jour de `packs/index.json`.
+AloLangues à partir du verbatim d'un cahier de cours (scanné en PDF ou photographié) :
+extraction du texte, génération du JSON du pack selon les règles
+d'`import/PROMPT-PACK.md`, validation, enregistrement dans `packs/`, et mise à jour de
+`packs/index.json`.
 
 Ne modifie jamais le code de l'application (`js/`, `css/`, `index.html`) — cette skill ne
 touche qu'aux fichiers `sources/*.md` et `packs/*.json`.
 
 ## Étape 1 — Identifier la source
 
-- Si un argument (chemin vers un PDF) est fourni, l'utiliser directement.
-- Sinon, lister `sources/*.pdf`. S'il y a plusieurs PDF sans `.md` correspondant déjà
-  dans `sources/`, demander à l'utilisateur lequel traiter (AskUserQuestion). S'il n'y
-  en a qu'un candidat évident, l'utiliser sans demander.
-- Si il s'agit d'un ensemble d'images, extraire le texte via OCR
+Deux types de source possibles :
+
+- **un PDF** : `sources/<nom>.pdf` ;
+- **un dossier de photos** du cahier : `photos/<nom>/` (une page par photo, `.jpg` /
+  `.png`).
+
+Choix de la source :
+
+- Si un argument est fourni (chemin vers un PDF ou vers un dossier de photos),
+  l'utiliser directement.
+- Sinon, lister les candidats : `sources/*.pdf` et les sous-dossiers de `photos/`
+  qui n'ont pas encore de `sources/<nom>.md` correspondant. S'il y en a plusieurs,
+  demander à l'utilisateur lequel traiter (AskUserQuestion). S'il n'y a qu'un
+  candidat évident, l'utiliser sans demander.
+- Si `sources/<nom>.md` existe déjà, passer directement à l'étape 3 en le réutilisant.
 
 ## Étape 2 — Extraire le verbatim en Markdown
+
+Le verbatim est écrit dans `sources/<nom>.md`. Ce fichier est versionné dans git
+(trace de ce qui a servi à générer le pack) ; les photos et les PDF, eux, restent
+exclus par `.gitignore`.
+
+### Cas A — dossier de photos : déléguer au sous-agent `transcripteur`
+
+**Ne pas lire les photos dans la session principale.** Chaque photo pèse plusieurs
+milliers de tokens, et une fois lue elle reste dans le contexte de toute la suite de
+la session (génération du pack comprise).
+
+- Lancer l'outil Agent avec `subagent_type: "transcripteur"` (défini dans
+  `.claude/agents/transcripteur.md`, modèle Sonnet), avec un prompt du type :
+  _« Transcris le dossier `photos/<nom>/` vers `sources/<nom>.md`. »_
+- Si ce type d'agent n'est pas disponible (agent créé pendant la session en cours,
+  pas encore chargé), lancer un agent `general-purpose` avec `model: "sonnet"` et lui
+  demander de lire puis d'appliquer `.claude/agents/transcripteur.md`.
+- Attendre la fin de l'agent, puis lire `sources/<nom>.md` avec Read.
+- Reprendre dans le compte-rendu final (étape 8) les passages que l'agent a signalés
+  illisibles. Ne rouvrir une photo dans la session principale que pour trancher un
+  passage précis, et seulement si c'est indispensable.
+
+### Cas B — PDF
 
 - Lire l'intégralité du PDF avec l'outil Read (il retourne le texte de toutes les pages
   en un seul appel pour un PDF de cette taille).
@@ -32,8 +66,8 @@ touche qu'aux fichiers `sources/*.md` et `packs/*.json`.
   - Une note précisant que les fautes d'orthographe/de frappe et incohérences du
     manuscrit original sont conservées telles quelles.
   - Une section `## Page N` par page, avec le texte dans un bloc de code.
-- Ce fichier `.md` sert de trace d'audit — il doit être fidèle au PDF, sans corrections
-  ni interprétations (celles-ci se font à l'étape 4, dans le pack JSON lui-même).
+- Ce fichier `.md` doit être fidèle au PDF, sans corrections ni interprétations
+  (celles-ci se font à l'étape 4, dans le pack JSON lui-même).
 
 ## Étape 3 — Charger les règles de génération
 
@@ -69,7 +103,7 @@ Construction du pack :
   existent.
 - **`grammar`** : un point par notion de grammaire identifiée dans le cours (BE, there
   is/are, présent simple, quantifieurs, modaux, prétérit, etc. — selon ce que contient
-  le PDF traité). Pour chaque point, 6 à 8 exercices variés (`trous` / `choix` /
+  la source traitée). Pour chaque point, 6 à 8 exercices variés (`trous` / `choix` /
   `ordre`), construits en priorité à partir des phrases originales du cours.
 - **`phrases`** : 8 à 15 phrases complètes, extraites verbatim (corrigées) du cours
   quand c'est possible, sinon construites avec son seul vocabulaire.

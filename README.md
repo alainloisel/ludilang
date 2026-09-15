@@ -38,6 +38,26 @@ enregistrée sur l'appareil (rien ne part sur internet, sauf si on utilise l'imp
    puis coller le verbatim du cours.
 3. Recharger l'app : le nouveau cours apparaît dans le menu « Mon cours ».
 
+#### À partir de photos du cahier (ou d'un PDF scanné)
+
+1. Photographier le cahier, **une page par photo**, bien à plat, nette et entière.
+   Les photos sont traitées dans l'ordre alphabétique de leurs noms : les noms donnés
+   par le téléphone (`IMG_20260809_194021.jpg`…) suivent l'ordre de prise de vue.
+2. Copier les photos dans un dossier `photos/<nom-du-cours>/` (ou le PDF dans `sources/`).
+3. Dans Claude Code, lancer **`/generate-pack photos/<nom-du-cours>`**
+   (ou `/generate-pack sources/<cours>.pdf`).
+
+Passer par `/generate-pack` est important pour les photos : la transcription est
+confiée à un sous-agent Sonnet (`.claude/agents/transcripteur.md`), moins cher, et les
+images ne restent pas dans la conversation principale. Une simple demande
+« génère un pack à partir de ces photos » ferait lire les images par le modèle
+principal, pour un coût plus élevé.
+
+Le texte transcrit est écrit dans `sources/<nom-du-cours>.md` (fautes de l'élève
+conservées, passages illisibles marqués `[illisible]`) : on peut le relire avant de
+jouer. Ces transcriptions `.md` sont versionnées dans git ; les photos et les PDF
+restent en local (exclus de git).
+
 ### Méthode 2 — directement dans l'app (clé API)
 
 Dans l'app : **📥 Importer un cours** → coller le verbatim → « Générer le pack ».

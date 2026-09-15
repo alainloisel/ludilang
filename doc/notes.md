@@ -182,3 +182,55 @@ pour un site monoutilisateur (quota gratuit : 100 000 requêtes/jour).
 
 **Reste à faire** : pousser, attendre le redéploiement, puis vérifier que
 `curl -I https://ludilang.com/` renvoie `302` vers `/_login` sans cookie.
+
+---
+
+## 2026-09-15 — Transcription des photos du cahier par un sous-agent Sonnet
+
+**Contexte** : la méthode pour passer des photos du cahier au verbatim du cours
+n'était documentée nulle part. La skill `generate-pack` disait seulement
+« extraire le texte via OCR », et les règles de lecture n'existaient que dans
+l'en-tête de `sources/anglais2.md` (produit à la main depuis `photos/anglais2/`).
+Question posée aussi : comment faire cette « OCR » à moindre coût.
+
+**Décisions** :
+
+- Pas d'OCR local (Tesseract, OCR Windows) : il reconnaît mal l'écriture
+  manuscrite et ne sait pas recoller les mots des textes à trous
+  (`b` + `alcony`). La lecture se fait par un modèle Claude.
+- Transcription confiée à un sous-agent dédié en **Sonnet** plutôt que faite
+  dans la session principale (Opus) : environ 2 à 3 fois moins cher par photo
+  (16 photos 4000×3000 ≈ 77 000 tokens d'images), et surtout les images ne
+  restent pas dans le contexte principal, où elles seraient relues à chaque
+  échange pendant la génération du pack. Haiku écarté : trop fragile sur
+  l'écriture d'un élève.
+- Le sous-agent écrit `sources/<nom>.md` et ne renvoie qu'un compte-rendu court
+  (pas la transcription), pour garder le contexte principal léger.
+- Les conventions de `sources/anglais2.md` (sections `## Photo N — fichier`,
+  marqueurs `[illisible]`, `[coupé]`, `[manuscrit]`…, fautes conservées, notes
+  `> Note :`) sont figées dans la définition de l'agent pour que les prochaines
+  transcriptions restent homogènes.
+- Réduction de la taille des photos avant lecture non mise en place : à tester
+  d'abord sur quelques photos (risque de perte de lisibilité).
+
+**Fichiers créés/modifiés** :
+
+- `.claude/agents/transcripteur.md` (nouveau) — sous-agent `transcripteur`
+  (`model: sonnet`, outils Read/Write/Glob) : lit `photos/<nom>/` dans l'ordre des
+  noms de fichiers et écrit le verbatim dans `sources/<nom>.md` selon les règles
+  de transcription.
+- `.claude/skills/generate-pack/SKILL.md` — accepte un dossier de photos en plus
+  d'un PDF ; l'étape 2 délègue les photos à l'agent `transcripteur` (repli :
+  agent `general-purpose` en `model: "sonnet"` si l'agent n'est pas encore
+  chargé) et interdit de lire les photos dans la session principale.
+- `README.md` — section « À partir de photos du cahier » : où déposer les
+  photos, conseils de prise de vue, lancer `/generate-pack photos/<nom>`.
+- `.gitignore` — les transcriptions `sources/*.md` sont désormais versionnées
+  (trace de ce qui a servi à générer chaque pack) ; les photos (`photos/`), les
+  PDF et les autres fichiers de `sources/` restent exclus.
+- `sources/anglais.md`, `sources/anglais2.md` — premières transcriptions
+  ajoutées au dépôt.
+
+**Reste à faire** :
+
+- Tester l'agent `transcripteur` sur le prochain dossier de photos.
