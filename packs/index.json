@@ -27,6 +27,10 @@
     {
       "fichier": "chinois-base.json",
       "id": "chinois-base"
+    },
+    {
+      "fichier": "allemand-rentree-septembre.json",
+      "id": "allemand-rentree-septembre"
     }
   ]
 }

@@ -52,6 +52,8 @@ la session (génération du pack comprise).
   pas encore chargé), lancer un agent `general-purpose` avec `model: "sonnet"` et lui
   demander de lire puis d'appliquer `.claude/agents/transcripteur.md`.
 - Attendre la fin de l'agent, puis lire `sources/<nom>.md` avec Read.
+- Ne rien reprendre dans le pack des photos marquées « Hors cours », et les citer dans
+  le compte-rendu final.
 - Reprendre dans le compte-rendu final (étape 8) les passages que l'agent a signalés
   illisibles. Ne rouvrir une photo dans la session principale que pour trancher un
   passage précis, et seulement si c'est indispensable.

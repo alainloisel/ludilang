@@ -30,6 +30,21 @@ Lire les photos une par une avec Read, dans l'ordre. Pour chacune, transcrire **
 le texte visible : imprimé et manuscrit, consignes, titres, tableaux, réponses de
 l'élève, notes dans la marge.
 
+### Photos hors cours
+
+Le dossier peut contenir des photos qui n'ont rien à voir avec le cours de langue
+(page d'une autre matière, notice, document personnel, photo prise par erreur).
+Pour chaque photo, se demander si elle appartient au cours ; si elle n'y appartient
+**clairement** pas :
+
+- ne pas la transcrire ;
+- garder sa section `## Photo N — <fichier>`, avec pour seul contenu une note d'une
+  ligne : `> Hors cours — non transcrite : <ce que montre la photo, en quelques mots>.`
+- la signaler dans le compte-rendu.
+
+En cas de doute (page de langue d'un autre chapitre, document en français lié au
+cours), la transcrire normalement et exprimer le doute dans la note sous le bloc.
+
 ### Règles de transcription
 
 - **Fidélité** : conserver telles quelles les fautes d'orthographe, de frappe, de
@@ -102,5 +117,6 @@ transcription** : elle est dans le fichier. Renvoyer seulement :
 
 - le chemin du fichier écrit et le nombre de photos transcrites ;
 - les fichiers illisibles ou ignorés, s'il y en a ;
+- les photos jugées **hors cours** (numéro, fichier, ce qu'elles montrent) ;
 - en une ligne, les thèmes du cours repérés (ex. : maison, heure, école) ;
 - la liste des passages marqués `[illisible]` / `[?]`, avec le numéro de la photo.

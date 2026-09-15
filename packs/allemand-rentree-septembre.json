@@ -1,0 +1,1016 @@
+{
+  "id": "allemand-rentree-septembre",
+  "language": "de",
+  "title": "Allemand — Rentrée de septembre",
+  "description": "Révision du présent (pluriel, sein, haben, verbes forts), les questions, se présenter avec un Steckbrief, décrire une personne et parler de mode.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "Hallo",
+      "traduction": "salut",
+      "exemple": "Hallo, ich heiße Alex.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v2",
+      "mot": "heißen",
+      "traduction": "s'appeler",
+      "exemple": "Meine Cousins heißen Jonas und Hannah.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v3",
+      "mot": "der Name",
+      "traduction": "le nom",
+      "exemple": "Name: Fischer. Vorname: Fabian.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v4",
+      "mot": "der Vorname",
+      "traduction": "le prénom",
+      "exemple": "Sein Vorname ist Fabian.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v5",
+      "mot": "der Steckbrief",
+      "traduction": "la fiche d'identité",
+      "exemple": "Lies den Steckbrief über Fabian.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v6",
+      "mot": "der Wohnort",
+      "traduction": "le lieu où l'on habite",
+      "exemple": "Wohnort: Regensburg.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v7",
+      "mot": "wohnen",
+      "traduction": "habiter",
+      "exemple": "Fabian wohnt in Regensburg.",
+      "theme": "Se présenter"
+    },
+    {
+      "id": "v8",
+      "mot": "das Haustier",
+      "traduction": "l'animal de compagnie",
+      "exemple": "Fabian hat ein Haustier: eine Maus.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v9",
+      "mot": "die Maus",
+      "traduction": "la souris",
+      "exemple": "Die Maus heißt Mausi.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v10",
+      "mot": "das Instrument",
+      "traduction": "l'instrument de musique",
+      "exemple": "Fabian spielt zwei Instrumente.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v11",
+      "mot": "die Gitarre",
+      "traduction": "la guitare",
+      "exemple": "Fabian spielt Gitarre.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v12",
+      "mot": "die Flöte",
+      "traduction": "la flûte",
+      "exemple": "Er spielt Gitarre und Flöte.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v13",
+      "mot": "das Hobby",
+      "traduction": "le loisir",
+      "exemple": "Meine Hobbys sind Fußball und Tennis.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v14",
+      "mot": "im Internet surfen",
+      "traduction": "surfer sur Internet",
+      "exemple": "Fabian surft im Internet.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v15",
+      "mot": "der Fußball",
+      "traduction": "le football",
+      "exemple": "Fabian spielt Fußball mit Leon.",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v16",
+      "mot": "das Tennis",
+      "traduction": "le tennis",
+      "exemple": "Spielst du Tennis mit mir?",
+      "theme": "Loisirs et animaux"
+    },
+    {
+      "id": "v17",
+      "mot": "der beste Freund",
+      "traduction": "le meilleur ami",
+      "exemple": "Wo wohnt dein bester Freund?",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v18",
+      "mot": "der Cousin",
+      "traduction": "le cousin",
+      "exemple": "Meine Cousins heißen Jonas und Hannah.",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v19",
+      "mot": "der Vater",
+      "traduction": "le père",
+      "exemple": "Mein Vater fährt mich in die Schule.",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v20",
+      "mot": "die Kinder",
+      "traduction": "les enfants",
+      "exemple": "Frau Wagner, haben Sie Kinder?",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v21",
+      "mot": "Frau",
+      "traduction": "Madame",
+      "exemple": "Frau Wagner ist im Garten.",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v22",
+      "mot": "die Klasse",
+      "traduction": "la classe",
+      "exemple": "Lina und Sofia sind nicht in meiner Klasse.",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v23",
+      "mot": "der Schüler",
+      "traduction": "l'élève",
+      "exemple": "Ihr seid die neuen Schüler der 7. Klasse.",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v24",
+      "mot": "die Schule",
+      "traduction": "l'école",
+      "exemple": "Wir sind in der Schule.",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v25",
+      "mot": "die Übung",
+      "traduction": "l'exercice",
+      "exemple": "Ich habe keine Lust, diese Übung zu machen.",
+      "theme": "Amis, famille et école"
+    },
+    {
+      "id": "v26",
+      "mot": "das Frühstück",
+      "traduction": "le petit-déjeuner",
+      "exemple": "Was isst du zum Frühstück?",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v27",
+      "mot": "das Brot",
+      "traduction": "le pain",
+      "exemple": "Ich esse Brot und Marmelade.",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v28",
+      "mot": "die Marmelade",
+      "traduction": "la confiture",
+      "exemple": "Zum Frühstück esse ich Marmelade.",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v29",
+      "mot": "die Handynummer",
+      "traduction": "le numéro de portable",
+      "exemple": "Er gibt mir seine Handynummer.",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v30",
+      "mot": "der Bus",
+      "traduction": "le bus",
+      "exemple": "Um wie viel Uhr nimmst du den Bus?",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v31",
+      "mot": "das Geld",
+      "traduction": "l'argent",
+      "exemple": "Wie viel Geld hast du noch?",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v32",
+      "mot": "die Zeit",
+      "traduction": "le temps (qui passe)",
+      "exemple": "Keine Panik, wir haben noch Zeit!",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v33",
+      "mot": "die Idee",
+      "traduction": "l'idée",
+      "exemple": "Paula hat eine gute Idee.",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v34",
+      "mot": "der Garten",
+      "traduction": "le jardin",
+      "exemple": "Wir sind im Garten.",
+      "theme": "Au quotidien"
+    },
+    {
+      "id": "v35",
+      "mot": "glücklich",
+      "traduction": "heureux",
+      "exemple": "Bist du nicht glücklich?",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v36",
+      "mot": "schnell",
+      "traduction": "vite",
+      "exemple": "Martin läuft schnell.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v37",
+      "mot": "keine Lust haben",
+      "traduction": "ne pas avoir envie",
+      "exemple": "Ich habe keine Lust, diese Übung zu machen.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v38",
+      "mot": "Keine Panik!",
+      "traduction": "Pas de panique !",
+      "exemple": "Keine Panik, wir haben noch Zeit!",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v39",
+      "mot": "noch",
+      "traduction": "encore",
+      "exemple": "Wir haben noch Zeit.",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v40",
+      "mot": "Wie viel?",
+      "traduction": "Combien ?",
+      "exemple": "Wie viel Geld hast du noch?",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v41",
+      "mot": "Um wie viel Uhr?",
+      "traduction": "À quelle heure ?",
+      "exemple": "Um wie viel Uhr nimmst du den Bus?",
+      "theme": "Expressions utiles"
+    },
+    {
+      "id": "v42",
+      "mot": "heute",
+      "traduction": "aujourd'hui",
+      "exemple": "Heute ist Donnerstag.",
+      "theme": "Les dates"
+    },
+    {
+      "id": "v43",
+      "mot": "der Donnerstag",
+      "traduction": "jeudi",
+      "exemple": "Heute ist Donnerstag, der zehnte September.",
+      "theme": "Les dates"
+    },
+    {
+      "id": "v44",
+      "mot": "der September",
+      "traduction": "septembre",
+      "exemple": "Im September wird es kälter.",
+      "theme": "Les dates"
+    },
+    {
+      "id": "v45",
+      "mot": "der Oktober",
+      "traduction": "octobre",
+      "exemple": "Im Oktober werde ich zwölf Jahre alt.",
+      "theme": "Les dates"
+    },
+    {
+      "id": "v46",
+      "mot": "kälter",
+      "traduction": "plus froid",
+      "exemple": "Im Oktober wird es kälter.",
+      "theme": "Les dates"
+    },
+    {
+      "id": "v47",
+      "mot": "spielen",
+      "traduction": "jouer",
+      "exemple": "Wir spielen Fußball.",
+      "theme": "Verbes réguliers"
+    },
+    {
+      "id": "v48",
+      "mot": "hören",
+      "traduction": "écouter",
+      "exemple": "Ihr hört einen Podcast.",
+      "theme": "Verbes réguliers"
+    },
+    {
+      "id": "v49",
+      "mot": "machen",
+      "traduction": "faire",
+      "exemple": "Sie machen eine Übung.",
+      "theme": "Verbes réguliers"
+    },
+    {
+      "id": "v50",
+      "mot": "schwimmen",
+      "traduction": "nager",
+      "exemple": "Fabian schwimmt schnell.",
+      "theme": "Verbes réguliers"
+    },
+    {
+      "id": "v51",
+      "mot": "schreiben",
+      "traduction": "écrire",
+      "exemple": "Schreibe einen kurzen Text über Fabian.",
+      "theme": "Verbes réguliers"
+    },
+    {
+      "id": "v52",
+      "mot": "buchstabieren",
+      "traduction": "épeler",
+      "exemple": "Ich buchstabiere: B-R-A-U-N.",
+      "theme": "Verbes réguliers"
+    },
+    {
+      "id": "v53",
+      "mot": "sein",
+      "traduction": "être",
+      "exemple": "Wir sind im Garten.",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v54",
+      "mot": "haben",
+      "traduction": "avoir",
+      "exemple": "Haben Sie Kinder?",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v55",
+      "mot": "werden",
+      "traduction": "devenir",
+      "exemple": "Im September wird es kälter.",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v56",
+      "mot": "essen",
+      "traduction": "manger (du isst)",
+      "exemple": "Was isst du zum Frühstück?",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v57",
+      "mot": "geben",
+      "traduction": "donner (er gibt)",
+      "exemple": "Er gibt mir seine Handynummer.",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v58",
+      "mot": "nehmen",
+      "traduction": "prendre (du nimmst)",
+      "exemple": "Ich nehme keinen Bus.",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v59",
+      "mot": "fahren",
+      "traduction": "conduire, aller en véhicule (er fährt)",
+      "exemple": "Mein Vater fährt mich in die Schule.",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v60",
+      "mot": "laufen",
+      "traduction": "courir (er läuft)",
+      "exemple": "Martin läuft schnell.",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v61",
+      "mot": "lesen",
+      "traduction": "lire",
+      "exemple": "Lies den Steckbrief!",
+      "theme": "Auxiliaires et verbes forts"
+    },
+    {
+      "id": "v62",
+      "mot": "groß",
+      "traduction": "grand",
+      "exemple": "Nic ist groß und sportlich.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v63",
+      "mot": "sportlich",
+      "traduction": "sportif",
+      "exemple": "Er ist sportlich.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v64",
+      "mot": "hübsch",
+      "traduction": "joli, mignon",
+      "exemple": "Zahide ist hübsch.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v65",
+      "mot": "schlank",
+      "traduction": "mince",
+      "exemple": "Er ist groß und schlank.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v66",
+      "mot": "dick",
+      "traduction": "gros",
+      "exemple": "Die Maus ist dick.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v67",
+      "mot": "schön",
+      "traduction": "beau",
+      "exemple": "Die Gitarre ist schön.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v68",
+      "mot": "die Haare",
+      "traduction": "les cheveux",
+      "exemple": "Zahide hat lange Haare.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v69",
+      "mot": "die Augen",
+      "traduction": "les yeux",
+      "exemple": "Er hat braune Augen.",
+      "theme": "Décrire une personne"
+    },
+    {
+      "id": "v70",
+      "mot": "kurz",
+      "traduction": "court",
+      "exemple": "Nic hat kurze braune Haare.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v71",
+      "mot": "lang",
+      "traduction": "long",
+      "exemple": "Zahide hat lange Haare.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v72",
+      "mot": "glatt",
+      "traduction": "lisse, raide",
+      "exemple": "Sie hat glatte Haare.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v73",
+      "mot": "lockig",
+      "traduction": "bouclé",
+      "exemple": "Er hat lockige Haare.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v74",
+      "mot": "braun",
+      "traduction": "brun, marron",
+      "exemple": "Er hat braune Haare.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v75",
+      "mot": "blond",
+      "traduction": "blond",
+      "exemple": "Lisa ist blond.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v76",
+      "mot": "platinblond",
+      "traduction": "blond platine",
+      "exemple": "Sie hat platinblonde Haare.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v77",
+      "mot": "rötlich",
+      "traduction": "roux, tirant sur le roux",
+      "exemple": "Er hat rötliche Haare.",
+      "theme": "Les cheveux"
+    },
+    {
+      "id": "v78",
+      "mot": "die Mode",
+      "traduction": "la mode",
+      "exemple": "Mode soll Spaß machen.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v79",
+      "mot": "der Trend",
+      "traduction": "la tendance",
+      "exemple": "Der Trend gefällt mir.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v80",
+      "mot": "trendig",
+      "traduction": "à la mode",
+      "exemple": "Die Klamotten sind trendig.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v81",
+      "mot": "der Style",
+      "traduction": "le style",
+      "exemple": "Nic hat einen schönen Style.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v82",
+      "mot": "die Klamotten",
+      "traduction": "les fringues",
+      "exemple": "Ich trage trendige Klamotten.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v83",
+      "mot": "tragen",
+      "traduction": "porter (un vêtement)",
+      "exemple": "Er trägt Klamotten von Dior.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v84",
+      "mot": "gefallen",
+      "traduction": "plaire",
+      "exemple": "Die Mode gefällt mir.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v85",
+      "mot": "der Spaß",
+      "traduction": "le plaisir, l'amusement",
+      "exemple": "Mode soll Spaß machen.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v86",
+      "mot": "die Marke",
+      "traduction": "la marque",
+      "exemple": "Dior ist eine große Marke.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v87",
+      "mot": "der Modeinfluencer",
+      "traduction": "l'influenceur de mode",
+      "exemple": "Nic ist ein Modeinfluencer.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v88",
+      "mot": "der Lieblingsinfluencer",
+      "traduction": "l'influenceur préféré",
+      "exemple": "Sie sprechen über ihren Lieblingsinfluencer.",
+      "theme": "La mode"
+    },
+    {
+      "id": "v89",
+      "mot": "der Podcast",
+      "traduction": "le podcast",
+      "exemple": "Was hörst du? Einen Podcast.",
+      "theme": "Écouter un document audio"
+    },
+    {
+      "id": "v90",
+      "mot": "das Straßeninterview",
+      "traduction": "le micro-trottoir",
+      "exemple": "Das ist ein Straßeninterview.",
+      "theme": "Écouter un document audio"
+    },
+    {
+      "id": "v91",
+      "mot": "Wer spricht?",
+      "traduction": "Qui parle ?",
+      "exemple": "Wer spricht? Alex und Lisa.",
+      "theme": "Écouter un document audio"
+    },
+    {
+      "id": "v92",
+      "mot": "Worüber sprechen sie?",
+      "traduction": "De quoi parlent-ils ?",
+      "exemple": "Worüber sprechen sie? Über Mode.",
+      "theme": "Écouter un document audio"
+    },
+    {
+      "id": "v93",
+      "mot": "Was hörst du?",
+      "traduction": "Qu'est-ce que tu entends ?",
+      "exemple": "Was hörst du? Ein Straßeninterview.",
+      "theme": "Écouter un document audio"
+    },
+    {
+      "id": "v94",
+      "mot": "sprechen über",
+      "traduction": "parler de",
+      "exemple": "Alex und Lisa sprechen über Mode.",
+      "theme": "Écouter un document audio"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "Le présent au pluriel : wir, ihr, sie",
+      "explication": "Au pluriel, les pronoms sont wir (nous), ihr (vous) et sie (ils / elles). Il n'y a qu'un seul pronom sie pour des garçons, des filles ou un groupe mixte : c'est le contexte qui dit de qui on parle. Les terminaisons sont -en / -t / -en. Avec wir et sie, le verbe ressemble à l'infinitif (spielen → wir spielen, sie spielen). Avec ihr, on enlève -en et on met -t (ihr spielt). Sie avec une majuscule (vous de politesse) se conjugue comme sie pluriel.",
+      "exemples": [
+        "wir hören, ihr hört, sie hören",
+        "wir machen, ihr macht, sie machen",
+        "Wir schwimmen. Ihr schwimmt. Sie schwimmen."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Ihr ___ einen Podcast. (hören)",
+          "reponse": "hört"
+        },
+        {
+          "type": "trous",
+          "phrase": "Wir ___ Fußball. (spielen)",
+          "reponse": "spielen"
+        },
+        {
+          "type": "trous",
+          "phrase": "Wo ___ ihr? (wohnen)",
+          "reponse": "wohnt"
+        },
+        {
+          "type": "choix",
+          "question": "Ihr ___ schnell.",
+          "options": ["schwimmen", "schwimmt", "schwimme"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Alex und Lisa ___ über Mode.",
+          "options": ["spricht", "sprechen", "sprecht"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Quel pronom veut dire « nous » ?",
+          "options": ["ihr", "wir", "sie"],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": ["Wir", "spielen", "Tennis", "im", "Garten."]
+        },
+        {
+          "type": "ordre",
+          "mots": ["Ihr", "hört", "einen", "Podcast."]
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "Les auxiliaires sein et haben (et werden)",
+      "explication": "Attention ! haben (avoir) est régulier au pluriel : wir haben, ihr habt, sie haben. Au singulier : ich habe, du hast, er / sie / es hat. sein (être) est irrégulier, il s'apprend par cœur : ich bin, du bist, er / sie / es ist, wir sind, ihr seid, sie / Sie sind. Ne les confonds pas : en français comme en allemand, on « a » une idée, des enfants, du temps → haben. werden veut dire « devenir » : ich werde, es wird (Im Oktober werde ich zwölf Jahre alt).",
+      "exemples": [
+        "Wir sind im Garten.",
+        "Frau Wagner, haben Sie Kinder?",
+        "Im September wird es kälter."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Wir ___ im Garten. (sein)",
+          "reponse": "sind"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ du nicht glücklich? (sein)",
+          "reponse": "Bist"
+        },
+        {
+          "type": "choix",
+          "question": "Lina und Sofia ___ nicht in meiner Klasse.",
+          "options": ["ist", "sind", "seid"],
+          "bonne": 1
+        },
+        {
+          "type": "trous",
+          "phrase": "Frau Wagner, ___ Sie Kinder? (haben)",
+          "reponse": "haben"
+        },
+        {
+          "type": "choix",
+          "question": "Paula ___ eine gute Idee.",
+          "options": ["ist", "hat", "habt"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Ich ___ keine Lust, diese Übung zu machen.",
+          "options": ["bin", "habe", "hast"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Im Oktober ___ ich zwölf Jahre alt.",
+          "options": ["werde", "wird", "werden"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["Keine", "Panik,", "wir", "haben", "noch", "Zeit!"]
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Les verbes forts au présent",
+      "explication": "Certains verbes, les verbes forts, changent de voyelle au présent, mais seulement avec du et er / sie / es (2e et 3e personnes du singulier). La voyelle nouvelle est indiquée entre parenthèses : essen (i) → du isst, er isst ; geben (i) → du gibst, er gibt ; nehmen (i) → du nimmst, er nimmt ; fahren (ä) → du fährst, er fährt ; laufen (ä) → du läufst, er läuft. Avec ich, wir, ihr, sie, rien ne change : ich esse, ich nehme. Les verbes comme spielen, wohnen ou heißen ne changent jamais de voyelle.",
+      "exemples": [
+        "Was isst du zum Frühstück? Ich esse Brot und Marmelade.",
+        "Mein Vater fährt mich in die Schule.",
+        "Martin läuft schnell."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Was ___ du zum Frühstück? (essen, i)",
+          "reponse": "isst"
+        },
+        {
+          "type": "trous",
+          "phrase": "Er ___ mir seine Handynummer. (geben, i)",
+          "reponse": "gibt"
+        },
+        {
+          "type": "choix",
+          "question": "Um wie viel Uhr ___ du den Bus?",
+          "options": ["nehmst", "nimmst", "nimmt"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Ich ___ keinen Bus.",
+          "options": ["nehme", "nimme", "nimmst"],
+          "bonne": 0
+        },
+        {
+          "type": "trous",
+          "phrase": "Mein Vater ___ mich in die Schule. (fahren, ä)",
+          "reponse": "fährt"
+        },
+        {
+          "type": "choix",
+          "question": "Martin ___ schnell.",
+          "options": ["lauft", "läuft", "laufen"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Wo ___ dein bester Freund?",
+          "options": ["wohnt", "wöhnt", "wohnst"],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": ["Mein", "Vater", "fährt", "mich", "in", "die", "Schule."]
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "Décrire une personne : sein ou haben ?",
+      "explication": "Pour décrire quelqu'un, on utilise deux verbes. sein + adjectif dit comment est la personne : Er ist groß. Sie ist hübsch. Après sein, l'adjectif ne change pas. haben + adjectif + nom sert pour les cheveux et les yeux : Er hat kurze braune Haare. Devant Haare ou Augen (au pluriel, sans article), l'adjectif prend un -e : kurz → kurze Haare, lang → lange Haare. Et n'oublie pas la majuscule des noms : die Haare, die Augen.",
+      "exemples": [
+        "Nic ist groß und sportlich.",
+        "Er hat kurze braune Haare.",
+        "Zahide ist hübsch. Sie hat lange Haare."
+      ],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "Nic ___ groß.",
+          "options": ["ist", "hat"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Er ___ kurze braune Haare.",
+          "options": ["ist", "hat"],
+          "bonne": 1
+        },
+        {
+          "type": "trous",
+          "phrase": "Zahide hat ___ Haare. (lang)",
+          "reponse": "lange"
+        },
+        {
+          "type": "trous",
+          "phrase": "Er hat ___ Haare. (lockig)",
+          "reponse": "lockige"
+        },
+        {
+          "type": "choix",
+          "question": "Sie ist ___.",
+          "options": ["schlank", "schlanke"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Comment écrit-on « les cheveux » ?",
+          "options": ["die haare", "die Haare", "der Haare"],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": ["Nic", "hat", "kurze", "braune", "Haare."]
+        },
+        {
+          "type": "ordre",
+          "mots": ["Zahide", "ist", "hübsch", "und", "schlank."]
+        }
+      ]
+    },
+    {
+      "id": "g5",
+      "titre": "Poser une question avec un mot interrogatif",
+      "explication": "Les mots interrogatifs du cours : Wer? (qui ?), Was? (quoi, qu'est-ce que ?), Wo? (où ?), Wie viel? (combien ?), Um wie viel Uhr? (à quelle heure ?), Worüber? (de quoi ?). Le mot interrogatif se met en 1re position, le verbe conjugué en 2e position, puis le sujet : Was hörst du? Wo wohnt dein bester Freund?",
+      "exemples": [
+        "Wer spricht? Alex und Lisa.",
+        "Worüber sprechen sie? Sie sprechen über Mode.",
+        "Um wie viel Uhr nimmst du den Bus?"
+      ],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "___ spricht? — Alex und Lisa.",
+          "options": ["Wer", "Was", "Wo"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "___ wohnt dein bester Freund? — In Regensburg.",
+          "options": ["Wie viel", "Wo", "Wer"],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "___ hörst du? — Einen Podcast.",
+          "options": ["Was", "Wer", "Wo"],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "___ sprechen sie? — Über Mode.",
+          "options": ["Wo", "Worüber", "Wer"],
+          "bonne": 1
+        },
+        {
+          "type": "trous",
+          "phrase": "Wie viel ___ hast du noch? (l'argent)",
+          "reponse": "Geld"
+        },
+        {
+          "type": "trous",
+          "phrase": "Um wie viel ___ nimmst du den Bus? (l'heure)",
+          "reponse": "Uhr"
+        },
+        {
+          "type": "ordre",
+          "mots": ["Was", "isst", "du", "zum", "Frühstück?"]
+        },
+        {
+          "type": "ordre",
+          "mots": ["Wo", "wohnt", "dein", "bester", "Freund?"]
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "Wir sind im Garten.",
+      "traduction": "Nous sommes dans le jardin."
+    },
+    {
+      "id": "p2",
+      "texte": "Frau Wagner, haben Sie Kinder?",
+      "traduction": "Madame Wagner, avez-vous des enfants ?"
+    },
+    {
+      "id": "p3",
+      "texte": "Keine Panik, wir haben noch Zeit!",
+      "traduction": "Pas de panique, nous avons encore le temps !"
+    },
+    {
+      "id": "p4",
+      "texte": "Im September wird es kälter.",
+      "traduction": "En septembre, il commence à faire plus froid."
+    },
+    {
+      "id": "p5",
+      "texte": "Was isst du zum Frühstück?",
+      "traduction": "Qu'est-ce que tu manges au petit-déjeuner ?"
+    },
+    {
+      "id": "p6",
+      "texte": "Ich esse Brot und Marmelade.",
+      "traduction": "Je mange du pain et de la confiture."
+    },
+    {
+      "id": "p7",
+      "texte": "Mein Vater fährt mich in die Schule.",
+      "traduction": "Mon père me conduit à l'école."
+    },
+    {
+      "id": "p8",
+      "texte": "Martin läuft schnell.",
+      "traduction": "Martin court vite."
+    },
+    {
+      "id": "p9",
+      "texte": "Um wie viel Uhr nimmst du den Bus?",
+      "traduction": "À quelle heure prends-tu le bus ?"
+    },
+    {
+      "id": "p10",
+      "texte": "Fabian wohnt in Regensburg.",
+      "traduction": "Fabian habite à Ratisbonne (Regensburg)."
+    },
+    {
+      "id": "p11",
+      "texte": "Er spielt Gitarre und Flöte.",
+      "traduction": "Il joue de la guitare et de la flûte."
+    },
+    {
+      "id": "p12",
+      "texte": "Alex und Lisa sprechen über Mode.",
+      "traduction": "Alex et Lisa parlent de mode."
+    },
+    {
+      "id": "p13",
+      "texte": "Er hat kurze braune Haare.",
+      "traduction": "Il a les cheveux courts et bruns."
+    },
+    {
+      "id": "p14",
+      "texte": "Mode soll Spaß machen.",
+      "traduction": "La mode, ça doit être amusant."
+    },
+    {
+      "id": "p15",
+      "texte": "Wie viel Geld hast du noch?",
+      "traduction": "Combien d'argent te reste-t-il ?"
+    }
+  ]
+}

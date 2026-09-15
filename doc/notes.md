@@ -234,3 +234,52 @@ Question posée aussi : comment faire cette « OCR » à moindre coût.
 **Reste à faire** :
 
 - Tester l'agent `transcripteur` sur le prochain dossier de photos.
+
+---
+
+## 2026-09-15 — Premier usage réel de l'agent `transcripteur` (photos/allemand1)
+
+**Contexte** : premier test de l'agent sur un vrai dossier, `photos/allemand1/`
+(14 photos), suivi de la génération du pack d'allemand de la rentrée.
+
+**Résultat** : transcription complète en ~8 min, ~106 000 tokens côté
+sous-agent (Sonnet), écrite dans `sources/allemand1.md` ; la session
+principale n'a lu que ce fichier, jamais les images. Pack généré ensuite :
+`packs/allemand-rentree-septembre.json` (94 mots, 5 points de grammaire,
+15 phrases).
+
+**Ce que le test a révélé (non prévu dans la conception)** :
+
+- **Photos d'écran de tablette**, pas de cahier papier : l'élève prend ses
+  notes dans une appli. L'agent a su écarter la barre d'outils et ne pas
+  confondre le soulignement rouge du correcteur orthographique avec des
+  annotations.
+- **Photos hors cours dans le dossier** : 2 photos d'une notice d'alarme
+  (photos 1-2) et 1 page de cours d'histoire (photo 6). L'agent a repéré la
+  page d'histoire seul, mais les photos 1-2 surtout parce que le prompt de
+  lancement les signalait. Elles ont été exclues du pack, et leur
+  transcription remplacée après coup par une note d'une ligne dans
+  `sources/allemand1.md` (≈ 250 lignes de bruit en moins dans le dépôt).
+- **Photo inexploitable** (photo 3, floue) : marquée `[illisible]`.
+- Réponses fausses de l'élève (sein à la place de haben) bien conservées dans
+  la transcription et corrigées dans le pack : la séparation
+  transcription fidèle / corrections dans le pack fonctionne.
+
+**Décision prise suite au test** : une photo clairement hors cours n'est plus
+transcrite ; sa section garde seulement une note
+`> Hors cours — non transcrite : …`, et l'agent la liste dans son
+compte-rendu. En cas de doute, il transcrit quand même.
+
+**Fichiers créés/modifiés** :
+
+- `sources/allemand1.md` — transcription des 14 photos (photos 1, 2 et 6
+  réduites à la note « Hors cours »).
+- `packs/allemand-rentree-septembre.json` (nouveau) et `packs/index.json` —
+  le pack et son enregistrement.
+- `.claude/agents/transcripteur.md` — nouvelle section « Photos hors cours » et
+  ligne correspondante dans le compte-rendu.
+- `.claude/skills/generate-pack/SKILL.md` — ne rien reprendre des photos
+  « Hors cours » dans le pack.
+
+**Reste à faire** : reprendre en photo la page floue (photo 3) si c'était une
+page du cours.
