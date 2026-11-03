@@ -1,7 +1,7 @@
 // Le perroquet : répéter une phrase du cours au micro,
 // score de prononciation calculé par reconnaissance vocale.
 
-import { sample, esc } from "../utils.js";
+import { sample, shuffle, esc, normalize } from "../utils.js";
 import {
   parler,
   ecouter,
@@ -17,6 +17,47 @@ export const meta = {
 };
 
 const NB_PHRASES = 5;
+const NB_PHRASES_COURS = 2; // garanties par partie, le reste est tiré dans tout le réservoir
+
+// Réservoir = phrases du pack + phrases d'exemple du vocabulaire, pour que
+// les parties ne tournent pas sur la même quinzaine de phrases. On garde
+// toujours quelques vraies phrases du cours (plus longues que les exemples).
+// Les mots seuls ne servent qu'en dernier recours (pack lexique sans phrases).
+function choisirPhrases(pack) {
+  const vues = new Set();
+  const unique = (liste) =>
+    liste.filter((p) => {
+      const cle = normalize(p.texte);
+      if (!cle || vues.has(cle)) return false;
+      vues.add(cle);
+      return true;
+    });
+  const cours = unique(
+    (pack.phrases || []).map((p) => ({
+      texte: p.texte,
+      traduction: p.traduction,
+    })),
+  );
+  const exemples = unique(
+    pack.vocab
+      .filter((v) => v.exemple)
+      .map((v) => ({
+        texte: v.exemple,
+        // La traduction d'un exemple est celle du mot, pas de la phrase.
+        traduction: `${v.mot} = ${v.traduction}`,
+      })),
+  );
+  const garanties = sample(cours, NB_PHRASES_COURS);
+  const reste = [...cours, ...exemples].filter((p) => !garanties.includes(p));
+  let items = [...garanties, ...sample(reste, NB_PHRASES - garanties.length)];
+  if (items.length < NB_PHRASES) {
+    const mots = unique(
+      pack.vocab.map((v) => ({ texte: v.mot, traduction: v.traduction })),
+    );
+    items = [...items, ...sample(mots, NB_PHRASES - items.length)];
+  }
+  return shuffle(items);
+}
 
 export function start(container, ctx) {
   if (!microDisponible()) {
@@ -26,17 +67,7 @@ export function start(container, ctx) {
       <p>En attendant, tu peux t'entraîner à écouter avec la <strong>Dictée audio</strong> 🎧.</p></div>`;
     return;
   }
-  const sources =
-    (ctx.pack.phrases || []).length >= NB_PHRASES
-      ? ctx.pack.phrases
-      : [
-          ...(ctx.pack.phrases || []),
-          ...ctx.pack.vocab.map((v) => ({
-            texte: v.exemple || v.mot,
-            traduction: v.traduction,
-          })),
-        ];
-  const items = sample(sources, NB_PHRASES);
+  const items = choisirPhrases(ctx.pack);
   let i = 0,
     xp = 0,
     bonnes = 0,

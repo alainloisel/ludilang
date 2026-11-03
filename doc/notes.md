@@ -283,3 +283,188 @@ compte-rendu. En cas de doute, il transcrit quand même.
 
 **Reste à faire** : reprendre en photo la page floue (photo 3) si c'était une
 page du cours.
+
+## 2026-10-04 — Deux nouveaux packs depuis photos/anglais2809
+
+**Contexte** : demande de créer un nouveau lot de jeux à partir des dossiers de
+photos « allemand2809 » et « anglais0410 ». Sur disque, `photos/allemand2809`
+est vide et `photos/allemand0410` est un doublon exact (13/13 hash) d'`allemand1`,
+déjà converti en pack. Seul `photos/anglais2809` (24 photos du 28/09) était
+nouveau. Il mélange deux cours : photos 1-16 en anglais, 17-23 en allemand.
+
+**Décisions** : traitement d'`anglais2809` seul (choix de l'utilisateur) ; le
+contenu a été scindé en deux packs par langue plutôt qu'un pack mixte. Photo 24
+(ticket de caisse) hors cours, photo 11 floue : ignorées.
+
+**Fichiers créés/modifiés** :
+
+- `sources/anglais2809.md` — transcription verbatim des 24 photos (agent transcripteur).
+- `packs/anglais-rentree-septembre.json` — 111 mots (matériel scolaire, règles de
+  classe, demandes polies, excuses de devoirs, présentation), 4 points de grammaire
+  (impératif, can/could, prétérit négatif, présentation), 15 phrases.
+- `packs/allemand-vetements-septembre.json` — 65 mots (vêtements, adjectifs,
+  couleurs, verbes, questions), 4 points de grammaire (adjectif épithète
+  nominatif/accusatif, nominatif vs accusatif, place du verbe), 15 phrases.
+- `packs/index.json` — enregistrement des deux packs.
+
+**Reste à faire** : récupérer les vraies photos allemandes si `allemand2809`
+devait contenir autre chose ; la prononciation du -ED (titre seul dans le cahier)
+n'a pas de contenu et n'est pas couverte.
+
+## 2026-10-07 — Date de création dans le libellé des nouveaux packs
+
+**Contexte** : demande de l'utilisateur d'ajouter la date de création dans le
+libellé (`title`) de chaque nouveau pack, pour les distinguer dans la liste.
+
+**Décisions** : format `Titre (créé le JJ/MM/AAAA)`, ajouté seulement aux
+nouveaux packs ; les packs existants ne sont pas modifiés (leur date exacte
+n'est pas connue). L'ajout est idempotent (rien si le suffixe est déjà là).
+Pour la génération par la skill `generate-pack`, c'est une consigne (le titre
+est écrit par Claude) ; pour `lexique2pack.py build` et l'import par API, c'est
+automatique.
+
+**Fichiers créés/modifiés** :
+
+- `script/lexique2pack.py` — `titre_avec_date()` appliquée au titre dans `build`.
+- `js/import.js` — le pack généré par l'appel API reçoit le suffixe de date.
+- `.claude/skills/generate-pack/SKILL.md` — section « Titre du pack — date de création ».
+- `.claude/skills/generate-pack-lexique/SKILL.md` — précise que `build` ajoute la date.
+- `sw.js` — cache `alo-langues-v9` pour recharger `import.js`.
+
+**Reste à faire** : rien (les deux packs du 04/10 ont reçu leur date a posteriori).
+
+## 2026-10-07 — Titre complet du cours affiché sous le menu « Mon cours »
+
+**Contexte** : avec la date de création, les titres des packs sont plus longs et
+le `<select>` fermé les coupe (un select ne retourne pas à la ligne).
+
+**Décisions** : le menu garde le titre complet dans chaque option ; le titre du
+cours sélectionné est en plus affiché en entier, sur plusieurs lignes si besoin,
+sous le menu.
+
+**Fichiers créés/modifiés** :
+
+- `js/app.js` — paragraphe `.pack-titre-complet` sous le select de l'accueil.
+- `css/style.css` — style de ce paragraphe.
+- `sw.js` — cache `alo-langues-v10`.
+
+## 2026-10-07 — Cartes flash : retrait du micro « Oui / Non »
+
+**Contexte** : demande de supprimer le bouton micro « Dire Oui ou Non » entre
+❌ À revoir et ✅ Je savais ! dans les cartes flash.
+
+**Décisions** : seuls le bouton et son code de reconnaissance vocale sont retirés ;
+le micro pour deviner la traduction et les boutons ❌/✅ restent.
+
+**Fichiers créés/modifiés** :
+
+- `js/games/flashcards.js` — suppression de `#micro-reponse` et de son gestionnaire.
+- `sw.js` — cache `alo-langues-v11`.
+
+## 2026-10-07 — Quiz éclair : distracteurs plus crédibles
+
+**Contexte** : les mauvaises réponses du vocabulaire étaient tirées au hasard dans
+tout le pack (« a pencil case » entouré de « favourite colour », « busy »,
+« switch off ») : on devinait par élimination, sans connaître le cours.
+
+**Décisions** : `distracteursPour()` note chaque candidat : même thème (+3), même
+nombre de mots (+1,5), même article/« to » en tête (+1,5), longueur proche, plus
+un peu de hasard pour varier d'une partie à l'autre. Les 3 mieux notés sont
+retenus ; les réponses identiques à la bonne sont exclues. Les questions de
+grammaire (options écrites à la main) ne changent pas.
+
+**Fichiers créés/modifiés** :
+
+- `js/games/quiz.js` — `distracteursPour()` remplace le tirage aléatoire.
+- `sw.js` — cache `alo-langues-v12`.
+
+**Reste à faire** : les autres jeux à QCM (oreille, intrus…) tirent peut-être aussi
+leurs distracteurs au hasard, non vérifié.
+
+## 2026-10-07 — Dictée audio : fautes soulignées
+
+**Contexte** : en cas d'erreur, la dictée n'affichait que la bonne réponse ; on ne
+voyait pas où était la faute.
+
+**Décisions** : comparaison lettre à lettre (plus longue sous-suite commune,
+majuscules ignorées). Deux lignes : « Ta réponse » avec les lettres fausses en
+rouge souligné ondulé, « Correction » avec les lettres oubliées en vert souligné.
+Aussi affiché pour « presque parfait ». Délai avant la question suivante 2,6 s → 4 s.
+
+**Fichiers créés/modifiés** :
+
+- `js/games/dictee.js` — `marquerDifferences()` et nouvel affichage du feedback.
+- `css/style.css` — classes `.dictee-faute` et `.dictee-manque`.
+- `sw.js` — cache `alo-langues-v13`.
+
+## 2026-10-07 — Course aux étoiles : distracteurs crédibles (suite du quiz)
+
+**Contexte** : vérification des autres jeux à choix multiples après la correction du
+Quiz éclair. Seule la Course aux étoiles tirait ses mauvaises réponses au hasard.
+Oreille (paires fixes), Prépositions, Accord, Trous (options écrites à la main) et
+Intrus (choix par thème, voulu) n'ont pas ce défaut.
+
+**Fichiers créés/modifiés** :
+
+- `js/utils.js` — `distracteursPour()` déplacée ici depuis `quiz.js` (exportée).
+- `js/games/quiz.js`, `js/games/course.js` — l'utilisent.
+- `sw.js` — cache `alo-langues-v14`.
+
+## 2026-10-07 — Constructeur de phrases alimenté par le pack
+
+**Contexte** : le Constructeur rejouait 4 exercices écrits à la main (4 sur 4 par
+langue), identiques à chaque partie et sans lien avec le cours. Voir `doc/jeux.md`.
+
+**Décisions** : le jeu tire 4 exercices `ordre` du pack (≥ 3 mots, dédoublonnés),
+avec l'`explication` du point de grammaire comme consigne et son titre. La réserve
+écrite à la main (anglais / allemand) ne sert plus que de complément. Le jeu n'est
+plus limité à `en`/`de` : il est proposé dès qu'un cours a un exercice `ordre`
+(nouveau prédicat optionnel `compatible` dans `parcours-catalogue.js`). Pool vide :
+`finPartie({reponses: 0})`, comme `ordre.js`. Dialogue : non traité (choix de l'utilisateur).
+
+**Fichiers créés/modifiés** :
+
+- `js/games/syntaxe.js` — `collecterExercices(pack)` exportée ; `start` l'utilise.
+- `js/parcours-catalogue.js` — `compatible` pour `syntaxe` (remplace `langues`) et
+  prise en compte de `compatible` dans `jeuxCompatibles()`.
+- `doc/jeux.md` — mis à jour.
+- `sw.js` — cache `alo-langues-v15`.
+
+**Reste à faire** : le Dialogue a toujours 4 répliques fixes (piste : champ `dialogues`
+dans les packs).
+
+## 2026-11-03 — Plus de phrases : Perroquet élargi, packs enrichis, chinois à 227 phrases
+
+**Contexte** : le Perroquet tirait 5 phrases parmi les ~15 du pack, donc les mêmes
+revenaient sans arrêt. On voulait plus de variété, donc plus de phrases construites.
+
+**Décisions** :
+- Perroquet : le réservoir réunit les `phrases` du pack et les `exemple` du vocabulaire
+  (dédoublonnés), soit 65 à 200 phrases par pack de cours au lieu de 15. Chaque partie
+  garde 2 phrases du cours (plus longues et plus riches que les exemples). Pour un
+  exemple, la traduction affichée est « mot = traduction » (celle du mot, pas de la
+  phrase). Les mots seuls ne servent plus qu'en dernier recours (pack lexique).
+- Consignes de génération : `phrases` passe de 8–15 à 30–40, avec les phrases du
+  cours d'abord puis des phrases construites à partir de son vocabulaire et de sa
+  grammaire. Ça profite aussi à la Dictée, au Détective et aux Phrases en désordre.
+- Packs de la rentrée (anglais et allemand) : 15 → 38 phrases, en ajoutant des
+  phrases construites uniquement avec le vocabulaire et les points de grammaire du pack.
+- Chinois : 16 → 227 phrases (la demande était 200), mots séparés par des espaces
+  comme les phrases déjà présentes. Elles n'utilisent que les mots du pack, sauf trois
+  composés transparents : 十二, 二十四, 星期三. On n'a utilisé que le classificateur
+  个, le seul du pack, en évitant les noms qui en exigent un autre.
+- L'ajout de phrases se fait par insertion de texte, pour garder le format d'origine
+  des fichiers (fins de ligne CRLF, tableaux compacts) : le diff ne contient que des ajouts.
+
+**Fichiers créés/modifiés** :
+- `js/games/perroquet.js` — `choisirPhrases()` : réservoir phrases + exemples, 2 phrases du cours garanties.
+- `import/PROMPT-PACK.md`, `.claude/skills/generate-pack/SKILL.md` — 30 à 40 phrases, construites en complément ; mots séparés par des espaces en chinois.
+- `packs/anglais-rentree-septembre.json`, `packs/allemand-rentree-septembre.json` — +23 phrases chacun.
+- `packs/chinois-base.json` — +211 phrases.
+- `doc/jeux.md` — ligne Perroquet mise à jour.
+- `sw.js` — cache `alo-langues-v16`.
+
+**Reste à faire** : enrichir de la même façon les autres packs de cours
+(`anglais-5eme-may-june`, `cahier-anglais-college`, `allemand-vetements-septembre`…) ;
+faire relire les phrases chinoises par une personne qui parle chinois ;
+`basque-base` n'a ni phrases ni exemples.

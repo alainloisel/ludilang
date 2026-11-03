@@ -102,3 +102,55 @@ export function today() {
 export function daysBetween(isoA, isoB) {
   return Math.round((new Date(isoB) - new Date(isoA)) / 86400000);
 }
+
+const ARTICLES = new Set([
+  "a",
+  "an",
+  "the",
+  "to",
+  "un",
+  "une",
+  "le",
+  "la",
+  "les",
+  "l'",
+  "des",
+  "du",
+  "der",
+  "die",
+  "das",
+  "ein",
+  "eine",
+]);
+
+// Distracteurs « crédibles » : on privilégie les mots du même thème, de même
+// forme (même nombre de mots, même article ou « to » devant, longueur proche).
+// Sinon un « a pencil case » entouré de « busy » et « switch off » se devine
+// sans connaître le cours. Les réponses identiques à la bonne sont exclues.
+export function distracteursPour(v, vocab, champ) {
+  const bonne = v[champ];
+  const premier = (t) => String(t).toLowerCase().split(/\s+/)[0];
+  const nbMots = (t) => String(t).trim().split(/\s+/).length;
+  const candidats = [];
+  const vus = new Set([bonne]);
+  for (const x of vocab) {
+    if (x.id === v.id || vus.has(x[champ])) continue;
+    vus.add(x[champ]);
+    const t = x[champ];
+    const proximite =
+      1 -
+      Math.min(
+        Math.abs(t.length - bonne.length) / Math.max(bonne.length, 1),
+        1,
+      );
+    const score =
+      (x.theme && x.theme === v.theme ? 3 : 0) +
+      (nbMots(t) === nbMots(bonne) ? 1.5 : 0) +
+      (ARTICLES.has(premier(t)) && premier(t) === premier(bonne) ? 1.5 : 0) +
+      proximite +
+      Math.random(); // varie les distracteurs d'une partie à l'autre
+    candidats.push({ x, score });
+  }
+  candidats.sort((a, b) => b.score - a.score);
+  return candidats.slice(0, 3).map((c) => c.x);
+}

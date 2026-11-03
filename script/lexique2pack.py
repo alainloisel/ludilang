@@ -17,6 +17,7 @@ import argparse
 import json
 import re
 import sys
+from datetime import date
 from pathlib import Path
 
 RACINE = Path(__file__).resolve().parent.parent
@@ -365,6 +366,13 @@ def cmd_verifier(args) -> int:
 # ------------------------------------------------------------------ build
 
 
+def titre_avec_date(titre: str) -> str:
+    """Ajoute « (créé le JJ/MM/AAAA) » au libellé d'un nouveau pack."""
+    if re.search(r"\(créé le \d{2}/\d{2}/\d{4}\)\s*$", titre):
+        return titre
+    return f"{titre} (créé le {date.today():%d/%m/%Y})"
+
+
 def cmd_build(args) -> int:
     entrees = json.loads(Path(args.entrees).read_text(encoding="utf-8"))
     retenues = [e for e in entrees if not e.get("exclure")]
@@ -395,7 +403,7 @@ def cmd_build(args) -> int:
     pack = {
         "id": args.id,
         "language": args.langue,
-        "title": args.titre,
+        "title": titre_avec_date(args.titre),
         "description": args.description or "",
         "vocab": vocab,
         "grammar": grammar,

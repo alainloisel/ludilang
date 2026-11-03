@@ -1,0 +1,1285 @@
+{
+  "id": "anglais-rentree-septembre",
+  "language": "en",
+  "title": "Anglais — Rentrée de septembre (créé le 04/10/2026)",
+  "description": "Le matériel scolaire, les règles de la classe, demander de l'aide poliment (can / could), l'impératif, le prétérit négatif et les excuses pour les devoirs.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "a book",
+      "traduction": "un livre",
+      "exemple": "I have a book in my backpack.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v2",
+      "mot": "a pencil",
+      "traduction": "un crayon à papier",
+      "exemple": "I have a pencil in my pencil case.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v3",
+      "mot": "a notebook",
+      "traduction": "un cahier",
+      "exemple": "I write my lesson in my notebook.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v4",
+      "mot": "a sharpener",
+      "traduction": "un taille-crayon",
+      "exemple": "I need a sharpener.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v5",
+      "mot": "an eraser",
+      "traduction": "une gomme",
+      "exemple": "Could you lend me your eraser, please?",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v6",
+      "mot": "a ruler",
+      "traduction": "une règle",
+      "exemple": "I have a ruler.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v7",
+      "mot": "glue",
+      "traduction": "la colle",
+      "exemple": "I need glue.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v8",
+      "mot": "scissors",
+      "traduction": "des ciseaux",
+      "exemple": "I have a pair of scissors.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v9",
+      "mot": "a pencil case",
+      "traduction": "une trousse",
+      "exemple": "I left my pencil case at home.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v10",
+      "mot": "a coloured pencil",
+      "traduction": "un crayon de couleur",
+      "exemple": "I have a coloured pencil.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v11",
+      "mot": "a crayon",
+      "traduction": "un crayon de cire",
+      "exemple": "I have a crayon.",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v12",
+      "mot": "a pen",
+      "traduction": "un stylo",
+      "exemple": "Can anybody lend me a pen, please?",
+      "theme": "Le matériel scolaire (1)"
+    },
+    {
+      "id": "v13",
+      "mot": "a palette",
+      "traduction": "une palette",
+      "exemple": "I have a palette.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v14",
+      "mot": "a paintbrush",
+      "traduction": "un pinceau",
+      "exemple": "I have a paintbrush.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v15",
+      "mot": "tape",
+      "traduction": "le ruban adhésif",
+      "exemple": "I need tape.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v16",
+      "mot": "paper clips",
+      "traduction": "des trombones",
+      "exemple": "I have paper clips.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v17",
+      "mot": "paint",
+      "traduction": "la peinture",
+      "exemple": "I have paint.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v18",
+      "mot": "a highlighter",
+      "traduction": "un surligneur",
+      "exemple": "I have a highlighter.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v19",
+      "mot": "a marker",
+      "traduction": "un feutre",
+      "exemple": "I have a marker.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v20",
+      "mot": "a notepad",
+      "traduction": "un bloc-notes",
+      "exemple": "I have a notepad.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v21",
+      "mot": "paper",
+      "traduction": "le papier",
+      "exemple": "I need paper.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v22",
+      "mot": "a file",
+      "traduction": "un classeur",
+      "exemple": "I have a file.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v23",
+      "mot": "a pencil box",
+      "traduction": "une boîte à crayons",
+      "exemple": "I left my pencil box at home.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v24",
+      "mot": "a glue stick",
+      "traduction": "un bâton de colle",
+      "exemple": "I have a glue stick.",
+      "theme": "Le matériel scolaire (2)"
+    },
+    {
+      "id": "v25",
+      "mot": "a calculator",
+      "traduction": "une calculatrice",
+      "exemple": "I have a calculator.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v26",
+      "mot": "an abacus",
+      "traduction": "un boulier",
+      "exemple": "I have an abacus.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v27",
+      "mot": "a stapler",
+      "traduction": "une agrafeuse",
+      "exemple": "I have a stapler.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v28",
+      "mot": "pushpins",
+      "traduction": "des punaises",
+      "exemple": "I have pushpins.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v29",
+      "mot": "a dictionary",
+      "traduction": "un dictionnaire",
+      "exemple": "I have a dictionary.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v30",
+      "mot": "a protractor",
+      "traduction": "un rapporteur",
+      "exemple": "I have a protractor.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v31",
+      "mot": "a set square",
+      "traduction": "une équerre",
+      "exemple": "I have a set square.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v32",
+      "mot": "a compass",
+      "traduction": "un compas",
+      "exemple": "I have a compass.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v33",
+      "mot": "a sticker",
+      "traduction": "un autocollant",
+      "exemple": "I have a sticker.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v34",
+      "mot": "chalk",
+      "traduction": "la craie",
+      "exemple": "I need chalk.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v35",
+      "mot": "a diary",
+      "traduction": "un agenda",
+      "exemple": "I write my homework in my diary.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v36",
+      "mot": "a clipboard",
+      "traduction": "un porte-bloc",
+      "exemple": "I have a clipboard.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v37",
+      "mot": "a laptop",
+      "traduction": "un ordinateur portable",
+      "exemple": "I have a laptop.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v38",
+      "mot": "a tablet",
+      "traduction": "une tablette",
+      "exemple": "I have a tablet.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v39",
+      "mot": "a lunchbox",
+      "traduction": "une boîte-repas",
+      "exemple": "I have a lunchbox.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v40",
+      "mot": "a backpack",
+      "traduction": "un sac à dos",
+      "exemple": "I have a backpack.",
+      "theme": "Le matériel scolaire (3)"
+    },
+    {
+      "id": "v41",
+      "mot": "chew gum in class",
+      "traduction": "mâcher du chewing-gum en classe",
+      "exemple": "Don't chew gum in class.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v42",
+      "mot": "fight at school",
+      "traduction": "se battre à l'école",
+      "exemple": "Don't fight at school.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v43",
+      "mot": "use your mobile phone",
+      "traduction": "utiliser ton téléphone portable",
+      "exemple": "Don't use your mobile phone in class.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v44",
+      "mot": "chat in class",
+      "traduction": "bavarder en classe",
+      "exemple": "Don't chat in class.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v45",
+      "mot": "run in the corridors",
+      "traduction": "courir dans les couloirs",
+      "exemple": "Don't run in the corridors.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v46",
+      "mot": "shout in the corridors",
+      "traduction": "crier dans les couloirs",
+      "exemple": "Don't shout in the corridors.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v47",
+      "mot": "smoke at school",
+      "traduction": "fumer à l'école",
+      "exemple": "Don't smoke at school.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v48",
+      "mot": "ask questions",
+      "traduction": "poser des questions",
+      "exemple": "Ask questions when you don't understand.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v49",
+      "mot": "keep the classroom clean",
+      "traduction": "garder la classe propre",
+      "exemple": "Keep the classroom clean.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v50",
+      "mot": "write your lesson",
+      "traduction": "écrire ta leçon",
+      "exemple": "Write your lesson.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v51",
+      "mot": "do your homework",
+      "traduction": "faire tes devoirs",
+      "exemple": "Do your homework.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v52",
+      "mot": "eat or drink in class",
+      "traduction": "manger ou boire en classe",
+      "exemple": "Don't eat or drink in class.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v53",
+      "mot": "raise your hand",
+      "traduction": "lever la main",
+      "exemple": "Raise your hand to speak.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v54",
+      "mot": "write on the table",
+      "traduction": "écrire sur la table",
+      "exemple": "Don't write on the table.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v55",
+      "mot": "listen to the teacher",
+      "traduction": "écouter le professeur",
+      "exemple": "Listen to the teacher.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v56",
+      "mot": "bring your school material",
+      "traduction": "apporter ton matériel scolaire",
+      "exemple": "Bring your school material.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v57",
+      "mot": "be late",
+      "traduction": "être en retard",
+      "exemple": "Don't be late.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v58",
+      "mot": "learn your lesson",
+      "traduction": "apprendre ta leçon",
+      "exemple": "Learn your lesson, please.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v59",
+      "mot": "wear a cap in class",
+      "traduction": "porter une casquette en classe",
+      "exemple": "Don't wear a cap in class.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v60",
+      "mot": "listen to music in class",
+      "traduction": "écouter de la musique en classe",
+      "exemple": "Don't listen to music in class.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v61",
+      "mot": "be quiet",
+      "traduction": "être calme",
+      "exemple": "Be quiet, please.",
+      "theme": "Les règles de la classe"
+    },
+    {
+      "id": "v62",
+      "mot": "lend",
+      "traduction": "prêter",
+      "exemple": "Could you lend me yours, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v63",
+      "mot": "anybody",
+      "traduction": "n'importe qui",
+      "exemple": "Can anybody lend me a pen, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v64",
+      "mot": "somebody",
+      "traduction": "quelqu'un",
+      "exemple": "Can I share with somebody?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v65",
+      "mot": "share",
+      "traduction": "partager",
+      "exemple": "Can I share with somebody?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v66",
+      "mot": "a tissue",
+      "traduction": "un mouchoir en papier",
+      "exemple": "I need a tissue.",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v67",
+      "mot": "a runny nose",
+      "traduction": "un nez qui coule",
+      "exemple": "I've got a runny nose.",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v68",
+      "mot": "a locker",
+      "traduction": "un casier",
+      "exemple": "I left my notebook in my locker.",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v69",
+      "mot": "the board",
+      "traduction": "le tableau",
+      "exemple": "I can't see the board.",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v70",
+      "mot": "step aside",
+      "traduction": "se déplacer sur le côté",
+      "exemple": "Could you step aside, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v71",
+      "mot": "the blinds",
+      "traduction": "les stores",
+      "exemple": "Could you pull out the blinds, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v72",
+      "mot": "switch on",
+      "traduction": "allumer",
+      "exemple": "Could you switch on the light, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v73",
+      "mot": "switch off",
+      "traduction": "éteindre",
+      "exemple": "Could you switch off the light, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v74",
+      "mot": "bright",
+      "traduction": "lumineux, éclatant",
+      "exemple": "It's too bright in here.",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v75",
+      "mot": "dark",
+      "traduction": "sombre",
+      "exemple": "It's too dark in here.",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v76",
+      "mot": "ink",
+      "traduction": "l'encre",
+      "exemple": "I lost my ink eraser.",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v77",
+      "mot": "speak up",
+      "traduction": "parler plus fort",
+      "exemple": "Could you speak up, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v78",
+      "mot": "play it again",
+      "traduction": "le repasser (l'enregistrement)",
+      "exemple": "Could you play it again, please?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v79",
+      "mot": "the nurse's office",
+      "traduction": "l'infirmerie",
+      "exemple": "Can I go to the nurse's office?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v80",
+      "mot": "the bin",
+      "traduction": "la poubelle",
+      "exemple": "Can I go to the bin?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v81",
+      "mot": "the toilets",
+      "traduction": "les toilettes",
+      "exemple": "Can I go to the toilets?",
+      "theme": "Demander de l'aide en classe"
+    },
+    {
+      "id": "v82",
+      "mot": "homework",
+      "traduction": "les devoirs",
+      "exemple": "I didn't do my homework.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v83",
+      "mot": "hand in",
+      "traduction": "rendre (un devoir)",
+      "exemple": "I didn't hand my homework in.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v84",
+      "mot": "forget",
+      "traduction": "oublier",
+      "exemple": "I forgot my homework.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v85",
+      "mot": "blow up",
+      "traduction": "exploser",
+      "exemple": "It blew up on the way to school.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v86",
+      "mot": "chew",
+      "traduction": "mâcher",
+      "exemple": "My dog chewed my homework.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v87",
+      "mot": "a dog",
+      "traduction": "un chien",
+      "exemple": "My dog ate my homework.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v88",
+      "mot": "a pup",
+      "traduction": "un chiot",
+      "exemple": "That mischievous pup got hold of my homework.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v89",
+      "mot": "an excuse",
+      "traduction": "une excuse",
+      "exemple": "This is my best excuse.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v90",
+      "mot": "busy",
+      "traduction": "occupé",
+      "exemple": "I was busy with sport.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v91",
+      "mot": "flush down",
+      "traduction": "jeter dans les toilettes (chasse d'eau)",
+      "exemple": "It got flushed down the toilets.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v92",
+      "mot": "blow out of the window",
+      "traduction": "s'envoler par la fenêtre",
+      "exemple": "It blew out of the window.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v93",
+      "mot": "spill",
+      "traduction": "renverser",
+      "exemple": "I spilled water on it.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v94",
+      "mot": "accidentally",
+      "traduction": "par accident",
+      "exemple": "I accidentally ate it.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v95",
+      "mot": "swallow",
+      "traduction": "avaler",
+      "exemple": "He swallowed it whole.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v96",
+      "mot": "whole",
+      "traduction": "entier",
+      "exemple": "He swallowed it whole.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v97",
+      "mot": "honest",
+      "traduction": "honnête, franc",
+      "exemple": "It's true, honest!",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v98",
+      "mot": "to wait",
+      "traduction": "attendre",
+      "exemple": "The teacher will just have to wait.",
+      "theme": "Les excuses pour les devoirs"
+    },
+    {
+      "id": "v99",
+      "mot": "favourite colour",
+      "traduction": "couleur préférée",
+      "exemple": "His favourite colour is blue.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v100",
+      "mot": "favourite food",
+      "traduction": "plat préféré",
+      "exemple": "His favourite food is sushi.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v101",
+      "mot": "to be born",
+      "traduction": "naître",
+      "exemple": "He was born on the twelfth of November.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v102",
+      "mot": "to come from",
+      "traduction": "venir de",
+      "exemple": "He comes from Mont-Saint-Aignan.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v103",
+      "mot": "a sister",
+      "traduction": "une sœur",
+      "exemple": "He has one sister.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v104",
+      "mot": "a brother",
+      "traduction": "un frère",
+      "exemple": "Manon has a sister and a brother.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v105",
+      "mot": "a pet",
+      "traduction": "un animal de compagnie",
+      "exemple": "Darlène hasn't got any pets.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v106",
+      "mot": "a cat",
+      "traduction": "un chat",
+      "exemple": "He has one cat.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v107",
+      "mot": "a fish",
+      "traduction": "un poisson",
+      "exemple": "Gabriel has eight fish.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v108",
+      "mot": "a rabbit",
+      "traduction": "un lapin",
+      "exemple": "Gabriel has two cats and a rabbit.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v109",
+      "mot": "a lie",
+      "traduction": "un mensonge",
+      "exemple": "Two truths, one lie.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v110",
+      "mot": "to hate",
+      "traduction": "détester",
+      "exemple": "I hate chocolate.",
+      "theme": "Se présenter et présenter un camarade"
+    },
+    {
+      "id": "v111",
+      "mot": "meat",
+      "traduction": "la viande",
+      "exemple": "His favourite food is meat.",
+      "theme": "Se présenter et présenter un camarade"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "L'impératif",
+      "explication": "On utilise l'impératif pour donner un ordre (Listen!), un conseil (Be careful.) ou interdire (Don't touch.). À la forme affirmative : base verbale + compléments (Close the door!). À la forme négative : Don't (Do not) + base verbale + compléments (Don't close the door). Attention : pas de « s » au verbe (Listen, pas Listens).",
+      "exemples": [
+        "Listen to the teacher!",
+        "Be careful.",
+        "Don't touch.",
+        "Close the door!",
+        "Don't run in the corridors."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "___ to the teacher! (listen)",
+          "reponse": "Listen"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ run in the corridors.",
+          "reponse": "Don't"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ quiet, please. (be)",
+          "reponse": "Be"
+        },
+        {
+          "type": "choix",
+          "question": "Pour interdire de mâcher du chewing-gum :",
+          "options": [
+            "Chew gum in class.",
+            "Don't chew gum in class.",
+            "Don't chews gum in class."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "Listens to the teacher.",
+            "Listen to the teacher.",
+            "Listening to the teacher."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Learn",
+            "your",
+            "lesson,",
+            "please."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Don't",
+            "eat",
+            "in",
+            "class."
+          ]
+        },
+        {
+          "type": "trous",
+          "phrase": "___ your homework. (do)",
+          "reponse": "Do"
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "Can / could : la capacité et la demande polie",
+      "explication": "Can exprime la capacité (I can read Chinese. / I can't come.) et la permission (Can I open the window?). Pour demander la permission : Can + I + base verbale ? Pour demander un service poliment : Could + you + base verbale ? Could est plus poli que can.",
+      "exemples": [
+        "Can you read Chinese?",
+        "I'm sorry, I can't.",
+        "Can I go to the toilets?",
+        "Could you open the window, please?"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "___ I have a tissue?",
+          "reponse": "Can"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ you switch on the light, please?",
+          "reponse": "Could"
+        },
+        {
+          "type": "choix",
+          "question": "Pour demander la permission d'aller aux casiers :",
+          "options": [
+            "Could you go to the lockers?",
+            "Can I go to the lockers?",
+            "Can you go to the lockers?"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Pour demander poliment à quelqu'un d'allumer la lumière :",
+          "options": [
+            "Could you switch on the light, please?",
+            "Can I switch on the light, please?",
+            "Could I you switch on the light?"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Can",
+            "I",
+            "go",
+            "to",
+            "the",
+            "bin?"
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Could",
+            "you",
+            "speak",
+            "up,",
+            "please?"
+          ]
+        },
+        {
+          "type": "trous",
+          "phrase": "I'm sorry, I ___ come to the party. (négatif de can)",
+          "reponse": "can't"
+        },
+        {
+          "type": "choix",
+          "question": "Pour demander de repasser l'enregistrement :",
+          "options": [
+            "Could you play it again, please?",
+            "Can I play it again you?",
+            "Could you playing it again?"
+          ],
+          "bonne": 0
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Le prétérit à la forme négative",
+      "explication": "À la forme négative du prétérit, on utilise l'auxiliaire did + not (didn't), suivi de la base verbale. Did est le prétérit de do. L'ordre est : Sujet + didn't + base verbale. Le verbe be est le seul qui n'a pas besoin de didn't : on ajoute juste not (wasn't au singulier, weren't au pluriel).",
+      "exemples": [
+        "I didn't hand my homework in.",
+        "I didn't do my homework.",
+        "I didn't understand the work.",
+        "I wasn't late."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "I ___ do my homework.",
+          "reponse": "didn't"
+        },
+        {
+          "type": "trous",
+          "phrase": "I didn't ___ my homework in. (hand)",
+          "reponse": "hand"
+        },
+        {
+          "type": "choix",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "I didn't forgot my homework.",
+            "I didn't forget my homework.",
+            "I not forget my homework."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Le négatif de « I was late » est :",
+          "options": [
+            "I didn't be late.",
+            "I wasn't late.",
+            "I didn't was late."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "I",
+            "didn't",
+            "understand",
+            "the",
+            "work."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "My",
+            "dog",
+            "didn't",
+            "eat",
+            "my",
+            "homework."
+          ]
+        },
+        {
+          "type": "trous",
+          "phrase": "They ___ at school yesterday. (négatif de were)",
+          "reponse": "weren't"
+        },
+        {
+          "type": "choix",
+          "question": "Quel verbe n'utilise pas didn't au négatif ?",
+          "options": [
+            "do",
+            "be",
+            "hand"
+          ],
+          "bonne": 1
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "Se présenter et présenter quelqu'un",
+      "explication": "Pour présenter quelqu'un : His/Her name is…, His/Her favourite colour is…, He/She comes from…, He/She was born on… Pour parler de la famille et des animaux : He has one sister (3e personne : has). À la forme négative : hasn't got any… / doesn't have any… (hasn't got any pets).",
+      "exemples": [
+        "His name is Louis and his favourite food is meat.",
+        "Gabriel has eight fish, two cats and a rabbit.",
+        "Darlène hasn't got any pets.",
+        "Maurice doesn't have any brothers or sisters.",
+        "Gwennaëlle comes from Rouen.",
+        "Adrien was born on August 5th."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "His ___ is Camille. (name)",
+          "reponse": "name"
+        },
+        {
+          "type": "trous",
+          "phrase": "He ___ one sister. (have)",
+          "reponse": "has"
+        },
+        {
+          "type": "trous",
+          "phrase": "Gwennaëlle ___ from Rouen. (come)",
+          "reponse": "comes"
+        },
+        {
+          "type": "choix",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "He have one cat.",
+            "He has one cat.",
+            "He haves one cat."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Pour dire « Darlène n'a aucun animal » :",
+          "options": [
+            "Darlène hasn't got any pets.",
+            "Darlène haven't got any pets.",
+            "Darlène not has any pets."
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Adrien",
+            "was",
+            "born",
+            "on",
+            "August",
+            "5th."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "His",
+            "favourite",
+            "colour",
+            "is",
+            "blue."
+          ]
+        },
+        {
+          "type": "trous",
+          "phrase": "Maurice ___ have any brothers or sisters. (négatif)",
+          "reponse": "doesn't"
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "My dog ate my homework.",
+      "traduction": "Mon chien a mangé mes devoirs."
+    },
+    {
+      "id": "p2",
+      "texte": "I didn't hand my homework in because I forgot it.",
+      "traduction": "Je n'ai pas rendu mes devoirs parce que je les ai oubliés."
+    },
+    {
+      "id": "p3",
+      "texte": "I didn't hand my homework in because it blew up on the way to school.",
+      "traduction": "Je n'ai pas rendu mes devoirs parce qu'ils ont explosé sur le chemin de l'école."
+    },
+    {
+      "id": "p4",
+      "texte": "I didn't hand my homework in because my dog chewed it up.",
+      "traduction": "Je n'ai pas rendu mes devoirs parce que mon chien les a mâchouillés."
+    },
+    {
+      "id": "p5",
+      "texte": "Could you play it again, please?",
+      "traduction": "Pourriez-vous le repasser, s'il vous plaît ?"
+    },
+    {
+      "id": "p6",
+      "texte": "I can't hear a thing. Could you speak up, please?",
+      "traduction": "Je n'entends rien. Pourriez-vous parler plus fort, s'il vous plaît ?"
+    },
+    {
+      "id": "p7",
+      "texte": "It's too dark in here. Could you switch on the light, please?",
+      "traduction": "Il fait trop sombre ici. Pourriez-vous allumer la lumière, s'il vous plaît ?"
+    },
+    {
+      "id": "p8",
+      "texte": "I can't see the board. Could you step aside, please?",
+      "traduction": "Je ne vois pas le tableau. Pourriez-vous vous décaler, s'il vous plaît ?"
+    },
+    {
+      "id": "p9",
+      "texte": "I left my notebook in my locker. Can I go and get it?",
+      "traduction": "J'ai laissé mon cahier dans mon casier. Puis-je aller le chercher ?"
+    },
+    {
+      "id": "p10",
+      "texte": "I forgot my French book. Can I share with somebody?",
+      "traduction": "J'ai oublié mon livre de français. Puis-je partager avec quelqu'un ?"
+    },
+    {
+      "id": "p11",
+      "texte": "Don't run in the corridors.",
+      "traduction": "Ne cours pas dans les couloirs."
+    },
+    {
+      "id": "p12",
+      "texte": "Raise your hand to speak.",
+      "traduction": "Lève la main pour parler."
+    },
+    {
+      "id": "p13",
+      "texte": "His favourite food is sushi.",
+      "traduction": "Son plat préféré, ce sont les sushis."
+    },
+    {
+      "id": "p14",
+      "texte": "He was born on the twelfth of November.",
+      "traduction": "Il est né le douze novembre."
+    },
+    {
+      "id": "p15",
+      "texte": "Can you come to the party tomorrow?",
+      "traduction": "Peux-tu venir à la fête demain ?"
+    },
+    {
+      "id": "p16",
+      "texte": "Don't chew gum in class.",
+      "traduction": "Ne mâche pas de chewing-gum en classe."
+    },
+    {
+      "id": "p17",
+      "texte": "Listen to the teacher and raise your hand.",
+      "traduction": "Écoute le professeur et lève la main."
+    },
+    {
+      "id": "p18",
+      "texte": "Keep the classroom clean, please.",
+      "traduction": "Garde la classe propre, s'il te plaît."
+    },
+    {
+      "id": "p19",
+      "texte": "Don't use your mobile phone in class.",
+      "traduction": "N'utilise pas ton téléphone portable en classe."
+    },
+    {
+      "id": "p20",
+      "texte": "Bring your school material to school.",
+      "traduction": "Apporte ton matériel scolaire à l'école."
+    },
+    {
+      "id": "p21",
+      "texte": "Could you lend me a ruler, please?",
+      "traduction": "Pourrais-tu me prêter une règle, s'il te plaît ?"
+    },
+    {
+      "id": "p22",
+      "texte": "Can anybody lend me a pen?",
+      "traduction": "Quelqu'un peut-il me prêter un stylo ?"
+    },
+    {
+      "id": "p23",
+      "texte": "I have a runny nose. Can I have a tissue, please?",
+      "traduction": "J'ai le nez qui coule. Puis-je avoir un mouchoir, s'il vous plaît ?"
+    },
+    {
+      "id": "p24",
+      "texte": "It's too bright in here. Could you close the blinds, please?",
+      "traduction": "Il y a trop de lumière ici. Pourriez-vous fermer les stores, s'il vous plaît ?"
+    },
+    {
+      "id": "p25",
+      "texte": "Could you switch off the light, please?",
+      "traduction": "Pourriez-vous éteindre la lumière, s'il vous plaît ?"
+    },
+    {
+      "id": "p26",
+      "texte": "My pen has no ink. Can somebody lend me a pen?",
+      "traduction": "Mon stylo n'a plus d'encre. Quelqu'un peut-il me prêter un stylo ?"
+    },
+    {
+      "id": "p27",
+      "texte": "Can I put my paper in the bin?",
+      "traduction": "Puis-je mettre mon papier à la poubelle ?"
+    },
+    {
+      "id": "p28",
+      "texte": "I didn't bring my calculator. Can I share with somebody?",
+      "traduction": "Je n'ai pas apporté ma calculatrice. Puis-je partager avec quelqu'un ?"
+    },
+    {
+      "id": "p29",
+      "texte": "I didn't do my homework because I was busy.",
+      "traduction": "Je n'ai pas fait mes devoirs parce que j'étais occupé."
+    },
+    {
+      "id": "p30",
+      "texte": "My pup swallowed my whole homework.",
+      "traduction": "Mon chiot a avalé mes devoirs en entier."
+    },
+    {
+      "id": "p31",
+      "texte": "I accidentally spilled paint on my notebook.",
+      "traduction": "J'ai renversé de la peinture sur mon cahier par accident."
+    },
+    {
+      "id": "p32",
+      "texte": "My homework blew out of the window.",
+      "traduction": "Mes devoirs se sont envolés par la fenêtre."
+    },
+    {
+      "id": "p33",
+      "texte": "My little brother flushed my homework down the toilet.",
+      "traduction": "Mon petit frère a jeté mes devoirs dans les toilettes."
+    },
+    {
+      "id": "p34",
+      "texte": "Be honest: it's not an excuse, it's a lie!",
+      "traduction": "Sois honnête : ce n'est pas une excuse, c'est un mensonge !"
+    },
+    {
+      "id": "p35",
+      "texte": "Her favourite colour is blue and she comes from Paris.",
+      "traduction": "Sa couleur préférée est le bleu et elle vient de Paris."
+    },
+    {
+      "id": "p36",
+      "texte": "He has two brothers, a sister and a rabbit.",
+      "traduction": "Il a deux frères, une sœur et un lapin."
+    },
+    {
+      "id": "p37",
+      "texte": "My sister hates meat. Her favourite food is fish.",
+      "traduction": "Ma sœur déteste la viande. Son plat préféré, c'est le poisson."
+    },
+    {
+      "id": "p38",
+      "texte": "She was born on the fifth of August.",
+      "traduction": "Elle est née le cinq août."
+    }
+  ]
+}

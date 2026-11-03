@@ -151,6 +151,9 @@ export function ecranImport(
     try {
       const pack = await appelerClaude(cle, langue, titre, verbatim);
       pack.title = pack.title || titre;
+      if (!/\(créé le \d{2}\/\d{2}\/\d{4}\)\s*$/.test(pack.title)) {
+        pack.title += ` (créé le ${new Date().toLocaleDateString("fr-FR")})`;
+      }
       pack.language = pack.language || langue;
       pack.id = pack.id || "import-" + Date.now();
       const erreurs = validatePack(pack);

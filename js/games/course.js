@@ -1,7 +1,14 @@
 // Jeu : La Course aux Étoiles (Speed Run)
 // Traduire le mot affiché en sélectionnant ou prononçant la bonne option avant la fin du temps imparti.
 
-import { sample, shuffle, esc, similarity, motTranscrit } from "../utils.js";
+import {
+  sample,
+  shuffle,
+  esc,
+  similarity,
+  motTranscrit,
+  distracteursPour,
+} from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 
 export const meta = {
@@ -27,10 +34,7 @@ export function start(container, ctx) {
   // Préparer les questions
   const questions = sample(vocab, Math.min(NB_QUESTIONS, vocab.length)).map(
     (v) => {
-      const distracteurs = sample(
-        vocab.filter((x) => x.id !== v.id),
-        3,
-      );
+      const distracteurs = distracteursPour(v, vocab, "mot");
       return {
         cible: v,
         options: shuffle([v.mot, ...distracteurs.map((d) => d.mot)]),

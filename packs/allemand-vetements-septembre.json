@@ -1,0 +1,854 @@
+{
+  "id": "allemand-vetements-septembre",
+  "language": "de",
+  "title": "Allemand — Les vêtements et la mode (créé le 04/10/2026)",
+  "description": "Les vêtements, les couleurs, l'adjectif épithète au nominatif et à l'accusatif, la place du verbe conjugué.",
+  "vocab": [
+    {
+      "id": "v1",
+      "mot": "das Outfit",
+      "traduction": "la tenue",
+      "exemple": "Das Outfit ist klassisch und lässig.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v2",
+      "mot": "der Schal",
+      "traduction": "l'écharpe",
+      "exemple": "Der Schal ist warm.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v3",
+      "mot": "das Hemd",
+      "traduction": "la chemise",
+      "exemple": "Das Hemd ist weiß.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v4",
+      "mot": "die Hosenträger",
+      "traduction": "les bretelles",
+      "exemple": "Er trägt die praktischen Hosenträger.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v5",
+      "mot": "die Sneakers",
+      "traduction": "les baskets",
+      "exemple": "Die Sneakers sind braun.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v6",
+      "mot": "die Weste",
+      "traduction": "le gilet sans manches",
+      "exemple": "Die Weste ist schick.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v7",
+      "mot": "die Jeans",
+      "traduction": "le jean",
+      "exemple": "Die Jeans ist schwarz.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v8",
+      "mot": "das T-Shirt",
+      "traduction": "le tee-shirt",
+      "exemple": "Das T-Shirt ist weiß.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v9",
+      "mot": "die Hose",
+      "traduction": "le pantalon",
+      "exemple": "Ich kaufe die blaue Hose.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v10",
+      "mot": "der Pulli",
+      "traduction": "le pull",
+      "exemple": "Der Pulli ist warm.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v11",
+      "mot": "der Rock",
+      "traduction": "la jupe",
+      "exemple": "Der Rock ist klassisch.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v12",
+      "mot": "das Kleid",
+      "traduction": "la robe",
+      "exemple": "Ich kaufe das coole Kleid.",
+      "theme": "Les vêtements (1)"
+    },
+    {
+      "id": "v13",
+      "mot": "der Rucksack",
+      "traduction": "le sac à dos",
+      "exemple": "Der Rucksack ist praktisch.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v14",
+      "mot": "die Jacke",
+      "traduction": "la veste",
+      "exemple": "Ich trage die rote Jacke.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v15",
+      "mot": "der Kapuzenpulli",
+      "traduction": "le sweat à capuche",
+      "exemple": "Der Kapuzenpulli ist praktisch.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v16",
+      "mot": "die Boots",
+      "traduction": "les bottines",
+      "exemple": "Ich trage die braunen Boots.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v17",
+      "mot": "die Schuhe",
+      "traduction": "les chaussures",
+      "exemple": "Er trägt die braunen Schuhe.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v18",
+      "mot": "das Armband",
+      "traduction": "le bracelet",
+      "exemple": "Er trägt die bunten Armbänder.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v19",
+      "mot": "die Jogginghose",
+      "traduction": "le pantalon de jogging",
+      "exemple": "Die graue Jogginghose ist praktisch.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v20",
+      "mot": "der Mantel",
+      "traduction": "le manteau",
+      "exemple": "Kauf dir den schönen Mantel.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v21",
+      "mot": "der Blazer",
+      "traduction": "le blazer",
+      "exemple": "Ich finde den roten Blazer voll im Trend.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v22",
+      "mot": "die Mode",
+      "traduction": "la mode",
+      "exemple": "Mode ist Freiheit.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v23",
+      "mot": "der Stil",
+      "traduction": "le style",
+      "exemple": "Was ist dein Stil?",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v24",
+      "mot": "der Trend",
+      "traduction": "la tendance",
+      "exemple": "Der rote Blazer ist voll im Trend.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v25",
+      "mot": "der Skater-Look",
+      "traduction": "le look skateur",
+      "exemple": "Das Outfit ist ein Skater-Look.",
+      "theme": "Les vêtements (2)"
+    },
+    {
+      "id": "v26",
+      "mot": "anders",
+      "traduction": "différent",
+      "exemple": "Du bist anders.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v27",
+      "mot": "besonders",
+      "traduction": "particulier, spécial",
+      "exemple": "Du bist besonders.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v28",
+      "mot": "einzigartig",
+      "traduction": "unique",
+      "exemple": "Du bist einzigartig.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v29",
+      "mot": "lässig",
+      "traduction": "décontracté",
+      "exemple": "Der Skater-Look ist lässig.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v30",
+      "mot": "schick",
+      "traduction": "chic",
+      "exemple": "Die blaue Hose ist schick.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v31",
+      "mot": "edel",
+      "traduction": "élégant",
+      "exemple": "Das Outfit ist edel und schick.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v32",
+      "mot": "klassisch",
+      "traduction": "classique",
+      "exemple": "Das Outfit ist klassisch und lässig.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v33",
+      "mot": "praktisch",
+      "traduction": "pratique",
+      "exemple": "Der Rucksack ist praktisch.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v34",
+      "mot": "warm",
+      "traduction": "chaud",
+      "exemple": "Der Pulli ist warm.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v35",
+      "mot": "cool",
+      "traduction": "cool",
+      "exemple": "Das Kleid ist cool.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v36",
+      "mot": "hübsch",
+      "traduction": "joli",
+      "exemple": "Die Sneakers sind hübsch.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v37",
+      "mot": "schön",
+      "traduction": "beau",
+      "exemple": "Kauf dir die schöne Hose.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v38",
+      "mot": "bunt",
+      "traduction": "coloré",
+      "exemple": "Er trägt die bunten Armbänder.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v39",
+      "mot": "originell",
+      "traduction": "original",
+      "exemple": "Die Schuhe sind originell.",
+      "theme": "Les adjectifs"
+    },
+    {
+      "id": "v40",
+      "mot": "schwarz",
+      "traduction": "noir",
+      "exemple": "Die Jeans ist schwarz.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v41",
+      "mot": "weiß",
+      "traduction": "blanc",
+      "exemple": "Das T-Shirt ist weiß.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v42",
+      "mot": "braun",
+      "traduction": "marron",
+      "exemple": "Die Sneakers sind braun.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v43",
+      "mot": "rot",
+      "traduction": "rouge",
+      "exemple": "Ich trage die rote Jacke.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v44",
+      "mot": "gelb",
+      "traduction": "jaune",
+      "exemple": "Ich trage das gelbe T-Shirt.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v45",
+      "mot": "blau",
+      "traduction": "bleu",
+      "exemple": "Die Hose ist blau.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v46",
+      "mot": "grün",
+      "traduction": "vert",
+      "exemple": "Ich habe grüne Augen.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v47",
+      "mot": "grau",
+      "traduction": "gris",
+      "exemple": "Er trägt die graue Jogginghose.",
+      "theme": "Les couleurs"
+    },
+    {
+      "id": "v48",
+      "mot": "tragen",
+      "traduction": "porter (un vêtement)",
+      "exemple": "Ich trage das gelbe T-Shirt.",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v49",
+      "mot": "kaufen",
+      "traduction": "acheter",
+      "exemple": "Ich kaufe das coole Kleid.",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v50",
+      "mot": "mögen",
+      "traduction": "aimer bien",
+      "exemple": "Ich mag Ilias' schwarze Hose.",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v51",
+      "mot": "finden",
+      "traduction": "trouver",
+      "exemple": "Ich finde den roten Blazer voll im Trend.",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v52",
+      "mot": "haben",
+      "traduction": "avoir",
+      "exemple": "Ich habe ein rotes Auto.",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v53",
+      "mot": "denken",
+      "traduction": "penser",
+      "exemple": "Was denkst du über Mode?",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v54",
+      "mot": "ausprobieren",
+      "traduction": "essayer, tester",
+      "exemple": "Probiere einen neuen Stil aus!",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v55",
+      "mot": "wohnen",
+      "traduction": "habiter",
+      "exemple": "Wo wohnt Nic?",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v56",
+      "mot": "wissen",
+      "traduction": "savoir",
+      "exemple": "Ich weiß nicht.",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v57",
+      "mot": "sagen",
+      "traduction": "dire",
+      "exemple": "Sie sagt, dass Mode Spaß macht.",
+      "theme": "Les verbes de la leçon"
+    },
+    {
+      "id": "v58",
+      "mot": "wo",
+      "traduction": "où",
+      "exemple": "Wo wohnt Nic Kaufmann?",
+      "theme": "Les mots pour questionner"
+    },
+    {
+      "id": "v59",
+      "mot": "was",
+      "traduction": "quoi, que",
+      "exemple": "Was ist dein Stil?",
+      "theme": "Les mots pour questionner"
+    },
+    {
+      "id": "v60",
+      "mot": "wer",
+      "traduction": "qui",
+      "exemple": "Wer ist dein Lieblingsinfluencer?",
+      "theme": "Les mots pour questionner"
+    },
+    {
+      "id": "v61",
+      "mot": "dein Lieblingsinfluencer",
+      "traduction": "ton influenceur préféré",
+      "exemple": "Wer ist dein Lieblingsinfluencer?",
+      "theme": "Les mots pour questionner"
+    },
+    {
+      "id": "v62",
+      "mot": "die Augen",
+      "traduction": "les yeux",
+      "exemple": "Hast du grüne oder blaue Augen?",
+      "theme": "Les mots pour questionner"
+    },
+    {
+      "id": "v63",
+      "mot": "die Haare",
+      "traduction": "les cheveux",
+      "exemple": "Hat Zahide braune Haare?",
+      "theme": "Les mots pour questionner"
+    },
+    {
+      "id": "v64",
+      "mot": "der Spaß",
+      "traduction": "le plaisir, l'amusement",
+      "exemple": "Mode macht Spaß.",
+      "theme": "Les mots pour questionner"
+    },
+    {
+      "id": "v65",
+      "mot": "die Freiheit",
+      "traduction": "la liberté",
+      "exemple": "Mode ist Freiheit.",
+      "theme": "Les mots pour questionner"
+    }
+  ],
+  "grammar": [
+    {
+      "id": "g1",
+      "titre": "L'adjectif épithète au nominatif",
+      "explication": "En allemand, l'adjectif épithète est toujours placé devant le nom qu'il qualifie. Comme en français, il s'accorde : il prend une marque (une terminaison). Au nominatif (le sujet), après l'article défini : der blaue Pulli, das blaue Kleid, die blaue Hose, die blauen Schuhe (pluriel).",
+      "exemples": [
+        "Der blaue Pulli ist schick.",
+        "Das blaue Kleid ist cool.",
+        "Die blaue Hose ist schick.",
+        "Die braunen Schuhe sind praktisch."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Der ___ Pulli ist warm. (blau)",
+          "reponse": "blaue"
+        },
+        {
+          "type": "trous",
+          "phrase": "Das ___ Kleid ist cool. (rot)",
+          "reponse": "rote"
+        },
+        {
+          "type": "trous",
+          "phrase": "Die ___ Hose ist schick. (schwarz)",
+          "reponse": "schwarze"
+        },
+        {
+          "type": "choix",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "Die blaue Hose ist schick.",
+            "Die blau Hose ist schick.",
+            "Die blauen Hose ist schick."
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Au pluriel, après « die », l'adjectif se termine par :",
+          "options": [
+            "-e",
+            "-en",
+            "-es"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Die",
+            "Sneakers",
+            "sind",
+            "braun."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Der",
+            "Skater-Look",
+            "ist",
+            "lässig."
+          ]
+        },
+        {
+          "type": "trous",
+          "phrase": "Die ___ Schuhe sind originell. (braun, pluriel)",
+          "reponse": "braunen"
+        }
+      ]
+    },
+    {
+      "id": "g2",
+      "titre": "L'adjectif épithète à l'accusatif",
+      "explication": "Quand le groupe nominal est COD (accusatif), on choisit la marque de l'accusatif. Seul le masculin change : der -> den, ein -> einen. Après l'article défini : den blauen Pulli, das blaue Kleid, die blaue Hose, die blauen Schuhe. Après l'article indéfini : einen schönen Mantel, ein schönes Kleid, eine schöne Hose, Ø schöne Schuhe.",
+      "exemples": [
+        "Kauf dir den schönen Mantel.",
+        "Kauf dir die schöne Hose.",
+        "Kauf dir das schöne Kleid.",
+        "Ich trage die schwarze Hose.",
+        "Er trägt ein blaues T-Shirt."
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Ich kaufe den ___ Pulli. (blau)",
+          "reponse": "blauen"
+        },
+        {
+          "type": "trous",
+          "phrase": "Ich trage die ___ Hose. (schwarz)",
+          "reponse": "schwarze"
+        },
+        {
+          "type": "trous",
+          "phrase": "Ich trage das ___ T-Shirt. (gelb)",
+          "reponse": "gelbe"
+        },
+        {
+          "type": "choix",
+          "question": "Quelle phrase est correcte ?",
+          "options": [
+            "Ich kaufe den blaue Pulli.",
+            "Ich kaufe den blauen Pulli.",
+            "Ich kaufe der blaue Pulli."
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Er trägt ___ blaues T-Shirt.",
+          "options": [
+            "ein",
+            "einen",
+            "eine"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Kauf dir ___ schönen Mantel.",
+          "options": [
+            "der",
+            "den",
+            "das"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Ich",
+            "trage",
+            "die",
+            "schwarze",
+            "Hose."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Ich",
+            "kaufe",
+            "das",
+            "coole",
+            "Kleid."
+          ]
+        }
+      ]
+    },
+    {
+      "id": "g3",
+      "titre": "Nominatif ou accusatif ?",
+      "explication": "Le nominatif est la fonction du sujet (celui qui fait l'action) ; l'accusatif est la fonction du COD (ce que l'on porte, achète, trouve). Avec tragen, kaufen, finden, le vêtement est au COD donc à l'accusatif. Au masculin : der (nominatif) -> den (accusatif).",
+      "exemples": [
+        "Der Pulli ist warm. (sujet)",
+        "Ich trage den warmen Pulli. (COD)",
+        "Die Hose ist schick. (sujet)",
+        "Ich kaufe die blaue Hose. (COD)"
+      ],
+      "exercices": [
+        {
+          "type": "trous",
+          "phrase": "Ich trage ___ warmen Pulli. (der)",
+          "reponse": "den"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ Pulli ist warm. (der)",
+          "reponse": "Der"
+        },
+        {
+          "type": "choix",
+          "question": "Dans « Ich trage den Rucksack », « den Rucksack » est :",
+          "options": [
+            "sujet (nominatif)",
+            "COD (accusatif)"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Dans « Der Rucksack ist praktisch », « der Rucksack » est :",
+          "options": [
+            "sujet (nominatif)",
+            "COD (accusatif)"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Au féminin, nominatif et accusatif sont :",
+          "options": [
+            "identiques (die)",
+            "différents (die / den)"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Ich",
+            "kaufe",
+            "den",
+            "Rucksack."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Ilias",
+            "trägt",
+            "die",
+            "schwarze",
+            "Hose."
+          ]
+        },
+        {
+          "type": "trous",
+          "phrase": "Ich finde ___ roten Blazer toll. (der Blazer)",
+          "reponse": "den"
+        }
+      ]
+    },
+    {
+      "id": "g4",
+      "titre": "La place du verbe conjugué",
+      "explication": "Le verbe conjugué change de place selon le type de phrase. Il est en première position dans les questions globales (réponse ja/nein) et les phrases injonctives (impératif) ; en deuxième position dans les questions partielles (wo, was, wer, wie…) et les phrases déclaratives ; en dernière position dans les subordonnées (dass…). Les verbes à l'infinitif sont placés à la fin de la phrase.",
+      "exemples": [
+        "Mag er Mode?",
+        "Wo wohnt Nic Kaufmann?",
+        "Ich denke, dass Mode Freiheit ist.",
+        "Probiere einen neuen Stil aus!",
+        "Hat Zahide braune Haare?"
+      ],
+      "exercices": [
+        {
+          "type": "choix",
+          "question": "Dans « Mag er Mode? », le verbe est en :",
+          "options": [
+            "1re position",
+            "2e position",
+            "dernière position"
+          ],
+          "bonne": 0
+        },
+        {
+          "type": "choix",
+          "question": "Dans « Wo wohnt Nic? », le verbe est en :",
+          "options": [
+            "1re position",
+            "2e position",
+            "dernière position"
+          ],
+          "bonne": 1
+        },
+        {
+          "type": "choix",
+          "question": "Dans « …, dass Mode Freiheit ist », le verbe est en :",
+          "options": [
+            "1re position",
+            "2e position",
+            "dernière position"
+          ],
+          "bonne": 2
+        },
+        {
+          "type": "trous",
+          "phrase": "Hat Zahide braune ___? (les cheveux)",
+          "reponse": "Haare"
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Rin",
+            "ist",
+            "ein",
+            "deutscher",
+            "Rapper."
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Hast",
+            "du",
+            "grüne",
+            "oder",
+            "blaue",
+            "Augen?"
+          ]
+        },
+        {
+          "type": "ordre",
+          "mots": [
+            "Wer",
+            "ist",
+            "dein",
+            "Lieblingsinfluencer?"
+          ]
+        },
+        {
+          "type": "choix",
+          "question": "« Was ist dein Stil? » est une question :",
+          "options": [
+            "globale (ja/nein)",
+            "partielle (avec un mot interrogatif)"
+          ],
+          "bonne": 1
+        }
+      ]
+    }
+  ],
+  "phrases": [
+    {
+      "id": "p1",
+      "texte": "Du bist anders. Du bist besonders. Du bist einzigartig.",
+      "traduction": "Tu es différent. Tu es spécial. Tu es unique."
+    },
+    {
+      "id": "p2",
+      "texte": "Mode ist Freiheit.",
+      "traduction": "La mode, c'est la liberté."
+    },
+    {
+      "id": "p3",
+      "texte": "Was ist dein Stil?",
+      "traduction": "Quel est ton style ?"
+    },
+    {
+      "id": "p4",
+      "texte": "Hat Zahide braune Haare?",
+      "traduction": "Est-ce que Zahide a les cheveux marron ?"
+    },
+    {
+      "id": "p5",
+      "texte": "Probiere einen neuen Stil aus!",
+      "traduction": "Essaie un nouveau style !"
+    },
+    {
+      "id": "p6",
+      "texte": "Sie sagt, dass Mode Spaß macht.",
+      "traduction": "Elle dit que la mode, c'est amusant."
+    },
+    {
+      "id": "p7",
+      "texte": "Wo wohnt Nic Kaufmann?",
+      "traduction": "Où habite Nic Kaufmann ?"
+    },
+    {
+      "id": "p8",
+      "texte": "Ich mag Ilias' schwarze Hose.",
+      "traduction": "J'aime bien le pantalon noir d'Ilias."
+    },
+    {
+      "id": "p9",
+      "texte": "Er trägt ein blaues T-Shirt.",
+      "traduction": "Il porte un tee-shirt bleu."
+    },
+    {
+      "id": "p10",
+      "texte": "Das Outfit ist edel und schick.",
+      "traduction": "La tenue est élégante et chic."
+    },
+    {
+      "id": "p11",
+      "texte": "Das Outfit ist klassisch und lässig.",
+      "traduction": "La tenue est classique et décontractée."
+    },
+    {
+      "id": "p12",
+      "texte": "Die Jeans ist schwarz und die Sneakers sind braun.",
+      "traduction": "Le jean est noir et les baskets sont marron."
+    },
+    {
+      "id": "p13",
+      "texte": "Ich kaufe die blaue Hose.",
+      "traduction": "J'achète le pantalon bleu."
+    },
+    {
+      "id": "p14",
+      "texte": "Er trägt die praktischen Hosenträger.",
+      "traduction": "Il porte les bretelles pratiques."
+    },
+    {
+      "id": "p15",
+      "texte": "Ich trage das gelbe T-Shirt.",
+      "traduction": "Je porte le tee-shirt jaune."
+    }
+  ]
+}

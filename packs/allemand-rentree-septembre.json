@@ -1011,6 +1011,121 @@
       "id": "p15",
       "texte": "Wie viel Geld hast du noch?",
       "traduction": "Combien d'argent te reste-t-il ?"
+    },
+    {
+      "id": "p16",
+      "texte": "Ich heiße Fabian und wohne in Regensburg.",
+      "traduction": "Je m'appelle Fabian et j'habite à Ratisbonne."
+    },
+    {
+      "id": "p17",
+      "texte": "Mein Vorname ist Lisa.",
+      "traduction": "Mon prénom est Lisa."
+    },
+    {
+      "id": "p18",
+      "texte": "Hast du ein Haustier? Ja, ich habe eine Maus.",
+      "traduction": "As-tu un animal de compagnie ? Oui, j'ai une souris."
+    },
+    {
+      "id": "p19",
+      "texte": "Wir spielen Fußball und Tennis.",
+      "traduction": "Nous jouons au football et au tennis."
+    },
+    {
+      "id": "p20",
+      "texte": "Ihr hört einen Podcast.",
+      "traduction": "Vous écoutez un podcast."
+    },
+    {
+      "id": "p21",
+      "texte": "Sie schwimmen schnell.",
+      "traduction": "Ils nagent vite."
+    },
+    {
+      "id": "p22",
+      "texte": "Mein bester Freund surft im Internet.",
+      "traduction": "Mon meilleur ami surfe sur Internet."
+    },
+    {
+      "id": "p23",
+      "texte": "Was machst du heute?",
+      "traduction": "Qu'est-ce que tu fais aujourd'hui ?"
+    },
+    {
+      "id": "p24",
+      "texte": "Er liest die Übung.",
+      "traduction": "Il lit l'exercice."
+    },
+    {
+      "id": "p25",
+      "texte": "Du nimmst den Bus und ich laufe.",
+      "traduction": "Tu prends le bus et moi, je cours."
+    },
+    {
+      "id": "p26",
+      "texte": "Er gibt mir seine Handynummer.",
+      "traduction": "Il me donne son numéro de portable."
+    },
+    {
+      "id": "p27",
+      "texte": "Wo wohnt dein Cousin?",
+      "traduction": "Où habite ton cousin ?"
+    },
+    {
+      "id": "p28",
+      "texte": "Wer ist dein bester Freund?",
+      "traduction": "Qui est ton meilleur ami ?"
+    },
+    {
+      "id": "p29",
+      "texte": "Sie ist schlank und hat lockige blonde Haare.",
+      "traduction": "Elle est mince et a les cheveux blonds et bouclés."
+    },
+    {
+      "id": "p30",
+      "texte": "Er hat lange glatte Haare und braune Augen.",
+      "traduction": "Il a les cheveux longs et raides et les yeux marron."
+    },
+    {
+      "id": "p31",
+      "texte": "Mein Vater ist groß und sportlich.",
+      "traduction": "Mon père est grand et sportif."
+    },
+    {
+      "id": "p32",
+      "texte": "Ihr seid glücklich.",
+      "traduction": "Vous êtes heureux."
+    },
+    {
+      "id": "p33",
+      "texte": "Heute ist Donnerstag.",
+      "traduction": "Aujourd'hui, c'est jeudi."
+    },
+    {
+      "id": "p34",
+      "texte": "Ich habe heute keine Lust.",
+      "traduction": "Aujourd'hui, je n'ai pas envie."
+    },
+    {
+      "id": "p35",
+      "texte": "Was trägst du heute?",
+      "traduction": "Qu'est-ce que tu portes aujourd'hui ?"
+    },
+    {
+      "id": "p36",
+      "texte": "Die Klamotten von dieser Marke gefallen mir.",
+      "traduction": "Les fringues de cette marque me plaisent."
+    },
+    {
+      "id": "p37",
+      "texte": "Wer ist dein Lieblingsinfluencer?",
+      "traduction": "Qui est ton influenceur préféré ?"
+    },
+    {
+      "id": "p38",
+      "texte": "Wir schreiben die Übung.",
+      "traduction": "Nous écrivons l'exercice."
     }
   ]
 }

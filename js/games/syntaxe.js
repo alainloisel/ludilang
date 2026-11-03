@@ -11,6 +11,8 @@ export const meta = {
   desc: "Assemble les mots dans le bon ordre en respectant la consigne grammaticale !",
 };
 
+// Réserve de secours (anglais / allemand), utilisée seulement quand le cours
+// n'a pas assez d'exercices « ordre » à proposer.
 const EXERCICES = {
   en: [
     {
@@ -73,10 +75,41 @@ const EXERCICES = {
 
 const NB_MANCHES = 4;
 
+// Exercices « ordre » du cours : la consigne est l'explication du point de
+// grammaire, la solution est l'ordre des mots tel qu'écrit dans le pack.
+// Complétés par la réserve écrite à la main pour l'anglais et l'allemand.
+export function collecterExercices(pack) {
+  const items = [];
+  const vus = new Set();
+  for (const g of pack.grammar || []) {
+    for (const ex of g.exercices || []) {
+      if (ex.type !== "ordre" || !(ex.mots?.length >= 3)) continue;
+      const solution = ex.mots.join(" ");
+      if (vus.has(solution)) continue;
+      vus.add(solution);
+      items.push({
+        titre: g.titre,
+        consigne: g.explication || "Remets les mots dans le bon ordre.",
+        mots: ex.mots,
+        solution,
+      });
+    }
+  }
+  const sec = EXERCICES[pack.language] || [];
+  const choisis = sample(items, NB_MANCHES);
+  for (const ex of shuffle(sec)) {
+    if (choisis.length >= NB_MANCHES) break;
+    if (!vus.has(ex.solution)) choisis.push(ex);
+  }
+  return choisis;
+}
+
 export function start(container, ctx) {
-  const lang = ctx.pack.language === "de" ? "de" : "en";
-  const pool = EXERCICES[lang];
-  const items = sample(pool, Math.min(NB_MANCHES, pool.length));
+  const items = collecterExercices(ctx.pack);
+  if (!items.length) {
+    ctx.finPartie({ jeu: meta.id, xp: 0, bonnes: 0, reponses: 0, message: "" });
+    return;
+  }
   let index = 0,
     bonnes = 0,
     xp = 0;

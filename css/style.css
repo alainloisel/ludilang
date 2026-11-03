@@ -159,6 +159,7 @@ h1, h2 { font-weight: 800; }
 
 .selecteur-pack { display: flex; flex-direction: column; gap: 6px; }
 .selecteur-pack label { font-size: 0.85rem; font-weight: 700; color: var(--texte-2); }
+.pack-titre-complet { margin: 0; font-size: 0.9rem; color: var(--texte-2); overflow-wrap: anywhere; }
 
 select, input[type="text"], input[type="password"], textarea {
   font: inherit;
@@ -743,3 +744,6 @@ select:focus, input:focus, textarea:focus { outline: 2px solid var(--violet); }
   .hud-xp-barre { width: 42px; }
   .grille-jeux { grid-template-columns: repeat(2, 1fr); }
 }
+
+.dictee-faute { color: var(--rouge); text-decoration: underline wavy var(--rouge); text-underline-offset: 3px; }
+.dictee-manque { color: var(--vert); text-decoration: underline; text-underline-offset: 3px; }

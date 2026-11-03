@@ -85,9 +85,16 @@ Réponds **uniquement** avec le JSON du pack, sans texte autour, selon ce schém
   - `choix` : QCM, `options` = 2 à 4 propositions, `bonne` = index (0, 1, 2…) de la bonne.
   - `ordre` : `mots` = les mots de la phrase correcte, dans le bon ordre (l'app les
     mélangera). 4 à 7 mots, la ponctuation collée au dernier mot.
-- `phrases` : 8 à 15 phrases complètes du cours (ou construites avec son contenu),
-  utilisées pour la dictée, la prononciation et la remise en ordre. `texte` dans la
-  langue étudiée, `traduction` en français. Ids `p1`, `p2`, …
+- `phrases` : **30 à 40 phrases** complètes, utilisées pour la dictée, la prononciation
+  (Perroquet), le Détective et la remise en ordre — plus il y en a, moins les parties se
+  répètent. D'abord toutes les phrases du cours (corrigées), puis des phrases
+  **construites** pour compléter : elles combinent le vocabulaire et les structures de
+  grammaire du cours (une phrase par point de grammaire au moins, et des phrases qui
+  mélangent plusieurs thèmes du vocabulaire), de 4 à 12 mots, variées (affirmations,
+  questions, négations, différentes personnes). `texte` dans la langue étudiée,
+  `traduction` en français. Ids `p1`, `p2`, …
+  - Chinois : séparer les mots par des espaces (`我 想 喝 茶。`), la remise en ordre
+    découpe sur les espaces.
 
 ## Qualité
 

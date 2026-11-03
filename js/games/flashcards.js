@@ -71,7 +71,6 @@ export function start(container, ctx) {
         </div>
         <div class="carte-boutons" id="boutons" hidden>
           <button class="btn btn-ko">❌ À revoir</button>
-          ${microDisponible() ? `<button class="btn-micro-small" id="micro-reponse" title="Dire Oui ou Non">🎤</button>` : ""}
           <button class="btn btn-ok">✅ Je savais !</button>
         </div>
         <div id="feedback-micro" style="text-align: center; min-height: 24px; margin-top: 10px;"></div>`;
@@ -121,55 +120,6 @@ export function start(container, ctx) {
             console.error(err);
           } finally {
             btnDevine.classList.remove("actif");
-          }
-        };
-      }
-
-      const btnReponse = container.querySelector("#micro-reponse");
-      if (btnReponse) {
-        btnReponse.onclick = async (e) => {
-          e.stopPropagation();
-          btnReponse.classList.add("actif");
-          try {
-            const alts = await ecouter("fr-FR");
-            let action = null;
-            for (const alt of alts) {
-              const text = alt.toLowerCase();
-              if (
-                text.includes("oui") ||
-                text.includes("savais") ||
-                text.includes("connu") ||
-                text.includes("ok") ||
-                text.includes("bien") ||
-                text.includes("yes") ||
-                text.includes("ja")
-              ) {
-                action = "ok";
-                break;
-              }
-              if (
-                text.includes("non") ||
-                text.includes("revoir") ||
-                text.includes("faux") ||
-                text.includes("no") ||
-                text.includes("nein")
-              ) {
-                action = "ko";
-                break;
-              }
-            }
-            if (action === "ok") {
-              repondre(true);
-            } else if (action === "ko") {
-              repondre(false);
-            } else {
-              const fb = container.querySelector("#feedback-micro");
-              fb.innerHTML = `<p class="feedback ko" style="margin-top: 5px; padding: 6px 12px; font-size: 0.9em;">J'ai entendu : « ${esc(alts[0] || "")} ». Dis « oui » ou « non ».</p>`;
-            }
-          } catch (err) {
-            console.error(err);
-          } finally {
-            btnReponse.classList.remove("actif");
           }
         };
       }

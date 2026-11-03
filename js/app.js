@@ -141,6 +141,7 @@ function accueil() {
             )
             .join("")}
         </select>
+        <p class="pack-titre-complet">${esc(pack.title)}</p>
       </div>
 
       <div class="stats-ligne">

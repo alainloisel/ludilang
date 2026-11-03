@@ -20,6 +20,7 @@ import * as detective from "./games/detective.js";
 import * as conjugaison from "./games/conjugaison.js";
 import * as accord from "./games/accord.js";
 import * as syntaxe from "./games/syntaxe.js";
+import { collecterExercices } from "./games/syntaxe.js";
 import * as preposition from "./games/preposition.js";
 import * as irregular from "./games/irregular.js";
 import * as marathon from "./games/marathon.js";
@@ -42,6 +43,7 @@ function estLatin(pack) {
 // enParcours : false pour exclure le jeu des séquences automatiques.
 // langues    : liste blanche — le jeu a son contenu codé en dur pour ces langues
 //              seulement, ailleurs il enseignerait la mauvaise langue.
+// compatible : prédicat optionnel sur le cours ; faux = le jeu n'est pas proposé.
 // alphabet   : "latin" — le jeu affiche une grille de lettres A-Z.
 // saisie     : "cible" — le jeu demande d'écrire dans la langue étudiée, ce qui
 //              suppose un clavier capable de la taper.
@@ -127,7 +129,7 @@ export const CATALOGUE = {
     cat: "scolaire",
     vocab: false,
     interlude: true,
-    langues: ["en", "de"],
+    compatible: (pack) => collecterExercices(pack).length > 0,
   },
   preposition: {
     mod: preposition,
@@ -159,6 +161,7 @@ export function jeuxCompatibles(pack) {
   return Object.keys(CATALOGUE).filter((id) => {
     const e = CATALOGUE[id];
     if (e.langues && !e.langues.includes(pack.language)) return false;
+    if (e.compatible && !e.compatible(pack)) return false;
     if (e.alphabet === "latin" && !estLatin(pack)) return false;
     if (e.saisie === "cible" && !estLatin(pack)) return false;
     return true;

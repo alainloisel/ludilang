@@ -31,6 +31,14 @@
     {
       "fichier": "allemand-rentree-septembre.json",
       "id": "allemand-rentree-septembre"
+    },
+    {
+      "fichier": "anglais-rentree-septembre.json",
+      "id": "anglais-rentree-septembre"
+    },
+    {
+      "fichier": "allemand-vetements-septembre.json",
+      "id": "allemand-vetements-septembre"
     }
   ]
 }

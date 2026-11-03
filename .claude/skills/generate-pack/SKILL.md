@@ -107,8 +107,10 @@ Construction du pack :
   is/are, présent simple, quantifieurs, modaux, prétérit, etc. — selon ce que contient
   la source traitée). Pour chaque point, 6 à 8 exercices variés (`trous` / `choix` /
   `ordre`), construits en priorité à partir des phrases originales du cours.
-- **`phrases`** : 8 à 15 phrases complètes, extraites verbatim (corrigées) du cours
-  quand c'est possible, sinon construites avec son seul vocabulaire.
+- **`phrases`** : 30 à 40 phrases complètes (la variété des parties de Perroquet,
+  Dictée, Détective et Phrases en désordre en dépend). D'abord toutes les phrases du
+  cours (corrigées), puis des phrases construites avec son seul vocabulaire et ses
+  structures de grammaire pour atteindre le compte — voir `import/PROMPT-PACK.md`.
 - Contrainte technique de l'application (voir `js/store.js:60-76`) : `vocab` doit
   contenir au moins 4 entrées, chacune avec `mot` et `traduction` obligatoires ;
   `grammar` et `phrases` sont optionnels côté app mais doivent être riches d'après la
@@ -119,6 +121,13 @@ Construction du pack :
 - kebab-case, sans espace, dérivé du contenu ou du nom du fichier source.
 - Vérifier qu'il n'entre pas en collision avec un `id` déjà présent dans
   `packs/index.json`.
+
+## Titre du pack — date de création
+
+Le `title` d'un nouveau pack se termine toujours par la date de création, au format
+`(créé le JJ/MM/AAAA)` — par exemple
+`"Allemand – Les vêtements et la mode (créé le 07/10/2026)"`. Utiliser la date du
+jour. Ne pas toucher au titre des packs existants.
 
 ## Étape 6 — Valider le JSON
 

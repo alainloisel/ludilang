@@ -132,6 +132,9 @@ python script/lexique2pack.py build \
   --id <pack-id> --langue <code> --titre "…" --description "…"
 ```
 
+`build` ajoute tout seul « (créé le JJ/MM/AAAA) » à la fin du titre : ne pas l'écrire
+dans `--titre`.
+
 L'id est en kebab-case et ne doit pas déjà exister dans `packs/index.json`. Le script
 refuse d'écrire tant qu'un contrôle échoue : corriger la liste de travail et
 relancer, ne jamais contourner. Il écrit `packs/<id>.json`, l'ajoute à

@@ -3348,6 +3348,1061 @@
       "id": "p16",
       "texte": "我们 吃 了 晚饭。",
       "traduction": "Nous avons dîné."
+    },
+    {
+      "id": "p17",
+      "texte": "我 是 中国 人。",
+      "traduction": "Je suis chinois."
+    },
+    {
+      "id": "p18",
+      "texte": "她 是 我 的 朋友。",
+      "traduction": "C'est mon amie."
+    },
+    {
+      "id": "p19",
+      "texte": "他 是 谁？",
+      "traduction": "Qui est-ce ?"
+    },
+    {
+      "id": "p20",
+      "texte": "那 是 我 的 老师。",
+      "traduction": "C'est mon professeur."
+    },
+    {
+      "id": "p21",
+      "texte": "你 认识 他 吗？",
+      "traduction": "Tu le connais ?"
+    },
+    {
+      "id": "p22",
+      "texte": "我 认识 她 的 哥哥。",
+      "traduction": "Je connais son grand frère."
+    },
+    {
+      "id": "p23",
+      "texte": "你 住 在 哪里？",
+      "traduction": "Où habites-tu ?"
+    },
+    {
+      "id": "p24",
+      "texte": "我 住 在 北京。",
+      "traduction": "J'habite à Pékin."
+    },
+    {
+      "id": "p25",
+      "texte": "他们 都 是 学生。",
+      "traduction": "Ils sont tous élèves."
+    },
+    {
+      "id": "p26",
+      "texte": "我们 是 同学。",
+      "traduction": "Nous sommes camarades de classe."
+    },
+    {
+      "id": "p27",
+      "texte": "您 是 老师 吗？",
+      "traduction": "Êtes-vous professeur ?"
+    },
+    {
+      "id": "p28",
+      "texte": "这 是 我 的 同事。",
+      "traduction": "Voici mon collègue."
+    },
+    {
+      "id": "p29",
+      "texte": "我 会 说 汉语 和 英语。",
+      "traduction": "Je sais parler chinois et anglais."
+    },
+    {
+      "id": "p30",
+      "texte": "你 会 说 英语 吗？",
+      "traduction": "Sais-tu parler anglais ?"
+    },
+    {
+      "id": "p31",
+      "texte": "我 不 会 说 中文。",
+      "traduction": "Je ne sais pas parler chinois."
+    },
+    {
+      "id": "p32",
+      "texte": "我 很 好，你 呢？",
+      "traduction": "Je vais bien, et toi ?"
+    },
+    {
+      "id": "p33",
+      "texte": "我 家 有 四 个 人。",
+      "traduction": "Il y a quatre personnes dans ma famille."
+    },
+    {
+      "id": "p34",
+      "texte": "我 有 一 个 弟弟 和 一 个 妹妹。",
+      "traduction": "J'ai un petit frère et une petite sœur."
+    },
+    {
+      "id": "p35",
+      "texte": "我 没 有 姐姐。",
+      "traduction": "Je n'ai pas de grande sœur."
+    },
+    {
+      "id": "p36",
+      "texte": "你 有 哥哥 吗？",
+      "traduction": "As-tu un grand frère ?"
+    },
+    {
+      "id": "p37",
+      "texte": "我 爸爸 是 医生。",
+      "traduction": "Mon père est médecin."
+    },
+    {
+      "id": "p38",
+      "texte": "我 妈妈 在 银行 工作。",
+      "traduction": "Ma mère travaille à la banque."
+    },
+    {
+      "id": "p39",
+      "texte": "我 爷爷 奶奶 住 在 北京。",
+      "traduction": "Mes grands-parents habitent à Pékin."
+    },
+    {
+      "id": "p40",
+      "texte": "她 的 儿子 很 聪明。",
+      "traduction": "Son fils est très intelligent."
+    },
+    {
+      "id": "p41",
+      "texte": "他们 的 女儿 很 漂亮。",
+      "traduction": "Leur fille est très jolie."
+    },
+    {
+      "id": "p42",
+      "texte": "孩子 在 公园 玩。",
+      "traduction": "L'enfant joue au parc."
+    },
+    {
+      "id": "p43",
+      "texte": "我 妹妹 喜欢 跳舞。",
+      "traduction": "Ma petite sœur aime danser."
+    },
+    {
+      "id": "p44",
+      "texte": "我 弟弟 常常 哭。",
+      "traduction": "Mon petit frère pleure souvent."
+    },
+    {
+      "id": "p45",
+      "texte": "奶奶 每天 早上 去 公园。",
+      "traduction": "Grand-mère va au parc tous les matins."
+    },
+    {
+      "id": "p46",
+      "texte": "爸爸 开车 去 公司。",
+      "traduction": "Papa va au travail en voiture."
+    },
+    {
+      "id": "p47",
+      "texte": "妈妈 在 厨房 做 饭。",
+      "traduction": "Maman prépare à manger dans la cuisine."
+    },
+    {
+      "id": "p48",
+      "texte": "现在 几 点？",
+      "traduction": "Quelle heure est-il ?"
+    },
+    {
+      "id": "p49",
+      "texte": "现在 八 点 半。",
+      "traduction": "Il est huit heures et demie."
+    },
+    {
+      "id": "p50",
+      "texte": "我 每天 早上 七 点 起床。",
+      "traduction": "Je me lève à sept heures tous les matins."
+    },
+    {
+      "id": "p51",
+      "texte": "我 晚上 十 点 睡觉。",
+      "traduction": "Je me couche à dix heures du soir."
+    },
+    {
+      "id": "p52",
+      "texte": "今天 星期 几？",
+      "traduction": "Quel jour sommes-nous ?"
+    },
+    {
+      "id": "p53",
+      "texte": "今天 是 星期三。",
+      "traduction": "Aujourd'hui, c'est mercredi."
+    },
+    {
+      "id": "p54",
+      "texte": "明天 我 没 有 课。",
+      "traduction": "Demain, je n'ai pas cours."
+    },
+    {
+      "id": "p55",
+      "texte": "昨天 天气 很 冷。",
+      "traduction": "Hier, il faisait très froid."
+    },
+    {
+      "id": "p56",
+      "texte": "你 什么 时候 来？",
+      "traduction": "Quand viens-tu ?"
+    },
+    {
+      "id": "p57",
+      "texte": "我 马上 来！",
+      "traduction": "J'arrive tout de suite !"
+    },
+    {
+      "id": "p58",
+      "texte": "他 刚才 走 了。",
+      "traduction": "Il vient de partir."
+    },
+    {
+      "id": "p59",
+      "texte": "我 已经 吃 了 早饭。",
+      "traduction": "J'ai déjà pris mon petit-déjeuner."
+    },
+    {
+      "id": "p60",
+      "texte": "我 正在 学习。",
+      "traduction": "Je suis en train d'étudier."
+    },
+    {
+      "id": "p61",
+      "texte": "我 没 有 时间。",
+      "traduction": "Je n'ai pas le temps."
+    },
+    {
+      "id": "p62",
+      "texte": "等 我 五 分钟！",
+      "traduction": "Attends-moi cinq minutes !"
+    },
+    {
+      "id": "p63",
+      "texte": "考试 下午 两 点 开始。",
+      "traduction": "L'examen commence à deux heures de l'après-midi."
+    },
+    {
+      "id": "p64",
+      "texte": "课 已经 结束 了。",
+      "traduction": "Le cours est déjà terminé."
+    },
+    {
+      "id": "p65",
+      "texte": "我 学习 汉语 两 年 了。",
+      "traduction": "J'apprends le chinois depuis deux ans."
+    },
+    {
+      "id": "p66",
+      "texte": "一 年 有 十二 个 月。",
+      "traduction": "Il y a douze mois dans une année."
+    },
+    {
+      "id": "p67",
+      "texte": "一 天 有 二十四 个 小时。",
+      "traduction": "Il y a vingt-quatre heures dans une journée."
+    },
+    {
+      "id": "p68",
+      "texte": "以后 我 想 去 中国 旅游。",
+      "traduction": "Plus tard, je veux voyager en Chine."
+    },
+    {
+      "id": "p69",
+      "texte": "以前 我 住 在 北京。",
+      "traduction": "Avant, j'habitais à Pékin."
+    },
+    {
+      "id": "p70",
+      "texte": "有时候 我 中午 不 吃 饭。",
+      "traduction": "Parfois, je ne mange pas le midi."
+    },
+    {
+      "id": "p71",
+      "texte": "你 想 吃 什么？",
+      "traduction": "Qu'est-ce que tu veux manger ?"
+    },
+    {
+      "id": "p72",
+      "texte": "我 想 吃 面条。",
+      "traduction": "Je veux manger des nouilles."
+    },
+    {
+      "id": "p73",
+      "texte": "我 饿 了。",
+      "traduction": "J'ai faim."
+    },
+    {
+      "id": "p74",
+      "texte": "我 很 渴，我 想 喝 水。",
+      "traduction": "J'ai très soif, je veux boire de l'eau."
+    },
+    {
+      "id": "p75",
+      "texte": "这 个 菜 太 辣 了！",
+      "traduction": "Ce plat est trop épicé !"
+    },
+    {
+      "id": "p76",
+      "texte": "这 个 汤 很 咸。",
+      "traduction": "Cette soupe est très salée."
+    },
+    {
+      "id": "p77",
+      "texte": "我 不 吃 肉。",
+      "traduction": "Je ne mange pas de viande."
+    },
+    {
+      "id": "p78",
+      "texte": "她 每天 早上 喝 牛奶。",
+      "traduction": "Elle boit du lait tous les matins."
+    },
+    {
+      "id": "p79",
+      "texte": "我 喜欢 吃 水果，特别 是 香蕉。",
+      "traduction": "J'aime les fruits, surtout les bananes."
+    },
+    {
+      "id": "p80",
+      "texte": "苹果 很 甜。",
+      "traduction": "Les pommes sont sucrées."
+    },
+    {
+      "id": "p81",
+      "texte": "我们 去 餐厅 吃 晚饭 吧。",
+      "traduction": "Allons dîner au restaurant."
+    },
+    {
+      "id": "p82",
+      "texte": "米饭 和 鱼 都 很 好吃。",
+      "traduction": "Le riz et le poisson sont tous les deux délicieux."
+    },
+    {
+      "id": "p83",
+      "texte": "早饭 我 吃 面包 和 鸡蛋。",
+      "traduction": "Au petit-déjeuner, je mange du pain et des œufs."
+    },
+    {
+      "id": "p84",
+      "texte": "你 要 茶 吗？",
+      "traduction": "Tu veux du thé ?"
+    },
+    {
+      "id": "p85",
+      "texte": "我 吃 饱 了。",
+      "traduction": "J'ai assez mangé."
+    },
+    {
+      "id": "p86",
+      "texte": "这 个 很 好喝！",
+      "traduction": "C'est très bon à boire !"
+    },
+    {
+      "id": "p87",
+      "texte": "多 吃 蔬菜，身体 好。",
+      "traduction": "Mange beaucoup de légumes, c'est bon pour la santé."
+    },
+    {
+      "id": "p88",
+      "texte": "爸爸 不 喝 酒。",
+      "traduction": "Papa ne boit pas d'alcool."
+    },
+    {
+      "id": "p89",
+      "texte": "不 要 放 太 多 盐。",
+      "traduction": "Ne mets pas trop de sel."
+    },
+    {
+      "id": "p90",
+      "texte": "他 喝 咖啡 不 放 糖。",
+      "traduction": "Il boit son café sans sucre."
+    },
+    {
+      "id": "p91",
+      "texte": "午饭 我们 吃 了 米饭 和 菜。",
+      "traduction": "Au déjeuner, nous avons mangé du riz et des légumes."
+    },
+    {
+      "id": "p92",
+      "texte": "你 要 去 哪里？",
+      "traduction": "Où veux-tu aller ?"
+    },
+    {
+      "id": "p93",
+      "texte": "我 去 学校。",
+      "traduction": "Je vais à l'école."
+    },
+    {
+      "id": "p94",
+      "texte": "医院 在 哪里？",
+      "traduction": "Où est l'hôpital ?"
+    },
+    {
+      "id": "p95",
+      "texte": "银行 很 近。",
+      "traduction": "La banque est tout près."
+    },
+    {
+      "id": "p96",
+      "texte": "机场 很 远。",
+      "traduction": "L'aéroport est très loin."
+    },
+    {
+      "id": "p97",
+      "texte": "我们 坐 地铁 去 吧。",
+      "traduction": "Allons-y en métro."
+    },
+    {
+      "id": "p98",
+      "texte": "他 每天 骑 自行车 去 学校。",
+      "traduction": "Il va à l'école à vélo tous les jours."
+    },
+    {
+      "id": "p99",
+      "texte": "我 坐 公共汽车 去 公司。",
+      "traduction": "Je vais au travail en bus."
+    },
+    {
+      "id": "p100",
+      "texte": "坐 出租车 太 贵 了。",
+      "traduction": "Le taxi, c'est trop cher."
+    },
+    {
+      "id": "p101",
+      "texte": "坐 火车 很 方便。",
+      "traduction": "Prendre le train, c'est très pratique."
+    },
+    {
+      "id": "p102",
+      "texte": "我 喜欢 坐 飞机。",
+      "traduction": "J'aime prendre l'avion."
+    },
+    {
+      "id": "p103",
+      "texte": "你 有 票 吗？",
+      "traduction": "As-tu un billet ?"
+    },
+    {
+      "id": "p104",
+      "texte": "车站 在 那里。",
+      "traduction": "La gare est là-bas."
+    },
+    {
+      "id": "p105",
+      "texte": "这 是 去 公园 的 路 吗？",
+      "traduction": "C'est bien le chemin du parc ?"
+    },
+    {
+      "id": "p106",
+      "texte": "我 在 车站 等 你。",
+      "traduction": "Je t'attends à la gare."
+    },
+    {
+      "id": "p107",
+      "texte": "我们 到 北京 了！",
+      "traduction": "Nous sommes arrivés à Pékin !"
+    },
+    {
+      "id": "p108",
+      "texte": "公园 很 安静。",
+      "traduction": "Le parc est très calme."
+    },
+    {
+      "id": "p109",
+      "texte": "这 个 城市 很 大。",
+      "traduction": "Cette ville est très grande."
+    },
+    {
+      "id": "p110",
+      "texte": "中国 是 一 个 大 国家。",
+      "traduction": "La Chine est un grand pays."
+    },
+    {
+      "id": "p111",
+      "texte": "夏天 我 想 去 看 海。",
+      "traduction": "En été, je veux aller voir la mer."
+    },
+    {
+      "id": "p112",
+      "texte": "他 开车 太 快 了。",
+      "traduction": "Il conduit trop vite."
+    },
+    {
+      "id": "p113",
+      "texte": "骑 马 危险 吗？",
+      "traduction": "C'est dangereux de monter à cheval ?"
+    },
+    {
+      "id": "p114",
+      "texte": "我们 坐 船 去 旅游。",
+      "traduction": "Nous voyageons en bateau."
+    },
+    {
+      "id": "p115",
+      "texte": "你 想 去 哪里 旅行？",
+      "traduction": "Où veux-tu voyager ?"
+    },
+    {
+      "id": "p116",
+      "texte": "商店 九 点 开 门。",
+      "traduction": "Le magasin ouvre à neuf heures."
+    },
+    {
+      "id": "p117",
+      "texte": "银行 五 点 关 门。",
+      "traduction": "La banque ferme à cinq heures."
+    },
+    {
+      "id": "p118",
+      "texte": "我 的 房间 很 小。",
+      "traduction": "Ma chambre est très petite."
+    },
+    {
+      "id": "p119",
+      "texte": "房间 很 干净。",
+      "traduction": "La chambre est très propre."
+    },
+    {
+      "id": "p120",
+      "texte": "开 窗户 吧，太 热 了。",
+      "traduction": "Ouvre la fenêtre, il fait trop chaud."
+    },
+    {
+      "id": "p121",
+      "texte": "关 门，太 冷 了！",
+      "traduction": "Ferme la porte, il fait trop froid !"
+    },
+    {
+      "id": "p122",
+      "texte": "卫生间 在 哪里？",
+      "traduction": "Où sont les toilettes ?"
+    },
+    {
+      "id": "p123",
+      "texte": "我 家 的 厨房 很 大。",
+      "traduction": "Chez moi, la cuisine est très grande."
+    },
+    {
+      "id": "p124",
+      "texte": "我 的 钥匙 在 哪里？",
+      "traduction": "Où sont mes clés ?"
+    },
+    {
+      "id": "p125",
+      "texte": "我 找 不 到 我 的 钱包。",
+      "traduction": "Je ne trouve pas mon portefeuille."
+    },
+    {
+      "id": "p126",
+      "texte": "他们 的 房子 很 漂亮。",
+      "traduction": "Leur maison est très belle."
+    },
+    {
+      "id": "p127",
+      "texte": "我 住 在 五 楼。",
+      "traduction": "J'habite au cinquième étage."
+    },
+    {
+      "id": "p128",
+      "texte": "这 是 我 的 新 电脑。",
+      "traduction": "Voici mon nouvel ordinateur."
+    },
+    {
+      "id": "p129",
+      "texte": "妈妈 在 看 电视。",
+      "traduction": "Maman regarde la télé."
+    },
+    {
+      "id": "p130",
+      "texte": "老师 在 教 我们 汉语。",
+      "traduction": "Le professeur nous apprend le chinois."
+    },
+    {
+      "id": "p131",
+      "texte": "汉语 难 吗？",
+      "traduction": "Le chinois, c'est difficile ?"
+    },
+    {
+      "id": "p132",
+      "texte": "汉语 不 难，很 有意思！",
+      "traduction": "Le chinois n'est pas difficile, c'est très intéressant !"
+    },
+    {
+      "id": "p133",
+      "texte": "我 不 懂 这 个 字。",
+      "traduction": "Je ne comprends pas ce caractère."
+    },
+    {
+      "id": "p134",
+      "texte": "这 个 句子 怎么 读？",
+      "traduction": "Comment se lit cette phrase ?"
+    },
+    {
+      "id": "p135",
+      "texte": "你 知道 答案 吗？",
+      "traduction": "Tu connais la réponse ?"
+    },
+    {
+      "id": "p136",
+      "texte": "我 可以 问 一 个 问题 吗？",
+      "traduction": "Je peux poser une question ?"
+    },
+    {
+      "id": "p137",
+      "texte": "我 的 作业 已经 写 完 了。",
+      "traduction": "J'ai déjà fini mes devoirs."
+    },
+    {
+      "id": "p138",
+      "texte": "明天 有 考试，我 很 紧张。",
+      "traduction": "Il y a un examen demain, je suis très stressé."
+    },
+    {
+      "id": "p139",
+      "texte": "考试 很 容易。",
+      "traduction": "L'examen est très facile."
+    },
+    {
+      "id": "p140",
+      "texte": "他 回答 了 老师 的 问题。",
+      "traduction": "Il a répondu à la question du professeur."
+    },
+    {
+      "id": "p141",
+      "texte": "我 会 写 很 多 字。",
+      "traduction": "Je sais écrire beaucoup de caractères."
+    },
+    {
+      "id": "p142",
+      "texte": "你 能 帮 我 吗？",
+      "traduction": "Tu peux m'aider ?"
+    },
+    {
+      "id": "p143",
+      "texte": "我 没 有 笔，你 有 吗？",
+      "traduction": "Je n'ai pas de stylo, tu en as un ?"
+    },
+    {
+      "id": "p144",
+      "texte": "我 需要 纸 和 笔。",
+      "traduction": "J'ai besoin de papier et d'un stylo."
+    },
+    {
+      "id": "p145",
+      "texte": "我们 的 老师 非常 好。",
+      "traduction": "Notre professeur est vraiment super."
+    },
+    {
+      "id": "p146",
+      "texte": "读 书 很 重要。",
+      "traduction": "Lire, c'est très important."
+    },
+    {
+      "id": "p147",
+      "texte": "英语 课 很 无聊。",
+      "traduction": "Le cours d'anglais est très ennuyeux."
+    },
+    {
+      "id": "p148",
+      "texte": "你 的 答案 对 了。",
+      "traduction": "Ta réponse est juste."
+    },
+    {
+      "id": "p149",
+      "texte": "这 个 答案 错 了。",
+      "traduction": "Cette réponse est fausse."
+    },
+    {
+      "id": "p150",
+      "texte": "老师 让 我们 回答 问题。",
+      "traduction": "Le professeur nous fait répondre aux questions."
+    },
+    {
+      "id": "p151",
+      "texte": "我 今天 很 高兴。",
+      "traduction": "Je suis très content aujourd'hui."
+    },
+    {
+      "id": "p152",
+      "texte": "你 怎么 了？",
+      "traduction": "Qu'est-ce qui t'arrive ?"
+    },
+    {
+      "id": "p153",
+      "texte": "我 很 累，我 想 休息。",
+      "traduction": "Je suis très fatigué, je veux me reposer."
+    },
+    {
+      "id": "p154",
+      "texte": "她 很 难过，因为 她 的 猫 生病 了。",
+      "traduction": "Elle est très triste parce que son chat est malade."
+    },
+    {
+      "id": "p155",
+      "texte": "不 要 担心！",
+      "traduction": "Ne t'inquiète pas !"
+    },
+    {
+      "id": "p156",
+      "texte": "放心 吧，我 很 好。",
+      "traduction": "Rassure-toi, je vais bien."
+    },
+    {
+      "id": "p157",
+      "texte": "我 害怕 狗。",
+      "traduction": "J'ai peur des chiens."
+    },
+    {
+      "id": "p158",
+      "texte": "爸爸 生气 了。",
+      "traduction": "Papa s'est fâché."
+    },
+    {
+      "id": "p159",
+      "texte": "我 很 激动！",
+      "traduction": "Je suis tout excité !"
+    },
+    {
+      "id": "p160",
+      "texte": "妈妈 很 满意。",
+      "traduction": "Maman est très satisfaite."
+    },
+    {
+      "id": "p161",
+      "texte": "他 很 骄傲。",
+      "traduction": "Il est très fier."
+    },
+    {
+      "id": "p162",
+      "texte": "我 很 失望。",
+      "traduction": "Je suis très déçu."
+    },
+    {
+      "id": "p163",
+      "texte": "我 希望 你 快乐。",
+      "traduction": "Je te souhaite d'être heureux."
+    },
+    {
+      "id": "p164",
+      "texte": "对不起，我 来 晚 了。",
+      "traduction": "Désolé, je suis en retard."
+    },
+    {
+      "id": "p165",
+      "texte": "非常 感谢！",
+      "traduction": "Merci beaucoup !"
+    },
+    {
+      "id": "p166",
+      "texte": "我 觉得 这 个 很 好。",
+      "traduction": "Je trouve que c'est très bien."
+    },
+    {
+      "id": "p167",
+      "texte": "你 觉得 汉语 难 吗？",
+      "traduction": "Tu trouves le chinois difficile ?"
+    },
+    {
+      "id": "p168",
+      "texte": "他 笑 了。",
+      "traduction": "Il a ri."
+    },
+    {
+      "id": "p169",
+      "texte": "我 很 惊讶。",
+      "traduction": "Je suis très surpris."
+    },
+    {
+      "id": "p170",
+      "texte": "我 生病 了。",
+      "traduction": "Je suis malade."
+    },
+    {
+      "id": "p171",
+      "texte": "你 要 去 看 医生。",
+      "traduction": "Tu dois aller voir le médecin."
+    },
+    {
+      "id": "p172",
+      "texte": "她 的 头发 很 长。",
+      "traduction": "Ses cheveux sont très longs."
+    },
+    {
+      "id": "p173",
+      "texte": "他 的 眼睛 很 大。",
+      "traduction": "Il a de grands yeux."
+    },
+    {
+      "id": "p174",
+      "texte": "熊猫 的 耳朵 是 黑色 的。",
+      "traduction": "Les oreilles du panda sont noires."
+    },
+    {
+      "id": "p175",
+      "texte": "多 喝 水，身体 健康。",
+      "traduction": "Bois beaucoup d'eau pour être en bonne santé."
+    },
+    {
+      "id": "p176",
+      "texte": "我 的 脚 很 累。",
+      "traduction": "J'ai les pieds fatigués."
+    },
+    {
+      "id": "p177",
+      "texte": "他 很 高，他 弟弟 很 矮。",
+      "traduction": "Il est grand, son petit frère est petit."
+    },
+    {
+      "id": "p178",
+      "texte": "她 很 瘦。",
+      "traduction": "Elle est très mince."
+    },
+    {
+      "id": "p179",
+      "texte": "今天 很 热。",
+      "traduction": "Aujourd'hui, il fait très chaud."
+    },
+    {
+      "id": "p180",
+      "texte": "北京 的 冬天 很 冷。",
+      "traduction": "L'hiver à Pékin est très froid."
+    },
+    {
+      "id": "p181",
+      "texte": "春天 很 暖和。",
+      "traduction": "Le printemps est doux."
+    },
+    {
+      "id": "p182",
+      "texte": "秋天 很 凉快。",
+      "traduction": "L'automne est frais."
+    },
+    {
+      "id": "p183",
+      "texte": "我 喜欢 夏天，不 喜欢 冬天。",
+      "traduction": "J'aime l'été, je n'aime pas l'hiver."
+    },
+    {
+      "id": "p184",
+      "texte": "今天 有 风。",
+      "traduction": "Il y a du vent aujourd'hui."
+    },
+    {
+      "id": "p185",
+      "texte": "天空 是 蓝色 的。",
+      "traduction": "Le ciel est bleu."
+    },
+    {
+      "id": "p186",
+      "texte": "晚上 有 很 多 星星。",
+      "traduction": "Le soir, il y a beaucoup d'étoiles."
+    },
+    {
+      "id": "p187",
+      "texte": "今天 的 月亮 很 美。",
+      "traduction": "La lune est très belle ce soir."
+    },
+    {
+      "id": "p188",
+      "texte": "这里 的 空气 很 好。",
+      "traduction": "L'air est très bon ici."
+    },
+    {
+      "id": "p189",
+      "texte": "山 很 高，河 很 长。",
+      "traduction": "La montagne est haute, la rivière est longue."
+    },
+    {
+      "id": "p190",
+      "texte": "公园 有 很 多 花 和 树。",
+      "traduction": "Il y a beaucoup de fleurs et d'arbres dans le parc."
+    },
+    {
+      "id": "p191",
+      "texte": "今天 没 有 太阳。",
+      "traduction": "Il n'y a pas de soleil aujourd'hui."
+    },
+    {
+      "id": "p192",
+      "texte": "你 家 有 猫 吗？",
+      "traduction": "Vous avez un chat chez vous ?"
+    },
+    {
+      "id": "p193",
+      "texte": "我 很 喜欢 熊猫。",
+      "traduction": "J'aime beaucoup les pandas."
+    },
+    {
+      "id": "p194",
+      "texte": "鸟 会 飞，狗 不 会 飞。",
+      "traduction": "Les oiseaux savent voler, les chiens non."
+    },
+    {
+      "id": "p195",
+      "texte": "老虎 是 很 危险 的 动物。",
+      "traduction": "Le tigre est un animal très dangereux."
+    },
+    {
+      "id": "p196",
+      "texte": "马 很 大，兔子 很 小。",
+      "traduction": "Le cheval est grand, le lapin est petit."
+    },
+    {
+      "id": "p197",
+      "texte": "你 喜欢 什么 颜色？",
+      "traduction": "Quelle couleur aimes-tu ?"
+    },
+    {
+      "id": "p198",
+      "texte": "我 喜欢 红色 和 紫色。",
+      "traduction": "J'aime le rouge et le violet."
+    },
+    {
+      "id": "p199",
+      "texte": "你 的 帽子 很 漂亮。",
+      "traduction": "Ton chapeau est très joli."
+    },
+    {
+      "id": "p200",
+      "texte": "我 想 买 新 鞋。",
+      "traduction": "Je veux acheter de nouvelles chaussures."
+    },
+    {
+      "id": "p201",
+      "texte": "这 个 包 多少 钱？",
+      "traduction": "Combien coûte ce sac ?"
+    },
+    {
+      "id": "p202",
+      "texte": "这 个 手表 很 便宜。",
+      "traduction": "Cette montre est très bon marché."
+    },
+    {
+      "id": "p203",
+      "texte": "我 的 衣服 很 脏。",
+      "traduction": "Mes vêtements sont très sales."
+    },
+    {
+      "id": "p204",
+      "texte": "他 的 裤子 是 灰色 的。",
+      "traduction": "Son pantalon est gris."
+    },
+    {
+      "id": "p205",
+      "texte": "我 给 妈妈 买 了 一 个 礼物。",
+      "traduction": "J'ai acheté un cadeau à maman."
+    },
+    {
+      "id": "p206",
+      "texte": "你 有 伞 吗？",
+      "traduction": "As-tu un parapluie ?"
+    },
+    {
+      "id": "p207",
+      "texte": "我 的 手机 很 旧。",
+      "traduction": "Mon téléphone est très vieux."
+    },
+    {
+      "id": "p208",
+      "texte": "他 给 我 看 了 他 的 照片。",
+      "traduction": "Il m'a montré ses photos."
+    },
+    {
+      "id": "p209",
+      "texte": "我 在 商店 买 了 水果。",
+      "traduction": "J'ai acheté des fruits au magasin."
+    },
+    {
+      "id": "p210",
+      "texte": "经理 很 忙。",
+      "traduction": "Le directeur est très occupé."
+    },
+    {
+      "id": "p211",
+      "texte": "我 明天 有 一 个 会议。",
+      "traduction": "J'ai une réunion demain."
+    },
+    {
+      "id": "p212",
+      "texte": "我 给 你 写 邮件。",
+      "traduction": "Je t'écris un mail."
+    },
+    {
+      "id": "p213",
+      "texte": "你 的 电话 是 多少？",
+      "traduction": "Quel est ton numéro de téléphone ?"
+    },
+    {
+      "id": "p214",
+      "texte": "告诉 我 你 的 问题。",
+      "traduction": "Dis-moi quel est ton problème."
+    },
+    {
+      "id": "p215",
+      "texte": "他 在 公司 工作 了 三 年。",
+      "traduction": "Il a travaillé trois ans dans l'entreprise."
+    },
+    {
+      "id": "p216",
+      "texte": "我 的 同事 都 很 好。",
+      "traduction": "Mes collègues sont tous très sympas."
+    },
+    {
+      "id": "p217",
+      "texte": "网 很 慢。",
+      "traduction": "Internet est très lent."
+    },
+    {
+      "id": "p218",
+      "texte": "因为 我 很 累，所以 我 不 去。",
+      "traduction": "Comme je suis très fatigué, je n'y vais pas."
+    },
+    {
+      "id": "p219",
+      "texte": "虽然 汉语 很 难，但是 很 有意思。",
+      "traduction": "Même si le chinois est difficile, c'est très intéressant."
+    },
+    {
+      "id": "p220",
+      "texte": "如果 明天 天气 好，我们 就 去 公园。",
+      "traduction": "S'il fait beau demain, nous irons au parc."
+    },
+    {
+      "id": "p221",
+      "texte": "我 也 是 学生。",
+      "traduction": "Moi aussi, je suis élève."
+    },
+    {
+      "id": "p222",
+      "texte": "他 还 没 来。",
+      "traduction": "Il n'est pas encore arrivé."
+    },
+    {
+      "id": "p223",
+      "texte": "再 说 一 次，好 吗？",
+      "traduction": "Tu peux répéter encore une fois ?"
+    },
+    {
+      "id": "p224",
+      "texte": "他 又 来 了！",
+      "traduction": "Le revoilà !"
+    },
+    {
+      "id": "p225",
+      "texte": "我 九 点 才 起床。",
+      "traduction": "Je ne me suis levé qu'à neuf heures."
+    },
+    {
+      "id": "p226",
+      "texte": "我 跟 朋友 去 公园 玩。",
+      "traduction": "Je vais jouer au parc avec mes amis."
+    },
+    {
+      "id": "p227",
+      "texte": "我们 走 吧！",
+      "traduction": "Allons-y !"
     }
   ]
 }

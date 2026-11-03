@@ -1,7 +1,14 @@
 // Quiz éclair : QCM chronométré mélangeant vocabulaire et grammaire,
 // avec combo de bonnes réponses.
 
-import { shuffle, sample, esc, similarity, motTranscrit } from "../utils.js";
+import {
+  shuffle,
+  sample,
+  esc,
+  similarity,
+  motTranscrit,
+  distracteursPour,
+} from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 import { noter } from "../srs.js";
 
@@ -19,11 +26,13 @@ function construireQuestions(pack) {
   const questions = [];
   // Vocabulaire : dans les deux sens.
   for (const v of sample(pack.vocab, 8)) {
-    const distracteurs = sample(
-      pack.vocab.filter((x) => x.id !== v.id),
-      3,
+    const versFrancais = Math.random() < 0.5;
+    const distracteurs = distracteursPour(
+      v,
+      pack.vocab,
+      versFrancais ? "traduction" : "mot",
     );
-    if (Math.random() < 0.5) {
+    if (versFrancais) {
       questions.push({
         type: "vocab",
         vocabId: v.id,

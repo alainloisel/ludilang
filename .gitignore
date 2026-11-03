@@ -52,3 +52,14 @@ temp/
 Thumbs.db
 .vscode/
 .idea/
+
+# repertoires generes / donnees, hors git
+output/
+md_output/
+export_conv/
+data/
+# photos
+IMG_*.jpg
+IMG_*.jpeg
+PXL_*.jpg
+*.heic

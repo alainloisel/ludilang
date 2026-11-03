@@ -13,6 +13,46 @@ export const meta = {
 
 const NB_ITEMS = 6;
 
+// Compare lettre à lettre (sans tenir compte des majuscules) et renvoie, pour
+// chaque texte, le HTML où les lettres à corriger sont entourées de <span>.
+// `a` = ce que l'élève a écrit (fautes soulignées), `b` = le texte attendu
+// (lettres oubliées en évidence).
+function marquerDifferences(a, b) {
+  const x = [...a],
+    y = [...b];
+  const lg = x.map((_, i) => Array.from({ length: y.length + 1 }, () => 0));
+  lg.push(Array.from({ length: y.length + 1 }, () => 0));
+  for (let i = x.length - 1; i >= 0; i--)
+    for (let j = y.length - 1; j >= 0; j--)
+      lg[i][j] =
+        x[i].toLowerCase() === y[j].toLowerCase()
+          ? lg[i + 1][j + 1] + 1
+          : Math.max(lg[i + 1][j], lg[i][j + 1]);
+  const fautesA = new Set(),
+    fautesB = new Set();
+  let i = 0,
+    j = 0;
+  while (i < x.length && j < y.length) {
+    if (x[i].toLowerCase() === y[j].toLowerCase()) {
+      i++;
+      j++;
+    } else if (lg[i + 1][j] >= lg[i][j + 1]) fautesA.add(i++);
+    else fautesB.add(j++);
+  }
+  while (i < x.length) fautesA.add(i++);
+  while (j < y.length) fautesB.add(j++);
+  const rendu = (chars, fautes, classe) =>
+    chars
+      .map((c, k) =>
+        fautes.has(k) ? `<span class="${classe}">${esc(c)}</span>` : esc(c),
+      )
+      .join("");
+  return {
+    saisie: rendu(x, fautesA, "dictee-faute"),
+    attendu: rendu(y, fautesB, "dictee-manque"),
+  };
+}
+
 export function start(container, ctx) {
   if (!ttsDisponible(ctx.pack.language)) {
     container.innerHTML = `<div class="centre"><p class="gros-emoji">🔇</p>
@@ -112,15 +152,20 @@ export function start(container, ctx) {
         bonnes++;
         xp += 6;
         fb.innerHTML = `<p class="feedback ok">✅ Parfait ! +6 XP</p>`;
-      } else if (sim >= 0.85) {
-        bonnes++;
-        xp += 4;
-        fb.innerHTML = `<p class="feedback ok">🙂 Presque parfait (+4 XP). C'était : <strong>${esc(item.texte)}</strong></p>`;
       } else {
-        fb.innerHTML = `<p class="feedback ko">❌ C'était : <strong>${esc(item.texte)}</strong><br><em>${esc(item.traduction || "")}</em></p>`;
+        const ok = sim >= 0.85;
+        if (ok) {
+          bonnes++;
+          xp += 4;
+        }
+        const d = marquerDifferences(saisie.value.trim(), item.texte);
+        fb.innerHTML = `<p class="feedback ${ok ? "ok" : "ko"}">${ok ? "🙂 Presque parfait (+4 XP)" : "❌ Pas tout à fait"}<br>
+          Ta réponse : <strong>${d.saisie || "<em>(vide)</em>"}</strong><br>
+          Correction : <strong>${d.attendu}</strong>
+          ${item.traduction ? `<br><em>${esc(item.traduction)}</em>` : ""}</p>`;
       }
       i++;
-      setTimeout(suivante, exact ? 1300 : 2600);
+      setTimeout(suivante, exact ? 1300 : 4000);
     }
   }
   suivante();
