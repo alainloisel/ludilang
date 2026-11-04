@@ -391,6 +391,9 @@ def cmd_build(args) -> int:
             v["pinyin"] = e["pinyin"]
         if e.get("exemple"):
             v["exemple"] = e["exemple"]
+            # Mode lexique : pas de cours derrière, tout exemple est construit
+            # (étiquette « Phrase d'entraînement » dans les jeux, cf. badgeOrigine).
+            v["origineExemple"] = "construite"
         vocab.append(v)
 
     grammar = []
@@ -399,6 +402,8 @@ def cmd_build(args) -> int:
     phrases = []
     if args.phrases:
         phrases = json.loads(Path(args.phrases).read_text(encoding="utf-8"))
+        for ph in phrases:
+            ph.setdefault("origine", "construite")
 
     pack = {
         "id": args.id,

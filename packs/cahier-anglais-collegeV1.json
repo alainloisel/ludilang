@@ -9,6 +9,7 @@
       "mot": "excellent education",
       "traduction": "une éducation excellente",
       "exemple": "It is excellent education.",
+      "origineExemple": "construite",
       "theme": "Décrire son collège"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "a safe environment",
       "traduction": "un environnement sûr",
       "exemple": "It is a safe environment.",
+      "origineExemple": "construite",
       "theme": "Décrire son collège"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "modern facilities",
       "traduction": "des équipements modernes",
       "exemple": "We have modern facilities.",
+      "origineExemple": "construite",
       "theme": "Décrire son collège"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "a large theatre",
       "traduction": "un grand théâtre",
       "exemple": "There is a large theatre in our school.",
+      "origineExemple": "construite",
       "theme": "Décrire son collège"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "quite big",
       "traduction": "assez grand",
       "exemple": "Our school is quite big.",
+      "origineExemple": "construite",
       "theme": "Décrire son collège"
     },
 
@@ -45,6 +50,7 @@
       "mot": "science",
       "traduction": "les sciences",
       "exemple": "She loves science because she likes doing experiments.",
+      "origineExemple": "cours",
       "theme": "Les matières scientifiques"
     },
     {
@@ -52,6 +58,7 @@
       "mot": "maths",
       "traduction": "les maths",
       "exemple": "I like maths.",
+      "origineExemple": "construite",
       "theme": "Les matières scientifiques"
     },
     {
@@ -59,6 +66,7 @@
       "mot": "biology",
       "traduction": "la biologie",
       "exemple": "I don't like biology.",
+      "origineExemple": "construite",
       "theme": "Les matières scientifiques"
     },
     {
@@ -66,6 +74,7 @@
       "mot": "physics",
       "traduction": "la physique",
       "exemple": "She likes physics.",
+      "origineExemple": "construite",
       "theme": "Les matières scientifiques"
     },
     {
@@ -73,6 +82,7 @@
       "mot": "IT",
       "traduction": "l'informatique",
       "exemple": "I like IT.",
+      "origineExemple": "cours",
       "theme": "Les matières scientifiques"
     },
     {
@@ -80,6 +90,7 @@
       "mot": "food technology",
       "traduction": "la technologie alimentaire",
       "exemple": "I like food technology.",
+      "origineExemple": "construite",
       "theme": "Les matières scientifiques"
     },
 
@@ -88,6 +99,7 @@
       "mot": "history",
       "traduction": "l'histoire",
       "exemple": "We learn about history and geography.",
+      "origineExemple": "construite",
       "theme": "Les matières humanités"
     },
     {
@@ -95,6 +107,7 @@
       "mot": "geography",
       "traduction": "la géographie",
       "exemple": "Samuel loves geography.",
+      "origineExemple": "cours",
       "theme": "Les matières humanités"
     },
     {
@@ -102,6 +115,7 @@
       "mot": "art and design",
       "traduction": "les arts plastiques",
       "exemple": "She doesn't like art very much because she can't draw.",
+      "origineExemple": "cours",
       "theme": "Les matières humanités"
     },
     {
@@ -109,6 +123,7 @@
       "mot": "French literature",
       "traduction": "la littérature française",
       "exemple": "I like French literature.",
+      "origineExemple": "construite",
       "theme": "Les matières humanités"
     },
     {
@@ -116,6 +131,7 @@
       "mot": "religious education",
       "traduction": "l'éducation religieuse",
       "exemple": "We don't have religious education.",
+      "origineExemple": "construite",
       "theme": "Les matières humanités"
     },
     {
@@ -123,6 +139,7 @@
       "mot": "PE",
       "traduction": "l'EPS",
       "exemple": "Majority of students love PE.",
+      "origineExemple": "cours",
       "theme": "Les matières humanités"
     },
 
@@ -131,6 +148,7 @@
       "mot": "English",
       "traduction": "l'anglais",
       "exemple": "I hate English.",
+      "origineExemple": "cours",
       "theme": "Les langues étrangères"
     },
     {
@@ -138,6 +156,7 @@
       "mot": "Spanish",
       "traduction": "l'espagnol",
       "exemple": "Is she Spanish? No, she isn't Spanish.",
+      "origineExemple": "cours",
       "theme": "Les langues étrangères"
     },
     {
@@ -145,6 +164,7 @@
       "mot": "German",
       "traduction": "l'allemand",
       "exemple": "I love German.",
+      "origineExemple": "construite",
       "theme": "Les langues étrangères"
     },
 
@@ -153,6 +173,7 @@
       "mot": "a swimming pool",
       "traduction": "une piscine",
       "exemple": "There is a swimming pool.",
+      "origineExemple": "cours",
       "theme": "Les lieux du collège"
     },
     {
@@ -160,6 +181,7 @@
       "mot": "a playground",
       "traduction": "une cour de récréation",
       "exemple": "There are two playgrounds in our school.",
+      "origineExemple": "cours",
       "theme": "Les lieux du collège"
     },
     {
@@ -167,6 +189,7 @@
       "mot": "a computer room",
       "traduction": "une salle informatique",
       "exemple": "In my school there are two IT rooms.",
+      "origineExemple": "cours",
       "theme": "Les lieux du collège"
     },
     {
@@ -174,6 +197,7 @@
       "mot": "a canteen",
       "traduction": "une cantine",
       "exemple": "In my school there is one canteen.",
+      "origineExemple": "construite",
       "theme": "Les lieux du collège"
     },
     {
@@ -181,6 +205,7 @@
       "mot": "a corridor",
       "traduction": "un couloir",
       "exemple": "We must not run in the corridors.",
+      "origineExemple": "cours",
       "theme": "Les lieux du collège"
     },
     {
@@ -188,6 +213,7 @@
       "mot": "a gym",
       "traduction": "un gymnase",
       "exemple": "There is only one gym but we have a climbing wall.",
+      "origineExemple": "construite",
       "theme": "Les lieux du collège"
     },
     {
@@ -195,6 +221,7 @@
       "mot": "a library",
       "traduction": "une bibliothèque",
       "exemple": "Is there a library in your school?",
+      "origineExemple": "cours",
       "theme": "Les lieux du collège"
     },
     {
@@ -202,6 +229,7 @@
       "mot": "a lab",
       "traduction": "un laboratoire",
       "exemple": "There are two playgrounds and one lab.",
+      "origineExemple": "cours",
       "theme": "Les lieux du collège"
     },
     {
@@ -209,6 +237,7 @@
       "mot": "lockers",
       "traduction": "des casiers",
       "exemple": "There aren't any lockers in the corridors.",
+      "origineExemple": "construite",
       "theme": "Les lieux du collège"
     },
 
@@ -217,6 +246,7 @@
       "mot": "a mate",
       "traduction": "un camarade",
       "exemple": "He is my mate.",
+      "origineExemple": "construite",
       "theme": "Les camarades"
     },
     {
@@ -224,6 +254,7 @@
       "mot": "classmates",
       "traduction": "des camarades de classe",
       "exemple": "They are my classmates.",
+      "origineExemple": "construite",
       "theme": "Les camarades"
     },
     {
@@ -231,6 +262,7 @@
       "mot": "schoolmates",
       "traduction": "des camarades d'école",
       "exemple": "We are schoolmates.",
+      "origineExemple": "construite",
       "theme": "Les camarades"
     },
     {
@@ -238,6 +270,7 @@
       "mot": "a roommate",
       "traduction": "un camarade de chambre",
       "exemple": "She is my roommate.",
+      "origineExemple": "construite",
       "theme": "Les camarades"
     },
     {
@@ -245,6 +278,7 @@
       "mot": "a flatmate",
       "traduction": "un colocataire",
       "exemple": "He is my flatmate.",
+      "origineExemple": "construite",
       "theme": "Les camarades"
     },
 
@@ -253,6 +287,7 @@
       "mot": "to play chess",
       "traduction": "jouer aux échecs",
       "exemple": "I like to play chess.",
+      "origineExemple": "construite",
       "theme": "Les activités extrascolaires"
     },
     {
@@ -260,6 +295,7 @@
       "mot": "to play music",
       "traduction": "jouer de la musique",
       "exemple": "She likes to play music.",
+      "origineExemple": "construite",
       "theme": "Les activités extrascolaires"
     },
     {
@@ -267,6 +303,7 @@
       "mot": "to do gardening",
       "traduction": "faire du jardinage",
       "exemple": "He likes to do gardening.",
+      "origineExemple": "construite",
       "theme": "Les activités extrascolaires"
     },
     {
@@ -274,6 +311,7 @@
       "mot": "to play badminton",
       "traduction": "jouer au badminton",
       "exemple": "Some students play badminton.",
+      "origineExemple": "cours",
       "theme": "Les activités extrascolaires"
     },
     {
@@ -281,6 +319,7 @@
       "mot": "to play football",
       "traduction": "jouer au foot",
       "exemple": "Many students play football.",
+      "origineExemple": "cours",
       "theme": "Les activités extrascolaires"
     },
     {
@@ -288,6 +327,7 @@
       "mot": "to play hockey",
       "traduction": "jouer au hockey",
       "exemple": "A lot of students play hockey.",
+      "origineExemple": "cours",
       "theme": "Les activités extrascolaires"
     },
     {
@@ -295,6 +335,7 @@
       "mot": "rock climbing",
       "traduction": "l'escalade",
       "exemple": "I like rock climbing.",
+      "origineExemple": "cours",
       "theme": "Les activités extrascolaires"
     },
 
@@ -303,6 +344,7 @@
       "mot": "to attend classes",
       "traduction": "assister aux cours",
       "exemple": "We must attend classes.",
+      "origineExemple": "construite",
       "theme": "Les règles du collège"
     },
     {
@@ -310,6 +352,7 @@
       "mot": "to be on time",
       "traduction": "être à l'heure",
       "exemple": "You must be on time.",
+      "origineExemple": "construite",
       "theme": "Les règles du collège"
     },
     {
@@ -317,6 +360,7 @@
       "mot": "to wear a uniform",
       "traduction": "porter un uniforme",
       "exemple": "Samuel does not like to wear a uniform.",
+      "origineExemple": "construite",
       "theme": "Les règles du collège"
     },
     {
@@ -324,6 +368,7 @@
       "mot": "to chew gum",
       "traduction": "mâcher du chewing-gum",
       "exemple": "We must not chew gum in class.",
+      "origineExemple": "construite",
       "theme": "Les règles du collège"
     },
     {
@@ -331,6 +376,7 @@
       "mot": "to do experiments",
       "traduction": "faire des expériences",
       "exemple": "Samuel loves to do experiments in the lab.",
+      "origineExemple": "cours",
       "theme": "Les règles du collège"
     },
     {
@@ -338,6 +384,7 @@
       "mot": "to pay attention",
       "traduction": "faire attention",
       "exemple": "We must pay attention in class.",
+      "origineExemple": "construite",
       "theme": "Les règles du collège"
     },
 
@@ -346,6 +393,7 @@
       "mot": "the holidays",
       "traduction": "les vacances",
       "exemple": "What did you do during the holidays?",
+      "origineExemple": "cours",
       "theme": "Le prétérit et les vacances"
     },
     {
@@ -353,6 +401,7 @@
       "mot": "to go",
       "traduction": "aller (prétérit : went)",
       "exemple": "I went to Normandy.",
+      "origineExemple": "cours",
       "theme": "Le prétérit et les vacances"
     },
     {
@@ -360,6 +409,7 @@
       "mot": "to celebrate",
       "traduction": "fêter (prétérit : celebrated)",
       "exemple": "I celebrated Halloween.",
+      "origineExemple": "cours",
       "theme": "Le prétérit et les vacances"
     },
     {
@@ -367,6 +417,7 @@
       "mot": "the fun fair",
       "traduction": "la foire",
       "exemple": "We went to the fun fair.",
+      "origineExemple": "construite",
       "theme": "Le prétérit et les vacances"
     }
   ],
@@ -414,7 +465,12 @@
           "bonne": 2
         },
         { "type": "ordre", "mots": ["She", "is", "alert", "and", "happy."] },
-        { "type": "ordre", "mots": ["The", "camel", "is", "not", "thirsty."] }
+        { "type": "ordre", "mots": ["The", "camel", "is", "not", "thirsty."] },
+        {
+          "type": "trous",
+          "phrase": "We ___ afraid of spiders. (be)",
+          "reponse": "are"
+        }
       ]
     },
     {
@@ -460,7 +516,12 @@
           "bonne": 1
         },
         { "type": "ordre", "mots": ["There", "is", "a", "swimming", "pool."] },
-        { "type": "ordre", "mots": ["There", "aren't", "any", "lockers."] }
+        { "type": "ordre", "mots": ["There", "aren't", "any", "lockers."] },
+        {
+          "type": "trous",
+          "phrase": "There ___ only one gym. (be)",
+          "reponse": "is"
+        }
       ]
     },
     {
@@ -506,7 +567,12 @@
           "bonne": 0
         },
         { "type": "ordre", "mots": ["Samuel", "hates", "tests."] },
-        { "type": "ordre", "mots": ["She", "doesn't", "like", "football."] }
+        { "type": "ordre", "mots": ["She", "doesn't", "like", "football."] },
+        {
+          "type": "trous",
+          "phrase": "Samuel ___ tests. (hate)",
+          "reponse": "hates"
+        }
       ]
     },
     {
@@ -566,6 +632,11 @@
         {
           "type": "ordre",
           "mots": ["A", "lot", "of", "students", "play", "hockey."]
+        },
+        {
+          "type": "trous",
+          "phrase": "There aren't ___ lockers in the corridors. (aucun)",
+          "reponse": "any"
         }
       ]
     },
@@ -616,6 +687,11 @@
         {
           "type": "ordre",
           "mots": ["We", "must", "not", "run", "in", "the", "corridors."]
+        },
+        {
+          "type": "trous",
+          "phrase": "You ___ listen to the teacher. (devoir)",
+          "reponse": "must"
         }
       ]
     },
@@ -657,7 +733,17 @@
           "bonne": 1
         },
         { "type": "ordre", "mots": ["I", "went", "to", "Normandy."] },
-        { "type": "ordre", "mots": ["I", "celebrated", "Halloween."] }
+        { "type": "ordre", "mots": ["I", "celebrated", "Halloween."] },
+        {
+          "type": "trous",
+          "phrase": "I ___ my grandparents during the holidays. (visit)",
+          "reponse": "visited"
+        },
+        {
+          "type": "trous",
+          "phrase": "We ___ a film yesterday. (watch)",
+          "reponse": "watched"
+        }
       ]
     }
   ],
@@ -665,77 +751,92 @@
     {
       "id": "p1",
       "texte": "There is only one gym but we have a climbing wall.",
-      "traduction": "Il y a seulement un gymnase, mais nous avons un mur d'escalade."
+      "traduction": "Il y a seulement un gymnase, mais nous avons un mur d'escalade.",
+      "origine": "cours"
     },
     {
       "id": "p2",
       "texte": "There aren't any lockers in the corridors.",
-      "traduction": "Il n'y a pas de casiers dans les couloirs."
+      "traduction": "Il n'y a pas de casiers dans les couloirs.",
+      "origine": "cours"
     },
     {
       "id": "p3",
       "texte": "We learn about history and geography.",
-      "traduction": "Nous apprenons l'histoire et la géographie."
+      "traduction": "Nous apprenons l'histoire et la géographie.",
+      "origine": "cours"
     },
     {
       "id": "p4",
       "texte": "She loves science because she likes doing experiments.",
-      "traduction": "Elle adore les sciences parce qu'elle aime faire des expériences."
+      "traduction": "Elle adore les sciences parce qu'elle aime faire des expériences.",
+      "origine": "cours"
     },
     {
       "id": "p5",
       "texte": "She doesn't like art very much because she can't draw.",
-      "traduction": "Elle n'aime pas beaucoup les arts plastiques parce qu'elle ne sait pas dessiner."
+      "traduction": "Elle n'aime pas beaucoup les arts plastiques parce qu'elle ne sait pas dessiner.",
+      "origine": "cours"
     },
     {
       "id": "p6",
       "texte": "Samuel loves geography but he hates tests.",
-      "traduction": "Samuel adore la géographie mais il déteste les contrôles."
+      "traduction": "Samuel adore la géographie mais il déteste les contrôles.",
+      "origine": "construite"
     },
     {
       "id": "p7",
       "texte": "Samuel does not like to wear a uniform.",
-      "traduction": "Samuel n'aime pas porter un uniforme."
+      "traduction": "Samuel n'aime pas porter un uniforme.",
+      "origine": "cours"
     },
     {
       "id": "p8",
       "texte": "Is there a library in your school?",
-      "traduction": "Y a-t-il une bibliothèque dans ton école ?"
+      "traduction": "Y a-t-il une bibliothèque dans ton école ?",
+      "origine": "cours"
     },
     {
       "id": "p9",
       "texte": "In my school, some students play badminton.",
-      "traduction": "Dans mon école, certains élèves jouent au badminton."
+      "traduction": "Dans mon école, certains élèves jouent au badminton.",
+      "origine": "cours"
     },
     {
       "id": "p10",
       "texte": "In my school, many students play football, and a lot of students play hockey.",
-      "traduction": "Dans mon école, beaucoup d'élèves jouent au foot, et beaucoup d'élèves jouent au hockey."
+      "traduction": "Dans mon école, beaucoup d'élèves jouent au foot, et beaucoup d'élèves jouent au hockey.",
+      "origine": "cours"
     },
     {
       "id": "p11",
       "texte": "We must not run in the corridors.",
-      "traduction": "Nous ne devons pas courir dans les couloirs."
+      "traduction": "Nous ne devons pas courir dans les couloirs.",
+      "origine": "cours"
     },
     {
       "id": "p12",
       "texte": "He can swim but he can't drive a boat.",
-      "traduction": "Il sait nager mais il ne sait pas conduire un bateau."
+      "traduction": "Il sait nager mais il ne sait pas conduire un bateau.",
+      "origine": "cours"
     },
     {
       "id": "p13",
       "texte": "What did you do during the holidays?",
-      "traduction": "Qu'as-tu fait pendant les vacances ?"
+      "traduction": "Qu'as-tu fait pendant les vacances ?",
+      "origine": "cours"
     },
     {
       "id": "p14",
       "texte": "I went to Normandy and I celebrated Halloween.",
-      "traduction": "Je suis allé en Normandie et j'ai fêté Halloween."
+      "traduction": "Je suis allé en Normandie et j'ai fêté Halloween.",
+      "origine": "cours"
     },
     {
       "id": "p15",
       "texte": "We are afraid of spiders.",
-      "traduction": "Nous avons peur des araignées."
+      "traduction": "Nous avons peur des araignées.",
+      "origine": "cours"
     }
   ]
 }

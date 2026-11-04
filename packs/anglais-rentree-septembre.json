@@ -9,6 +9,7 @@
       "mot": "a book",
       "traduction": "un livre",
       "exemple": "I have a book in my backpack.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "a pencil",
       "traduction": "un crayon à papier",
       "exemple": "I have a pencil in my pencil case.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "a notebook",
       "traduction": "un cahier",
       "exemple": "I write my lesson in my notebook.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "a sharpener",
       "traduction": "un taille-crayon",
       "exemple": "I need a sharpener.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "an eraser",
       "traduction": "une gomme",
       "exemple": "Could you lend me your eraser, please?",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -44,6 +49,7 @@
       "mot": "a ruler",
       "traduction": "une règle",
       "exemple": "I have a ruler.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -51,6 +57,7 @@
       "mot": "glue",
       "traduction": "la colle",
       "exemple": "I need glue.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -58,6 +65,7 @@
       "mot": "scissors",
       "traduction": "des ciseaux",
       "exemple": "I have a pair of scissors.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -65,6 +73,7 @@
       "mot": "a pencil case",
       "traduction": "une trousse",
       "exemple": "I left my pencil case at home.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -72,6 +81,7 @@
       "mot": "a coloured pencil",
       "traduction": "un crayon de couleur",
       "exemple": "I have a coloured pencil.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -79,6 +89,7 @@
       "mot": "a crayon",
       "traduction": "un crayon de cire",
       "exemple": "I have a crayon.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -86,6 +97,7 @@
       "mot": "a pen",
       "traduction": "un stylo",
       "exemple": "Can anybody lend me a pen, please?",
+      "origineExemple": "cours",
       "theme": "Le matériel scolaire (1)"
     },
     {
@@ -93,6 +105,7 @@
       "mot": "a palette",
       "traduction": "une palette",
       "exemple": "I have a palette.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -100,6 +113,7 @@
       "mot": "a paintbrush",
       "traduction": "un pinceau",
       "exemple": "I have a paintbrush.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -107,6 +121,7 @@
       "mot": "tape",
       "traduction": "le ruban adhésif",
       "exemple": "I need tape.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -114,6 +129,7 @@
       "mot": "paper clips",
       "traduction": "des trombones",
       "exemple": "I have paper clips.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -121,6 +137,7 @@
       "mot": "paint",
       "traduction": "la peinture",
       "exemple": "I have paint.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -128,6 +145,7 @@
       "mot": "a highlighter",
       "traduction": "un surligneur",
       "exemple": "I have a highlighter.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -135,6 +153,7 @@
       "mot": "a marker",
       "traduction": "un feutre",
       "exemple": "I have a marker.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -142,6 +161,7 @@
       "mot": "a notepad",
       "traduction": "un bloc-notes",
       "exemple": "I have a notepad.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -149,6 +169,7 @@
       "mot": "paper",
       "traduction": "le papier",
       "exemple": "I need paper.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -156,6 +177,7 @@
       "mot": "a file",
       "traduction": "un classeur",
       "exemple": "I have a file.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -163,6 +185,7 @@
       "mot": "a pencil box",
       "traduction": "une boîte à crayons",
       "exemple": "I left my pencil box at home.",
+      "origineExemple": "cours",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -170,6 +193,7 @@
       "mot": "a glue stick",
       "traduction": "un bâton de colle",
       "exemple": "I have a glue stick.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (2)"
     },
     {
@@ -177,6 +201,7 @@
       "mot": "a calculator",
       "traduction": "une calculatrice",
       "exemple": "I have a calculator.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -184,6 +209,7 @@
       "mot": "an abacus",
       "traduction": "un boulier",
       "exemple": "I have an abacus.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -191,6 +217,7 @@
       "mot": "a stapler",
       "traduction": "une agrafeuse",
       "exemple": "I have a stapler.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -198,6 +225,7 @@
       "mot": "pushpins",
       "traduction": "des punaises",
       "exemple": "I have pushpins.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -205,6 +233,7 @@
       "mot": "a dictionary",
       "traduction": "un dictionnaire",
       "exemple": "I have a dictionary.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -212,6 +241,7 @@
       "mot": "a protractor",
       "traduction": "un rapporteur",
       "exemple": "I have a protractor.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -219,6 +249,7 @@
       "mot": "a set square",
       "traduction": "une équerre",
       "exemple": "I have a set square.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -226,6 +257,7 @@
       "mot": "a compass",
       "traduction": "un compas",
       "exemple": "I have a compass.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -233,6 +265,7 @@
       "mot": "a sticker",
       "traduction": "un autocollant",
       "exemple": "I have a sticker.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -240,6 +273,7 @@
       "mot": "chalk",
       "traduction": "la craie",
       "exemple": "I need chalk.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -247,6 +281,7 @@
       "mot": "a diary",
       "traduction": "un agenda",
       "exemple": "I write my homework in my diary.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -254,6 +289,7 @@
       "mot": "a clipboard",
       "traduction": "un porte-bloc",
       "exemple": "I have a clipboard.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -261,6 +297,7 @@
       "mot": "a laptop",
       "traduction": "un ordinateur portable",
       "exemple": "I have a laptop.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -268,6 +305,7 @@
       "mot": "a tablet",
       "traduction": "une tablette",
       "exemple": "I have a tablet.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -275,6 +313,7 @@
       "mot": "a lunchbox",
       "traduction": "une boîte-repas",
       "exemple": "I have a lunchbox.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -282,6 +321,7 @@
       "mot": "a backpack",
       "traduction": "un sac à dos",
       "exemple": "I have a backpack.",
+      "origineExemple": "construite",
       "theme": "Le matériel scolaire (3)"
     },
     {
@@ -289,6 +329,7 @@
       "mot": "chew gum in class",
       "traduction": "mâcher du chewing-gum en classe",
       "exemple": "Don't chew gum in class.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -296,6 +337,7 @@
       "mot": "fight at school",
       "traduction": "se battre à l'école",
       "exemple": "Don't fight at school.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -303,6 +345,7 @@
       "mot": "use your mobile phone",
       "traduction": "utiliser ton téléphone portable",
       "exemple": "Don't use your mobile phone in class.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -310,6 +353,7 @@
       "mot": "chat in class",
       "traduction": "bavarder en classe",
       "exemple": "Don't chat in class.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -317,6 +361,7 @@
       "mot": "run in the corridors",
       "traduction": "courir dans les couloirs",
       "exemple": "Don't run in the corridors.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -324,6 +369,7 @@
       "mot": "shout in the corridors",
       "traduction": "crier dans les couloirs",
       "exemple": "Don't shout in the corridors.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -331,6 +377,7 @@
       "mot": "smoke at school",
       "traduction": "fumer à l'école",
       "exemple": "Don't smoke at school.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -338,6 +385,7 @@
       "mot": "ask questions",
       "traduction": "poser des questions",
       "exemple": "Ask questions when you don't understand.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -345,6 +393,7 @@
       "mot": "keep the classroom clean",
       "traduction": "garder la classe propre",
       "exemple": "Keep the classroom clean.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -352,6 +401,7 @@
       "mot": "write your lesson",
       "traduction": "écrire ta leçon",
       "exemple": "Write your lesson.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -359,6 +409,7 @@
       "mot": "do your homework",
       "traduction": "faire tes devoirs",
       "exemple": "Do your homework.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -366,6 +417,7 @@
       "mot": "eat or drink in class",
       "traduction": "manger ou boire en classe",
       "exemple": "Don't eat or drink in class.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -373,6 +425,7 @@
       "mot": "raise your hand",
       "traduction": "lever la main",
       "exemple": "Raise your hand to speak.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -380,6 +433,7 @@
       "mot": "write on the table",
       "traduction": "écrire sur la table",
       "exemple": "Don't write on the table.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -387,6 +441,7 @@
       "mot": "listen to the teacher",
       "traduction": "écouter le professeur",
       "exemple": "Listen to the teacher.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -394,6 +449,7 @@
       "mot": "bring your school material",
       "traduction": "apporter ton matériel scolaire",
       "exemple": "Bring your school material.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -401,6 +457,7 @@
       "mot": "be late",
       "traduction": "être en retard",
       "exemple": "Don't be late.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -408,6 +465,7 @@
       "mot": "learn your lesson",
       "traduction": "apprendre ta leçon",
       "exemple": "Learn your lesson, please.",
+      "origineExemple": "cours",
       "theme": "Les règles de la classe"
     },
     {
@@ -415,6 +473,7 @@
       "mot": "wear a cap in class",
       "traduction": "porter une casquette en classe",
       "exemple": "Don't wear a cap in class.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -422,6 +481,7 @@
       "mot": "listen to music in class",
       "traduction": "écouter de la musique en classe",
       "exemple": "Don't listen to music in class.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -429,6 +489,7 @@
       "mot": "be quiet",
       "traduction": "être calme",
       "exemple": "Be quiet, please.",
+      "origineExemple": "construite",
       "theme": "Les règles de la classe"
     },
     {
@@ -436,6 +497,7 @@
       "mot": "lend",
       "traduction": "prêter",
       "exemple": "Could you lend me yours, please?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -443,6 +505,7 @@
       "mot": "anybody",
       "traduction": "n'importe qui",
       "exemple": "Can anybody lend me a pen, please?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -450,6 +513,7 @@
       "mot": "somebody",
       "traduction": "quelqu'un",
       "exemple": "Can I share with somebody?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -457,6 +521,7 @@
       "mot": "share",
       "traduction": "partager",
       "exemple": "Can I share with somebody?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -464,6 +529,7 @@
       "mot": "a tissue",
       "traduction": "un mouchoir en papier",
       "exemple": "I need a tissue.",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -471,6 +537,7 @@
       "mot": "a runny nose",
       "traduction": "un nez qui coule",
       "exemple": "I've got a runny nose.",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -478,6 +545,7 @@
       "mot": "a locker",
       "traduction": "un casier",
       "exemple": "I left my notebook in my locker.",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -485,6 +553,7 @@
       "mot": "the board",
       "traduction": "le tableau",
       "exemple": "I can't see the board.",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -492,6 +561,7 @@
       "mot": "step aside",
       "traduction": "se déplacer sur le côté",
       "exemple": "Could you step aside, please?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -499,6 +569,7 @@
       "mot": "the blinds",
       "traduction": "les stores",
       "exemple": "Could you pull out the blinds, please?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -506,6 +577,7 @@
       "mot": "switch on",
       "traduction": "allumer",
       "exemple": "Could you switch on the light, please?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -513,6 +585,7 @@
       "mot": "switch off",
       "traduction": "éteindre",
       "exemple": "Could you switch off the light, please?",
+      "origineExemple": "construite",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -520,6 +593,7 @@
       "mot": "bright",
       "traduction": "lumineux, éclatant",
       "exemple": "It's too bright in here.",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -527,6 +601,7 @@
       "mot": "dark",
       "traduction": "sombre",
       "exemple": "It's too dark in here.",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -534,6 +609,7 @@
       "mot": "ink",
       "traduction": "l'encre",
       "exemple": "I lost my ink eraser.",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -541,6 +617,7 @@
       "mot": "speak up",
       "traduction": "parler plus fort",
       "exemple": "Could you speak up, please?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -548,6 +625,7 @@
       "mot": "play it again",
       "traduction": "le repasser (l'enregistrement)",
       "exemple": "Could you play it again, please?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -555,6 +633,7 @@
       "mot": "the nurse's office",
       "traduction": "l'infirmerie",
       "exemple": "Can I go to the nurse's office?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -562,6 +641,7 @@
       "mot": "the bin",
       "traduction": "la poubelle",
       "exemple": "Can I go to the bin?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -569,6 +649,7 @@
       "mot": "the toilets",
       "traduction": "les toilettes",
       "exemple": "Can I go to the toilets?",
+      "origineExemple": "cours",
       "theme": "Demander de l'aide en classe"
     },
     {
@@ -576,6 +657,7 @@
       "mot": "homework",
       "traduction": "les devoirs",
       "exemple": "I didn't do my homework.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -583,6 +665,7 @@
       "mot": "hand in",
       "traduction": "rendre (un devoir)",
       "exemple": "I didn't hand my homework in.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -590,6 +673,7 @@
       "mot": "forget",
       "traduction": "oublier",
       "exemple": "I forgot my homework.",
+      "origineExemple": "construite",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -597,6 +681,7 @@
       "mot": "blow up",
       "traduction": "exploser",
       "exemple": "It blew up on the way to school.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -604,6 +689,7 @@
       "mot": "chew",
       "traduction": "mâcher",
       "exemple": "My dog chewed my homework.",
+      "origineExemple": "construite",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -611,6 +697,7 @@
       "mot": "a dog",
       "traduction": "un chien",
       "exemple": "My dog ate my homework.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -618,6 +705,7 @@
       "mot": "a pup",
       "traduction": "un chiot",
       "exemple": "That mischievous pup got hold of my homework.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -625,6 +713,7 @@
       "mot": "an excuse",
       "traduction": "une excuse",
       "exemple": "This is my best excuse.",
+      "origineExemple": "construite",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -632,6 +721,7 @@
       "mot": "busy",
       "traduction": "occupé",
       "exemple": "I was busy with sport.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -639,6 +729,7 @@
       "mot": "flush down",
       "traduction": "jeter dans les toilettes (chasse d'eau)",
       "exemple": "It got flushed down the toilets.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -646,6 +737,7 @@
       "mot": "blow out of the window",
       "traduction": "s'envoler par la fenêtre",
       "exemple": "It blew out of the window.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -653,6 +745,7 @@
       "mot": "spill",
       "traduction": "renverser",
       "exemple": "I spilled water on it.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -660,6 +753,7 @@
       "mot": "accidentally",
       "traduction": "par accident",
       "exemple": "I accidentally ate it.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -667,6 +761,7 @@
       "mot": "swallow",
       "traduction": "avaler",
       "exemple": "He swallowed it whole.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -674,6 +769,7 @@
       "mot": "whole",
       "traduction": "entier",
       "exemple": "He swallowed it whole.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -681,6 +777,7 @@
       "mot": "honest",
       "traduction": "honnête, franc",
       "exemple": "It's true, honest!",
+      "origineExemple": "construite",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -688,6 +785,7 @@
       "mot": "to wait",
       "traduction": "attendre",
       "exemple": "The teacher will just have to wait.",
+      "origineExemple": "cours",
       "theme": "Les excuses pour les devoirs"
     },
     {
@@ -695,6 +793,7 @@
       "mot": "favourite colour",
       "traduction": "couleur préférée",
       "exemple": "His favourite colour is blue.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -702,6 +801,7 @@
       "mot": "favourite food",
       "traduction": "plat préféré",
       "exemple": "His favourite food is sushi.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -709,6 +809,7 @@
       "mot": "to be born",
       "traduction": "naître",
       "exemple": "He was born on the twelfth of November.",
+      "origineExemple": "construite",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -716,6 +817,7 @@
       "mot": "to come from",
       "traduction": "venir de",
       "exemple": "He comes from Mont-Saint-Aignan.",
+      "origineExemple": "construite",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -723,6 +825,7 @@
       "mot": "a sister",
       "traduction": "une sœur",
       "exemple": "He has one sister.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -730,6 +833,7 @@
       "mot": "a brother",
       "traduction": "un frère",
       "exemple": "Manon has a sister and a brother.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -737,6 +841,7 @@
       "mot": "a pet",
       "traduction": "un animal de compagnie",
       "exemple": "Darlène hasn't got any pets.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -744,6 +849,7 @@
       "mot": "a cat",
       "traduction": "un chat",
       "exemple": "He has one cat.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -751,6 +857,7 @@
       "mot": "a fish",
       "traduction": "un poisson",
       "exemple": "Gabriel has eight fish.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -758,6 +865,7 @@
       "mot": "a rabbit",
       "traduction": "un lapin",
       "exemple": "Gabriel has two cats and a rabbit.",
+      "origineExemple": "construite",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -765,6 +873,7 @@
       "mot": "a lie",
       "traduction": "un mensonge",
       "exemple": "Two truths, one lie.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -772,6 +881,7 @@
       "mot": "to hate",
       "traduction": "détester",
       "exemple": "I hate chocolate.",
+      "origineExemple": "construite",
       "theme": "Se présenter et présenter un camarade"
     },
     {
@@ -779,6 +889,7 @@
       "mot": "meat",
       "traduction": "la viande",
       "exemple": "His favourite food is meat.",
+      "origineExemple": "cours",
       "theme": "Se présenter et présenter un camarade"
     }
   ],
@@ -852,6 +963,11 @@
           "type": "trous",
           "phrase": "___ your homework. (do)",
           "reponse": "Do"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ your hand to speak. (raise)",
+          "reponse": "Raise"
         }
       ]
     },
@@ -931,6 +1047,16 @@
             "Could you playing it again?"
           ],
           "bonne": 0
+        },
+        {
+          "type": "trous",
+          "phrase": "___ I go to the toilets, please? (permission)",
+          "reponse": "Can"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ you speak up, please? (demande polie)",
+          "reponse": "Could"
         }
       ]
     },
@@ -1010,6 +1136,16 @@
             "hand"
           ],
           "bonne": 1
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ understand the work. (négatif de understood)",
+          "reponse": "didn't"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ late. (négatif de was)",
+          "reponse": "wasn't"
         }
       ]
     },
@@ -1086,6 +1222,11 @@
           "type": "trous",
           "phrase": "Maurice ___ have any brothers or sisters. (négatif)",
           "reponse": "doesn't"
+        },
+        {
+          "type": "trous",
+          "phrase": "She ___ born on August 5th. (be, au passé)",
+          "reponse": "was"
         }
       ]
     }
@@ -1094,192 +1235,230 @@
     {
       "id": "p1",
       "texte": "My dog ate my homework.",
-      "traduction": "Mon chien a mangé mes devoirs."
+      "traduction": "Mon chien a mangé mes devoirs.",
+      "origine": "cours"
     },
     {
       "id": "p2",
       "texte": "I didn't hand my homework in because I forgot it.",
-      "traduction": "Je n'ai pas rendu mes devoirs parce que je les ai oubliés."
+      "traduction": "Je n'ai pas rendu mes devoirs parce que je les ai oubliés.",
+      "origine": "cours"
     },
     {
       "id": "p3",
       "texte": "I didn't hand my homework in because it blew up on the way to school.",
-      "traduction": "Je n'ai pas rendu mes devoirs parce qu'ils ont explosé sur le chemin de l'école."
+      "traduction": "Je n'ai pas rendu mes devoirs parce qu'ils ont explosé sur le chemin de l'école.",
+      "origine": "cours"
     },
     {
       "id": "p4",
       "texte": "I didn't hand my homework in because my dog chewed it up.",
-      "traduction": "Je n'ai pas rendu mes devoirs parce que mon chien les a mâchouillés."
+      "traduction": "Je n'ai pas rendu mes devoirs parce que mon chien les a mâchouillés.",
+      "origine": "cours"
     },
     {
       "id": "p5",
       "texte": "Could you play it again, please?",
-      "traduction": "Pourriez-vous le repasser, s'il vous plaît ?"
+      "traduction": "Pourriez-vous le repasser, s'il vous plaît ?",
+      "origine": "cours"
     },
     {
       "id": "p6",
       "texte": "I can't hear a thing. Could you speak up, please?",
-      "traduction": "Je n'entends rien. Pourriez-vous parler plus fort, s'il vous plaît ?"
+      "traduction": "Je n'entends rien. Pourriez-vous parler plus fort, s'il vous plaît ?",
+      "origine": "cours"
     },
     {
       "id": "p7",
       "texte": "It's too dark in here. Could you switch on the light, please?",
-      "traduction": "Il fait trop sombre ici. Pourriez-vous allumer la lumière, s'il vous plaît ?"
+      "traduction": "Il fait trop sombre ici. Pourriez-vous allumer la lumière, s'il vous plaît ?",
+      "origine": "cours"
     },
     {
       "id": "p8",
       "texte": "I can't see the board. Could you step aside, please?",
-      "traduction": "Je ne vois pas le tableau. Pourriez-vous vous décaler, s'il vous plaît ?"
+      "traduction": "Je ne vois pas le tableau. Pourriez-vous vous décaler, s'il vous plaît ?",
+      "origine": "cours"
     },
     {
       "id": "p9",
       "texte": "I left my notebook in my locker. Can I go and get it?",
-      "traduction": "J'ai laissé mon cahier dans mon casier. Puis-je aller le chercher ?"
+      "traduction": "J'ai laissé mon cahier dans mon casier. Puis-je aller le chercher ?",
+      "origine": "cours"
     },
     {
       "id": "p10",
       "texte": "I forgot my French book. Can I share with somebody?",
-      "traduction": "J'ai oublié mon livre de français. Puis-je partager avec quelqu'un ?"
+      "traduction": "J'ai oublié mon livre de français. Puis-je partager avec quelqu'un ?",
+      "origine": "cours"
     },
     {
       "id": "p11",
       "texte": "Don't run in the corridors.",
-      "traduction": "Ne cours pas dans les couloirs."
+      "traduction": "Ne cours pas dans les couloirs.",
+      "origine": "cours"
     },
     {
       "id": "p12",
       "texte": "Raise your hand to speak.",
-      "traduction": "Lève la main pour parler."
+      "traduction": "Lève la main pour parler.",
+      "origine": "cours"
     },
     {
       "id": "p13",
       "texte": "His favourite food is sushi.",
-      "traduction": "Son plat préféré, ce sont les sushis."
+      "traduction": "Son plat préféré, ce sont les sushis.",
+      "origine": "cours"
     },
     {
       "id": "p14",
       "texte": "He was born on the twelfth of November.",
-      "traduction": "Il est né le douze novembre."
+      "traduction": "Il est né le douze novembre.",
+      "origine": "cours"
     },
     {
       "id": "p15",
       "texte": "Can you come to the party tomorrow?",
-      "traduction": "Peux-tu venir à la fête demain ?"
+      "traduction": "Peux-tu venir à la fête demain ?",
+      "origine": "cours"
     },
     {
       "id": "p16",
       "texte": "Don't chew gum in class.",
-      "traduction": "Ne mâche pas de chewing-gum en classe."
+      "traduction": "Ne mâche pas de chewing-gum en classe.",
+      "origine": "cours"
     },
     {
       "id": "p17",
       "texte": "Listen to the teacher and raise your hand.",
-      "traduction": "Écoute le professeur et lève la main."
+      "traduction": "Écoute le professeur et lève la main.",
+      "origine": "construite"
     },
     {
       "id": "p18",
       "texte": "Keep the classroom clean, please.",
-      "traduction": "Garde la classe propre, s'il te plaît."
+      "traduction": "Garde la classe propre, s'il te plaît.",
+      "origine": "construite"
     },
     {
       "id": "p19",
       "texte": "Don't use your mobile phone in class.",
-      "traduction": "N'utilise pas ton téléphone portable en classe."
+      "traduction": "N'utilise pas ton téléphone portable en classe.",
+      "origine": "construite"
     },
     {
       "id": "p20",
       "texte": "Bring your school material to school.",
-      "traduction": "Apporte ton matériel scolaire à l'école."
+      "traduction": "Apporte ton matériel scolaire à l'école.",
+      "origine": "construite"
     },
     {
       "id": "p21",
       "texte": "Could you lend me a ruler, please?",
-      "traduction": "Pourrais-tu me prêter une règle, s'il te plaît ?"
+      "traduction": "Pourrais-tu me prêter une règle, s'il te plaît ?",
+      "origine": "construite"
     },
     {
       "id": "p22",
       "texte": "Can anybody lend me a pen?",
-      "traduction": "Quelqu'un peut-il me prêter un stylo ?"
+      "traduction": "Quelqu'un peut-il me prêter un stylo ?",
+      "origine": "cours"
     },
     {
       "id": "p23",
       "texte": "I have a runny nose. Can I have a tissue, please?",
-      "traduction": "J'ai le nez qui coule. Puis-je avoir un mouchoir, s'il vous plaît ?"
+      "traduction": "J'ai le nez qui coule. Puis-je avoir un mouchoir, s'il vous plaît ?",
+      "origine": "construite"
     },
     {
       "id": "p24",
       "texte": "It's too bright in here. Could you close the blinds, please?",
-      "traduction": "Il y a trop de lumière ici. Pourriez-vous fermer les stores, s'il vous plaît ?"
+      "traduction": "Il y a trop de lumière ici. Pourriez-vous fermer les stores, s'il vous plaît ?",
+      "origine": "construite"
     },
     {
       "id": "p25",
       "texte": "Could you switch off the light, please?",
-      "traduction": "Pourriez-vous éteindre la lumière, s'il vous plaît ?"
+      "traduction": "Pourriez-vous éteindre la lumière, s'il vous plaît ?",
+      "origine": "construite"
     },
     {
       "id": "p26",
       "texte": "My pen has no ink. Can somebody lend me a pen?",
-      "traduction": "Mon stylo n'a plus d'encre. Quelqu'un peut-il me prêter un stylo ?"
+      "traduction": "Mon stylo n'a plus d'encre. Quelqu'un peut-il me prêter un stylo ?",
+      "origine": "construite"
     },
     {
       "id": "p27",
       "texte": "Can I put my paper in the bin?",
-      "traduction": "Puis-je mettre mon papier à la poubelle ?"
+      "traduction": "Puis-je mettre mon papier à la poubelle ?",
+      "origine": "construite"
     },
     {
       "id": "p28",
       "texte": "I didn't bring my calculator. Can I share with somebody?",
-      "traduction": "Je n'ai pas apporté ma calculatrice. Puis-je partager avec quelqu'un ?"
+      "traduction": "Je n'ai pas apporté ma calculatrice. Puis-je partager avec quelqu'un ?",
+      "origine": "construite"
     },
     {
       "id": "p29",
       "texte": "I didn't do my homework because I was busy.",
-      "traduction": "Je n'ai pas fait mes devoirs parce que j'étais occupé."
+      "traduction": "Je n'ai pas fait mes devoirs parce que j'étais occupé.",
+      "origine": "construite"
     },
     {
       "id": "p30",
       "texte": "My pup swallowed my whole homework.",
-      "traduction": "Mon chiot a avalé mes devoirs en entier."
+      "traduction": "Mon chiot a avalé mes devoirs en entier.",
+      "origine": "construite"
     },
     {
       "id": "p31",
       "texte": "I accidentally spilled paint on my notebook.",
-      "traduction": "J'ai renversé de la peinture sur mon cahier par accident."
+      "traduction": "J'ai renversé de la peinture sur mon cahier par accident.",
+      "origine": "construite"
     },
     {
       "id": "p32",
       "texte": "My homework blew out of the window.",
-      "traduction": "Mes devoirs se sont envolés par la fenêtre."
+      "traduction": "Mes devoirs se sont envolés par la fenêtre.",
+      "origine": "construite"
     },
     {
       "id": "p33",
       "texte": "My little brother flushed my homework down the toilet.",
-      "traduction": "Mon petit frère a jeté mes devoirs dans les toilettes."
+      "traduction": "Mon petit frère a jeté mes devoirs dans les toilettes.",
+      "origine": "construite"
     },
     {
       "id": "p34",
       "texte": "Be honest: it's not an excuse, it's a lie!",
-      "traduction": "Sois honnête : ce n'est pas une excuse, c'est un mensonge !"
+      "traduction": "Sois honnête : ce n'est pas une excuse, c'est un mensonge !",
+      "origine": "construite"
     },
     {
       "id": "p35",
       "texte": "Her favourite colour is blue and she comes from Paris.",
-      "traduction": "Sa couleur préférée est le bleu et elle vient de Paris."
+      "traduction": "Sa couleur préférée est le bleu et elle vient de Paris.",
+      "origine": "construite"
     },
     {
       "id": "p36",
       "texte": "He has two brothers, a sister and a rabbit.",
-      "traduction": "Il a deux frères, une sœur et un lapin."
+      "traduction": "Il a deux frères, une sœur et un lapin.",
+      "origine": "construite"
     },
     {
       "id": "p37",
       "texte": "My sister hates meat. Her favourite food is fish.",
-      "traduction": "Ma sœur déteste la viande. Son plat préféré, c'est le poisson."
+      "traduction": "Ma sœur déteste la viande. Son plat préféré, c'est le poisson.",
+      "origine": "construite"
     },
     {
       "id": "p38",
       "texte": "She was born on the fifth of August.",
-      "traduction": "Elle est née le cinq août."
+      "traduction": "Elle est née le cinq août.",
+      "origine": "construite"
     }
   ]
 }

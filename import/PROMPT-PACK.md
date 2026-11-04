@@ -29,6 +29,7 @@ Réponds **uniquement** avec le JSON du pack, sans texte autour, selon ce schém
       "mot": "the weather",
       "traduction": "la météo",
       "exemple": "The weather is nice today.",
+      "origineExemple": "construite",
       "theme": "La météo"
     }
   ],
@@ -58,7 +59,8 @@ Réponds **uniquement** avec le JSON du pack, sans texte autour, selon ce schém
     {
       "id": "p1",
       "texte": "The weather is sunny today.",
-      "traduction": "Il fait beau aujourd'hui."
+      "traduction": "Il fait beau aujourd'hui.",
+      "origine": "cours"
     }
   ]
 }
@@ -70,7 +72,9 @@ Réponds **uniquement** avec le JSON du pack, sans texte autour, selon ce schém
   `"zh"` pour le chinois.
 - `vocab` : **tout** le vocabulaire du cours (mots et petites expressions), champ `mot`
   dans la langue étudiée, `traduction` en français, `exemple` = une phrase courte dans la
-  langue étudiée qui utilise le mot, `theme` = regroupement en français (5 à 8 mots par
+  langue étudiée qui utilise le mot, `origineExemple` = `"cours"` ou `"construite"`
+  pour cet exemple (même règle que `origine` des phrases, voir plus bas), `theme` =
+  regroupement en français (5 à 8 mots par
   thème environ). Ids `v1`, `v2`, …
   - Champ optionnel `pinyin` : la transcription du mot (pinyin chinois, romaji…).
     Quand il est là, l'app l'affiche sous le mot dans les jeux à cartes et à QCM.
@@ -79,7 +83,10 @@ Réponds **uniquement** avec le JSON du pack, sans texte autour, selon ce schém
     indiscernables et une bonne réponse peut être comptée fausse. Distinguer par une
     nuance (« le chien » / « le chien (forme labourdine) ») plutôt que de répéter.
 - `grammar` : un objet par point de grammaire du cours. `explication` en français,
-  claire et courte (niveau collège). Pour chaque point, crée **6 à 8 exercices** variés :
+  claire et courte (niveau collège). Pour chaque point, crée **8 à 10 exercices** variés,
+  dont **au moins 5 `trous`** : le jeu Trous joue tous les trous d'un point, en dessous
+  de 5 la partie est trop courte (exception : chinois, où Trous n'est pas proposé car il
+  faut taper la réponse) :
   - `trous` : la phrase contient `___` et, si utile, une consigne entre parenthèses
     (le verbe à conjuguer, « article », …). `reponse` = le mot attendu.
   - `choix` : QCM, `options` = 2 à 4 propositions, `bonne` = index (0, 1, 2…) de la bonne.
@@ -93,6 +100,12 @@ Réponds **uniquement** avec le JSON du pack, sans texte autour, selon ce schém
   mélangent plusieurs thèmes du vocabulaire), de 4 à 12 mots, variées (affirmations,
   questions, négations, différentes personnes). `texte` dans la langue étudiée,
   `traduction` en français. Ids `p1`, `p2`, …
+  - `origine` (obligatoire) : `"cours"` si la phrase est recopiée du cours (seules
+    les fautes d'orthographe peuvent être corrigées), `"construite"` sinon — dès
+    qu'on change un mot, qu'on combine deux phrases du cours ou qu'on complète une
+    phrase, c'est `"construite"`. Une phrase à trous du cours complétée avec sa
+    réponse reste `"cours"`. L'app affiche l'origine aux élèves (« Phrase de ton
+    cours » / « Phrase d'entraînement ») : dans le doute, `"construite"`.
   - Chinois : séparer les mots par des espaces (`我 想 喝 茶。`), la remise en ordre
     découpe sur les espaces.
 

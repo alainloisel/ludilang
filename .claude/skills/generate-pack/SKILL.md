@@ -105,12 +105,16 @@ Construction du pack :
   existent.
 - **`grammar`** : un point par notion de grammaire identifiée dans le cours (BE, there
   is/are, présent simple, quantifieurs, modaux, prétérit, etc. — selon ce que contient
-  la source traitée). Pour chaque point, 6 à 8 exercices variés (`trous` / `choix` /
+  la source traitée). Pour chaque point, 8 à 10 exercices variés, dont au moins 5 `trous` (`trous` / `choix` /
   `ordre`), construits en priorité à partir des phrases originales du cours.
 - **`phrases`** : 30 à 40 phrases complètes (la variété des parties de Perroquet,
   Dictée, Détective et Phrases en désordre en dépend). D'abord toutes les phrases du
   cours (corrigées), puis des phrases construites avec son seul vocabulaire et ses
   structures de grammaire pour atteindre le compte — voir `import/PROMPT-PACK.md`.
+- **Origine** : chaque phrase porte `origine` et chaque exemple `origineExemple`,
+  `"cours"` (recopiée du verbatim, orthographe corrigée seulement) ou
+  `"construite"` (tout le reste). Vérifier chaque `"cours"` contre
+  `sources/<nom>.md` : l'app l'affiche aux élèves comme « Phrase de ton cours ».
 - Contrainte technique de l'application (voir `js/store.js:60-76`) : `vocab` doit
   contenir au moins 4 entrées, chacune avec `mot` et `traduction` obligatoires ;
   `grammar` et `phrases` sont optionnels côté app mais doivent être riches d'après la

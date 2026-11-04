@@ -86,6 +86,62 @@ export function motTranscrit(mot, transcription) {
     : esc(mot);
 }
 
+// ---- Réservoir de phrases (Perroquet, Détective) ----
+// Phrases du pack + phrases d'exemple du vocabulaire, dédoublonnées, chacune
+// avec son origine ("cours" = tirée telle quelle du cours de l'élève,
+// "construite" = écrite pour l'entraînement, absente = inconnue).
+export function reservoirPhrases(pack) {
+  const vues = new Set();
+  const unique = (liste) =>
+    liste.filter((p) => {
+      const cle = normalize(p.texte || "");
+      if (!cle || vues.has(cle)) return false;
+      vues.add(cle);
+      return true;
+    });
+  const phrases = unique(
+    (pack.phrases || []).map((p) => ({
+      texte: p.texte,
+      traduction: p.traduction,
+      origine: p.origine,
+    })),
+  );
+  const exemples = unique(
+    (pack.vocab || [])
+      .filter((v) => v.exemple)
+      .map((v) => ({
+        texte: v.exemple,
+        // Pas de `traduction` : le pack ne donne que celle du mot, pas de la
+        // phrase. Chaque jeu décide quoi en montrer (le Détective ne doit pas
+        // afficher `mot`, ce serait la correction de la faute).
+        mot: v.mot,
+        tradMot: v.traduction,
+        origine: v.origineExemple,
+      })),
+  );
+  return { phrases, exemples };
+}
+
+// Tout le réservoir dans un ordre aléatoire, avec `nbPhrasesPack` phrases du
+// champ `phrases` en tête (plus longues et plus riches que les exemples du
+// vocabulaire, on en garantit quelques-unes par partie).
+export function phrasesMelangees(pack, nbPhrasesPack = 2) {
+  const { phrases, exemples } = reservoirPhrases(pack);
+  const garanties = sample(phrases, nbPhrasesPack);
+  const reste = [...phrases, ...exemples].filter((p) => !garanties.includes(p));
+  return [...garanties, ...shuffle(reste)];
+}
+
+// Étiquette « phrase du cours » / « phrase d'entraînement ». Rien si l'origine
+// est inconnue (anciens packs, packs importés).
+export function badgeOrigine(origine) {
+  if (origine === "cours")
+    return `<p class="badge-origine cours" title="Cette phrase vient telle quelle de ton cahier">📒 Phrase de ton cours</p>`;
+  if (origine === "construite")
+    return `<p class="badge-origine construite" title="Cette phrase a été écrite pour t'entraîner avec les mots du cours">✏️ Phrase d'entraînement</p>`;
+  return "";
+}
+
 // Crée un élément à partir d'un gabarit HTML.
 export function el(html) {
   const t = document.createElement("template");

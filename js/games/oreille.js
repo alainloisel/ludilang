@@ -25,14 +25,14 @@ const PAIRES = {
   de: [
     { motA: "schon", motB: "schön", transA: "déjà", transB: "beau/joli" },
     { motA: "vier", motB: "für", transA: "quatre", transB: "pour" },
-    { motA: "kann", motB: "kamm", transA: "peut", transB: "peigne" },
+    { motA: "kann", motB: "Kamm", transA: "peut", transB: "peigne" },
     {
       motA: "bitten",
       motB: "bieten",
       transA: "demander/prier",
       transB: "offrir",
     },
-    { motA: "älter", motB: "eltern", transA: "plus âgé", transB: "parents" },
+    { motA: "älter", motB: "Eltern", transA: "plus âgé", transB: "parents" },
     { motA: "hauen", motB: "bauen", transA: "frapper", transB: "construire" },
     { motA: "lesen", motB: "lösen", transA: "lire", transB: "résoudre" },
     {
@@ -43,6 +43,65 @@ const PAIRES = {
     },
   ],
 };
+
+// Ajouts 2026-11 : [mot A, mot B, traduction A, traduction B].
+// Pas d'homophones (sun / son, Wal / Wahl) : la synthèse vocale les dit pareil.
+const AJOUTS = {
+  en: [
+    ["hat", "hut", "chapeau", "cabane"],
+    ["cat", "cut", "chat", "couper"],
+    ["full", "fool", "plein", "idiot"],
+    ["sit", "seat", "s'asseoir", "siège"],
+    ["hill", "heel", "colline", "talon"],
+    ["this", "these", "ceci", "ceux-ci"],
+    ["thin", "tin", "mince", "boîte de conserve"],
+    ["think", "sink", "penser", "évier"],
+    ["thank", "tank", "remercier", "réservoir"],
+    ["van", "fan", "camionnette", "ventilateur"],
+    ["very", "berry", "très", "baie (fruit)"],
+    ["right", "light", "droite", "lumière"],
+    ["bag", "bug", "sac", "insecte"],
+    ["hair", "air", "cheveux", "air"],
+    ["heat", "eat", "chaleur", "manger"],
+    ["house", "horse", "maison", "cheval"],
+    ["cup", "cap", "tasse", "casquette"],
+    ["sleep", "slip", "dormir", "glisser"],
+    ["pull", "pool", "tirer", "piscine"],
+    ["thirsty", "thirty", "assoiffé", "trente"],
+  ],
+  de: [
+    ["Hütte", "Hüte", "cabane", "chapeaux"],
+    ["Mutter", "Mütter", "mère", "mères"],
+    ["Bruder", "Brüder", "frère", "frères"],
+    ["Stadt", "Staat", "ville", "État"],
+    ["Höhle", "Hölle", "grotte", "enfer"],
+    ["Kuchen", "kochen", "gâteau", "cuisiner"],
+    ["Zahl", "Saal", "nombre", "grande salle"],
+    ["Zeit", "seit", "temps", "depuis"],
+    ["Ofen", "offen", "four", "ouvert"],
+    ["Miete", "Mitte", "loyer", "milieu"],
+    ["Kiste", "Küste", "caisse", "côte (mer)"],
+    ["liegen", "lügen", "être allongé", "mentir"],
+    ["Tier", "Tür", "animal", "porte"],
+    ["Hose", "Hase", "pantalon", "lièvre"],
+    ["Bach", "Buch", "ruisseau", "livre"],
+    ["fühlen", "füllen", "sentir", "remplir"],
+    ["Kirche", "Kirsche", "église", "cerise"],
+    ["Fuß", "Fluss", "pied", "fleuve"],
+    ["Bein", "Wein", "jambe", "vin"],
+    ["Tasche", "Tasse", "sac", "tasse"],
+  ],
+};
+for (const lang of ["en", "de"]) {
+  PAIRES[lang].push(
+    ...AJOUTS[lang].map(([motA, motB, transA, transB]) => ({
+      motA,
+      motB,
+      transA,
+      transB,
+    })),
+  );
+}
 
 const NB_MANCHES = 6;
 

@@ -1,7 +1,14 @@
 // Jeu : L'Inspecteur (Error Finder / Proofreader)
 // Identifier le mot incorrect dans une phrase du cours, puis fournir sa correction (clavier ou voix).
 
-import { sample, esc, normalize, similarity } from "../utils.js";
+import {
+  sample,
+  shuffle,
+  esc,
+  normalize,
+  phrasesMelangees,
+  badgeOrigine,
+} from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 
 export const meta = {
@@ -14,19 +21,11 @@ export const meta = {
 const NB_ITEMS = 5;
 
 export function start(container, ctx) {
-  const phrases = ctx.pack.phrases || [];
   const vocab = ctx.pack.vocab || [];
 
-  // Collecter les phrases sources (priorité phrases du cours, sinon vocabulaire mis en exemple)
-  const sources =
-    phrases.length >= NB_ITEMS
-      ? phrases.map((p) => ({ texte: p.texte, traduction: p.traduction }))
-      : [
-          ...phrases,
-          ...vocab
-            .filter((v) => v.exemple)
-            .map((v) => ({ texte: v.exemple, traduction: v.traduction })),
-        ];
+  // Phrases du pack + exemples du vocabulaire, dans un ordre aléatoire (avant,
+  // le jeu prenait toujours les 5 premières phrases du pack, dans l'ordre).
+  const sources = phrasesMelangees(ctx.pack);
 
   if (sources.length < NB_ITEMS) {
     // Si on a très peu de contenu, on duplique ou complète avec le vocabulaire brut
@@ -40,14 +39,23 @@ export function start(container, ctx) {
   let index = 0,
     bonnes = 0,
     xp = 0;
-  const manches = [];
+  let manches = [];
 
   // Création des manches avec erreurs
   for (const src of sources) {
-    const q = preparerPhrase(src.texte, src.traduction, ctx.pack.language);
-    if (q) manches.push(q);
+    // Indice : la traduction de la phrase si le pack la donne ; pour un exemple
+    // du vocabulaire, seulement le sens du mot en français (afficher le mot
+    // lui-même donnerait la correction quand c'est lui qui est abîmé).
+    const indice = src.traduction
+      ? { libelle: "Traduction", texte: src.traduction }
+      : { libelle: "Un des mots veut dire", texte: `« ${src.tradMot} »` };
+    const q = preparerPhrase(src.texte, indice.texte, ctx.pack.language);
+    if (q) manches.push({ ...q, libelle: indice.libelle, origine: src.origine });
     if (manches.length >= NB_ITEMS) break;
   }
+  // Les phrases garanties du pack sont en tête du réservoir : on mélange
+  // pour qu'elles ne tombent pas toujours en premier.
+  manches = shuffle(manches);
 
   function preparerPhrase(texte, traduction, langue) {
     // Nettoyer la phrase en gardant la ponctuation séparée si possible
@@ -152,7 +160,8 @@ export function start(container, ctx) {
           <div class="barre-prog"><div style="width:${(index / manches.length) * 100}%"></div></div>
           <span class="compteur">Enquête ${index + 1} / ${manches.length}</span>
         </div>
-        <p class="indice" style="margin-bottom: 8px;">💡 Traduction : <strong>${esc(q.traduction)}</strong></p>
+        ${badgeOrigine(q.origine)}
+        <p class="indice" style="margin-bottom: 8px;">💡 ${esc(q.libelle)} : <strong>${esc(q.traduction)}</strong></p>
         <p style="text-align: center; color: var(--texte-2); font-size: 0.9rem; margin-bottom: 12px;">
           ${motCliqueIndex === -1 ? "Étape 1 : Clique sur le mot qui contient une faute" : "Étape 2 : Écris ou parle pour corriger la faute"}
         </p>

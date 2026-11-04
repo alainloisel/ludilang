@@ -9,6 +9,7 @@
       "mot": "the weather",
       "traduction": "la météo",
       "exemple": "The weather is nice today.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "sunny",
       "traduction": "ensoleillé",
       "exemple": "It is sunny this morning.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "rainy",
       "traduction": "pluvieux",
       "exemple": "October is often rainy.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "cloudy",
       "traduction": "nuageux",
       "exemple": "The sky is cloudy.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "windy",
       "traduction": "venteux",
       "exemple": "It is very windy on the beach.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -44,6 +49,7 @@
       "mot": "the snow",
       "traduction": "la neige",
       "exemple": "I love the snow in winter.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -51,6 +57,7 @@
       "mot": "hot",
       "traduction": "chaud",
       "exemple": "It is hot in summer.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -58,6 +65,7 @@
       "mot": "cold",
       "traduction": "froid",
       "exemple": "It is cold in January.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -65,6 +73,7 @@
       "mot": "an umbrella",
       "traduction": "un parapluie",
       "exemple": "Take your umbrella, it is raining.",
+      "origineExemple": "construite",
       "theme": "La météo"
     },
     {
@@ -72,6 +81,7 @@
       "mot": "to wake up",
       "traduction": "se réveiller",
       "exemple": "I wake up at seven.",
+      "origineExemple": "construite",
       "theme": "La routine"
     },
     {
@@ -79,6 +89,7 @@
       "mot": "to get up",
       "traduction": "se lever",
       "exemple": "She gets up early.",
+      "origineExemple": "construite",
       "theme": "La routine"
     },
     {
@@ -86,6 +97,7 @@
       "mot": "to have breakfast",
       "traduction": "prendre le petit-déjeuner",
       "exemple": "We have breakfast at home.",
+      "origineExemple": "construite",
       "theme": "La routine"
     },
     {
@@ -93,6 +105,7 @@
       "mot": "to brush my teeth",
       "traduction": "me brosser les dents",
       "exemple": "I brush my teeth every morning.",
+      "origineExemple": "construite",
       "theme": "La routine"
     },
     {
@@ -100,6 +113,7 @@
       "mot": "to go to school",
       "traduction": "aller à l'école",
       "exemple": "They go to school by bus.",
+      "origineExemple": "construite",
       "theme": "La routine"
     },
     {
@@ -107,6 +121,7 @@
       "mot": "to do my homework",
       "traduction": "faire mes devoirs",
       "exemple": "I do my homework after school.",
+      "origineExemple": "construite",
       "theme": "La routine"
     },
     {
@@ -114,6 +129,7 @@
       "mot": "to go to bed",
       "traduction": "aller se coucher",
       "exemple": "He goes to bed at nine.",
+      "origineExemple": "construite",
       "theme": "La routine"
     },
     {
@@ -121,6 +137,7 @@
       "mot": "bread",
       "traduction": "le pain",
       "exemple": "I eat bread with butter.",
+      "origineExemple": "construite",
       "theme": "La nourriture"
     },
     {
@@ -128,6 +145,7 @@
       "mot": "milk",
       "traduction": "le lait",
       "exemple": "She drinks milk for breakfast.",
+      "origineExemple": "construite",
       "theme": "La nourriture"
     },
     {
@@ -135,6 +153,7 @@
       "mot": "an apple",
       "traduction": "une pomme",
       "exemple": "An apple a day is good for you.",
+      "origineExemple": "construite",
       "theme": "La nourriture"
     },
     {
@@ -142,6 +161,7 @@
       "mot": "chicken",
       "traduction": "le poulet",
       "exemple": "We eat chicken on Sundays.",
+      "origineExemple": "construite",
       "theme": "La nourriture"
     },
     {
@@ -149,6 +169,7 @@
       "mot": "vegetables",
       "traduction": "les légumes",
       "exemple": "Vegetables are good for your health.",
+      "origineExemple": "construite",
       "theme": "La nourriture"
     },
     {
@@ -156,6 +177,7 @@
       "mot": "lunch",
       "traduction": "le déjeuner",
       "exemple": "We have lunch at the canteen.",
+      "origineExemple": "construite",
       "theme": "La nourriture"
     },
     {
@@ -163,6 +185,7 @@
       "mot": "dinner",
       "traduction": "le dîner",
       "exemple": "Dinner is ready!",
+      "origineExemple": "construite",
       "theme": "La nourriture"
     },
     {
@@ -170,6 +193,7 @@
       "mot": "a schoolbag",
       "traduction": "un cartable",
       "exemple": "My schoolbag is very heavy.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -177,6 +201,7 @@
       "mot": "a ruler",
       "traduction": "une règle",
       "exemple": "Can I borrow your ruler?",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -184,6 +209,7 @@
       "mot": "a rubber",
       "traduction": "une gomme",
       "exemple": "I need a rubber to erase this.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -191,6 +217,7 @@
       "mot": "a copybook",
       "traduction": "un cahier",
       "exemple": "Write the date in your copybook.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -198,6 +225,7 @@
       "mot": "the playground",
       "traduction": "la cour de récréation",
       "exemple": "We play in the playground.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -205,6 +233,7 @@
       "mot": "a subject",
       "traduction": "une matière",
       "exemple": "My favourite subject is history.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -212,6 +241,7 @@
       "mot": "history",
       "traduction": "l'histoire",
       "exemple": "We have history on Mondays.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -219,6 +249,7 @@
       "mot": "to play football",
       "traduction": "jouer au foot",
       "exemple": "They play football after school.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -226,6 +257,7 @@
       "mot": "to read",
       "traduction": "lire",
       "exemple": "I like to read comics.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -233,6 +265,7 @@
       "mot": "to swim",
       "traduction": "nager",
       "exemple": "She can swim very fast.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -240,6 +273,7 @@
       "mot": "to draw",
       "traduction": "dessiner",
       "exemple": "He draws dragons in his copybook.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -247,6 +281,7 @@
       "mot": "a hobby",
       "traduction": "un loisir",
       "exemple": "Drawing is my favourite hobby.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     }
   ],
@@ -297,6 +332,11 @@
         {
           "type": "ordre",
           "mots": ["I", "brush", "my", "teeth", "every", "morning"]
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ up at seven o'clock. (get)",
+          "reponse": "get"
         }
       ]
     },
@@ -341,7 +381,17 @@
           "type": "ordre",
           "mots": ["They", "are", "playing", "football", "now"]
         },
-        { "type": "ordre", "mots": ["He", "is", "doing", "his", "homework"] }
+        { "type": "ordre", "mots": ["He", "is", "doing", "his", "homework"] },
+        {
+          "type": "trous",
+          "phrase": "She ___ reading a book. (be)",
+          "reponse": "is"
+        },
+        {
+          "type": "trous",
+          "phrase": "We are ___ football. (play)",
+          "reponse": "playing"
+        }
       ]
     },
     {
@@ -377,7 +427,22 @@
           "bonne": 1
         },
         { "type": "ordre", "mots": ["Can", "you", "draw", "a", "dragon?"] },
-        { "type": "ordre", "mots": ["I", "can", "swim", "very", "fast"] }
+        { "type": "ordre", "mots": ["I", "can", "swim", "very", "fast"] },
+        {
+          "type": "trous",
+          "phrase": "___ you swim? (savoir faire)",
+          "reponse": "Can"
+        },
+        {
+          "type": "trous",
+          "phrase": "He ___ play the piano, it's too difficult. (ne pas savoir faire)",
+          "reponse": "can't"
+        },
+        {
+          "type": "trous",
+          "phrase": "I can't swim but I ___ draw. (savoir faire)",
+          "reponse": "can"
+        }
       ]
     },
     {
@@ -423,7 +488,12 @@
           "bonne": 1
         },
         { "type": "ordre", "mots": ["I", "went", "to", "school", "yesterday"] },
-        { "type": "ordre", "mots": ["We", "saw", "a", "big", "dog"] }
+        { "type": "ordre", "mots": ["We", "saw", "a", "big", "dog"] },
+        {
+          "type": "trous",
+          "phrase": "Yesterday, they ___ a sandwich in the playground. (eat)",
+          "reponse": "ate"
+        }
       ]
     }
   ],
@@ -431,52 +501,194 @@
     {
       "id": "p1",
       "texte": "The weather is sunny today.",
-      "traduction": "Il fait beau aujourd'hui."
+      "traduction": "Il fait beau aujourd'hui.",
+      "origine": "construite"
     },
     {
       "id": "p2",
       "texte": "I get up at seven o'clock.",
-      "traduction": "Je me lève à sept heures."
+      "traduction": "Je me lève à sept heures.",
+      "origine": "construite"
     },
     {
       "id": "p3",
       "texte": "She has breakfast with her brother.",
-      "traduction": "Elle prend le petit-déjeuner avec son frère."
+      "traduction": "Elle prend le petit-déjeuner avec son frère.",
+      "origine": "construite"
     },
     {
       "id": "p4",
       "texte": "We go to school by bus.",
-      "traduction": "Nous allons à l'école en bus."
+      "traduction": "Nous allons à l'école en bus.",
+      "origine": "construite"
     },
     {
       "id": "p5",
       "texte": "He is doing his homework.",
-      "traduction": "Il est en train de faire ses devoirs."
+      "traduction": "Il est en train de faire ses devoirs.",
+      "origine": "construite"
     },
     {
       "id": "p6",
       "texte": "Can you play football with me?",
-      "traduction": "Peux-tu jouer au foot avec moi ?"
+      "traduction": "Peux-tu jouer au foot avec moi ?",
+      "origine": "construite"
     },
     {
       "id": "p7",
       "texte": "My favourite subject is history.",
-      "traduction": "Ma matière préférée est l'histoire."
+      "traduction": "Ma matière préférée est l'histoire.",
+      "origine": "construite"
     },
     {
       "id": "p8",
       "texte": "I can't swim but I can draw.",
-      "traduction": "Je ne sais pas nager mais je sais dessiner."
+      "traduction": "Je ne sais pas nager mais je sais dessiner.",
+      "origine": "construite"
     },
     {
       "id": "p9",
       "texte": "They are eating a sandwich in the playground.",
-      "traduction": "Ils mangent un sandwich dans la cour de récréation."
+      "traduction": "Ils mangent un sandwich dans la cour de récréation.",
+      "origine": "construite"
     },
     {
       "id": "p10",
       "texte": "It is raining, take your umbrella.",
-      "traduction": "Il pleut, prends ton parapluie."
+      "traduction": "Il pleut, prends ton parapluie.",
+      "origine": "construite"
+    },
+    {
+      "id": "p11",
+      "texte": "It is cold and windy today.",
+      "traduction": "Il fait froid et il y a du vent aujourd'hui.",
+      "origine": "construite"
+    },
+    {
+      "id": "p12",
+      "texte": "Take your umbrella, it is rainy.",
+      "traduction": "Prends ton parapluie, il pleut.",
+      "origine": "construite"
+    },
+    {
+      "id": "p13",
+      "texte": "I love the snow in winter.",
+      "traduction": "J'adore la neige en hiver.",
+      "origine": "construite"
+    },
+    {
+      "id": "p14",
+      "texte": "It is hot and sunny.",
+      "traduction": "Il fait chaud et il y a du soleil.",
+      "origine": "construite"
+    },
+    {
+      "id": "p15",
+      "texte": "I wake up at seven o'clock.",
+      "traduction": "Je me réveille à sept heures.",
+      "origine": "construite"
+    },
+    {
+      "id": "p16",
+      "texte": "I brush my teeth after breakfast.",
+      "traduction": "Je me brosse les dents après le petit-déjeuner.",
+      "origine": "construite"
+    },
+    {
+      "id": "p17",
+      "texte": "I do my homework after school.",
+      "traduction": "Je fais mes devoirs après l'école.",
+      "origine": "construite"
+    },
+    {
+      "id": "p18",
+      "texte": "I go to bed at nine o'clock.",
+      "traduction": "Je me couche à neuf heures.",
+      "origine": "construite"
+    },
+    {
+      "id": "p19",
+      "texte": "I have bread and milk for breakfast.",
+      "traduction": "Je prends du pain et du lait au petit-déjeuner.",
+      "origine": "construite"
+    },
+    {
+      "id": "p20",
+      "texte": "My brother eats an apple every day.",
+      "traduction": "Mon frère mange une pomme tous les jours.",
+      "origine": "construite"
+    },
+    {
+      "id": "p21",
+      "texte": "We have chicken and vegetables for dinner.",
+      "traduction": "Nous mangeons du poulet et des légumes au dîner.",
+      "origine": "construite"
+    },
+    {
+      "id": "p22",
+      "texte": "I have lunch at school.",
+      "traduction": "Je déjeune à l'école.",
+      "origine": "construite"
+    },
+    {
+      "id": "p23",
+      "texte": "My ruler is in my schoolbag.",
+      "traduction": "Ma règle est dans mon cartable.",
+      "origine": "construite"
+    },
+    {
+      "id": "p24",
+      "texte": "Have you got a rubber?",
+      "traduction": "As-tu une gomme ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p25",
+      "texte": "I write in my copybook.",
+      "traduction": "J'écris dans mon cahier.",
+      "origine": "construite"
+    },
+    {
+      "id": "p26",
+      "texte": "Do you like history?",
+      "traduction": "Tu aimes l'histoire ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p27",
+      "texte": "My hobby is drawing.",
+      "traduction": "Mon loisir, c'est le dessin.",
+      "origine": "construite"
+    },
+    {
+      "id": "p28",
+      "texte": "He likes to read in the evening.",
+      "traduction": "Il aime lire le soir.",
+      "origine": "construite"
+    },
+    {
+      "id": "p29",
+      "texte": "They are playing football in the playground.",
+      "traduction": "Ils jouent au football dans la cour.",
+      "origine": "construite"
+    },
+    {
+      "id": "p30",
+      "texte": "Yesterday, I went to the cinema.",
+      "traduction": "Hier, je suis allé au cinéma.",
+      "origine": "construite"
+    },
+    {
+      "id": "p31",
+      "texte": "She is reading a book.",
+      "traduction": "Elle est en train de lire un livre.",
+      "origine": "construite"
+    },
+    {
+      "id": "p32",
+      "texte": "We go to school by bus every day.",
+      "traduction": "Nous allons à l'école en bus tous les jours.",
+      "origine": "construite"
     }
   ]
 }

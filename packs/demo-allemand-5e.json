@@ -9,6 +9,7 @@
       "mot": "Hallo",
       "traduction": "salut",
       "exemple": "Hallo, wie geht's?",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "ich heiße",
       "traduction": "je m'appelle",
       "exemple": "Ich heiße Emma.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "Wie geht's?",
       "traduction": "comment ça va ?",
       "exemple": "Hallo Max, wie geht's?",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "gut",
       "traduction": "bien",
       "exemple": "Mir geht es gut, danke.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "der Freund",
       "traduction": "l'ami",
       "exemple": "Max ist mein Freund.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -44,6 +49,7 @@
       "mot": "die Freundin",
       "traduction": "l'amie",
       "exemple": "Lena ist meine Freundin.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -51,6 +57,7 @@
       "mot": "wohnen",
       "traduction": "habiter",
       "exemple": "Ich wohne in Lyon.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -58,6 +65,7 @@
       "mot": "zwölf Jahre alt",
       "traduction": "âgé de douze ans",
       "exemple": "Ich bin zwölf Jahre alt.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -65,6 +73,7 @@
       "mot": "die Familie",
       "traduction": "la famille",
       "exemple": "Meine Familie ist groß.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -72,6 +81,7 @@
       "mot": "der Vater",
       "traduction": "le père",
       "exemple": "Mein Vater heißt Thomas.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -79,6 +89,7 @@
       "mot": "die Mutter",
       "traduction": "la mère",
       "exemple": "Meine Mutter ist nett.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -86,6 +97,7 @@
       "mot": "der Bruder",
       "traduction": "le frère",
       "exemple": "Das ist mein Bruder.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -93,6 +105,7 @@
       "mot": "die Schwester",
       "traduction": "la sœur",
       "exemple": "Meine Schwester ist vierzehn.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -100,6 +113,7 @@
       "mot": "die Großeltern",
       "traduction": "les grands-parents",
       "exemple": "Meine Großeltern wohnen in Berlin.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -107,6 +121,7 @@
       "mot": "der Hund",
       "traduction": "le chien",
       "exemple": "Der Hund heißt Rex.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -114,6 +129,7 @@
       "mot": "die Katze",
       "traduction": "le chat",
       "exemple": "Die Katze ist klein.",
+      "origineExemple": "construite",
       "theme": "La famille"
     },
     {
@@ -121,6 +137,7 @@
       "mot": "die Schule",
       "traduction": "l'école",
       "exemple": "Die Schule beginnt um acht.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -128,6 +145,7 @@
       "mot": "der Lehrer",
       "traduction": "le professeur",
       "exemple": "Der Lehrer ist sehr nett.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -135,6 +153,7 @@
       "mot": "die Klasse",
       "traduction": "la classe",
       "exemple": "Meine Klasse ist super.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -142,6 +161,7 @@
       "mot": "das Heft",
       "traduction": "le cahier",
       "exemple": "Das Heft ist blau.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -149,6 +169,7 @@
       "mot": "der Bleistift",
       "traduction": "le crayon",
       "exemple": "Ich brauche einen Bleistift.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -156,6 +177,7 @@
       "mot": "die Tasche",
       "traduction": "le sac",
       "exemple": "Meine Tasche ist schwer.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -163,6 +185,7 @@
       "mot": "das Fach",
       "traduction": "la matière",
       "exemple": "Deutsch ist mein Lieblingsfach.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -170,6 +193,7 @@
       "mot": "Deutsch",
       "traduction": "l'allemand",
       "exemple": "Wir lernen Deutsch.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -177,6 +201,7 @@
       "mot": "die Hausaufgaben",
       "traduction": "les devoirs",
       "exemple": "Ich mache meine Hausaufgaben.",
+      "origineExemple": "construite",
       "theme": "L'école"
     },
     {
@@ -184,6 +209,7 @@
       "mot": "das Hobby",
       "traduction": "le loisir",
       "exemple": "Mein Hobby ist Fußball.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -191,6 +217,7 @@
       "mot": "Fußball spielen",
       "traduction": "jouer au foot",
       "exemple": "Wir spielen am Wochenende Fußball.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -198,6 +225,7 @@
       "mot": "schwimmen",
       "traduction": "nager",
       "exemple": "Ich schwimme gern.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -205,6 +233,7 @@
       "mot": "lesen",
       "traduction": "lire",
       "exemple": "Lena liest gern Comics.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -212,6 +241,7 @@
       "mot": "Musik hören",
       "traduction": "écouter de la musique",
       "exemple": "Er hört gern Musik.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -219,6 +249,7 @@
       "mot": "tanzen",
       "traduction": "danser",
       "exemple": "Meine Schwester tanzt gern.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -226,6 +257,7 @@
       "mot": "das Wochenende",
       "traduction": "le week-end",
       "exemple": "Das Wochenende ist super!",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     },
     {
@@ -233,6 +265,7 @@
       "mot": "gern",
       "traduction": "volontiers, avec plaisir",
       "exemple": "Ich spiele gern Fußball.",
+      "origineExemple": "construite",
       "theme": "Les loisirs"
     }
   ],
@@ -283,6 +316,11 @@
         {
           "type": "ordre",
           "mots": ["Meine", "Mutter", "hört", "gern", "Musik"]
+        },
+        {
+          "type": "trous",
+          "phrase": "Wir ___ am Wochenende Fußball. (spielen)",
+          "reponse": "spielen"
         }
       ]
     },
@@ -335,6 +373,21 @@
           "type": "trous",
           "phrase": "___ Katze ist klein. (article)",
           "reponse": "die"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ Heft ist neu. (article)",
+          "reponse": "Das"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ Bruder spielt Fußball. (article)",
+          "reponse": "Der"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ Schule ist groß. (article)",
+          "reponse": "Die"
         }
       ]
     },
@@ -374,6 +427,31 @@
             "Heute mache ich die Hausaufgaben."
           ],
           "bonne": 1
+        },
+        {
+          "type": "trous",
+          "phrase": "Am Wochenende ___ ich Fußball. (spielen)",
+          "reponse": "spiele"
+        },
+        {
+          "type": "trous",
+          "phrase": "Heute ___ er Musik. (hören)",
+          "reponse": "hört"
+        },
+        {
+          "type": "trous",
+          "phrase": "Am Montag ___ wir Deutsch. (lernen)",
+          "reponse": "lernen"
+        },
+        {
+          "type": "trous",
+          "phrase": "Heute ___ ich die Hausaufgaben. (machen)",
+          "reponse": "mache"
+        },
+        {
+          "type": "trous",
+          "phrase": "Meine Familie ___ in Lyon. (wohnen)",
+          "reponse": "wohnt"
         }
       ]
     }
@@ -382,52 +460,194 @@
     {
       "id": "p1",
       "texte": "Hallo, ich heiße Emma.",
-      "traduction": "Salut, je m'appelle Emma."
+      "traduction": "Salut, je m'appelle Emma.",
+      "origine": "construite"
     },
     {
       "id": "p2",
       "texte": "Ich bin zwölf Jahre alt.",
-      "traduction": "J'ai douze ans."
+      "traduction": "J'ai douze ans.",
+      "origine": "construite"
     },
     {
       "id": "p3",
       "texte": "Ich wohne in Lyon.",
-      "traduction": "J'habite à Lyon."
+      "traduction": "J'habite à Lyon.",
+      "origine": "construite"
     },
     {
       "id": "p4",
       "texte": "Das ist mein Bruder.",
-      "traduction": "C'est mon frère."
+      "traduction": "C'est mon frère.",
+      "origine": "construite"
     },
     {
       "id": "p5",
       "texte": "Meine Schwester hört gern Musik.",
-      "traduction": "Ma sœur aime écouter de la musique."
+      "traduction": "Ma sœur aime écouter de la musique.",
+      "origine": "construite"
     },
     {
       "id": "p6",
       "texte": "Wir spielen am Wochenende Fußball.",
-      "traduction": "Nous jouons au foot le week-end."
+      "traduction": "Nous jouons au foot le week-end.",
+      "origine": "construite"
     },
     {
       "id": "p7",
       "texte": "Die Katze ist klein und süß.",
-      "traduction": "Le chat est petit et mignon."
+      "traduction": "Le chat est petit et mignon.",
+      "origine": "construite"
     },
     {
       "id": "p8",
       "texte": "Ich mache meine Hausaufgaben.",
-      "traduction": "Je fais mes devoirs."
+      "traduction": "Je fais mes devoirs.",
+      "origine": "construite"
     },
     {
       "id": "p9",
       "texte": "Der Lehrer ist sehr nett.",
-      "traduction": "Le professeur est très gentil."
+      "traduction": "Le professeur est très gentil.",
+      "origine": "construite"
     },
     {
       "id": "p10",
       "texte": "Wie geht's? Mir geht es gut.",
-      "traduction": "Comment ça va ? Je vais bien."
+      "traduction": "Comment ça va ? Je vais bien.",
+      "origine": "construite"
+    },
+    {
+      "id": "p11",
+      "texte": "Ich heiße Paul und ich bin zwölf Jahre alt.",
+      "traduction": "Je m'appelle Paul et j'ai douze ans.",
+      "origine": "construite"
+    },
+    {
+      "id": "p12",
+      "texte": "Wie geht's, Emma?",
+      "traduction": "Comment ça va, Emma ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p13",
+      "texte": "Meine Mutter heißt Anna.",
+      "traduction": "Ma mère s'appelle Anna.",
+      "origine": "construite"
+    },
+    {
+      "id": "p14",
+      "texte": "Mein Vater liest gern.",
+      "traduction": "Mon père aime lire.",
+      "origine": "construite"
+    },
+    {
+      "id": "p15",
+      "texte": "Meine Großeltern wohnen in Berlin.",
+      "traduction": "Mes grands-parents habitent à Berlin.",
+      "origine": "construite"
+    },
+    {
+      "id": "p16",
+      "texte": "Mein Hund ist klein.",
+      "traduction": "Mon chien est petit.",
+      "origine": "construite"
+    },
+    {
+      "id": "p17",
+      "texte": "Meine Schwester hat eine Katze.",
+      "traduction": "Ma sœur a un chat.",
+      "origine": "construite"
+    },
+    {
+      "id": "p18",
+      "texte": "Mein Freund spielt gern Fußball.",
+      "traduction": "Mon ami aime jouer au football.",
+      "origine": "construite"
+    },
+    {
+      "id": "p19",
+      "texte": "Meine Freundin tanzt gern.",
+      "traduction": "Mon amie aime danser.",
+      "origine": "construite"
+    },
+    {
+      "id": "p20",
+      "texte": "Am Wochenende schwimme ich.",
+      "traduction": "Le week-end, je nage.",
+      "origine": "construite"
+    },
+    {
+      "id": "p21",
+      "texte": "Ich lese gern.",
+      "traduction": "J'aime lire.",
+      "origine": "construite"
+    },
+    {
+      "id": "p22",
+      "texte": "Wir hören gern Musik.",
+      "traduction": "Nous aimons écouter de la musique.",
+      "origine": "construite"
+    },
+    {
+      "id": "p23",
+      "texte": "Mein Lehrer heißt Herr Müller.",
+      "traduction": "Mon professeur s'appelle M. Müller.",
+      "origine": "construite"
+    },
+    {
+      "id": "p24",
+      "texte": "Die Schule ist groß.",
+      "traduction": "L'école est grande.",
+      "origine": "construite"
+    },
+    {
+      "id": "p25",
+      "texte": "Ich lerne gern Deutsch.",
+      "traduction": "J'aime apprendre l'allemand.",
+      "origine": "construite"
+    },
+    {
+      "id": "p26",
+      "texte": "Das Heft ist in der Tasche.",
+      "traduction": "Le cahier est dans le sac.",
+      "origine": "construite"
+    },
+    {
+      "id": "p27",
+      "texte": "Hast du einen Bleistift?",
+      "traduction": "As-tu un crayon ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p28",
+      "texte": "Meine Klasse ist super.",
+      "traduction": "Ma classe est super.",
+      "origine": "construite"
+    },
+    {
+      "id": "p29",
+      "texte": "Am Wochenende mache ich meine Hausaufgaben.",
+      "traduction": "Le week-end, je fais mes devoirs.",
+      "origine": "construite"
+    },
+    {
+      "id": "p30",
+      "texte": "Was ist dein Hobby?",
+      "traduction": "Quel est ton loisir ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p31",
+      "texte": "Mein Hobby ist Tanzen.",
+      "traduction": "Mon loisir, c'est la danse.",
+      "origine": "construite"
+    },
+    {
+      "id": "p32",
+      "texte": "Meine Familie wohnt in Lyon.",
+      "traduction": "Ma famille habite à Lyon.",
+      "origine": "construite"
     }
   ]
 }

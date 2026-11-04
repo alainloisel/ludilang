@@ -2,7 +2,7 @@
 // Stratégie « réseau d'abord, cache en secours » pour rester à jour
 // tout en marchant sans connexion.
 
-const CACHE = "alo-langues-v16";
+const CACHE = "alo-langues-v17";
 
 const COQUILLE = [
   "./",

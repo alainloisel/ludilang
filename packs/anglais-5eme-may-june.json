@@ -9,6 +9,7 @@
       "mot": "a bedroom",
       "traduction": "une chambre",
       "exemple": "We sleep in a bedroom.",
+      "origineExemple": "cours",
       "theme": "La maison : les pièces"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "a kitchen",
       "traduction": "une cuisine",
       "exemple": "A kitchen is where we cook and prepare meals.",
+      "origineExemple": "cours",
       "theme": "La maison : les pièces"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "a living room",
       "traduction": "un salon",
       "exemple": "We watch TV or sit and relax in a living room.",
+      "origineExemple": "cours",
       "theme": "La maison : les pièces"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "a dining room",
       "traduction": "une salle à manger",
       "exemple": "We eat our meals in a dining room.",
+      "origineExemple": "cours",
       "theme": "La maison : les pièces"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "a bathroom",
       "traduction": "une salle de bains",
       "exemple": "We wash and brush our teeth in a bathroom.",
+      "origineExemple": "construite",
       "theme": "La maison : les pièces"
     },
     {
@@ -44,6 +49,7 @@
       "mot": "a toilet",
       "traduction": "des toilettes",
       "exemple": "There is just one toilet.",
+      "origineExemple": "cours",
       "theme": "La maison : les pièces"
     },
     {
@@ -51,6 +57,7 @@
       "mot": "a cellar",
       "traduction": "une cave",
       "exemple": "Yes, we have a cellar.",
+      "origineExemple": "cours",
       "theme": "La maison : les pièces"
     },
     {
@@ -58,6 +65,7 @@
       "mot": "an attic",
       "traduction": "un grenier",
       "exemple": "No, there isn't an attic.",
+      "origineExemple": "cours",
       "theme": "La maison : les pièces"
     },
     {
@@ -65,6 +73,7 @@
       "mot": "a guestroom",
       "traduction": "une chambre d'amis",
       "exemple": "There is also a guestroom.",
+      "origineExemple": "construite",
       "theme": "La maison : les pièces"
     },
 
@@ -73,6 +82,7 @@
       "mot": "a study",
       "traduction": "un bureau (la pièce)",
       "exemple": "There is also a study.",
+      "origineExemple": "construite",
       "theme": "Les autres pièces et les accès"
     },
     {
@@ -80,6 +90,7 @@
       "mot": "a dressing room",
       "traduction": "un dressing",
       "exemple": "There is also a dressing room.",
+      "origineExemple": "construite",
       "theme": "Les autres pièces et les accès"
     },
     {
@@ -87,6 +98,7 @@
       "mot": "the stairs",
       "traduction": "l'escalier",
       "exemple": "We go up the stairs to get to the second floor.",
+      "origineExemple": "construite",
       "theme": "Les autres pièces et les accès"
     },
     {
@@ -94,6 +106,7 @@
       "mot": "a lift",
       "traduction": "un ascenseur",
       "exemple": "The machine to carry us to a higher floor is called a lift.",
+      "origineExemple": "construite",
       "theme": "Les autres pièces et les accès"
     },
     {
@@ -101,6 +114,7 @@
       "mot": "a front door",
       "traduction": "une porte d'entrée",
       "exemple": "The front door is brown.",
+      "origineExemple": "construite",
       "theme": "Les autres pièces et les accès"
     },
     {
@@ -108,6 +122,7 @@
       "mot": "a window",
       "traduction": "une fenêtre",
       "exemple": "We look outside through a window.",
+      "origineExemple": "construite",
       "theme": "Les autres pièces et les accès"
     },
     {
@@ -115,6 +130,7 @@
       "mot": "a balcony",
       "traduction": "un balcon",
       "exemple": "Do you have a balcony?",
+      "origineExemple": "cours",
       "theme": "Les autres pièces et les accès"
     },
     {
@@ -122,6 +138,7 @@
       "mot": "a gate",
       "traduction": "un portail",
       "exemple": "We close a gate to stop other people and animals coming into the garden.",
+      "origineExemple": "construite",
       "theme": "Les autres pièces et les accès"
     },
 
@@ -130,6 +147,7 @@
       "mot": "a flat",
       "traduction": "un appartement",
       "exemple": "You live in a flat.",
+      "origineExemple": "cours",
       "theme": "Appartement, maison et jardin"
     },
     {
@@ -137,6 +155,7 @@
       "mot": "a house",
       "traduction": "une maison",
       "exemple": "How many floors does your house have?",
+      "origineExemple": "cours",
       "theme": "Appartement, maison et jardin"
     },
     {
@@ -144,6 +163,7 @@
       "mot": "a block",
       "traduction": "un immeuble",
       "exemple": "Is there a lift in your block?",
+      "origineExemple": "cours",
       "theme": "Appartement, maison et jardin"
     },
     {
@@ -151,6 +171,7 @@
       "mot": "a floor",
       "traduction": "un étage",
       "exemple": "Our house has two floors.",
+      "origineExemple": "construite",
       "theme": "Appartement, maison et jardin"
     },
     {
@@ -158,6 +179,7 @@
       "mot": "a garden",
       "traduction": "un jardin",
       "exemple": "We grow grass and flowers in a garden.",
+      "origineExemple": "cours",
       "theme": "Appartement, maison et jardin"
     },
 
@@ -166,6 +188,7 @@
       "mot": "big",
       "traduction": "grand",
       "exemple": "My balcony is big.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -173,6 +196,7 @@
       "mot": "small",
       "traduction": "petit",
       "exemple": "My garden is small.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -180,6 +204,7 @@
       "mot": "sunny",
       "traduction": "ensoleillé",
       "exemple": "My garden is sunny.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -187,6 +212,7 @@
       "mot": "shady",
       "traduction": "ombragé",
       "exemple": "My balcony is shady.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -194,6 +220,7 @@
       "mot": "large",
       "traduction": "grand, spacieux",
       "exemple": "My bedroom is large.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -201,6 +228,7 @@
       "mot": "tidy",
       "traduction": "rangé",
       "exemple": "My bedroom is tidy.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -208,6 +236,7 @@
       "mot": "messy",
       "traduction": "en désordre",
       "exemple": "My bedroom is messy.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -215,6 +244,7 @@
       "mot": "my own",
       "traduction": "à moi, personnel",
       "exemple": "Yes, I have my own bathroom.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
     {
@@ -222,6 +252,7 @@
       "mot": "to share",
       "traduction": "partager",
       "exemple": "I share a bathroom with my parents.",
+      "origineExemple": "construite",
       "theme": "Décrire son logement"
     },
 
@@ -230,6 +261,7 @@
       "mot": "red",
       "traduction": "rouge",
       "exemple": "The gate is red.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -237,6 +269,7 @@
       "mot": "yellow",
       "traduction": "jaune",
       "exemple": "The gate is yellow.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -244,6 +277,7 @@
       "mot": "green",
       "traduction": "vert",
       "exemple": "The gate is green.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -251,6 +285,7 @@
       "mot": "blue",
       "traduction": "bleu",
       "exemple": "The gate is blue.",
+      "origineExemple": "cours",
       "theme": "Les couleurs"
     },
     {
@@ -258,6 +293,7 @@
       "mot": "white",
       "traduction": "blanc",
       "exemple": "The gate is white.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -265,6 +301,7 @@
       "mot": "brown",
       "traduction": "marron",
       "exemple": "The gate is brown.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -272,6 +309,7 @@
       "mot": "black",
       "traduction": "noir",
       "exemple": "The gate is black.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
 
@@ -280,6 +318,7 @@
       "mot": "first",
       "traduction": "premier",
       "exemple": "I live on the first floor.",
+      "origineExemple": "construite",
       "theme": "Les nombres ordinaux"
     },
     {
@@ -287,6 +326,7 @@
       "mot": "second",
       "traduction": "deuxième",
       "exemple": "I live on the second floor.",
+      "origineExemple": "construite",
       "theme": "Les nombres ordinaux"
     },
     {
@@ -294,6 +334,7 @@
       "mot": "third",
       "traduction": "troisième",
       "exemple": "I live on the third floor.",
+      "origineExemple": "construite",
       "theme": "Les nombres ordinaux"
     },
     {
@@ -301,6 +342,7 @@
       "mot": "fourth",
       "traduction": "quatrième",
       "exemple": "I live on the fourth floor.",
+      "origineExemple": "construite",
       "theme": "Les nombres ordinaux"
     },
     {
@@ -308,6 +350,7 @@
       "mot": "fifth",
       "traduction": "cinquième",
       "exemple": "I live on the fifth floor.",
+      "origineExemple": "construite",
       "theme": "Les nombres ordinaux"
     },
 
@@ -316,6 +359,7 @@
       "mot": "a bed",
       "traduction": "un lit",
       "exemple": "I have a bed.",
+      "origineExemple": "cours",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -323,6 +367,7 @@
       "mot": "a bunk bed",
       "traduction": "un lit superposé",
       "exemple": "I have a bunk bed.",
+      "origineExemple": "construite",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -330,6 +375,7 @@
       "mot": "a bedside table",
       "traduction": "une table de chevet",
       "exemple": "Next to the bed, there is a bedside table.",
+      "origineExemple": "cours",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -337,6 +383,7 @@
       "mot": "a desk",
       "traduction": "un bureau (le meuble)",
       "exemple": "In my room, there is a desk.",
+      "origineExemple": "cours",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -344,6 +391,7 @@
       "mot": "a closet",
       "traduction": "un placard",
       "exemple": "In my room, there is a closet.",
+      "origineExemple": "construite",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -351,6 +399,7 @@
       "mot": "a chair",
       "traduction": "une chaise",
       "exemple": "In my room, there is a chair.",
+      "origineExemple": "construite",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -358,6 +407,7 @@
       "mot": "a bookcase",
       "traduction": "une bibliothèque (le meuble)",
       "exemple": "In my room, there is a bookcase.",
+      "origineExemple": "construite",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -365,6 +415,7 @@
       "mot": "a TV-set",
       "traduction": "un téléviseur",
       "exemple": "In my room, there is a TV-set.",
+      "origineExemple": "construite",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -372,6 +423,7 @@
       "mot": "a poster",
       "traduction": "une affiche",
       "exemple": "On the walls, there are posters of One Piece.",
+      "origineExemple": "cours",
       "theme": "La chambre : le mobilier"
     },
     {
@@ -379,6 +431,7 @@
       "mot": "a wall",
       "traduction": "un mur",
       "exemple": "On the walls, there are posters.",
+      "origineExemple": "cours",
       "theme": "La chambre : le mobilier"
     },
 
@@ -387,6 +440,7 @@
       "mot": "to read",
       "traduction": "lire",
       "exemple": "In my room, I like to read.",
+      "origineExemple": "cours",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -394,6 +448,7 @@
       "mot": "to relax",
       "traduction": "se détendre",
       "exemple": "In my room, I like to relax.",
+      "origineExemple": "construite",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -401,6 +456,7 @@
       "mot": "to write",
       "traduction": "écrire",
       "exemple": "In my room, I like to write.",
+      "origineExemple": "construite",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -408,6 +464,7 @@
       "mot": "to draw",
       "traduction": "dessiner",
       "exemple": "I can draw.",
+      "origineExemple": "cours",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -415,6 +472,7 @@
       "mot": "to play music",
       "traduction": "jouer de la musique",
       "exemple": "In my room, I like to play music.",
+      "origineExemple": "construite",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -422,6 +480,7 @@
       "mot": "to listen to music",
       "traduction": "écouter de la musique",
       "exemple": "In my room, I like to listen to music.",
+      "origineExemple": "construite",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -429,6 +488,7 @@
       "mot": "to dream",
       "traduction": "rêver",
       "exemple": "In my room, I like to dream.",
+      "origineExemple": "construite",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -436,6 +496,7 @@
       "mot": "to think about life",
       "traduction": "penser à la vie",
       "exemple": "In my room, I like to think about life.",
+      "origineExemple": "construite",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
     {
@@ -443,6 +504,7 @@
       "mot": "to communicate with my friends",
       "traduction": "communiquer avec mes amis",
       "exemple": "In my room, I like to communicate with my friends.",
+      "origineExemple": "construite",
       "theme": "Ce que j'aime faire dans ma chambre"
     },
 
@@ -451,6 +513,7 @@
       "mot": "What time is it?",
       "traduction": "Quelle heure est-il ?",
       "exemple": "What time is it right now?",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
     {
@@ -458,6 +521,7 @@
       "mot": "o'clock",
       "traduction": "heure pile",
       "exemple": "It's five o'clock.",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
     {
@@ -465,6 +529,7 @@
       "mot": "past",
       "traduction": "après (les minutes après l'heure)",
       "exemple": "It's ten past five.",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
     {
@@ -472,6 +537,7 @@
       "mot": "to",
       "traduction": "moins (les minutes avant l'heure)",
       "exemple": "It's twenty to six.",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
     {
@@ -479,6 +545,7 @@
       "mot": "(a) quarter past",
       "traduction": "et quart",
       "exemple": "It's a quarter past six.",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
     {
@@ -486,6 +553,7 @@
       "mot": "half past",
       "traduction": "et demie",
       "exemple": "It's half past twelve.",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
     {
@@ -493,6 +561,7 @@
       "mot": "to start school",
       "traduction": "commencer l'école",
       "exemple": "What time do you start school?",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
     {
@@ -500,6 +569,7 @@
       "mot": "to finish school",
       "traduction": "finir l'école",
       "exemple": "I finish school at twelve o'clock.",
+      "origineExemple": "construite",
       "theme": "L'heure"
     },
     {
@@ -507,6 +577,7 @@
       "mot": "right now",
       "traduction": "en ce moment",
       "exemple": "What time is it right now?",
+      "origineExemple": "cours",
       "theme": "L'heure"
     },
 
@@ -515,6 +586,7 @@
       "mot": "Monday",
       "traduction": "lundi",
       "exemple": "I start school on Monday.",
+      "origineExemple": "construite",
       "theme": "Les jours de la semaine"
     },
     {
@@ -522,6 +594,7 @@
       "mot": "Tuesday",
       "traduction": "mardi",
       "exemple": "I have English next Tuesday.",
+      "origineExemple": "construite",
       "theme": "Les jours de la semaine"
     },
     {
@@ -529,6 +602,7 @@
       "mot": "Wednesday",
       "traduction": "mercredi",
       "exemple": "I finish school at twelve on Wednesday.",
+      "origineExemple": "construite",
       "theme": "Les jours de la semaine"
     },
     {
@@ -536,6 +610,7 @@
       "mot": "Thursday",
       "traduction": "jeudi",
       "exemple": "We play games on Thursday.",
+      "origineExemple": "construite",
       "theme": "Les jours de la semaine"
     },
     {
@@ -543,6 +618,7 @@
       "mot": "Friday",
       "traduction": "vendredi",
       "exemple": "I study in the library on Friday.",
+      "origineExemple": "construite",
       "theme": "Les jours de la semaine"
     },
     {
@@ -550,6 +626,7 @@
       "mot": "Saturday",
       "traduction": "samedi",
       "exemple": "I relax in my room on Saturday.",
+      "origineExemple": "construite",
       "theme": "Les jours de la semaine"
     },
     {
@@ -557,6 +634,7 @@
       "mot": "Sunday",
       "traduction": "dimanche",
       "exemple": "I don't go to school on Sunday.",
+      "origineExemple": "construite",
       "theme": "Les jours de la semaine"
     },
 
@@ -565,6 +643,7 @@
       "mot": "January",
       "traduction": "janvier",
       "exemple": "It is cold in January.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -572,6 +651,7 @@
       "mot": "February",
       "traduction": "février",
       "exemple": "I was born in February.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -579,6 +659,7 @@
       "mot": "March",
       "traduction": "mars",
       "exemple": "Spring begins in March.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -586,6 +667,7 @@
       "mot": "April",
       "traduction": "avril",
       "exemple": "Easter is in April.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -593,6 +675,7 @@
       "mot": "May",
       "traduction": "mai",
       "exemple": "It is sunny in May.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -600,6 +683,7 @@
       "mot": "June",
       "traduction": "juin",
       "exemple": "School finishes in June.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -607,6 +691,7 @@
       "mot": "July",
       "traduction": "juillet",
       "exemple": "I was born in July.",
+      "origineExemple": "cours",
       "theme": "Les mois de l'année"
     },
     {
@@ -614,6 +699,7 @@
       "mot": "August",
       "traduction": "août",
       "exemple": "It is too hot in August.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -621,6 +707,7 @@
       "mot": "September",
       "traduction": "septembre",
       "exemple": "We start school in September.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -628,6 +715,7 @@
       "mot": "October",
       "traduction": "octobre",
       "exemple": "Autumn is in October.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -635,6 +723,7 @@
       "mot": "November",
       "traduction": "novembre",
       "exemple": "It is cold in November.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
     {
@@ -642,6 +731,7 @@
       "mot": "December",
       "traduction": "décembre",
       "exemple": "Winter begins in December.",
+      "origineExemple": "construite",
       "theme": "Les mois de l'année"
     },
 
@@ -650,6 +740,7 @@
       "mot": "spring",
       "traduction": "le printemps",
       "exemple": "I like spring.",
+      "origineExemple": "construite",
       "theme": "Les saisons et la date"
     },
     {
@@ -657,6 +748,7 @@
       "mot": "summer",
       "traduction": "l'été",
       "exemple": "It is too hot in summer.",
+      "origineExemple": "construite",
       "theme": "Les saisons et la date"
     },
     {
@@ -664,6 +756,7 @@
       "mot": "autumn (fall)",
       "traduction": "l'automne",
       "exemple": "I like autumn.",
+      "origineExemple": "construite",
       "theme": "Les saisons et la date"
     },
     {
@@ -671,6 +764,7 @@
       "mot": "winter",
       "traduction": "l'hiver",
       "exemple": "The water is too cold in winter.",
+      "origineExemple": "construite",
       "theme": "Les saisons et la date"
     },
     {
@@ -678,6 +772,7 @@
       "mot": "to be born",
       "traduction": "naître",
       "exemple": "I was born on July 31st, 2012.",
+      "origineExemple": "cours",
       "theme": "Les saisons et la date"
     },
     {
@@ -685,6 +780,7 @@
       "mot": "Bastille Day",
       "traduction": "le 14 Juillet",
       "exemple": "The fourteenth of July is Bastille Day.",
+      "origineExemple": "construite",
       "theme": "Les saisons et la date"
     },
     {
@@ -692,6 +788,7 @@
       "mot": "fireworks",
       "traduction": "des feux d'artifice",
       "exemple": "No fireworks for me.",
+      "origineExemple": "cours",
       "theme": "Les saisons et la date"
     },
 
@@ -700,6 +797,7 @@
       "mot": "a boarding school",
       "traduction": "un internat",
       "exemple": "A boarding school is a school where students sleep at school.",
+      "origineExemple": "construite",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -707,6 +805,7 @@
       "mot": "a pupil",
       "traduction": "un élève",
       "exemple": "Pupils can hang out and play games.",
+      "origineExemple": "construite",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -714,6 +813,7 @@
       "mot": "a student",
       "traduction": "un élève, un étudiant",
       "exemple": "Where do the students eat?",
+      "origineExemple": "cours",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -721,6 +821,7 @@
       "mot": "a formal lesson",
       "traduction": "un cours classique",
       "exemple": "They can choose to attend formal lessons.",
+      "origineExemple": "cours",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -728,6 +829,7 @@
       "mot": "obligatory",
       "traduction": "obligatoire",
       "exemple": "Classes are not obligatory.",
+      "origineExemple": "cours",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -735,6 +837,7 @@
       "mot": "to daydream",
       "traduction": "rêvasser",
       "exemple": "They can be by themselves to read or daydream.",
+      "origineExemple": "cours",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -742,6 +845,7 @@
       "mot": "to hang out",
       "traduction": "traîner, se retrouver",
       "exemple": "Pupils can hang out in the open areas.",
+      "origineExemple": "construite",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -749,6 +853,7 @@
       "mot": "to socialise",
       "traduction": "être avec les autres",
       "exemple": "Pupils can socialise and play games.",
+      "origineExemple": "construite",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -756,6 +861,7 @@
       "mot": "to be creative",
       "traduction": "être créatif",
       "exemple": "Pupils can be creative.",
+      "origineExemple": "construite",
       "theme": "L'internat de Summerhill"
     },
     {
@@ -763,6 +869,7 @@
       "mot": "an open area",
       "traduction": "un espace ouvert",
       "exemple": "In Summerhill, there are also open areas.",
+      "origineExemple": "cours",
       "theme": "L'internat de Summerhill"
     },
 
@@ -771,6 +878,7 @@
       "mot": "to do gardening",
       "traduction": "faire du jardinage",
       "exemple": "Pupils can learn how to do gardening.",
+      "origineExemple": "cours",
       "theme": "Les activités et les lieux de l'école"
     },
     {
@@ -778,6 +886,7 @@
       "mot": "to play chess",
       "traduction": "jouer aux échecs",
       "exemple": "Pupils can learn how to play chess.",
+      "origineExemple": "construite",
       "theme": "Les activités et les lieux de l'école"
     },
     {
@@ -785,6 +894,7 @@
       "mot": "to make a video",
       "traduction": "faire une vidéo",
       "exemple": "Pupils can learn how to make a video.",
+      "origineExemple": "construite",
       "theme": "Les activités et les lieux de l'école"
     },
     {
@@ -792,6 +902,7 @@
       "mot": "to play cricket",
       "traduction": "jouer au cricket",
       "exemple": "Where do they play cricket?",
+      "origineExemple": "cours",
       "theme": "Les activités et les lieux de l'école"
     },
     {
@@ -799,6 +910,7 @@
       "mot": "to study",
       "traduction": "étudier",
       "exemple": "Where do they study and read?",
+      "origineExemple": "cours",
       "theme": "Les activités et les lieux de l'école"
     },
     {
@@ -806,6 +918,7 @@
       "mot": "the library",
       "traduction": "la bibliothèque",
       "exemple": "They study in the library after class.",
+      "origineExemple": "cours",
       "theme": "Les activités et les lieux de l'école"
     },
     {
@@ -813,6 +926,7 @@
       "mot": "the canteen",
       "traduction": "la cantine",
       "exemple": "The students eat in the canteen.",
+      "origineExemple": "construite",
       "theme": "Les activités et les lieux de l'école"
     },
     {
@@ -820,6 +934,7 @@
       "mot": "a corridor",
       "traduction": "un couloir",
       "exemple": "They cannot run in the corridors.",
+      "origineExemple": "cours",
       "theme": "Les activités et les lieux de l'école"
     },
 
@@ -828,6 +943,7 @@
       "mot": "a rule",
       "traduction": "une règle",
       "exemple": "There are too many rules in my opinion.",
+      "origineExemple": "cours",
       "theme": "Les règles de l'école"
     },
     {
@@ -835,6 +951,7 @@
       "mot": "strict",
       "traduction": "strict",
       "exemple": "It is not strict.",
+      "origineExemple": "cours",
       "theme": "Les règles de l'école"
     },
     {
@@ -842,6 +959,7 @@
       "mot": "to get up",
       "traduction": "se lever",
       "exemple": "They must get up at seven in the morning.",
+      "origineExemple": "construite",
       "theme": "Les règles de l'école"
     },
     {
@@ -849,6 +967,7 @@
       "mot": "to go to bed",
       "traduction": "aller se coucher",
       "exemple": "They must go to bed at nine.",
+      "origineExemple": "construite",
       "theme": "Les règles de l'école"
     },
     {
@@ -856,6 +975,7 @@
       "mot": "permission",
       "traduction": "la permission",
       "exemple": "They mustn't leave school without permission.",
+      "origineExemple": "cours",
       "theme": "Les règles de l'école"
     },
     {
@@ -863,6 +983,7 @@
       "mot": "to leave school",
       "traduction": "quitter l'école",
       "exemple": "They mustn't leave school without permission.",
+      "origineExemple": "cours",
       "theme": "Les règles de l'école"
     },
     {
@@ -870,6 +991,7 @@
       "mot": "to chew gum",
       "traduction": "mâcher du chewing-gum",
       "exemple": "In my ideal school, we could chew gum.",
+      "origineExemple": "construite",
       "theme": "Les règles de l'école"
     },
     {
@@ -877,6 +999,7 @@
       "mot": "to be polite",
       "traduction": "être poli",
       "exemple": "Children must be polite.",
+      "origineExemple": "cours",
       "theme": "Les règles de l'école"
     },
     {
@@ -884,6 +1007,7 @@
       "mot": "to tidy my room",
       "traduction": "ranger ma chambre",
       "exemple": "I don't like to tidy my room.",
+      "origineExemple": "cours",
       "theme": "Les règles de l'école"
     },
     {
@@ -891,6 +1015,7 @@
       "mot": "to pray to god",
       "traduction": "prier Dieu",
       "exemple": "Where do they pray to god?",
+      "origineExemple": "cours",
       "theme": "Les règles de l'école"
     },
 
@@ -899,6 +1024,7 @@
       "mot": "English",
       "traduction": "l'anglais",
       "exemple": "I can speak excellent English.",
+      "origineExemple": "cours",
       "theme": "Les langues"
     },
     {
@@ -906,6 +1032,7 @@
       "mot": "French",
       "traduction": "le français",
       "exemple": "I can speak good French.",
+      "origineExemple": "construite",
       "theme": "Les langues"
     },
     {
@@ -913,6 +1040,7 @@
       "mot": "Arabic",
       "traduction": "l'arabe",
       "exemple": "I can speak a little Arabic.",
+      "origineExemple": "construite",
       "theme": "Les langues"
     },
     {
@@ -920,6 +1048,7 @@
       "mot": "Italian",
       "traduction": "l'italien",
       "exemple": "I can't speak Italian.",
+      "origineExemple": "cours",
       "theme": "Les langues"
     },
     {
@@ -927,6 +1056,7 @@
       "mot": "Russian",
       "traduction": "le russe",
       "exemple": "I can't speak Russian.",
+      "origineExemple": "construite",
       "theme": "Les langues"
     },
     {
@@ -934,6 +1064,7 @@
       "mot": "Chinese",
       "traduction": "le chinois",
       "exemple": "I can't speak Chinese.",
+      "origineExemple": "cours",
       "theme": "Les langues"
     },
     {
@@ -941,6 +1072,7 @@
       "mot": "Finnish",
       "traduction": "le finnois",
       "exemple": "I can't speak Finnish.",
+      "origineExemple": "construite",
       "theme": "Les langues"
     },
 
@@ -949,6 +1081,7 @@
       "mot": "played (to play)",
       "traduction": "j'ai joué",
       "exemple": "Yesterday I played with my dog.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes réguliers"
     },
     {
@@ -956,6 +1089,7 @@
       "mot": "worked (to work)",
       "traduction": "j'ai travaillé",
       "exemple": "Yesterday I worked.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes réguliers"
     },
     {
@@ -963,6 +1097,7 @@
       "mot": "watched (to watch)",
       "traduction": "j'ai regardé",
       "exemple": "I watched a movie.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes réguliers"
     },
     {
@@ -970,6 +1105,7 @@
       "mot": "listened (to listen)",
       "traduction": "j'ai écouté",
       "exemple": "I listened to music in my room.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes réguliers"
     },
     {
@@ -977,6 +1113,7 @@
       "mot": "visited (to visit)",
       "traduction": "j'ai rendu visite",
       "exemple": "I visited my family.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes réguliers"
     },
     {
@@ -984,6 +1121,7 @@
       "mot": "celebrated (to celebrate)",
       "traduction": "j'ai fêté",
       "exemple": "At Easter I celebrated Easter.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes réguliers"
     },
     {
@@ -991,6 +1129,7 @@
       "mot": "enjoyed (to enjoy)",
       "traduction": "j'ai apprécié",
       "exemple": "Yes, I enjoyed the great outdoors.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes réguliers"
     },
 
@@ -999,6 +1138,7 @@
       "mot": "went (to go)",
       "traduction": "je suis allé",
       "exemple": "I went to my friends.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1006,6 +1146,7 @@
       "mot": "did (to do)",
       "traduction": "j'ai fait",
       "exemple": "I did my homework.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1013,6 +1154,7 @@
       "mot": "had (to have)",
       "traduction": "j'ai eu",
       "exemple": "I had a shower.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1020,6 +1162,7 @@
       "mot": "began (to begin)",
       "traduction": "j'ai commencé",
       "exemple": "The class began at two.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1027,6 +1170,7 @@
       "mot": "became (to become)",
       "traduction": "je suis devenu",
       "exemple": "He became a powerful pirate.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1034,6 +1178,7 @@
       "mot": "broke (to break)",
       "traduction": "j'ai cassé",
       "exemple": "I broke my chair.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1041,6 +1186,7 @@
       "mot": "was / were (to be)",
       "traduction": "j'étais / nous étions",
       "exemple": "Luffy was still a child.",
+      "origineExemple": "cours",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1048,6 +1194,7 @@
       "mot": "built (to build)",
       "traduction": "j'ai construit",
       "exemple": "They built a new school.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes irréguliers"
     },
     {
@@ -1055,6 +1202,7 @@
       "mot": "burnt (to burn)",
       "traduction": "j'ai brûlé",
       "exemple": "The cake burnt in the kitchen.",
+      "origineExemple": "construite",
       "theme": "Le prétérit : verbes irréguliers"
     },
 
@@ -1063,6 +1211,7 @@
       "mot": "yesterday",
       "traduction": "hier",
       "exemple": "Yesterday I did my homework.",
+      "origineExemple": "cours",
       "theme": "Hier, ma journée"
     },
     {
@@ -1070,6 +1219,7 @@
       "mot": "homework",
       "traduction": "les devoirs",
       "exemple": "I did my homework.",
+      "origineExemple": "cours",
       "theme": "Hier, ma journée"
     },
     {
@@ -1077,6 +1227,7 @@
       "mot": "a shower",
       "traduction": "une douche",
       "exemple": "I had a shower.",
+      "origineExemple": "cours",
       "theme": "Hier, ma journée"
     },
     {
@@ -1084,6 +1235,7 @@
       "mot": "a movie",
       "traduction": "un film",
       "exemple": "I watched a movie.",
+      "origineExemple": "cours",
       "theme": "Hier, ma journée"
     },
     {
@@ -1091,6 +1243,7 @@
       "mot": "a dog",
       "traduction": "un chien",
       "exemple": "I played with my dog.",
+      "origineExemple": "cours",
       "theme": "Hier, ma journée"
     },
     {
@@ -1098,6 +1251,7 @@
       "mot": "the holiday",
       "traduction": "les vacances",
       "exemple": "They can see their family during the holiday.",
+      "origineExemple": "cours",
       "theme": "Hier, ma journée"
     },
     {
@@ -1105,6 +1259,7 @@
       "mot": "my family",
       "traduction": "ma famille",
       "exemple": "I wouldn't see my family.",
+      "origineExemple": "cours",
       "theme": "Hier, ma journée"
     },
 
@@ -1113,6 +1268,7 @@
       "mot": "my favourite book",
       "traduction": "mon livre préféré",
       "exemple": "My favourite book is One Piece.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1120,6 +1276,7 @@
       "mot": "a story",
       "traduction": "une histoire",
       "exemple": "The story tells of Monkey D. Luffy.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1127,6 +1284,7 @@
       "mot": "a pirate",
       "traduction": "un pirate",
       "exemple": "He dreams of becoming the Pirate King.",
+      "origineExemple": "construite",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1134,6 +1292,7 @@
       "mot": "a treasure",
       "traduction": "un trésor",
       "exemple": "He wants to find the treasure.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1141,6 +1300,7 @@
       "mot": "a marine",
       "traduction": "un marine, un soldat de la marine",
       "exemple": "He was killed by the marines.",
+      "origineExemple": "construite",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1148,6 +1308,7 @@
       "mot": "an organization",
       "traduction": "une organisation",
       "exemple": "These marines are part of an organization.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1155,6 +1316,7 @@
       "mot": "a bandit",
       "traduction": "un bandit",
       "exemple": "Bandits attacked his village.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1162,6 +1324,7 @@
       "mot": "a village",
       "traduction": "un village",
       "exemple": "Bandits attacked his village.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1169,6 +1332,7 @@
       "mot": "a hostage",
       "traduction": "un otage",
       "exemple": "The bandits took Luffy hostage.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1176,6 +1340,7 @@
       "mot": "to set sail",
       "traduction": "prendre la mer",
       "exemple": "Ten years later, Luffy set sail again.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
     {
@@ -1183,6 +1348,7 @@
       "mot": "a sea monster",
       "traduction": "un monstre marin",
       "exemple": "A sea monster devoured the bandits.",
+      "origineExemple": "cours",
       "theme": "Mon livre préféré : One Piece"
     },
 
@@ -1191,6 +1357,7 @@
       "mot": "to protect",
       "traduction": "protéger",
       "exemple": "Shanks intervened and protected him.",
+      "origineExemple": "construite",
       "theme": "Raconter une histoire"
     },
     {
@@ -1198,6 +1365,7 @@
       "mot": "an idol",
       "traduction": "une idole",
       "exemple": "Shanks is Luffy's idol.",
+      "origineExemple": "construite",
       "theme": "Raconter une histoire"
     },
     {
@@ -1205,6 +1373,7 @@
       "mot": "unfortunately",
       "traduction": "malheureusement",
       "exemple": "Unfortunately, Shanks lost an arm.",
+      "origineExemple": "cours",
       "theme": "Raconter une histoire"
     },
     {
@@ -1212,6 +1381,7 @@
       "mot": "an arm",
       "traduction": "un bras",
       "exemple": "Shanks lost an arm in the process.",
+      "origineExemple": "cours",
       "theme": "Raconter une histoire"
     },
     {
@@ -1219,6 +1389,7 @@
       "mot": "an adventure",
       "traduction": "une aventure",
       "exemple": "After many adventures, he is now a powerful pirate.",
+      "origineExemple": "construite",
       "theme": "Raconter une histoire"
     },
     {
@@ -1226,6 +1397,7 @@
       "mot": "powerful",
       "traduction": "puissant",
       "exemple": "He is one of the four most powerful pirates in the world.",
+      "origineExemple": "construite",
       "theme": "Raconter une histoire"
     },
     {
@@ -1233,6 +1405,7 @@
       "mot": "funny",
       "traduction": "drôle",
       "exemple": "I like it because it's funny.",
+      "origineExemple": "cours",
       "theme": "Raconter une histoire"
     },
     {
@@ -1240,6 +1413,7 @@
       "mot": "interesting",
       "traduction": "intéressant",
       "exemple": "I like it because it's interesting.",
+      "origineExemple": "construite",
       "theme": "Raconter une histoire"
     },
 
@@ -1248,6 +1422,7 @@
       "mot": "Easter",
       "traduction": "Pâques",
       "exemple": "At Easter I celebrated Easter.",
+      "origineExemple": "cours",
       "theme": "Pâques et le grand air"
     },
     {
@@ -1255,6 +1430,7 @@
       "mot": "a church",
       "traduction": "une église",
       "exemple": "No, I didn't go to church.",
+      "origineExemple": "cours",
       "theme": "Pâques et le grand air"
     },
     {
@@ -1262,6 +1438,7 @@
       "mot": "the great outdoors",
       "traduction": "le grand air, la nature",
       "exemple": "Yes, I enjoyed the great outdoors.",
+      "origineExemple": "cours",
       "theme": "Pâques et le grand air"
     },
     {
@@ -1269,6 +1446,7 @@
       "mot": "Christian",
       "traduction": "chrétien",
       "exemple": "I am not Christian.",
+      "origineExemple": "cours",
       "theme": "Pâques et le grand air"
     },
     {
@@ -1276,6 +1454,7 @@
       "mot": "a swimming suit",
       "traduction": "un maillot de bain",
       "exemple": "I can't swim because I don't have my swimming suit.",
+      "origineExemple": "cours",
       "theme": "Pâques et le grand air"
     },
     {
@@ -1283,6 +1462,7 @@
       "mot": "to swim",
       "traduction": "nager",
       "exemple": "I can't swim but I can sing.",
+      "origineExemple": "cours",
       "theme": "Pâques et le grand air"
     },
     {
@@ -1290,6 +1470,7 @@
       "mot": "to sing",
       "traduction": "chanter",
       "exemple": "I can't swim but I can sing.",
+      "origineExemple": "cours",
       "theme": "Pâques et le grand air"
     },
 
@@ -1298,6 +1479,7 @@
       "mot": "too",
       "traduction": "trop",
       "exemple": "It is too hot to work.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -1305,6 +1487,7 @@
       "mot": "too many",
       "traduction": "trop de",
       "exemple": "There are too many rules in my opinion.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -1312,6 +1495,7 @@
       "mot": "a little",
       "traduction": "un peu de",
       "exemple": "I can speak a little Arabic.",
+      "origineExemple": "construite",
       "theme": "Expressions utiles"
     },
     {
@@ -1319,6 +1503,7 @@
       "mot": "in my opinion",
       "traduction": "à mon avis",
       "exemple": "There are too many rules in my opinion.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -1326,6 +1511,7 @@
       "mot": "to need",
       "traduction": "avoir besoin de",
       "exemple": "To make a cake you need flour, eggs and sugar.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -1333,6 +1519,7 @@
       "mot": "good marks",
       "traduction": "de bonnes notes",
       "exemple": "I work a lot to get good marks.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -1340,6 +1527,7 @@
       "mot": "a language",
       "traduction": "une langue",
       "exemple": "Learning a language is a good way to train your memory.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -1347,6 +1535,7 @@
       "mot": "memory",
       "traduction": "la mémoire",
       "exemple": "Learning a language is a good way to train your memory.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -1354,6 +1543,7 @@
       "mot": "necessary",
       "traduction": "nécessaire",
       "exemple": "This language is necessary.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     }
   ],
@@ -1406,7 +1596,17 @@
           "type": "ordre",
           "mots": ["I", "can", "speak", "a", "little", "Arabic."]
         },
-        { "type": "ordre", "mots": ["They", "can", "play", "a", "lot."] }
+        { "type": "ordre", "mots": ["They", "can", "play", "a", "lot."] },
+        {
+          "type": "trous",
+          "phrase": "I ___ speak excellent English, good French and a little Arabic. (can)",
+          "reponse": "can"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ you play the guitar? (can)",
+          "reponse": "Can"
+        }
       ]
     },
     {
@@ -1460,7 +1660,12 @@
           "type": "ordre",
           "mots": ["They", "must", "go", "to", "bed", "at", "nine."]
         },
-        { "type": "ordre", "mots": ["Children", "must", "be", "polite."] }
+        { "type": "ordre", "mots": ["Children", "must", "be", "polite."] },
+        {
+          "type": "trous",
+          "phrase": "You ___ do your homework. (obligation)",
+          "reponse": "must"
+        }
       ]
     },
     {
@@ -1513,6 +1718,11 @@
         {
           "type": "ordre",
           "mots": ["I", "would", "learn", "a", "lot", "more", "things."]
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ like to visit Summerhill. (would)",
+          "reponse": "would"
         }
       ]
     },
@@ -1730,7 +1940,12 @@
           "type": "ordre",
           "mots": ["What", "time", "do", "you", "finish", "school", "today?"]
         },
-        { "type": "ordre", "mots": ["It's", "half", "past", "five."] }
+        { "type": "ordre", "mots": ["It's", "half", "past", "five."] },
+        {
+          "type": "trous",
+          "phrase": "It's a quarter ___ three. (3 h 15)",
+          "reponse": "past"
+        }
       ]
     },
     {
@@ -1790,7 +2005,12 @@
           "options": ["Tuesday", "Thursday", "Sunday"],
           "bonne": 1
         },
-        { "type": "ordre", "mots": ["I", "was", "born", "in", "July."] }
+        { "type": "ordre", "mots": ["I", "was", "born", "in", "July."] },
+        {
+          "type": "trous",
+          "phrase": "I was born ___ 2012. (préposition devant une année)",
+          "reponse": "in"
+        }
       ]
     },
     {
@@ -1837,7 +2057,12 @@
           "bonne": 0
         },
         { "type": "ordre", "mots": ["It", "is", "too", "hot", "to", "work."] },
-        { "type": "ordre", "mots": ["There", "are", "too", "many", "rules."] }
+        { "type": "ordre", "mots": ["There", "are", "too", "many", "rules."] },
+        {
+          "type": "trous",
+          "phrase": "It's ___ hot to go outside. (trop)",
+          "reponse": "too"
+        }
       ]
     }
   ],
@@ -1845,77 +2070,224 @@
     {
       "id": "p1",
       "texte": "My favourite book is One Piece.",
-      "traduction": "Mon livre préféré est One Piece."
+      "traduction": "Mon livre préféré est One Piece.",
+      "origine": "cours"
     },
     {
       "id": "p2",
       "texte": "I like it because it's funny and interesting.",
-      "traduction": "Je l'aime bien parce que c'est drôle et intéressant."
+      "traduction": "Je l'aime bien parce que c'est drôle et intéressant.",
+      "origine": "cours"
     },
     {
       "id": "p3",
       "texte": "We wash and brush our teeth in a bathroom.",
-      "traduction": "On se lave et on se brosse les dents dans une salle de bains."
+      "traduction": "On se lave et on se brosse les dents dans une salle de bains.",
+      "origine": "cours"
     },
     {
       "id": "p4",
       "texte": "We go up the stairs to get to the second floor.",
-      "traduction": "On monte l'escalier pour aller au deuxième étage."
+      "traduction": "On monte l'escalier pour aller au deuxième étage.",
+      "origine": "cours"
     },
     {
       "id": "p5",
       "texte": "Is there a lift in your block?",
-      "traduction": "Y a-t-il un ascenseur dans votre immeuble ?"
+      "traduction": "Y a-t-il un ascenseur dans votre immeuble ?",
+      "origine": "cours"
     },
     {
       "id": "p6",
       "texte": "There is just one bathroom and two toilets.",
-      "traduction": "Il y a seulement une salle de bains et deux toilettes."
+      "traduction": "Il y a seulement une salle de bains et deux toilettes.",
+      "origine": "construite"
     },
     {
       "id": "p7",
       "texte": "Next to the bed, there is a bedside table.",
-      "traduction": "À côté du lit, il y a une table de chevet."
+      "traduction": "À côté du lit, il y a une table de chevet.",
+      "origine": "cours"
     },
     {
       "id": "p8",
       "texte": "In my room, I like to read and to listen to music.",
-      "traduction": "Dans ma chambre, j'aime lire et écouter de la musique."
+      "traduction": "Dans ma chambre, j'aime lire et écouter de la musique.",
+      "origine": "construite"
     },
     {
       "id": "p9",
       "texte": "Summerhill is a boarding school where students must decide each day how to use their time.",
-      "traduction": "Summerhill est un internat où les élèves doivent décider chaque jour comment utiliser leur temps."
+      "traduction": "Summerhill est un internat où les élèves doivent décider chaque jour comment utiliser leur temps.",
+      "origine": "cours"
     },
     {
       "id": "p10",
       "texte": "Classes are not obligatory and there aren't too many rules.",
-      "traduction": "Les cours ne sont pas obligatoires et il n'y a pas trop de règles."
+      "traduction": "Les cours ne sont pas obligatoires et il n'y a pas trop de règles.",
+      "origine": "construite"
     },
     {
       "id": "p11",
       "texte": "They must get up at seven in the morning and go to bed at nine.",
-      "traduction": "Ils doivent se lever à sept heures du matin et se coucher à neuf heures."
+      "traduction": "Ils doivent se lever à sept heures du matin et se coucher à neuf heures.",
+      "origine": "construite"
     },
     {
       "id": "p12",
       "texte": "They mustn't leave school without permission.",
-      "traduction": "Ils ne doivent pas quitter l'école sans permission."
+      "traduction": "Ils ne doivent pas quitter l'école sans permission.",
+      "origine": "cours"
     },
     {
       "id": "p13",
       "texte": "I can speak excellent English, good French and a little Arabic.",
-      "traduction": "Je parle un excellent anglais, un bon français et un peu d'arabe."
+      "traduction": "Je parle un excellent anglais, un bon français et un peu d'arabe.",
+      "origine": "cours"
     },
     {
       "id": "p14",
       "texte": "Yesterday I did my homework and I watched a movie.",
-      "traduction": "Hier, j'ai fait mes devoirs et j'ai regardé un film."
+      "traduction": "Hier, j'ai fait mes devoirs et j'ai regardé un film.",
+      "origine": "construite"
     },
     {
       "id": "p15",
       "texte": "I can't swim because the water is too cold.",
-      "traduction": "Je ne sais pas nager parce que l'eau est trop froide."
+      "traduction": "Je ne sais pas nager parce que l'eau est trop froide.",
+      "origine": "cours"
+    },
+    {
+      "id": "p16",
+      "texte": "Do you have a balcony?",
+      "traduction": "Avez-vous un balcon ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p17",
+      "texte": "What floor do you live on?",
+      "traduction": "À quel étage habites-tu ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p18",
+      "texte": "I live on the third floor.",
+      "traduction": "J'habite au troisième étage.",
+      "origine": "cours"
+    },
+    {
+      "id": "p19",
+      "texte": "Our house has two floors.",
+      "traduction": "Notre maison a deux étages.",
+      "origine": "cours"
+    },
+    {
+      "id": "p20",
+      "texte": "Yes, we have a garden.",
+      "traduction": "Oui, nous avons un jardin.",
+      "origine": "cours"
+    },
+    {
+      "id": "p21",
+      "texte": "The gate is blue.",
+      "traduction": "Le portail est bleu.",
+      "origine": "cours"
+    },
+    {
+      "id": "p22",
+      "texte": "How many bedrooms are there?",
+      "traduction": "Combien y a-t-il de chambres ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p23",
+      "texte": "I share a bathroom with my brother.",
+      "traduction": "Je partage une salle de bains avec mon frère.",
+      "origine": "cours"
+    },
+    {
+      "id": "p24",
+      "texte": "What's your favourite room in your house?",
+      "traduction": "Quelle est ta pièce préférée dans ta maison ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p25",
+      "texte": "Children must be polite.",
+      "traduction": "Les enfants doivent être polis.",
+      "origine": "cours"
+    },
+    {
+      "id": "p26",
+      "texte": "You mustn't laugh, it is not funny!",
+      "traduction": "Tu ne dois pas rire, ce n'est pas drôle !",
+      "origine": "cours"
+    },
+    {
+      "id": "p27",
+      "texte": "Can you help me, please?",
+      "traduction": "Pouvez-vous m'aider, s'il vous plaît ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p28",
+      "texte": "They can see their family during the holidays.",
+      "traduction": "Ils peuvent voir leur famille pendant les vacances.",
+      "origine": "cours"
+    },
+    {
+      "id": "p29",
+      "texte": "Would you like to go to Summerhill?",
+      "traduction": "Aimerais-tu aller à Summerhill ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p30",
+      "texte": "No, because there are too many rules in my opinion.",
+      "traduction": "Non, parce qu'à mon avis il y a trop de règles.",
+      "origine": "cours"
+    },
+    {
+      "id": "p31",
+      "texte": "Yes, because their library is beautiful.",
+      "traduction": "Oui, parce que leur bibliothèque est belle.",
+      "origine": "cours"
+    },
+    {
+      "id": "p32",
+      "texte": "It is too hot to work.",
+      "traduction": "Il fait trop chaud pour travailler.",
+      "origine": "cours"
+    },
+    {
+      "id": "p33",
+      "texte": "I was born on July 31st, 2012.",
+      "traduction": "Je suis né le 31 juillet 2012.",
+      "origine": "cours"
+    },
+    {
+      "id": "p34",
+      "texte": "It's twenty to six.",
+      "traduction": "Il est six heures moins vingt.",
+      "origine": "cours"
+    },
+    {
+      "id": "p35",
+      "texte": "I watched a movie and I had a shower.",
+      "traduction": "J'ai regardé un film et j'ai pris une douche.",
+      "origine": "construite"
+    },
+    {
+      "id": "p36",
+      "texte": "Yesterday, I played chess with my family.",
+      "traduction": "Hier, j'ai joué aux échecs avec ma famille.",
+      "origine": "construite"
+    },
+    {
+      "id": "p37",
+      "texte": "My bedroom is small but tidy.",
+      "traduction": "Ma chambre est petite mais rangée.",
+      "origine": "construite"
     }
   ]
 }

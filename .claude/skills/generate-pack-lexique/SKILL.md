@@ -107,7 +107,7 @@ afficher la taille de chaque thème pour rééquilibrer.
 ## Étape 5 — Rédiger la grammaire
 
 Dans `lexique/<nom>-grammaire.json`, un tableau d'objets `{id, titre, explication,
-exemples, exercices}` — 3 à 5 points, 6 à 8 exercices chacun, comme le demande
+exemples, exercices}` — 3 à 5 points, 8 à 10 exercices chacun dont au moins 5 `trous` (sauf écriture non latine), comme le demande
 `PROMPT-PACK.md`.
 
 Ce qu'un lexique nu permet quand même : les nombres, les mots interrogatifs, les

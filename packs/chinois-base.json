@@ -3272,1137 +3272,1364 @@
     {
       "id": "p1",
       "texte": "我 是 学生。",
-      "traduction": "Je suis étudiant."
+      "traduction": "Je suis étudiant.",
+      "origine": "construite"
     },
     {
       "id": "p2",
       "texte": "你 是 老师 吗？",
-      "traduction": "Es-tu professeur ?"
+      "traduction": "Es-tu professeur ?",
+      "origine": "construite"
     },
     {
       "id": "p3",
       "texte": "他 有 两 个 姐姐。",
-      "traduction": "Il a deux grandes sœurs."
+      "traduction": "Il a deux grandes sœurs.",
+      "origine": "construite"
     },
     {
       "id": "p4",
       "texte": "我 不 喜欢 咖啡。",
-      "traduction": "Je n'aime pas le café."
+      "traduction": "Je n'aime pas le café.",
+      "origine": "construite"
     },
     {
       "id": "p5",
       "texte": "我们 明天 去 北京。",
-      "traduction": "Nous allons à Pékin demain."
+      "traduction": "Nous allons à Pékin demain.",
+      "origine": "construite"
     },
     {
       "id": "p6",
       "texte": "她 每天 去 学校。",
-      "traduction": "Elle va à l'école tous les jours."
+      "traduction": "Elle va à l'école tous les jours.",
+      "origine": "construite"
     },
     {
       "id": "p7",
       "texte": "这 个 苹果 很 好吃。",
-      "traduction": "Cette pomme est très bonne."
+      "traduction": "Cette pomme est très bonne.",
+      "origine": "construite"
     },
     {
       "id": "p8",
       "texte": "我 的 手机 很 新。",
-      "traduction": "Mon téléphone est tout neuf."
+      "traduction": "Mon téléphone est tout neuf.",
+      "origine": "construite"
     },
     {
       "id": "p9",
       "texte": "今天 天气 很 好。",
-      "traduction": "Il fait beau aujourd'hui."
+      "traduction": "Il fait beau aujourd'hui.",
+      "origine": "construite"
     },
     {
       "id": "p10",
       "texte": "我 昨天 没 去 医院。",
-      "traduction": "Hier je ne suis pas allé à l'hôpital."
+      "traduction": "Hier je ne suis pas allé à l'hôpital.",
+      "origine": "construite"
     },
     {
       "id": "p11",
       "texte": "老师 问 我 一 个 问题。",
-      "traduction": "Le professeur me pose une question."
+      "traduction": "Le professeur me pose une question.",
+      "origine": "construite"
     },
     {
       "id": "p12",
       "texte": "我 想 喝 茶。",
-      "traduction": "Je veux boire du thé."
+      "traduction": "Je veux boire du thé.",
+      "origine": "construite"
     },
     {
       "id": "p13",
       "texte": "你 家 有 几 个 人？",
-      "traduction": "Combien de personnes y a-t-il dans ta famille ?"
+      "traduction": "Combien de personnes y a-t-il dans ta famille ?",
+      "origine": "construite"
     },
     {
       "id": "p14",
       "texte": "我 学习 汉语 因为 我 喜欢 中国。",
-      "traduction": "J'apprends le chinois parce que j'aime la Chine."
+      "traduction": "J'apprends le chinois parce que j'aime la Chine.",
+      "origine": "construite"
     },
     {
       "id": "p15",
       "texte": "他 的 狗 很 大。",
-      "traduction": "Son chien est très grand."
+      "traduction": "Son chien est très grand.",
+      "origine": "construite"
     },
     {
       "id": "p16",
       "texte": "我们 吃 了 晚饭。",
-      "traduction": "Nous avons dîné."
+      "traduction": "Nous avons dîné.",
+      "origine": "construite"
     },
     {
       "id": "p17",
       "texte": "我 是 中国 人。",
-      "traduction": "Je suis chinois."
+      "traduction": "Je suis chinois.",
+      "origine": "construite"
     },
     {
       "id": "p18",
       "texte": "她 是 我 的 朋友。",
-      "traduction": "C'est mon amie."
+      "traduction": "C'est mon amie.",
+      "origine": "construite"
     },
     {
       "id": "p19",
       "texte": "他 是 谁？",
-      "traduction": "Qui est-ce ?"
+      "traduction": "Qui est-ce ?",
+      "origine": "construite"
     },
     {
       "id": "p20",
       "texte": "那 是 我 的 老师。",
-      "traduction": "C'est mon professeur."
+      "traduction": "C'est mon professeur.",
+      "origine": "construite"
     },
     {
       "id": "p21",
       "texte": "你 认识 他 吗？",
-      "traduction": "Tu le connais ?"
+      "traduction": "Tu le connais ?",
+      "origine": "construite"
     },
     {
       "id": "p22",
       "texte": "我 认识 她 的 哥哥。",
-      "traduction": "Je connais son grand frère."
+      "traduction": "Je connais son grand frère.",
+      "origine": "construite"
     },
     {
       "id": "p23",
       "texte": "你 住 在 哪里？",
-      "traduction": "Où habites-tu ?"
+      "traduction": "Où habites-tu ?",
+      "origine": "construite"
     },
     {
       "id": "p24",
       "texte": "我 住 在 北京。",
-      "traduction": "J'habite à Pékin."
+      "traduction": "J'habite à Pékin.",
+      "origine": "construite"
     },
     {
       "id": "p25",
       "texte": "他们 都 是 学生。",
-      "traduction": "Ils sont tous élèves."
+      "traduction": "Ils sont tous élèves.",
+      "origine": "construite"
     },
     {
       "id": "p26",
       "texte": "我们 是 同学。",
-      "traduction": "Nous sommes camarades de classe."
+      "traduction": "Nous sommes camarades de classe.",
+      "origine": "construite"
     },
     {
       "id": "p27",
       "texte": "您 是 老师 吗？",
-      "traduction": "Êtes-vous professeur ?"
+      "traduction": "Êtes-vous professeur ?",
+      "origine": "construite"
     },
     {
       "id": "p28",
       "texte": "这 是 我 的 同事。",
-      "traduction": "Voici mon collègue."
+      "traduction": "Voici mon collègue.",
+      "origine": "construite"
     },
     {
       "id": "p29",
       "texte": "我 会 说 汉语 和 英语。",
-      "traduction": "Je sais parler chinois et anglais."
+      "traduction": "Je sais parler chinois et anglais.",
+      "origine": "construite"
     },
     {
       "id": "p30",
       "texte": "你 会 说 英语 吗？",
-      "traduction": "Sais-tu parler anglais ?"
+      "traduction": "Sais-tu parler anglais ?",
+      "origine": "construite"
     },
     {
       "id": "p31",
       "texte": "我 不 会 说 中文。",
-      "traduction": "Je ne sais pas parler chinois."
+      "traduction": "Je ne sais pas parler chinois.",
+      "origine": "construite"
     },
     {
       "id": "p32",
       "texte": "我 很 好，你 呢？",
-      "traduction": "Je vais bien, et toi ?"
+      "traduction": "Je vais bien, et toi ?",
+      "origine": "construite"
     },
     {
       "id": "p33",
       "texte": "我 家 有 四 个 人。",
-      "traduction": "Il y a quatre personnes dans ma famille."
+      "traduction": "Il y a quatre personnes dans ma famille.",
+      "origine": "construite"
     },
     {
       "id": "p34",
       "texte": "我 有 一 个 弟弟 和 一 个 妹妹。",
-      "traduction": "J'ai un petit frère et une petite sœur."
+      "traduction": "J'ai un petit frère et une petite sœur.",
+      "origine": "construite"
     },
     {
       "id": "p35",
       "texte": "我 没 有 姐姐。",
-      "traduction": "Je n'ai pas de grande sœur."
+      "traduction": "Je n'ai pas de grande sœur.",
+      "origine": "construite"
     },
     {
       "id": "p36",
       "texte": "你 有 哥哥 吗？",
-      "traduction": "As-tu un grand frère ?"
+      "traduction": "As-tu un grand frère ?",
+      "origine": "construite"
     },
     {
       "id": "p37",
       "texte": "我 爸爸 是 医生。",
-      "traduction": "Mon père est médecin."
+      "traduction": "Mon père est médecin.",
+      "origine": "construite"
     },
     {
       "id": "p38",
       "texte": "我 妈妈 在 银行 工作。",
-      "traduction": "Ma mère travaille à la banque."
+      "traduction": "Ma mère travaille à la banque.",
+      "origine": "construite"
     },
     {
       "id": "p39",
       "texte": "我 爷爷 奶奶 住 在 北京。",
-      "traduction": "Mes grands-parents habitent à Pékin."
+      "traduction": "Mes grands-parents habitent à Pékin.",
+      "origine": "construite"
     },
     {
       "id": "p40",
       "texte": "她 的 儿子 很 聪明。",
-      "traduction": "Son fils est très intelligent."
+      "traduction": "Son fils est très intelligent.",
+      "origine": "construite"
     },
     {
       "id": "p41",
       "texte": "他们 的 女儿 很 漂亮。",
-      "traduction": "Leur fille est très jolie."
+      "traduction": "Leur fille est très jolie.",
+      "origine": "construite"
     },
     {
       "id": "p42",
       "texte": "孩子 在 公园 玩。",
-      "traduction": "L'enfant joue au parc."
+      "traduction": "L'enfant joue au parc.",
+      "origine": "construite"
     },
     {
       "id": "p43",
       "texte": "我 妹妹 喜欢 跳舞。",
-      "traduction": "Ma petite sœur aime danser."
+      "traduction": "Ma petite sœur aime danser.",
+      "origine": "construite"
     },
     {
       "id": "p44",
       "texte": "我 弟弟 常常 哭。",
-      "traduction": "Mon petit frère pleure souvent."
+      "traduction": "Mon petit frère pleure souvent.",
+      "origine": "construite"
     },
     {
       "id": "p45",
       "texte": "奶奶 每天 早上 去 公园。",
-      "traduction": "Grand-mère va au parc tous les matins."
+      "traduction": "Grand-mère va au parc tous les matins.",
+      "origine": "construite"
     },
     {
       "id": "p46",
       "texte": "爸爸 开车 去 公司。",
-      "traduction": "Papa va au travail en voiture."
+      "traduction": "Papa va au travail en voiture.",
+      "origine": "construite"
     },
     {
       "id": "p47",
       "texte": "妈妈 在 厨房 做 饭。",
-      "traduction": "Maman prépare à manger dans la cuisine."
+      "traduction": "Maman prépare à manger dans la cuisine.",
+      "origine": "construite"
     },
     {
       "id": "p48",
       "texte": "现在 几 点？",
-      "traduction": "Quelle heure est-il ?"
+      "traduction": "Quelle heure est-il ?",
+      "origine": "construite"
     },
     {
       "id": "p49",
       "texte": "现在 八 点 半。",
-      "traduction": "Il est huit heures et demie."
+      "traduction": "Il est huit heures et demie.",
+      "origine": "construite"
     },
     {
       "id": "p50",
       "texte": "我 每天 早上 七 点 起床。",
-      "traduction": "Je me lève à sept heures tous les matins."
+      "traduction": "Je me lève à sept heures tous les matins.",
+      "origine": "construite"
     },
     {
       "id": "p51",
       "texte": "我 晚上 十 点 睡觉。",
-      "traduction": "Je me couche à dix heures du soir."
+      "traduction": "Je me couche à dix heures du soir.",
+      "origine": "construite"
     },
     {
       "id": "p52",
       "texte": "今天 星期 几？",
-      "traduction": "Quel jour sommes-nous ?"
+      "traduction": "Quel jour sommes-nous ?",
+      "origine": "construite"
     },
     {
       "id": "p53",
       "texte": "今天 是 星期三。",
-      "traduction": "Aujourd'hui, c'est mercredi."
+      "traduction": "Aujourd'hui, c'est mercredi.",
+      "origine": "construite"
     },
     {
       "id": "p54",
       "texte": "明天 我 没 有 课。",
-      "traduction": "Demain, je n'ai pas cours."
+      "traduction": "Demain, je n'ai pas cours.",
+      "origine": "construite"
     },
     {
       "id": "p55",
       "texte": "昨天 天气 很 冷。",
-      "traduction": "Hier, il faisait très froid."
+      "traduction": "Hier, il faisait très froid.",
+      "origine": "construite"
     },
     {
       "id": "p56",
       "texte": "你 什么 时候 来？",
-      "traduction": "Quand viens-tu ?"
+      "traduction": "Quand viens-tu ?",
+      "origine": "construite"
     },
     {
       "id": "p57",
       "texte": "我 马上 来！",
-      "traduction": "J'arrive tout de suite !"
+      "traduction": "J'arrive tout de suite !",
+      "origine": "construite"
     },
     {
       "id": "p58",
       "texte": "他 刚才 走 了。",
-      "traduction": "Il vient de partir."
+      "traduction": "Il vient de partir.",
+      "origine": "construite"
     },
     {
       "id": "p59",
       "texte": "我 已经 吃 了 早饭。",
-      "traduction": "J'ai déjà pris mon petit-déjeuner."
+      "traduction": "J'ai déjà pris mon petit-déjeuner.",
+      "origine": "construite"
     },
     {
       "id": "p60",
       "texte": "我 正在 学习。",
-      "traduction": "Je suis en train d'étudier."
+      "traduction": "Je suis en train d'étudier.",
+      "origine": "construite"
     },
     {
       "id": "p61",
       "texte": "我 没 有 时间。",
-      "traduction": "Je n'ai pas le temps."
+      "traduction": "Je n'ai pas le temps.",
+      "origine": "construite"
     },
     {
       "id": "p62",
       "texte": "等 我 五 分钟！",
-      "traduction": "Attends-moi cinq minutes !"
+      "traduction": "Attends-moi cinq minutes !",
+      "origine": "construite"
     },
     {
       "id": "p63",
       "texte": "考试 下午 两 点 开始。",
-      "traduction": "L'examen commence à deux heures de l'après-midi."
+      "traduction": "L'examen commence à deux heures de l'après-midi.",
+      "origine": "construite"
     },
     {
       "id": "p64",
       "texte": "课 已经 结束 了。",
-      "traduction": "Le cours est déjà terminé."
+      "traduction": "Le cours est déjà terminé.",
+      "origine": "construite"
     },
     {
       "id": "p65",
       "texte": "我 学习 汉语 两 年 了。",
-      "traduction": "J'apprends le chinois depuis deux ans."
+      "traduction": "J'apprends le chinois depuis deux ans.",
+      "origine": "construite"
     },
     {
       "id": "p66",
       "texte": "一 年 有 十二 个 月。",
-      "traduction": "Il y a douze mois dans une année."
+      "traduction": "Il y a douze mois dans une année.",
+      "origine": "construite"
     },
     {
       "id": "p67",
       "texte": "一 天 有 二十四 个 小时。",
-      "traduction": "Il y a vingt-quatre heures dans une journée."
+      "traduction": "Il y a vingt-quatre heures dans une journée.",
+      "origine": "construite"
     },
     {
       "id": "p68",
       "texte": "以后 我 想 去 中国 旅游。",
-      "traduction": "Plus tard, je veux voyager en Chine."
+      "traduction": "Plus tard, je veux voyager en Chine.",
+      "origine": "construite"
     },
     {
       "id": "p69",
       "texte": "以前 我 住 在 北京。",
-      "traduction": "Avant, j'habitais à Pékin."
+      "traduction": "Avant, j'habitais à Pékin.",
+      "origine": "construite"
     },
     {
       "id": "p70",
       "texte": "有时候 我 中午 不 吃 饭。",
-      "traduction": "Parfois, je ne mange pas le midi."
+      "traduction": "Parfois, je ne mange pas le midi.",
+      "origine": "construite"
     },
     {
       "id": "p71",
       "texte": "你 想 吃 什么？",
-      "traduction": "Qu'est-ce que tu veux manger ?"
+      "traduction": "Qu'est-ce que tu veux manger ?",
+      "origine": "construite"
     },
     {
       "id": "p72",
       "texte": "我 想 吃 面条。",
-      "traduction": "Je veux manger des nouilles."
+      "traduction": "Je veux manger des nouilles.",
+      "origine": "construite"
     },
     {
       "id": "p73",
       "texte": "我 饿 了。",
-      "traduction": "J'ai faim."
+      "traduction": "J'ai faim.",
+      "origine": "construite"
     },
     {
       "id": "p74",
       "texte": "我 很 渴，我 想 喝 水。",
-      "traduction": "J'ai très soif, je veux boire de l'eau."
+      "traduction": "J'ai très soif, je veux boire de l'eau.",
+      "origine": "construite"
     },
     {
       "id": "p75",
       "texte": "这 个 菜 太 辣 了！",
-      "traduction": "Ce plat est trop épicé !"
+      "traduction": "Ce plat est trop épicé !",
+      "origine": "construite"
     },
     {
       "id": "p76",
       "texte": "这 个 汤 很 咸。",
-      "traduction": "Cette soupe est très salée."
+      "traduction": "Cette soupe est très salée.",
+      "origine": "construite"
     },
     {
       "id": "p77",
       "texte": "我 不 吃 肉。",
-      "traduction": "Je ne mange pas de viande."
+      "traduction": "Je ne mange pas de viande.",
+      "origine": "construite"
     },
     {
       "id": "p78",
       "texte": "她 每天 早上 喝 牛奶。",
-      "traduction": "Elle boit du lait tous les matins."
+      "traduction": "Elle boit du lait tous les matins.",
+      "origine": "construite"
     },
     {
       "id": "p79",
       "texte": "我 喜欢 吃 水果，特别 是 香蕉。",
-      "traduction": "J'aime les fruits, surtout les bananes."
+      "traduction": "J'aime les fruits, surtout les bananes.",
+      "origine": "construite"
     },
     {
       "id": "p80",
       "texte": "苹果 很 甜。",
-      "traduction": "Les pommes sont sucrées."
+      "traduction": "Les pommes sont sucrées.",
+      "origine": "construite"
     },
     {
       "id": "p81",
       "texte": "我们 去 餐厅 吃 晚饭 吧。",
-      "traduction": "Allons dîner au restaurant."
+      "traduction": "Allons dîner au restaurant.",
+      "origine": "construite"
     },
     {
       "id": "p82",
       "texte": "米饭 和 鱼 都 很 好吃。",
-      "traduction": "Le riz et le poisson sont tous les deux délicieux."
+      "traduction": "Le riz et le poisson sont tous les deux délicieux.",
+      "origine": "construite"
     },
     {
       "id": "p83",
       "texte": "早饭 我 吃 面包 和 鸡蛋。",
-      "traduction": "Au petit-déjeuner, je mange du pain et des œufs."
+      "traduction": "Au petit-déjeuner, je mange du pain et des œufs.",
+      "origine": "construite"
     },
     {
       "id": "p84",
       "texte": "你 要 茶 吗？",
-      "traduction": "Tu veux du thé ?"
+      "traduction": "Tu veux du thé ?",
+      "origine": "construite"
     },
     {
       "id": "p85",
       "texte": "我 吃 饱 了。",
-      "traduction": "J'ai assez mangé."
+      "traduction": "J'ai assez mangé.",
+      "origine": "construite"
     },
     {
       "id": "p86",
       "texte": "这 个 很 好喝！",
-      "traduction": "C'est très bon à boire !"
+      "traduction": "C'est très bon à boire !",
+      "origine": "construite"
     },
     {
       "id": "p87",
       "texte": "多 吃 蔬菜，身体 好。",
-      "traduction": "Mange beaucoup de légumes, c'est bon pour la santé."
+      "traduction": "Mange beaucoup de légumes, c'est bon pour la santé.",
+      "origine": "construite"
     },
     {
       "id": "p88",
       "texte": "爸爸 不 喝 酒。",
-      "traduction": "Papa ne boit pas d'alcool."
+      "traduction": "Papa ne boit pas d'alcool.",
+      "origine": "construite"
     },
     {
       "id": "p89",
       "texte": "不 要 放 太 多 盐。",
-      "traduction": "Ne mets pas trop de sel."
+      "traduction": "Ne mets pas trop de sel.",
+      "origine": "construite"
     },
     {
       "id": "p90",
       "texte": "他 喝 咖啡 不 放 糖。",
-      "traduction": "Il boit son café sans sucre."
+      "traduction": "Il boit son café sans sucre.",
+      "origine": "construite"
     },
     {
       "id": "p91",
       "texte": "午饭 我们 吃 了 米饭 和 菜。",
-      "traduction": "Au déjeuner, nous avons mangé du riz et des légumes."
+      "traduction": "Au déjeuner, nous avons mangé du riz et des légumes.",
+      "origine": "construite"
     },
     {
       "id": "p92",
       "texte": "你 要 去 哪里？",
-      "traduction": "Où veux-tu aller ?"
+      "traduction": "Où veux-tu aller ?",
+      "origine": "construite"
     },
     {
       "id": "p93",
       "texte": "我 去 学校。",
-      "traduction": "Je vais à l'école."
+      "traduction": "Je vais à l'école.",
+      "origine": "construite"
     },
     {
       "id": "p94",
       "texte": "医院 在 哪里？",
-      "traduction": "Où est l'hôpital ?"
+      "traduction": "Où est l'hôpital ?",
+      "origine": "construite"
     },
     {
       "id": "p95",
       "texte": "银行 很 近。",
-      "traduction": "La banque est tout près."
+      "traduction": "La banque est tout près.",
+      "origine": "construite"
     },
     {
       "id": "p96",
       "texte": "机场 很 远。",
-      "traduction": "L'aéroport est très loin."
+      "traduction": "L'aéroport est très loin.",
+      "origine": "construite"
     },
     {
       "id": "p97",
       "texte": "我们 坐 地铁 去 吧。",
-      "traduction": "Allons-y en métro."
+      "traduction": "Allons-y en métro.",
+      "origine": "construite"
     },
     {
       "id": "p98",
       "texte": "他 每天 骑 自行车 去 学校。",
-      "traduction": "Il va à l'école à vélo tous les jours."
+      "traduction": "Il va à l'école à vélo tous les jours.",
+      "origine": "construite"
     },
     {
       "id": "p99",
       "texte": "我 坐 公共汽车 去 公司。",
-      "traduction": "Je vais au travail en bus."
+      "traduction": "Je vais au travail en bus.",
+      "origine": "construite"
     },
     {
       "id": "p100",
       "texte": "坐 出租车 太 贵 了。",
-      "traduction": "Le taxi, c'est trop cher."
+      "traduction": "Le taxi, c'est trop cher.",
+      "origine": "construite"
     },
     {
       "id": "p101",
       "texte": "坐 火车 很 方便。",
-      "traduction": "Prendre le train, c'est très pratique."
+      "traduction": "Prendre le train, c'est très pratique.",
+      "origine": "construite"
     },
     {
       "id": "p102",
       "texte": "我 喜欢 坐 飞机。",
-      "traduction": "J'aime prendre l'avion."
+      "traduction": "J'aime prendre l'avion.",
+      "origine": "construite"
     },
     {
       "id": "p103",
       "texte": "你 有 票 吗？",
-      "traduction": "As-tu un billet ?"
+      "traduction": "As-tu un billet ?",
+      "origine": "construite"
     },
     {
       "id": "p104",
       "texte": "车站 在 那里。",
-      "traduction": "La gare est là-bas."
+      "traduction": "La gare est là-bas.",
+      "origine": "construite"
     },
     {
       "id": "p105",
       "texte": "这 是 去 公园 的 路 吗？",
-      "traduction": "C'est bien le chemin du parc ?"
+      "traduction": "C'est bien le chemin du parc ?",
+      "origine": "construite"
     },
     {
       "id": "p106",
       "texte": "我 在 车站 等 你。",
-      "traduction": "Je t'attends à la gare."
+      "traduction": "Je t'attends à la gare.",
+      "origine": "construite"
     },
     {
       "id": "p107",
       "texte": "我们 到 北京 了！",
-      "traduction": "Nous sommes arrivés à Pékin !"
+      "traduction": "Nous sommes arrivés à Pékin !",
+      "origine": "construite"
     },
     {
       "id": "p108",
       "texte": "公园 很 安静。",
-      "traduction": "Le parc est très calme."
+      "traduction": "Le parc est très calme.",
+      "origine": "construite"
     },
     {
       "id": "p109",
       "texte": "这 个 城市 很 大。",
-      "traduction": "Cette ville est très grande."
+      "traduction": "Cette ville est très grande.",
+      "origine": "construite"
     },
     {
       "id": "p110",
       "texte": "中国 是 一 个 大 国家。",
-      "traduction": "La Chine est un grand pays."
+      "traduction": "La Chine est un grand pays.",
+      "origine": "construite"
     },
     {
       "id": "p111",
       "texte": "夏天 我 想 去 看 海。",
-      "traduction": "En été, je veux aller voir la mer."
+      "traduction": "En été, je veux aller voir la mer.",
+      "origine": "construite"
     },
     {
       "id": "p112",
       "texte": "他 开车 太 快 了。",
-      "traduction": "Il conduit trop vite."
+      "traduction": "Il conduit trop vite.",
+      "origine": "construite"
     },
     {
       "id": "p113",
       "texte": "骑 马 危险 吗？",
-      "traduction": "C'est dangereux de monter à cheval ?"
+      "traduction": "C'est dangereux de monter à cheval ?",
+      "origine": "construite"
     },
     {
       "id": "p114",
       "texte": "我们 坐 船 去 旅游。",
-      "traduction": "Nous voyageons en bateau."
+      "traduction": "Nous voyageons en bateau.",
+      "origine": "construite"
     },
     {
       "id": "p115",
       "texte": "你 想 去 哪里 旅行？",
-      "traduction": "Où veux-tu voyager ?"
+      "traduction": "Où veux-tu voyager ?",
+      "origine": "construite"
     },
     {
       "id": "p116",
       "texte": "商店 九 点 开 门。",
-      "traduction": "Le magasin ouvre à neuf heures."
+      "traduction": "Le magasin ouvre à neuf heures.",
+      "origine": "construite"
     },
     {
       "id": "p117",
       "texte": "银行 五 点 关 门。",
-      "traduction": "La banque ferme à cinq heures."
+      "traduction": "La banque ferme à cinq heures.",
+      "origine": "construite"
     },
     {
       "id": "p118",
       "texte": "我 的 房间 很 小。",
-      "traduction": "Ma chambre est très petite."
+      "traduction": "Ma chambre est très petite.",
+      "origine": "construite"
     },
     {
       "id": "p119",
       "texte": "房间 很 干净。",
-      "traduction": "La chambre est très propre."
+      "traduction": "La chambre est très propre.",
+      "origine": "construite"
     },
     {
       "id": "p120",
       "texte": "开 窗户 吧，太 热 了。",
-      "traduction": "Ouvre la fenêtre, il fait trop chaud."
+      "traduction": "Ouvre la fenêtre, il fait trop chaud.",
+      "origine": "construite"
     },
     {
       "id": "p121",
       "texte": "关 门，太 冷 了！",
-      "traduction": "Ferme la porte, il fait trop froid !"
+      "traduction": "Ferme la porte, il fait trop froid !",
+      "origine": "construite"
     },
     {
       "id": "p122",
       "texte": "卫生间 在 哪里？",
-      "traduction": "Où sont les toilettes ?"
+      "traduction": "Où sont les toilettes ?",
+      "origine": "construite"
     },
     {
       "id": "p123",
       "texte": "我 家 的 厨房 很 大。",
-      "traduction": "Chez moi, la cuisine est très grande."
+      "traduction": "Chez moi, la cuisine est très grande.",
+      "origine": "construite"
     },
     {
       "id": "p124",
       "texte": "我 的 钥匙 在 哪里？",
-      "traduction": "Où sont mes clés ?"
+      "traduction": "Où sont mes clés ?",
+      "origine": "construite"
     },
     {
       "id": "p125",
       "texte": "我 找 不 到 我 的 钱包。",
-      "traduction": "Je ne trouve pas mon portefeuille."
+      "traduction": "Je ne trouve pas mon portefeuille.",
+      "origine": "construite"
     },
     {
       "id": "p126",
       "texte": "他们 的 房子 很 漂亮。",
-      "traduction": "Leur maison est très belle."
+      "traduction": "Leur maison est très belle.",
+      "origine": "construite"
     },
     {
       "id": "p127",
       "texte": "我 住 在 五 楼。",
-      "traduction": "J'habite au cinquième étage."
+      "traduction": "J'habite au cinquième étage.",
+      "origine": "construite"
     },
     {
       "id": "p128",
       "texte": "这 是 我 的 新 电脑。",
-      "traduction": "Voici mon nouvel ordinateur."
+      "traduction": "Voici mon nouvel ordinateur.",
+      "origine": "construite"
     },
     {
       "id": "p129",
       "texte": "妈妈 在 看 电视。",
-      "traduction": "Maman regarde la télé."
+      "traduction": "Maman regarde la télé.",
+      "origine": "construite"
     },
     {
       "id": "p130",
       "texte": "老师 在 教 我们 汉语。",
-      "traduction": "Le professeur nous apprend le chinois."
+      "traduction": "Le professeur nous apprend le chinois.",
+      "origine": "construite"
     },
     {
       "id": "p131",
       "texte": "汉语 难 吗？",
-      "traduction": "Le chinois, c'est difficile ?"
+      "traduction": "Le chinois, c'est difficile ?",
+      "origine": "construite"
     },
     {
       "id": "p132",
       "texte": "汉语 不 难，很 有意思！",
-      "traduction": "Le chinois n'est pas difficile, c'est très intéressant !"
+      "traduction": "Le chinois n'est pas difficile, c'est très intéressant !",
+      "origine": "construite"
     },
     {
       "id": "p133",
       "texte": "我 不 懂 这 个 字。",
-      "traduction": "Je ne comprends pas ce caractère."
+      "traduction": "Je ne comprends pas ce caractère.",
+      "origine": "construite"
     },
     {
       "id": "p134",
       "texte": "这 个 句子 怎么 读？",
-      "traduction": "Comment se lit cette phrase ?"
+      "traduction": "Comment se lit cette phrase ?",
+      "origine": "construite"
     },
     {
       "id": "p135",
       "texte": "你 知道 答案 吗？",
-      "traduction": "Tu connais la réponse ?"
+      "traduction": "Tu connais la réponse ?",
+      "origine": "construite"
     },
     {
       "id": "p136",
       "texte": "我 可以 问 一 个 问题 吗？",
-      "traduction": "Je peux poser une question ?"
+      "traduction": "Je peux poser une question ?",
+      "origine": "construite"
     },
     {
       "id": "p137",
       "texte": "我 的 作业 已经 写 完 了。",
-      "traduction": "J'ai déjà fini mes devoirs."
+      "traduction": "J'ai déjà fini mes devoirs.",
+      "origine": "construite"
     },
     {
       "id": "p138",
       "texte": "明天 有 考试，我 很 紧张。",
-      "traduction": "Il y a un examen demain, je suis très stressé."
+      "traduction": "Il y a un examen demain, je suis très stressé.",
+      "origine": "construite"
     },
     {
       "id": "p139",
       "texte": "考试 很 容易。",
-      "traduction": "L'examen est très facile."
+      "traduction": "L'examen est très facile.",
+      "origine": "construite"
     },
     {
       "id": "p140",
       "texte": "他 回答 了 老师 的 问题。",
-      "traduction": "Il a répondu à la question du professeur."
+      "traduction": "Il a répondu à la question du professeur.",
+      "origine": "construite"
     },
     {
       "id": "p141",
       "texte": "我 会 写 很 多 字。",
-      "traduction": "Je sais écrire beaucoup de caractères."
+      "traduction": "Je sais écrire beaucoup de caractères.",
+      "origine": "construite"
     },
     {
       "id": "p142",
       "texte": "你 能 帮 我 吗？",
-      "traduction": "Tu peux m'aider ?"
+      "traduction": "Tu peux m'aider ?",
+      "origine": "construite"
     },
     {
       "id": "p143",
       "texte": "我 没 有 笔，你 有 吗？",
-      "traduction": "Je n'ai pas de stylo, tu en as un ?"
+      "traduction": "Je n'ai pas de stylo, tu en as un ?",
+      "origine": "construite"
     },
     {
       "id": "p144",
       "texte": "我 需要 纸 和 笔。",
-      "traduction": "J'ai besoin de papier et d'un stylo."
+      "traduction": "J'ai besoin de papier et d'un stylo.",
+      "origine": "construite"
     },
     {
       "id": "p145",
       "texte": "我们 的 老师 非常 好。",
-      "traduction": "Notre professeur est vraiment super."
+      "traduction": "Notre professeur est vraiment super.",
+      "origine": "construite"
     },
     {
       "id": "p146",
       "texte": "读 书 很 重要。",
-      "traduction": "Lire, c'est très important."
+      "traduction": "Lire, c'est très important.",
+      "origine": "construite"
     },
     {
       "id": "p147",
       "texte": "英语 课 很 无聊。",
-      "traduction": "Le cours d'anglais est très ennuyeux."
+      "traduction": "Le cours d'anglais est très ennuyeux.",
+      "origine": "construite"
     },
     {
       "id": "p148",
       "texte": "你 的 答案 对 了。",
-      "traduction": "Ta réponse est juste."
+      "traduction": "Ta réponse est juste.",
+      "origine": "construite"
     },
     {
       "id": "p149",
       "texte": "这 个 答案 错 了。",
-      "traduction": "Cette réponse est fausse."
+      "traduction": "Cette réponse est fausse.",
+      "origine": "construite"
     },
     {
       "id": "p150",
       "texte": "老师 让 我们 回答 问题。",
-      "traduction": "Le professeur nous fait répondre aux questions."
+      "traduction": "Le professeur nous fait répondre aux questions.",
+      "origine": "construite"
     },
     {
       "id": "p151",
       "texte": "我 今天 很 高兴。",
-      "traduction": "Je suis très content aujourd'hui."
+      "traduction": "Je suis très content aujourd'hui.",
+      "origine": "construite"
     },
     {
       "id": "p152",
       "texte": "你 怎么 了？",
-      "traduction": "Qu'est-ce qui t'arrive ?"
+      "traduction": "Qu'est-ce qui t'arrive ?",
+      "origine": "construite"
     },
     {
       "id": "p153",
       "texte": "我 很 累，我 想 休息。",
-      "traduction": "Je suis très fatigué, je veux me reposer."
+      "traduction": "Je suis très fatigué, je veux me reposer.",
+      "origine": "construite"
     },
     {
       "id": "p154",
       "texte": "她 很 难过，因为 她 的 猫 生病 了。",
-      "traduction": "Elle est très triste parce que son chat est malade."
+      "traduction": "Elle est très triste parce que son chat est malade.",
+      "origine": "construite"
     },
     {
       "id": "p155",
       "texte": "不 要 担心！",
-      "traduction": "Ne t'inquiète pas !"
+      "traduction": "Ne t'inquiète pas !",
+      "origine": "construite"
     },
     {
       "id": "p156",
       "texte": "放心 吧，我 很 好。",
-      "traduction": "Rassure-toi, je vais bien."
+      "traduction": "Rassure-toi, je vais bien.",
+      "origine": "construite"
     },
     {
       "id": "p157",
       "texte": "我 害怕 狗。",
-      "traduction": "J'ai peur des chiens."
+      "traduction": "J'ai peur des chiens.",
+      "origine": "construite"
     },
     {
       "id": "p158",
       "texte": "爸爸 生气 了。",
-      "traduction": "Papa s'est fâché."
+      "traduction": "Papa s'est fâché.",
+      "origine": "construite"
     },
     {
       "id": "p159",
       "texte": "我 很 激动！",
-      "traduction": "Je suis tout excité !"
+      "traduction": "Je suis tout excité !",
+      "origine": "construite"
     },
     {
       "id": "p160",
       "texte": "妈妈 很 满意。",
-      "traduction": "Maman est très satisfaite."
+      "traduction": "Maman est très satisfaite.",
+      "origine": "construite"
     },
     {
       "id": "p161",
       "texte": "他 很 骄傲。",
-      "traduction": "Il est très fier."
+      "traduction": "Il est très fier.",
+      "origine": "construite"
     },
     {
       "id": "p162",
       "texte": "我 很 失望。",
-      "traduction": "Je suis très déçu."
+      "traduction": "Je suis très déçu.",
+      "origine": "construite"
     },
     {
       "id": "p163",
       "texte": "我 希望 你 快乐。",
-      "traduction": "Je te souhaite d'être heureux."
+      "traduction": "Je te souhaite d'être heureux.",
+      "origine": "construite"
     },
     {
       "id": "p164",
       "texte": "对不起，我 来 晚 了。",
-      "traduction": "Désolé, je suis en retard."
+      "traduction": "Désolé, je suis en retard.",
+      "origine": "construite"
     },
     {
       "id": "p165",
       "texte": "非常 感谢！",
-      "traduction": "Merci beaucoup !"
+      "traduction": "Merci beaucoup !",
+      "origine": "construite"
     },
     {
       "id": "p166",
       "texte": "我 觉得 这 个 很 好。",
-      "traduction": "Je trouve que c'est très bien."
+      "traduction": "Je trouve que c'est très bien.",
+      "origine": "construite"
     },
     {
       "id": "p167",
       "texte": "你 觉得 汉语 难 吗？",
-      "traduction": "Tu trouves le chinois difficile ?"
+      "traduction": "Tu trouves le chinois difficile ?",
+      "origine": "construite"
     },
     {
       "id": "p168",
       "texte": "他 笑 了。",
-      "traduction": "Il a ri."
+      "traduction": "Il a ri.",
+      "origine": "construite"
     },
     {
       "id": "p169",
       "texte": "我 很 惊讶。",
-      "traduction": "Je suis très surpris."
+      "traduction": "Je suis très surpris.",
+      "origine": "construite"
     },
     {
       "id": "p170",
       "texte": "我 生病 了。",
-      "traduction": "Je suis malade."
+      "traduction": "Je suis malade.",
+      "origine": "construite"
     },
     {
       "id": "p171",
       "texte": "你 要 去 看 医生。",
-      "traduction": "Tu dois aller voir le médecin."
+      "traduction": "Tu dois aller voir le médecin.",
+      "origine": "construite"
     },
     {
       "id": "p172",
       "texte": "她 的 头发 很 长。",
-      "traduction": "Ses cheveux sont très longs."
+      "traduction": "Ses cheveux sont très longs.",
+      "origine": "construite"
     },
     {
       "id": "p173",
       "texte": "他 的 眼睛 很 大。",
-      "traduction": "Il a de grands yeux."
+      "traduction": "Il a de grands yeux.",
+      "origine": "construite"
     },
     {
       "id": "p174",
       "texte": "熊猫 的 耳朵 是 黑色 的。",
-      "traduction": "Les oreilles du panda sont noires."
+      "traduction": "Les oreilles du panda sont noires.",
+      "origine": "construite"
     },
     {
       "id": "p175",
       "texte": "多 喝 水，身体 健康。",
-      "traduction": "Bois beaucoup d'eau pour être en bonne santé."
+      "traduction": "Bois beaucoup d'eau pour être en bonne santé.",
+      "origine": "construite"
     },
     {
       "id": "p176",
       "texte": "我 的 脚 很 累。",
-      "traduction": "J'ai les pieds fatigués."
+      "traduction": "J'ai les pieds fatigués.",
+      "origine": "construite"
     },
     {
       "id": "p177",
       "texte": "他 很 高，他 弟弟 很 矮。",
-      "traduction": "Il est grand, son petit frère est petit."
+      "traduction": "Il est grand, son petit frère est petit.",
+      "origine": "construite"
     },
     {
       "id": "p178",
       "texte": "她 很 瘦。",
-      "traduction": "Elle est très mince."
+      "traduction": "Elle est très mince.",
+      "origine": "construite"
     },
     {
       "id": "p179",
       "texte": "今天 很 热。",
-      "traduction": "Aujourd'hui, il fait très chaud."
+      "traduction": "Aujourd'hui, il fait très chaud.",
+      "origine": "construite"
     },
     {
       "id": "p180",
       "texte": "北京 的 冬天 很 冷。",
-      "traduction": "L'hiver à Pékin est très froid."
+      "traduction": "L'hiver à Pékin est très froid.",
+      "origine": "construite"
     },
     {
       "id": "p181",
       "texte": "春天 很 暖和。",
-      "traduction": "Le printemps est doux."
+      "traduction": "Le printemps est doux.",
+      "origine": "construite"
     },
     {
       "id": "p182",
       "texte": "秋天 很 凉快。",
-      "traduction": "L'automne est frais."
+      "traduction": "L'automne est frais.",
+      "origine": "construite"
     },
     {
       "id": "p183",
       "texte": "我 喜欢 夏天，不 喜欢 冬天。",
-      "traduction": "J'aime l'été, je n'aime pas l'hiver."
+      "traduction": "J'aime l'été, je n'aime pas l'hiver.",
+      "origine": "construite"
     },
     {
       "id": "p184",
       "texte": "今天 有 风。",
-      "traduction": "Il y a du vent aujourd'hui."
+      "traduction": "Il y a du vent aujourd'hui.",
+      "origine": "construite"
     },
     {
       "id": "p185",
       "texte": "天空 是 蓝色 的。",
-      "traduction": "Le ciel est bleu."
+      "traduction": "Le ciel est bleu.",
+      "origine": "construite"
     },
     {
       "id": "p186",
       "texte": "晚上 有 很 多 星星。",
-      "traduction": "Le soir, il y a beaucoup d'étoiles."
+      "traduction": "Le soir, il y a beaucoup d'étoiles.",
+      "origine": "construite"
     },
     {
       "id": "p187",
       "texte": "今天 的 月亮 很 美。",
-      "traduction": "La lune est très belle ce soir."
+      "traduction": "La lune est très belle ce soir.",
+      "origine": "construite"
     },
     {
       "id": "p188",
       "texte": "这里 的 空气 很 好。",
-      "traduction": "L'air est très bon ici."
+      "traduction": "L'air est très bon ici.",
+      "origine": "construite"
     },
     {
       "id": "p189",
       "texte": "山 很 高，河 很 长。",
-      "traduction": "La montagne est haute, la rivière est longue."
+      "traduction": "La montagne est haute, la rivière est longue.",
+      "origine": "construite"
     },
     {
       "id": "p190",
       "texte": "公园 有 很 多 花 和 树。",
-      "traduction": "Il y a beaucoup de fleurs et d'arbres dans le parc."
+      "traduction": "Il y a beaucoup de fleurs et d'arbres dans le parc.",
+      "origine": "construite"
     },
     {
       "id": "p191",
       "texte": "今天 没 有 太阳。",
-      "traduction": "Il n'y a pas de soleil aujourd'hui."
+      "traduction": "Il n'y a pas de soleil aujourd'hui.",
+      "origine": "construite"
     },
     {
       "id": "p192",
       "texte": "你 家 有 猫 吗？",
-      "traduction": "Vous avez un chat chez vous ?"
+      "traduction": "Vous avez un chat chez vous ?",
+      "origine": "construite"
     },
     {
       "id": "p193",
       "texte": "我 很 喜欢 熊猫。",
-      "traduction": "J'aime beaucoup les pandas."
+      "traduction": "J'aime beaucoup les pandas.",
+      "origine": "construite"
     },
     {
       "id": "p194",
       "texte": "鸟 会 飞，狗 不 会 飞。",
-      "traduction": "Les oiseaux savent voler, les chiens non."
+      "traduction": "Les oiseaux savent voler, les chiens non.",
+      "origine": "construite"
     },
     {
       "id": "p195",
       "texte": "老虎 是 很 危险 的 动物。",
-      "traduction": "Le tigre est un animal très dangereux."
+      "traduction": "Le tigre est un animal très dangereux.",
+      "origine": "construite"
     },
     {
       "id": "p196",
       "texte": "马 很 大，兔子 很 小。",
-      "traduction": "Le cheval est grand, le lapin est petit."
+      "traduction": "Le cheval est grand, le lapin est petit.",
+      "origine": "construite"
     },
     {
       "id": "p197",
       "texte": "你 喜欢 什么 颜色？",
-      "traduction": "Quelle couleur aimes-tu ?"
+      "traduction": "Quelle couleur aimes-tu ?",
+      "origine": "construite"
     },
     {
       "id": "p198",
       "texte": "我 喜欢 红色 和 紫色。",
-      "traduction": "J'aime le rouge et le violet."
+      "traduction": "J'aime le rouge et le violet.",
+      "origine": "construite"
     },
     {
       "id": "p199",
       "texte": "你 的 帽子 很 漂亮。",
-      "traduction": "Ton chapeau est très joli."
+      "traduction": "Ton chapeau est très joli.",
+      "origine": "construite"
     },
     {
       "id": "p200",
       "texte": "我 想 买 新 鞋。",
-      "traduction": "Je veux acheter de nouvelles chaussures."
+      "traduction": "Je veux acheter de nouvelles chaussures.",
+      "origine": "construite"
     },
     {
       "id": "p201",
       "texte": "这 个 包 多少 钱？",
-      "traduction": "Combien coûte ce sac ?"
+      "traduction": "Combien coûte ce sac ?",
+      "origine": "construite"
     },
     {
       "id": "p202",
       "texte": "这 个 手表 很 便宜。",
-      "traduction": "Cette montre est très bon marché."
+      "traduction": "Cette montre est très bon marché.",
+      "origine": "construite"
     },
     {
       "id": "p203",
       "texte": "我 的 衣服 很 脏。",
-      "traduction": "Mes vêtements sont très sales."
+      "traduction": "Mes vêtements sont très sales.",
+      "origine": "construite"
     },
     {
       "id": "p204",
       "texte": "他 的 裤子 是 灰色 的。",
-      "traduction": "Son pantalon est gris."
+      "traduction": "Son pantalon est gris.",
+      "origine": "construite"
     },
     {
       "id": "p205",
       "texte": "我 给 妈妈 买 了 一 个 礼物。",
-      "traduction": "J'ai acheté un cadeau à maman."
+      "traduction": "J'ai acheté un cadeau à maman.",
+      "origine": "construite"
     },
     {
       "id": "p206",
       "texte": "你 有 伞 吗？",
-      "traduction": "As-tu un parapluie ?"
+      "traduction": "As-tu un parapluie ?",
+      "origine": "construite"
     },
     {
       "id": "p207",
       "texte": "我 的 手机 很 旧。",
-      "traduction": "Mon téléphone est très vieux."
+      "traduction": "Mon téléphone est très vieux.",
+      "origine": "construite"
     },
     {
       "id": "p208",
       "texte": "他 给 我 看 了 他 的 照片。",
-      "traduction": "Il m'a montré ses photos."
+      "traduction": "Il m'a montré ses photos.",
+      "origine": "construite"
     },
     {
       "id": "p209",
       "texte": "我 在 商店 买 了 水果。",
-      "traduction": "J'ai acheté des fruits au magasin."
+      "traduction": "J'ai acheté des fruits au magasin.",
+      "origine": "construite"
     },
     {
       "id": "p210",
       "texte": "经理 很 忙。",
-      "traduction": "Le directeur est très occupé."
+      "traduction": "Le directeur est très occupé.",
+      "origine": "construite"
     },
     {
       "id": "p211",
       "texte": "我 明天 有 一 个 会议。",
-      "traduction": "J'ai une réunion demain."
+      "traduction": "J'ai une réunion demain.",
+      "origine": "construite"
     },
     {
       "id": "p212",
       "texte": "我 给 你 写 邮件。",
-      "traduction": "Je t'écris un mail."
+      "traduction": "Je t'écris un mail.",
+      "origine": "construite"
     },
     {
       "id": "p213",
       "texte": "你 的 电话 是 多少？",
-      "traduction": "Quel est ton numéro de téléphone ?"
+      "traduction": "Quel est ton numéro de téléphone ?",
+      "origine": "construite"
     },
     {
       "id": "p214",
       "texte": "告诉 我 你 的 问题。",
-      "traduction": "Dis-moi quel est ton problème."
+      "traduction": "Dis-moi quel est ton problème.",
+      "origine": "construite"
     },
     {
       "id": "p215",
       "texte": "他 在 公司 工作 了 三 年。",
-      "traduction": "Il a travaillé trois ans dans l'entreprise."
+      "traduction": "Il a travaillé trois ans dans l'entreprise.",
+      "origine": "construite"
     },
     {
       "id": "p216",
       "texte": "我 的 同事 都 很 好。",
-      "traduction": "Mes collègues sont tous très sympas."
+      "traduction": "Mes collègues sont tous très sympas.",
+      "origine": "construite"
     },
     {
       "id": "p217",
       "texte": "网 很 慢。",
-      "traduction": "Internet est très lent."
+      "traduction": "Internet est très lent.",
+      "origine": "construite"
     },
     {
       "id": "p218",
       "texte": "因为 我 很 累，所以 我 不 去。",
-      "traduction": "Comme je suis très fatigué, je n'y vais pas."
+      "traduction": "Comme je suis très fatigué, je n'y vais pas.",
+      "origine": "construite"
     },
     {
       "id": "p219",
       "texte": "虽然 汉语 很 难，但是 很 有意思。",
-      "traduction": "Même si le chinois est difficile, c'est très intéressant."
+      "traduction": "Même si le chinois est difficile, c'est très intéressant.",
+      "origine": "construite"
     },
     {
       "id": "p220",
       "texte": "如果 明天 天气 好，我们 就 去 公园。",
-      "traduction": "S'il fait beau demain, nous irons au parc."
+      "traduction": "S'il fait beau demain, nous irons au parc.",
+      "origine": "construite"
     },
     {
       "id": "p221",
       "texte": "我 也 是 学生。",
-      "traduction": "Moi aussi, je suis élève."
+      "traduction": "Moi aussi, je suis élève.",
+      "origine": "construite"
     },
     {
       "id": "p222",
       "texte": "他 还 没 来。",
-      "traduction": "Il n'est pas encore arrivé."
+      "traduction": "Il n'est pas encore arrivé.",
+      "origine": "construite"
     },
     {
       "id": "p223",
       "texte": "再 说 一 次，好 吗？",
-      "traduction": "Tu peux répéter encore une fois ?"
+      "traduction": "Tu peux répéter encore une fois ?",
+      "origine": "construite"
     },
     {
       "id": "p224",
       "texte": "他 又 来 了！",
-      "traduction": "Le revoilà !"
+      "traduction": "Le revoilà !",
+      "origine": "construite"
     },
     {
       "id": "p225",
       "texte": "我 九 点 才 起床。",
-      "traduction": "Je ne me suis levé qu'à neuf heures."
+      "traduction": "Je ne me suis levé qu'à neuf heures.",
+      "origine": "construite"
     },
     {
       "id": "p226",
       "texte": "我 跟 朋友 去 公园 玩。",
-      "traduction": "Je vais jouer au parc avec mes amis."
+      "traduction": "Je vais jouer au parc avec mes amis.",
+      "origine": "construite"
     },
     {
       "id": "p227",
       "texte": "我们 走 吧！",
-      "traduction": "Allons-y !"
+      "traduction": "Allons-y !",
+      "origine": "construite"
     }
   ]
 }

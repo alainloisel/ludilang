@@ -1,6 +1,6 @@
 # Les 19 jeux : d'où vient leur contenu ?
 
-État au 2026-10-07. Cette page classe les jeux de `js/games/` selon la façon dont
+État au 2026-11-04. Cette page classe les jeux de `js/games/` selon la façon dont
 ils fabriquent leurs questions : contenu écrit à la main dans le code, contenu tiré
 du pack du cours, mauvaises réponses ajustées ou tirées au hasard.
 
@@ -24,11 +24,11 @@ Légende :
 | Phrases en désordre | `ordre.js` | Pack (`phrases` de 3 mots ou plus + exercices `ordre`) | Sans objet | 6 phrases |
 | Trous | `trous.js` | Pack (exercices `trous`, un point de grammaire au choix) | Sans objet | tous les `trous` du point choisi |
 | Dictée audio | `dictee.js` | Pack (phrases + vocab) | Sans objet (fautes soulignées lettre à lettre) | 6 items |
-| Perroquet | `perroquet.js` | Pack (phrases + exemples du vocab, dont 2 phrases du cours garanties ; mots seuls en dernier recours) | Sans objet (note de prononciation) | 5 phrases |
+| Perroquet | `perroquet.js` | Pack (phrases + exemples du vocab, dont 2 du champ `phrases` garanties ; mots seuls en dernier recours). Étiquette d'origine | Sans objet (note de prononciation) | 5 phrases |
 | Marathon | `marathon.js` | Pack (vocab) | Sans objet. **Hasard** simple, avec répétitions possibles | 45 s chrono |
 | Intrus | `intrus.js` | Pack (vocab) | **Ajusté** par thème (3 mots du même thème + 1 d'un autre) ; **hasard** pur en dernier recours | 5 manches |
-| Détective | `detective.js` | Pack (phrases, sinon exemples du vocab) | **Généré** : une règle d'erreur (lettre doublée, h, th→d, ß→ss, inversion de lettres) altère un mot | 5 phrases |
-| Dialogue | `dialogue.js` | **À la main** | Réponses fausses écrites à la main | 4 répliques |
+| Détective | `detective.js` | Pack (même réservoir que le Perroquet, tiré au hasard). Étiquette d'origine | **Généré** : une règle d'erreur (lettre doublée, h, th→d, ß→ss, inversion de lettres) altère un mot | 5 phrases |
+| Dialogue | `dialogue.js` | **À la main** | Réponses fausses écrites à la main, mélangées | 1 scénario de 4 répliques |
 | Conjugaison (château) | `conjugaison.js` | **À la main** | Saisie libre, pas de choix | 5 étages |
 | Accord (vrai/faux) | `accord.js` | **À la main** | Vrai / faux écrit à la main, avec explication | 8 questions |
 | Constructeur | `syntaxe.js` | Pack (exercices `ordre`, règle du point de grammaire en consigne) ; **à la main** en secours | Sans objet (mots à remettre en ordre) | 4 manches |
@@ -44,25 +44,25 @@ de basque, ils ne sont pas proposés.
 
 | Jeu | Anglais | Allemand | Détail |
 |---|---|---|---|
-| Accord (`accord.js`) | 10 | 10 | 5 phrases justes + 5 fausses par langue |
+| Accord (`accord.js`) | 31 | 30 | 15 phrases justes par langue, le reste fausses |
 | Conjugaison (`conjugaison.js`) | 9 verbes (29 formes) | 5 verbes (27 formes) | 5 étages : verbe et temps tirés au hasard, **avec remise** (un même verbe peut revenir) |
-| Dialogue (`dialogue.js`) | 4 | 4 | 4 répliques, jouées toutes les 4 ; exclu des parcours automatiques (`enParcours: false`). Le code qui devait adapter le dialogue au cours est vide |
+| Dialogue (`dialogue.js`) | 6 scénarios (24 répliques) | 5 scénarios (20 répliques) | Un scénario tiré au hasard par partie (école, devoirs, maison, vacances, internat… / famille, matin, mode, magasin…) ; exclu des parcours automatiques (`enParcours: false`) |
 | Défi des 3 formes (`irregular.js`) | 16 | 14 | Verbes irréguliers : base, prétérit, participe |
-| Oreille (`oreille.js`) | 8 paires | 8 paires | Ex. ship / sheep, schon / schön |
-| Prépositions (`preposition.js`) | 6 | 6 | 4 options par question |
+| Oreille (`oreille.js`) | 28 paires | 28 paires | Ex. ship / sheep, schon / schön, Hose / Hase ; pas d'homophones |
+| Prépositions (`preposition.js`) | 27 | 28 | 4 options par question, une seule réponse possible |
 | Constructeur (`syntaxe.js`) | 4 | 4 | Réserve de secours seulement : le jeu utilise d'abord les exercices `ordre` du pack (voir ci-dessous) |
 
 Limites :
 
-- Le **Dialogue** (4 sur 4) rejoue exactement les mêmes questions à chaque partie :
-  seul l'ordre peut changer.
+- Le **Dialogue** tire un scénario parmi 6 (anglais) ou 5 (allemand) ; les choix
+  sont mélangés (avant le 2026-11-04, la bonne réponse était toujours le 1er bouton).
 - Le **Constructeur** ne dépend plus de cette réserve depuis le 2026-10-07 : il tire
   4 exercices `ordre` du pack (consigne = `explication` du point de grammaire), et
   complète avec la réserve écrite à la main seulement pour l'anglais et l'allemand
   s'il en manque. Il est proposé sur tout cours qui a au moins un exercice `ordre`
   (chinois et basque compris), pas seulement en anglais / allemand.
-- **Prépositions** (5 sur 6), **Accord** (8 sur 10) et **Oreille** (6 sur 8) piochent
-  presque tout le stock à chaque partie.
+- **Prépositions** (5 sur ~28), **Accord** (8 sur ~30) et **Oreille** (6 sur 28) ont
+  maintenant un stock 3 à 5 fois plus grand que ce qu'une partie consomme.
 - Ces contenus sont les mêmes quel que soit le cours : ils ne suivent pas le
   vocabulaire de la leçon en cours.
 
@@ -110,8 +110,8 @@ Leur difficulté dépend de la qualité du pack, pas du code. Ils tirent au hasa
 
 - Le **Marathon** pourrait éviter de reposer deux fois le même mot et privilégier les
   mots faibles (comme les cartes flash).
-- Les 6 jeux « à la main » pourraient être alimentés par le pack, ou au moins avoir
-  des réserves plus grandes (le Dialogue a 4 questions).
+- Les jeux « à la main » pourraient être alimentés par le pack (ils ne suivent pas
+  la leçon en cours). Conjugaison et Défi des 3 formes n'ont pas été enrichis.
 - **Intrus** pourrait utiliser la forme du mot (comme `distracteursPour`) quand le
   pack n'a pas de thèmes.
 - Les questions de grammaire du Quiz reprennent telles quelles les options du pack,

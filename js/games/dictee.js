@@ -1,7 +1,7 @@
 // Dictée audio : le navigateur prononce, l'ado écrit.
 // Tolérance aux petites fautes grâce au score de similarité.
 
-import { sample, esc, normalize, similarity } from "../utils.js";
+import { sample, esc, normalize, similarity, badgeOrigine } from "../utils.js";
 import { parler, ttsDisponible, ecouter, microDisponible } from "../speech.js";
 
 export const meta = {
@@ -68,6 +68,7 @@ export function start(container, ctx) {
   const phrases = (ctx.pack.phrases || []).map((p) => ({
     texte: p.texte,
     traduction: p.traduction,
+    origine: p.origine,
   }));
   const mots = ctx.pack.vocab.map((v) => ({
     texte: v.mot,
@@ -99,6 +100,7 @@ export function start(container, ctx) {
         <div class="barre-prog"><div style="width:${(i / items.length) * 100}%"></div></div>
         <span class="compteur">${i + 1} / ${items.length}</span>
       </div>
+      ${badgeOrigine(item.origine)}
       <div class="centre">
         <p class="gros-emoji">🎧</p>
         <div class="carte-boutons">

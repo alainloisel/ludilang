@@ -1,7 +1,14 @@
 // Le perroquet : répéter une phrase du cours au micro,
 // score de prononciation calculé par reconnaissance vocale.
 
-import { sample, shuffle, esc, normalize } from "../utils.js";
+import {
+  sample,
+  shuffle,
+  esc,
+  normalize,
+  phrasesMelangees,
+  badgeOrigine,
+} from "../utils.js";
 import {
   parler,
   ecouter,
@@ -17,43 +24,22 @@ export const meta = {
 };
 
 const NB_PHRASES = 5;
-const NB_PHRASES_COURS = 2; // garanties par partie, le reste est tiré dans tout le réservoir
-
-// Réservoir = phrases du pack + phrases d'exemple du vocabulaire, pour que
-// les parties ne tournent pas sur la même quinzaine de phrases. On garde
-// toujours quelques vraies phrases du cours (plus longues que les exemples).
-// Les mots seuls ne servent qu'en dernier recours (pack lexique sans phrases).
+// Réservoir = phrases du pack + phrases d'exemple du vocabulaire (voir
+// phrasesMelangees dans utils.js), pour que les parties ne tournent pas sur la
+// même quinzaine de phrases. Les mots seuls ne servent qu'en dernier recours
+// (pack lexique sans phrases ni exemples).
 function choisirPhrases(pack) {
-  const vues = new Set();
-  const unique = (liste) =>
-    liste.filter((p) => {
-      const cle = normalize(p.texte);
-      if (!cle || vues.has(cle)) return false;
-      vues.add(cle);
-      return true;
-    });
-  const cours = unique(
-    (pack.phrases || []).map((p) => ({
-      texte: p.texte,
-      traduction: p.traduction,
-    })),
-  );
-  const exemples = unique(
-    pack.vocab
-      .filter((v) => v.exemple)
-      .map((v) => ({
-        texte: v.exemple,
-        // La traduction d'un exemple est celle du mot, pas de la phrase.
-        traduction: `${v.mot} = ${v.traduction}`,
-      })),
-  );
-  const garanties = sample(cours, NB_PHRASES_COURS);
-  const reste = [...cours, ...exemples].filter((p) => !garanties.includes(p));
-  let items = [...garanties, ...sample(reste, NB_PHRASES - garanties.length)];
+  let items = phrasesMelangees(pack)
+    .slice(0, NB_PHRASES)
+    .map((p) => ({
+      ...p,
+      traduction: p.traduction ?? `${p.mot} = ${p.tradMot}`,
+    }));
   if (items.length < NB_PHRASES) {
-    const mots = unique(
-      pack.vocab.map((v) => ({ texte: v.mot, traduction: v.traduction })),
-    );
+    const deja = new Set(items.map((p) => normalize(p.texte)));
+    const mots = pack.vocab
+      .filter((v) => !deja.has(normalize(v.mot)))
+      .map((v) => ({ texte: v.mot, traduction: v.traduction }));
     items = [...items, ...sample(mots, NB_PHRASES - items.length)];
   }
   return shuffle(items);
@@ -95,6 +81,7 @@ export function start(container, ctx) {
           <div class="barre-prog"><div style="width:${(i / items.length) * 100}%"></div></div>
           <span class="compteur">${i + 1} / ${items.length}</span>
         </div>
+        ${badgeOrigine(item.origine)}
         <p class="indice">Répète cette phrase :</p>
         <p class="phrase-cible">${esc(texte)} <button class="btn-son" id="son">🔊</button></p>
         ${item.traduction ? `<p class="carte-exemple">${esc(item.traduction)}</p>` : ""}

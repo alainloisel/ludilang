@@ -1,7 +1,7 @@
 // Phrases en désordre : remettre les mots dans le bon ordre
 // (phrases du cours + exercices « ordre » de grammaire).
 
-import { shuffle, sample, esc, similarity } from "../utils.js";
+import { shuffle, sample, esc, similarity, badgeOrigine } from "../utils.js";
 import { parler, ecouter, microDisponible } from "../speech.js";
 
 export const meta = {
@@ -17,7 +17,7 @@ function collecter(pack) {
   const items = [];
   for (const p of pack.phrases || []) {
     const mots = p.texte.split(/\s+/);
-    if (mots.length >= 3) items.push({ mots, traduction: p.traduction });
+    if (mots.length >= 3) items.push({ mots, traduction: p.traduction, origine: p.origine });
   }
   for (const g of pack.grammar || []) {
     for (const ex of g.exercices || []) {
@@ -63,7 +63,7 @@ export function start(container, ctx) {
           ${microDisponible() ? `<button class="btn-micro-small" id="micro-ordre" title="Parler la phrase" style="margin: 0 10px;">🎤</button>` : ""}
           <span class="compteur">${i + 1} / ${items.length}</span>
         </div>
-        ${item.point ? `<p class="theme-chip">${esc(item.point)}</p>` : ""}
+        ${item.point ? `<p class="theme-chip">${esc(item.point)}</p>` : badgeOrigine(item.origine)}
         ${item.traduction ? `<p class="indice">💬 « ${esc(item.traduction)} »</p>` : `<p class="indice">Remets la phrase dans l'ordre :</p>`}
         <div class="zone-reponse" id="zone">
           ${reponse.map((x, ri) => `<button class="chip choisie" data-ri="${ri}">${esc(x.m)}</button>`).join("") || `<span class="zone-vide">Touche les mots ci-dessous…</span>`}

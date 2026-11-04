@@ -1,6 +1,9 @@
 {
   "name": "ludilang",
   "compatibility_date": "2026-09-14",
+  // Garder les variables saisies dans le dashboard (SITE_PASSWORD) à chaque
+  // déploiement : sans ça, un redéploiement depuis GitHub les efface.
+  "keep_vars": true,
   "main": "worker/index.js",
   "assets": {
     "directory": "./dist",

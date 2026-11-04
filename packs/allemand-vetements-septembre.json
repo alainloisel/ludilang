@@ -9,6 +9,7 @@
       "mot": "das Outfit",
       "traduction": "la tenue",
       "exemple": "Das Outfit ist klassisch und lässig.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (1)"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "der Schal",
       "traduction": "l'écharpe",
       "exemple": "Der Schal ist warm.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (1)"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "das Hemd",
       "traduction": "la chemise",
       "exemple": "Das Hemd ist weiß.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (1)"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "die Hosenträger",
       "traduction": "les bretelles",
       "exemple": "Er trägt die praktischen Hosenträger.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (1)"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "die Sneakers",
       "traduction": "les baskets",
       "exemple": "Die Sneakers sind braun.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (1)"
     },
     {
@@ -44,6 +49,7 @@
       "mot": "die Weste",
       "traduction": "le gilet sans manches",
       "exemple": "Die Weste ist schick.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (1)"
     },
     {
@@ -51,6 +57,7 @@
       "mot": "die Jeans",
       "traduction": "le jean",
       "exemple": "Die Jeans ist schwarz.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (1)"
     },
     {
@@ -58,6 +65,7 @@
       "mot": "das T-Shirt",
       "traduction": "le tee-shirt",
       "exemple": "Das T-Shirt ist weiß.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (1)"
     },
     {
@@ -65,6 +73,7 @@
       "mot": "die Hose",
       "traduction": "le pantalon",
       "exemple": "Ich kaufe die blaue Hose.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (1)"
     },
     {
@@ -72,6 +81,7 @@
       "mot": "der Pulli",
       "traduction": "le pull",
       "exemple": "Der Pulli ist warm.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (1)"
     },
     {
@@ -79,6 +89,7 @@
       "mot": "der Rock",
       "traduction": "la jupe",
       "exemple": "Der Rock ist klassisch.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (1)"
     },
     {
@@ -86,6 +97,7 @@
       "mot": "das Kleid",
       "traduction": "la robe",
       "exemple": "Ich kaufe das coole Kleid.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (1)"
     },
     {
@@ -93,6 +105,7 @@
       "mot": "der Rucksack",
       "traduction": "le sac à dos",
       "exemple": "Der Rucksack ist praktisch.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -100,6 +113,7 @@
       "mot": "die Jacke",
       "traduction": "la veste",
       "exemple": "Ich trage die rote Jacke.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -107,6 +121,7 @@
       "mot": "der Kapuzenpulli",
       "traduction": "le sweat à capuche",
       "exemple": "Der Kapuzenpulli ist praktisch.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -114,6 +129,7 @@
       "mot": "die Boots",
       "traduction": "les bottines",
       "exemple": "Ich trage die braunen Boots.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (2)"
     },
     {
@@ -121,6 +137,7 @@
       "mot": "die Schuhe",
       "traduction": "les chaussures",
       "exemple": "Er trägt die braunen Schuhe.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -128,6 +145,7 @@
       "mot": "das Armband",
       "traduction": "le bracelet",
       "exemple": "Er trägt die bunten Armbänder.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (2)"
     },
     {
@@ -135,6 +153,7 @@
       "mot": "die Jogginghose",
       "traduction": "le pantalon de jogging",
       "exemple": "Die graue Jogginghose ist praktisch.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -142,6 +161,7 @@
       "mot": "der Mantel",
       "traduction": "le manteau",
       "exemple": "Kauf dir den schönen Mantel.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (2)"
     },
     {
@@ -149,6 +169,7 @@
       "mot": "der Blazer",
       "traduction": "le blazer",
       "exemple": "Ich finde den roten Blazer voll im Trend.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -156,6 +177,7 @@
       "mot": "die Mode",
       "traduction": "la mode",
       "exemple": "Mode ist Freiheit.",
+      "origineExemple": "cours",
       "theme": "Les vêtements (2)"
     },
     {
@@ -163,6 +185,7 @@
       "mot": "der Stil",
       "traduction": "le style",
       "exemple": "Was ist dein Stil?",
+      "origineExemple": "cours",
       "theme": "Les vêtements (2)"
     },
     {
@@ -170,6 +193,7 @@
       "mot": "der Trend",
       "traduction": "la tendance",
       "exemple": "Der rote Blazer ist voll im Trend.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -177,6 +201,7 @@
       "mot": "der Skater-Look",
       "traduction": "le look skateur",
       "exemple": "Das Outfit ist ein Skater-Look.",
+      "origineExemple": "construite",
       "theme": "Les vêtements (2)"
     },
     {
@@ -184,6 +209,7 @@
       "mot": "anders",
       "traduction": "différent",
       "exemple": "Du bist anders.",
+      "origineExemple": "cours",
       "theme": "Les adjectifs"
     },
     {
@@ -191,6 +217,7 @@
       "mot": "besonders",
       "traduction": "particulier, spécial",
       "exemple": "Du bist besonders.",
+      "origineExemple": "cours",
       "theme": "Les adjectifs"
     },
     {
@@ -198,6 +225,7 @@
       "mot": "einzigartig",
       "traduction": "unique",
       "exemple": "Du bist einzigartig.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -205,6 +233,7 @@
       "mot": "lässig",
       "traduction": "décontracté",
       "exemple": "Der Skater-Look ist lässig.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -212,6 +241,7 @@
       "mot": "schick",
       "traduction": "chic",
       "exemple": "Die blaue Hose ist schick.",
+      "origineExemple": "cours",
       "theme": "Les adjectifs"
     },
     {
@@ -219,6 +249,7 @@
       "mot": "edel",
       "traduction": "élégant",
       "exemple": "Das Outfit ist edel und schick.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -226,6 +257,7 @@
       "mot": "klassisch",
       "traduction": "classique",
       "exemple": "Das Outfit ist klassisch und lässig.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -233,6 +265,7 @@
       "mot": "praktisch",
       "traduction": "pratique",
       "exemple": "Der Rucksack ist praktisch.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -240,6 +273,7 @@
       "mot": "warm",
       "traduction": "chaud",
       "exemple": "Der Pulli ist warm.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -247,6 +281,7 @@
       "mot": "cool",
       "traduction": "cool",
       "exemple": "Das Kleid ist cool.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -254,6 +289,7 @@
       "mot": "hübsch",
       "traduction": "joli",
       "exemple": "Die Sneakers sind hübsch.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -261,6 +297,7 @@
       "mot": "schön",
       "traduction": "beau",
       "exemple": "Kauf dir die schöne Hose.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -268,6 +305,7 @@
       "mot": "bunt",
       "traduction": "coloré",
       "exemple": "Er trägt die bunten Armbänder.",
+      "origineExemple": "cours",
       "theme": "Les adjectifs"
     },
     {
@@ -275,6 +313,7 @@
       "mot": "originell",
       "traduction": "original",
       "exemple": "Die Schuhe sind originell.",
+      "origineExemple": "construite",
       "theme": "Les adjectifs"
     },
     {
@@ -282,6 +321,7 @@
       "mot": "schwarz",
       "traduction": "noir",
       "exemple": "Die Jeans ist schwarz.",
+      "origineExemple": "cours",
       "theme": "Les couleurs"
     },
     {
@@ -289,6 +329,7 @@
       "mot": "weiß",
       "traduction": "blanc",
       "exemple": "Das T-Shirt ist weiß.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -296,6 +337,7 @@
       "mot": "braun",
       "traduction": "marron",
       "exemple": "Die Sneakers sind braun.",
+      "origineExemple": "cours",
       "theme": "Les couleurs"
     },
     {
@@ -303,6 +345,7 @@
       "mot": "rot",
       "traduction": "rouge",
       "exemple": "Ich trage die rote Jacke.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -310,6 +353,7 @@
       "mot": "gelb",
       "traduction": "jaune",
       "exemple": "Ich trage das gelbe T-Shirt.",
+      "origineExemple": "cours",
       "theme": "Les couleurs"
     },
     {
@@ -317,6 +361,7 @@
       "mot": "blau",
       "traduction": "bleu",
       "exemple": "Die Hose ist blau.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -324,6 +369,7 @@
       "mot": "grün",
       "traduction": "vert",
       "exemple": "Ich habe grüne Augen.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -331,6 +377,7 @@
       "mot": "grau",
       "traduction": "gris",
       "exemple": "Er trägt die graue Jogginghose.",
+      "origineExemple": "construite",
       "theme": "Les couleurs"
     },
     {
@@ -338,6 +385,7 @@
       "mot": "tragen",
       "traduction": "porter (un vêtement)",
       "exemple": "Ich trage das gelbe T-Shirt.",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -345,6 +393,7 @@
       "mot": "kaufen",
       "traduction": "acheter",
       "exemple": "Ich kaufe das coole Kleid.",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -352,6 +401,7 @@
       "mot": "mögen",
       "traduction": "aimer bien",
       "exemple": "Ich mag Ilias' schwarze Hose.",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -359,6 +409,7 @@
       "mot": "finden",
       "traduction": "trouver",
       "exemple": "Ich finde den roten Blazer voll im Trend.",
+      "origineExemple": "construite",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -366,6 +417,7 @@
       "mot": "haben",
       "traduction": "avoir",
       "exemple": "Ich habe ein rotes Auto.",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -373,6 +425,7 @@
       "mot": "denken",
       "traduction": "penser",
       "exemple": "Was denkst du über Mode?",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -380,6 +433,7 @@
       "mot": "ausprobieren",
       "traduction": "essayer, tester",
       "exemple": "Probiere einen neuen Stil aus!",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -387,6 +441,7 @@
       "mot": "wohnen",
       "traduction": "habiter",
       "exemple": "Wo wohnt Nic?",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -394,6 +449,7 @@
       "mot": "wissen",
       "traduction": "savoir",
       "exemple": "Ich weiß nicht.",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -401,6 +457,7 @@
       "mot": "sagen",
       "traduction": "dire",
       "exemple": "Sie sagt, dass Mode Spaß macht.",
+      "origineExemple": "cours",
       "theme": "Les verbes de la leçon"
     },
     {
@@ -408,6 +465,7 @@
       "mot": "wo",
       "traduction": "où",
       "exemple": "Wo wohnt Nic Kaufmann?",
+      "origineExemple": "cours",
       "theme": "Les mots pour questionner"
     },
     {
@@ -415,6 +473,7 @@
       "mot": "was",
       "traduction": "quoi, que",
       "exemple": "Was ist dein Stil?",
+      "origineExemple": "cours",
       "theme": "Les mots pour questionner"
     },
     {
@@ -422,6 +481,7 @@
       "mot": "wer",
       "traduction": "qui",
       "exemple": "Wer ist dein Lieblingsinfluencer?",
+      "origineExemple": "construite",
       "theme": "Les mots pour questionner"
     },
     {
@@ -429,6 +489,7 @@
       "mot": "dein Lieblingsinfluencer",
       "traduction": "ton influenceur préféré",
       "exemple": "Wer ist dein Lieblingsinfluencer?",
+      "origineExemple": "construite",
       "theme": "Les mots pour questionner"
     },
     {
@@ -436,6 +497,7 @@
       "mot": "die Augen",
       "traduction": "les yeux",
       "exemple": "Hast du grüne oder blaue Augen?",
+      "origineExemple": "construite",
       "theme": "Les mots pour questionner"
     },
     {
@@ -443,6 +505,7 @@
       "mot": "die Haare",
       "traduction": "les cheveux",
       "exemple": "Hat Zahide braune Haare?",
+      "origineExemple": "cours",
       "theme": "Les mots pour questionner"
     },
     {
@@ -450,6 +513,7 @@
       "mot": "der Spaß",
       "traduction": "le plaisir, l'amusement",
       "exemple": "Mode macht Spaß.",
+      "origineExemple": "construite",
       "theme": "Les mots pour questionner"
     },
     {
@@ -457,6 +521,7 @@
       "mot": "die Freiheit",
       "traduction": "la liberté",
       "exemple": "Mode ist Freiheit.",
+      "origineExemple": "cours",
       "theme": "Les mots pour questionner"
     }
   ],
@@ -529,6 +594,11 @@
           "type": "trous",
           "phrase": "Die ___ Schuhe sind originell. (braun, pluriel)",
           "reponse": "braunen"
+        },
+        {
+          "type": "trous",
+          "phrase": "Die ___ Jacke ist warm. (rot)",
+          "reponse": "rote"
         }
       ]
     },
@@ -608,6 +678,16 @@
             "coole",
             "Kleid."
           ]
+        },
+        {
+          "type": "trous",
+          "phrase": "Ich kaufe die ___ Sneakers. (braun, pluriel)",
+          "reponse": "braunen"
+        },
+        {
+          "type": "trous",
+          "phrase": "Er trägt einen ___ Mantel. (schön)",
+          "reponse": "schönen"
         }
       ]
     },
@@ -681,6 +761,16 @@
         {
           "type": "trous",
           "phrase": "Ich finde ___ roten Blazer toll. (der Blazer)",
+          "reponse": "den"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ Hose ist schick. (die)",
+          "reponse": "Die"
+        },
+        {
+          "type": "trous",
+          "phrase": "Ich kaufe ___ Rucksack. (der)",
           "reponse": "den"
         }
       ]
@@ -770,6 +860,26 @@
             "partielle (avec un mot interrogatif)"
           ],
           "bonne": 1
+        },
+        {
+          "type": "trous",
+          "phrase": "___ du grüne oder blaue Augen? (haben)",
+          "reponse": "Hast"
+        },
+        {
+          "type": "trous",
+          "phrase": "Wo ___ Nic Kaufmann? (wohnen)",
+          "reponse": "wohnt"
+        },
+        {
+          "type": "trous",
+          "phrase": "Sie sagt, dass Mode Spaß ___. (machen)",
+          "reponse": "macht"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ er Mode? (mögen)",
+          "reponse": "Mag"
         }
       ]
     }
@@ -778,77 +888,212 @@
     {
       "id": "p1",
       "texte": "Du bist anders. Du bist besonders. Du bist einzigartig.",
-      "traduction": "Tu es différent. Tu es spécial. Tu es unique."
+      "traduction": "Tu es différent. Tu es spécial. Tu es unique.",
+      "origine": "cours"
     },
     {
       "id": "p2",
       "texte": "Mode ist Freiheit.",
-      "traduction": "La mode, c'est la liberté."
+      "traduction": "La mode, c'est la liberté.",
+      "origine": "cours"
     },
     {
       "id": "p3",
       "texte": "Was ist dein Stil?",
-      "traduction": "Quel est ton style ?"
+      "traduction": "Quel est ton style ?",
+      "origine": "cours"
     },
     {
       "id": "p4",
       "texte": "Hat Zahide braune Haare?",
-      "traduction": "Est-ce que Zahide a les cheveux marron ?"
+      "traduction": "Est-ce que Zahide a les cheveux marron ?",
+      "origine": "cours"
     },
     {
       "id": "p5",
       "texte": "Probiere einen neuen Stil aus!",
-      "traduction": "Essaie un nouveau style !"
+      "traduction": "Essaie un nouveau style !",
+      "origine": "cours"
     },
     {
       "id": "p6",
       "texte": "Sie sagt, dass Mode Spaß macht.",
-      "traduction": "Elle dit que la mode, c'est amusant."
+      "traduction": "Elle dit que la mode, c'est amusant.",
+      "origine": "cours"
     },
     {
       "id": "p7",
       "texte": "Wo wohnt Nic Kaufmann?",
-      "traduction": "Où habite Nic Kaufmann ?"
+      "traduction": "Où habite Nic Kaufmann ?",
+      "origine": "cours"
     },
     {
       "id": "p8",
       "texte": "Ich mag Ilias' schwarze Hose.",
-      "traduction": "J'aime bien le pantalon noir d'Ilias."
+      "traduction": "J'aime bien le pantalon noir d'Ilias.",
+      "origine": "cours"
     },
     {
       "id": "p9",
       "texte": "Er trägt ein blaues T-Shirt.",
-      "traduction": "Il porte un tee-shirt bleu."
+      "traduction": "Il porte un tee-shirt bleu.",
+      "origine": "cours"
     },
     {
       "id": "p10",
       "texte": "Das Outfit ist edel und schick.",
-      "traduction": "La tenue est élégante et chic."
+      "traduction": "La tenue est élégante et chic.",
+      "origine": "cours"
     },
     {
       "id": "p11",
       "texte": "Das Outfit ist klassisch und lässig.",
-      "traduction": "La tenue est classique et décontractée."
+      "traduction": "La tenue est classique et décontractée.",
+      "origine": "cours"
     },
     {
       "id": "p12",
       "texte": "Die Jeans ist schwarz und die Sneakers sind braun.",
-      "traduction": "Le jean est noir et les baskets sont marron."
+      "traduction": "Le jean est noir et les baskets sont marron.",
+      "origine": "construite"
     },
     {
       "id": "p13",
       "texte": "Ich kaufe die blaue Hose.",
-      "traduction": "J'achète le pantalon bleu."
+      "traduction": "J'achète le pantalon bleu.",
+      "origine": "cours"
     },
     {
       "id": "p14",
       "texte": "Er trägt die praktischen Hosenträger.",
-      "traduction": "Il porte les bretelles pratiques."
+      "traduction": "Il porte les bretelles pratiques.",
+      "origine": "cours"
     },
     {
       "id": "p15",
       "texte": "Ich trage das gelbe T-Shirt.",
-      "traduction": "Je porte le tee-shirt jaune."
+      "traduction": "Je porte le tee-shirt jaune.",
+      "origine": "cours"
+    },
+    {
+      "id": "p16",
+      "texte": "Du bist du.",
+      "traduction": "Tu es toi.",
+      "origine": "cours"
+    },
+    {
+      "id": "p17",
+      "texte": "Heute ist Montag, der 21. September.",
+      "traduction": "Aujourd'hui, c'est lundi 21 septembre.",
+      "origine": "cours"
+    },
+    {
+      "id": "p18",
+      "texte": "Die Jeans ist schwarz.",
+      "traduction": "Le jean est noir.",
+      "origine": "cours"
+    },
+    {
+      "id": "p19",
+      "texte": "Die Sneakers sind braun.",
+      "traduction": "Les baskets sont marron.",
+      "origine": "cours"
+    },
+    {
+      "id": "p20",
+      "texte": "Die blaue Hose ist schick.",
+      "traduction": "Le pantalon bleu est chic.",
+      "origine": "cours"
+    },
+    {
+      "id": "p21",
+      "texte": "Ich kaufe das coole Kleid.",
+      "traduction": "J'achète la robe cool.",
+      "origine": "cours"
+    },
+    {
+      "id": "p22",
+      "texte": "Ich trage die rote Jacke.",
+      "traduction": "Je porte la veste rouge.",
+      "origine": "cours"
+    },
+    {
+      "id": "p23",
+      "texte": "Er trägt die blaue Hose und die braunen Schuhe.",
+      "traduction": "Il porte le pantalon bleu et les chaussures marron.",
+      "origine": "cours"
+    },
+    {
+      "id": "p24",
+      "texte": "Er trägt die bunten Armbänder.",
+      "traduction": "Il porte les bracelets colorés.",
+      "origine": "cours"
+    },
+    {
+      "id": "p25",
+      "texte": "Mag er Mode?",
+      "traduction": "Est-ce qu'il aime la mode ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p26",
+      "texte": "Ich denke, dass Mode Freiheit ist.",
+      "traduction": "Je pense que la mode, c'est la liberté.",
+      "origine": "cours"
+    },
+    {
+      "id": "p27",
+      "texte": "Rin ist ein deutscher Rapper.",
+      "traduction": "Rin est un rappeur allemand.",
+      "origine": "cours"
+    },
+    {
+      "id": "p28",
+      "texte": "Hast du grüne oder blaue Augen?",
+      "traduction": "As-tu les yeux verts ou bleus ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p29",
+      "texte": "Wer ist dein Lieblingsinfluencer?",
+      "traduction": "Qui est ton influenceur préféré ?",
+      "origine": "cours"
+    },
+    {
+      "id": "p30",
+      "texte": "Der warme Pulli ist praktisch.",
+      "traduction": "Le pull chaud est pratique.",
+      "origine": "construite"
+    },
+    {
+      "id": "p31",
+      "texte": "Ich trage den grauen Mantel und den roten Schal.",
+      "traduction": "Je porte le manteau gris et l'écharpe rouge.",
+      "origine": "construite"
+    },
+    {
+      "id": "p32",
+      "texte": "Das weiße Hemd ist klassisch.",
+      "traduction": "La chemise blanche est classique.",
+      "origine": "construite"
+    },
+    {
+      "id": "p33",
+      "texte": "Ich finde die bunte Weste originell.",
+      "traduction": "Je trouve le gilet coloré original.",
+      "origine": "construite"
+    },
+    {
+      "id": "p34",
+      "texte": "Kaufst du den schwarzen Rucksack?",
+      "traduction": "Tu achètes le sac à dos noir ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p35",
+      "texte": "Der Skater-Look ist lässig und cool.",
+      "traduction": "Le look skateur est décontracté et cool.",
+      "origine": "construite"
     }
   ]
 }

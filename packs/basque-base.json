@@ -1952,6 +1952,16 @@
         {
           "type": "ordre",
           "mots": ["sei", "zazpi", "zortzi", "bederatzi", "hamar"]
+        },
+        {
+          "type": "trous",
+          "phrase": "Le chiffre 4 se dit ___ en basque.",
+          "reponse": "lau"
+        },
+        {
+          "type": "trous",
+          "phrase": "Le chiffre 8 se dit ___ en basque.",
+          "reponse": "zortzi"
         }
       ]
     },
@@ -2004,6 +2014,16 @@
           "question": "Dans le Labourd, « non » se dit aussi…",
           "options": ["nun", "nola", "nork"],
           "bonne": 0
+        },
+        {
+          "type": "trous",
+          "phrase": "Pour demander « qui », on dit ___ en basque.",
+          "reponse": "nor"
+        },
+        {
+          "type": "trous",
+          "phrase": "Pour demander « quoi », on dit ___ en basque.",
+          "reponse": "zer"
         }
       ]
     },
@@ -2056,6 +2076,11 @@
           "question": "« Guk » veut dire…",
           "options": ["nous (qui faisons)", "à nous", "notre"],
           "bonne": 0
+        },
+        {
+          "type": "trous",
+          "phrase": "hau → ___ (celui-ci, qui fait l'action)",
+          "reponse": "honek"
         }
       ]
     },
@@ -2103,6 +2128,16 @@
           "question": "La marque de « à qui » est…",
           "options": ["-k", "-i", "-en"],
           "bonne": 1
+        },
+        {
+          "type": "trous",
+          "phrase": "zu → ___ (à toi)",
+          "reponse": "zuri"
+        },
+        {
+          "type": "trous",
+          "phrase": "nor → ___ (à qui ?)",
+          "reponse": "nori"
         }
       ]
     },
@@ -2160,6 +2195,16 @@
           "question": "Le morceau -tegi indique…",
           "options": ["un lieu", "une personne", "une couleur"],
           "bonne": 0
+        },
+        {
+          "type": "trous",
+          "phrase": "hitz (le mot) donne ___ (la langue).",
+          "reponse": "hizkuntza"
+        },
+        {
+          "type": "trous",
+          "phrase": "hitz (le mot) donne ___ (la lettre).",
+          "reponse": "hizki"
         }
       ]
     }

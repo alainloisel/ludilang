@@ -468,3 +468,78 @@ revenaient sans arrêt. On voulait plus de variété, donc plus de phrases const
 (`anglais-5eme-may-june`, `cahier-anglais-college`, `allemand-vetements-septembre`…) ;
 faire relire les phrases chinoises par une personne qui parle chinois ;
 `basque-base` n'a ni phrases ni exemples.
+
+## 2026-11-04 — Origine des phrases, Détective, trous, phrases et jeux à la main enrichis
+
+**Contexte** : suite de l'entrée précédente (plus de variété). Demande : traiter
+toutes les listes trop maigres, et distinguer dans les jeux les phrases qui viennent
+directement d'un cours de celles construites pour l'entraînement.
+
+**Décisions** :
+- **Origine** : nouveau champ `origine` (`"cours"` / `"construite"`) sur chaque phrase
+  et `origineExemple` sur chaque exemple du vocabulaire. Les jeux à phrases (Perroquet,
+  Détective, Dictée, Phrases en désordre) affichent une étiquette : « 📒 Phrase de ton
+  cours » (jaune) ou « ✏️ Phrase d'entraînement » (discrète). Pas d'étiquette si
+  l'origine est inconnue (packs importés anciens).
+- Marquage des packs existants : comparaison avec le texte des cours (`sources/*.md`
+  + texte extrait de `anglais.pdf` ; `revisions.pdf` est un scan sans texte, donc
+  invérifiable). Pour les phrases, décision à la main, phrase par phrase, en s'aidant du score. Pour les
+  exemples, règle stricte : « cours » seulement si la phrase est le passage du cours
+  aux fautes d'orthographe près (≥ 60 % de mots identiques, un mot corrigé doit
+  commencer par la même lettre, un seul mot ajouté/retiré). Dans le doute :
+  « construite » (mieux vaut sous-annoncer). Chinois et packs démo : tout construit.
+- **Détective** : il prenait toujours les 5 premières phrases du pack dans l'ordre
+  (bug). Il tire maintenant dans le même réservoir que le Perroquet (phrases +
+  exemples, `phrasesMelangees()` dans `utils.js`). Pour un exemple du vocabulaire,
+  l'indice donne seulement le sens du mot en français, jamais le mot lui-même (ce
+  serait la correction quand c'est lui qui est abîmé).
+- **Trous** : au moins 5 exercices `trous` par point de grammaire (83 ajoutés, sur
+  10 packs dont 7 dans `cahier-anglais-collegeV1`). Quelques réponses ambiguës levées par
+  un indice (« (haben, elle) », « Yesterday, … »). Pas pour le chinois : le jeu Trous n'est pas proposé en écriture non
+  latine (saisie au clavier). Consignes : 8 à 10 exercices par point, dont 5 trous.
+- **Phrases** : packs de cours passés à 35–37 phrases, en reprenant d'abord les
+  phrases du cours pas encore utilisées (marquées « cours »), puis des phrases
+  construites ; packs démo et `revisions-pdf` à 32 (construites).
+  `cahier-anglais-collegeV1` n'est pas dans `packs/index.json` : laissé de côté.
+- **Jeux à la main** : Dialogue 1 → 6 scénarios (anglais) / 5 (allemand), tirés au
+  hasard, choix mélangés (la bonne réponse était toujours le 1er bouton) ;
+  Prépositions 6 → 27/28 ; Oreille 8 → 28 paires ; Accord 10 → 30/31. Corrections au
+  passage : « net » → « nice », « I make my homework » → « I do » (dialogue), « kamm »
+  → « Kamm », « eltern » → « Eltern » (oreille).
+
+**Fichiers créés/modifiés** :
+- `js/utils.js` — `reservoirPhrases()`, `phrasesMelangees()`, `badgeOrigine()`.
+- `js/games/perroquet.js`, `js/games/detective.js` — réservoir commun + étiquette ; Détective mélangé.
+- `js/games/dictee.js`, `js/games/ordre.js` — étiquette d'origine.
+- `js/games/dialogue.js`, `preposition.js`, `oreille.js`, `accord.js` — contenus ajoutés (tableaux `AUTRES` / `AJOUTS`).
+- `css/style.css` — `.badge-origine`.
+- `packs/*.json` — `origine` / `origineExemple`, trous et phrases ajoutés.
+- `import/PROMPT-PACK.md`, `.claude/skills/generate-pack/SKILL.md`, `.claude/skills/generate-pack-lexique/SKILL.md` — origine obligatoire, 5 trous minimum.
+- `script/lexique2pack.py` — exemples et phrases d'un pack lexique marqués « construite ».
+- `doc/jeux.md` — mis à jour.
+- `sw.js` — cache `alo-langues-v17`.
+
+**Reste à faire** : faire relire les phrases chinoises et les 9 trous basques ; Conjugaison et
+Défi des 3 formes restent petits (9/5 verbes, 16/14 verbes) ; les jeux à la main ne
+suivent toujours pas la leçon en cours.
+
+## 2026-11-04 — Prod en panne : SITE_PASSWORD effacé au redéploiement
+
+**Contexte** : après le push de `d9f3f82`, ludilang.com répondait `500 SITE_PASSWORD
+non configuré côté Cloudflare.` sur toutes les pages. Le code du Worker n'avait
+pas changé.
+
+**Décisions** : cause probable : `SITE_PASSWORD` avait été saisi dans le dashboard
+comme variable en texte clair ; un déploiement Wrangler (Workers Builds) remplace
+les variables par celles du fichier de config, qui n'en déclare aucune. Les
+secrets chiffrés, eux, sont conservés. Remède : ressaisir `SITE_PASSWORD` en type
+**Secret**, et ajouter `"keep_vars": true` dans `wrangler.jsonc` pour que les
+variables du dashboard survivent aux déploiements suivants. Le mot de passe ne va
+toujours jamais dans le repo.
+
+**Fichiers créés/modifiés** :
+- `wrangler.jsonc` — `keep_vars: true`.
+
+**Reste à faire** : ressaisir le secret dans le dashboard (Workers & Pages →
+`ludilang` → Settings → Variables and Secrets), puis vérifier que
+`curl -I https://ludilang.com/` renvoie `302` vers `/_login`.

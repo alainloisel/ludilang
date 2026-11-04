@@ -9,6 +9,7 @@
       "mot": "Hallo",
       "traduction": "salut",
       "exemple": "Hallo, ich heiße Alex.",
+      "origineExemple": "cours",
       "theme": "Se présenter"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "heißen",
       "traduction": "s'appeler",
       "exemple": "Meine Cousins heißen Jonas und Hannah.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "der Name",
       "traduction": "le nom",
       "exemple": "Name: Fischer. Vorname: Fabian.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "der Vorname",
       "traduction": "le prénom",
       "exemple": "Sein Vorname ist Fabian.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "der Steckbrief",
       "traduction": "la fiche d'identité",
       "exemple": "Lies den Steckbrief über Fabian.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -44,6 +49,7 @@
       "mot": "der Wohnort",
       "traduction": "le lieu où l'on habite",
       "exemple": "Wohnort: Regensburg.",
+      "origineExemple": "cours",
       "theme": "Se présenter"
     },
     {
@@ -51,6 +57,7 @@
       "mot": "wohnen",
       "traduction": "habiter",
       "exemple": "Fabian wohnt in Regensburg.",
+      "origineExemple": "construite",
       "theme": "Se présenter"
     },
     {
@@ -58,6 +65,7 @@
       "mot": "das Haustier",
       "traduction": "l'animal de compagnie",
       "exemple": "Fabian hat ein Haustier: eine Maus.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -65,6 +73,7 @@
       "mot": "die Maus",
       "traduction": "la souris",
       "exemple": "Die Maus heißt Mausi.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -72,6 +81,7 @@
       "mot": "das Instrument",
       "traduction": "l'instrument de musique",
       "exemple": "Fabian spielt zwei Instrumente.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -79,6 +89,7 @@
       "mot": "die Gitarre",
       "traduction": "la guitare",
       "exemple": "Fabian spielt Gitarre.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -86,6 +97,7 @@
       "mot": "die Flöte",
       "traduction": "la flûte",
       "exemple": "Er spielt Gitarre und Flöte.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -93,6 +105,7 @@
       "mot": "das Hobby",
       "traduction": "le loisir",
       "exemple": "Meine Hobbys sind Fußball und Tennis.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -100,6 +113,7 @@
       "mot": "im Internet surfen",
       "traduction": "surfer sur Internet",
       "exemple": "Fabian surft im Internet.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -107,6 +121,7 @@
       "mot": "der Fußball",
       "traduction": "le football",
       "exemple": "Fabian spielt Fußball mit Leon.",
+      "origineExemple": "construite",
       "theme": "Loisirs et animaux"
     },
     {
@@ -114,6 +129,7 @@
       "mot": "das Tennis",
       "traduction": "le tennis",
       "exemple": "Spielst du Tennis mit mir?",
+      "origineExemple": "cours",
       "theme": "Loisirs et animaux"
     },
     {
@@ -121,6 +137,7 @@
       "mot": "der beste Freund",
       "traduction": "le meilleur ami",
       "exemple": "Wo wohnt dein bester Freund?",
+      "origineExemple": "construite",
       "theme": "Amis, famille et école"
     },
     {
@@ -128,6 +145,7 @@
       "mot": "der Cousin",
       "traduction": "le cousin",
       "exemple": "Meine Cousins heißen Jonas und Hannah.",
+      "origineExemple": "construite",
       "theme": "Amis, famille et école"
     },
     {
@@ -135,6 +153,7 @@
       "mot": "der Vater",
       "traduction": "le père",
       "exemple": "Mein Vater fährt mich in die Schule.",
+      "origineExemple": "construite",
       "theme": "Amis, famille et école"
     },
     {
@@ -142,6 +161,7 @@
       "mot": "die Kinder",
       "traduction": "les enfants",
       "exemple": "Frau Wagner, haben Sie Kinder?",
+      "origineExemple": "construite",
       "theme": "Amis, famille et école"
     },
     {
@@ -149,6 +169,7 @@
       "mot": "Frau",
       "traduction": "Madame",
       "exemple": "Frau Wagner ist im Garten.",
+      "origineExemple": "construite",
       "theme": "Amis, famille et école"
     },
     {
@@ -156,6 +177,7 @@
       "mot": "die Klasse",
       "traduction": "la classe",
       "exemple": "Lina und Sofia sind nicht in meiner Klasse.",
+      "origineExemple": "cours",
       "theme": "Amis, famille et école"
     },
     {
@@ -163,6 +185,7 @@
       "mot": "der Schüler",
       "traduction": "l'élève",
       "exemple": "Ihr seid die neuen Schüler der 7. Klasse.",
+      "origineExemple": "cours",
       "theme": "Amis, famille et école"
     },
     {
@@ -170,6 +193,7 @@
       "mot": "die Schule",
       "traduction": "l'école",
       "exemple": "Wir sind in der Schule.",
+      "origineExemple": "construite",
       "theme": "Amis, famille et école"
     },
     {
@@ -177,6 +201,7 @@
       "mot": "die Übung",
       "traduction": "l'exercice",
       "exemple": "Ich habe keine Lust, diese Übung zu machen.",
+      "origineExemple": "construite",
       "theme": "Amis, famille et école"
     },
     {
@@ -184,6 +209,7 @@
       "mot": "das Frühstück",
       "traduction": "le petit-déjeuner",
       "exemple": "Was isst du zum Frühstück?",
+      "origineExemple": "construite",
       "theme": "Au quotidien"
     },
     {
@@ -191,6 +217,7 @@
       "mot": "das Brot",
       "traduction": "le pain",
       "exemple": "Ich esse Brot und Marmelade.",
+      "origineExemple": "construite",
       "theme": "Au quotidien"
     },
     {
@@ -198,6 +225,7 @@
       "mot": "die Marmelade",
       "traduction": "la confiture",
       "exemple": "Zum Frühstück esse ich Marmelade.",
+      "origineExemple": "construite",
       "theme": "Au quotidien"
     },
     {
@@ -205,6 +233,7 @@
       "mot": "die Handynummer",
       "traduction": "le numéro de portable",
       "exemple": "Er gibt mir seine Handynummer.",
+      "origineExemple": "construite",
       "theme": "Au quotidien"
     },
     {
@@ -212,6 +241,7 @@
       "mot": "der Bus",
       "traduction": "le bus",
       "exemple": "Um wie viel Uhr nimmst du den Bus?",
+      "origineExemple": "construite",
       "theme": "Au quotidien"
     },
     {
@@ -219,6 +249,7 @@
       "mot": "das Geld",
       "traduction": "l'argent",
       "exemple": "Wie viel Geld hast du noch?",
+      "origineExemple": "cours",
       "theme": "Au quotidien"
     },
     {
@@ -226,6 +257,7 @@
       "mot": "die Zeit",
       "traduction": "le temps (qui passe)",
       "exemple": "Keine Panik, wir haben noch Zeit!",
+      "origineExemple": "cours",
       "theme": "Au quotidien"
     },
     {
@@ -233,6 +265,7 @@
       "mot": "die Idee",
       "traduction": "l'idée",
       "exemple": "Paula hat eine gute Idee.",
+      "origineExemple": "construite",
       "theme": "Au quotidien"
     },
     {
@@ -240,6 +273,7 @@
       "mot": "der Garten",
       "traduction": "le jardin",
       "exemple": "Wir sind im Garten.",
+      "origineExemple": "cours",
       "theme": "Au quotidien"
     },
     {
@@ -247,6 +281,7 @@
       "mot": "glücklich",
       "traduction": "heureux",
       "exemple": "Bist du nicht glücklich?",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -254,6 +289,7 @@
       "mot": "schnell",
       "traduction": "vite",
       "exemple": "Martin läuft schnell.",
+      "origineExemple": "construite",
       "theme": "Expressions utiles"
     },
     {
@@ -261,6 +297,7 @@
       "mot": "keine Lust haben",
       "traduction": "ne pas avoir envie",
       "exemple": "Ich habe keine Lust, diese Übung zu machen.",
+      "origineExemple": "construite",
       "theme": "Expressions utiles"
     },
     {
@@ -268,6 +305,7 @@
       "mot": "Keine Panik!",
       "traduction": "Pas de panique !",
       "exemple": "Keine Panik, wir haben noch Zeit!",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -275,6 +313,7 @@
       "mot": "noch",
       "traduction": "encore",
       "exemple": "Wir haben noch Zeit.",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -282,6 +321,7 @@
       "mot": "Wie viel?",
       "traduction": "Combien ?",
       "exemple": "Wie viel Geld hast du noch?",
+      "origineExemple": "cours",
       "theme": "Expressions utiles"
     },
     {
@@ -289,6 +329,7 @@
       "mot": "Um wie viel Uhr?",
       "traduction": "À quelle heure ?",
       "exemple": "Um wie viel Uhr nimmst du den Bus?",
+      "origineExemple": "construite",
       "theme": "Expressions utiles"
     },
     {
@@ -296,6 +337,7 @@
       "mot": "heute",
       "traduction": "aujourd'hui",
       "exemple": "Heute ist Donnerstag.",
+      "origineExemple": "cours",
       "theme": "Les dates"
     },
     {
@@ -303,6 +345,7 @@
       "mot": "der Donnerstag",
       "traduction": "jeudi",
       "exemple": "Heute ist Donnerstag, der zehnte September.",
+      "origineExemple": "construite",
       "theme": "Les dates"
     },
     {
@@ -310,6 +353,7 @@
       "mot": "der September",
       "traduction": "septembre",
       "exemple": "Im September wird es kälter.",
+      "origineExemple": "construite",
       "theme": "Les dates"
     },
     {
@@ -317,6 +361,7 @@
       "mot": "der Oktober",
       "traduction": "octobre",
       "exemple": "Im Oktober werde ich zwölf Jahre alt.",
+      "origineExemple": "construite",
       "theme": "Les dates"
     },
     {
@@ -324,6 +369,7 @@
       "mot": "kälter",
       "traduction": "plus froid",
       "exemple": "Im Oktober wird es kälter.",
+      "origineExemple": "construite",
       "theme": "Les dates"
     },
     {
@@ -331,6 +377,7 @@
       "mot": "spielen",
       "traduction": "jouer",
       "exemple": "Wir spielen Fußball.",
+      "origineExemple": "construite",
       "theme": "Verbes réguliers"
     },
     {
@@ -338,6 +385,7 @@
       "mot": "hören",
       "traduction": "écouter",
       "exemple": "Ihr hört einen Podcast.",
+      "origineExemple": "construite",
       "theme": "Verbes réguliers"
     },
     {
@@ -345,6 +393,7 @@
       "mot": "machen",
       "traduction": "faire",
       "exemple": "Sie machen eine Übung.",
+      "origineExemple": "construite",
       "theme": "Verbes réguliers"
     },
     {
@@ -352,6 +401,7 @@
       "mot": "schwimmen",
       "traduction": "nager",
       "exemple": "Fabian schwimmt schnell.",
+      "origineExemple": "construite",
       "theme": "Verbes réguliers"
     },
     {
@@ -359,6 +409,7 @@
       "mot": "schreiben",
       "traduction": "écrire",
       "exemple": "Schreibe einen kurzen Text über Fabian.",
+      "origineExemple": "cours",
       "theme": "Verbes réguliers"
     },
     {
@@ -366,6 +417,7 @@
       "mot": "buchstabieren",
       "traduction": "épeler",
       "exemple": "Ich buchstabiere: B-R-A-U-N.",
+      "origineExemple": "construite",
       "theme": "Verbes réguliers"
     },
     {
@@ -373,6 +425,7 @@
       "mot": "sein",
       "traduction": "être",
       "exemple": "Wir sind im Garten.",
+      "origineExemple": "cours",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -380,6 +433,7 @@
       "mot": "haben",
       "traduction": "avoir",
       "exemple": "Haben Sie Kinder?",
+      "origineExemple": "construite",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -387,6 +441,7 @@
       "mot": "werden",
       "traduction": "devenir",
       "exemple": "Im September wird es kälter.",
+      "origineExemple": "construite",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -394,6 +449,7 @@
       "mot": "essen",
       "traduction": "manger (du isst)",
       "exemple": "Was isst du zum Frühstück?",
+      "origineExemple": "construite",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -401,6 +457,7 @@
       "mot": "geben",
       "traduction": "donner (er gibt)",
       "exemple": "Er gibt mir seine Handynummer.",
+      "origineExemple": "construite",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -408,6 +465,7 @@
       "mot": "nehmen",
       "traduction": "prendre (du nimmst)",
       "exemple": "Ich nehme keinen Bus.",
+      "origineExemple": "construite",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -415,6 +473,7 @@
       "mot": "fahren",
       "traduction": "conduire, aller en véhicule (er fährt)",
       "exemple": "Mein Vater fährt mich in die Schule.",
+      "origineExemple": "construite",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -422,6 +481,7 @@
       "mot": "laufen",
       "traduction": "courir (er läuft)",
       "exemple": "Martin läuft schnell.",
+      "origineExemple": "construite",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -429,6 +489,7 @@
       "mot": "lesen",
       "traduction": "lire",
       "exemple": "Lies den Steckbrief!",
+      "origineExemple": "cours",
       "theme": "Auxiliaires et verbes forts"
     },
     {
@@ -436,6 +497,7 @@
       "mot": "groß",
       "traduction": "grand",
       "exemple": "Nic ist groß und sportlich.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -443,6 +505,7 @@
       "mot": "sportlich",
       "traduction": "sportif",
       "exemple": "Er ist sportlich.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -450,6 +513,7 @@
       "mot": "hübsch",
       "traduction": "joli, mignon",
       "exemple": "Zahide ist hübsch.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -457,6 +521,7 @@
       "mot": "schlank",
       "traduction": "mince",
       "exemple": "Er ist groß und schlank.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -464,6 +529,7 @@
       "mot": "dick",
       "traduction": "gros",
       "exemple": "Die Maus ist dick.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -471,6 +537,7 @@
       "mot": "schön",
       "traduction": "beau",
       "exemple": "Die Gitarre ist schön.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -478,6 +545,7 @@
       "mot": "die Haare",
       "traduction": "les cheveux",
       "exemple": "Zahide hat lange Haare.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -485,6 +553,7 @@
       "mot": "die Augen",
       "traduction": "les yeux",
       "exemple": "Er hat braune Augen.",
+      "origineExemple": "construite",
       "theme": "Décrire une personne"
     },
     {
@@ -492,6 +561,7 @@
       "mot": "kurz",
       "traduction": "court",
       "exemple": "Nic hat kurze braune Haare.",
+      "origineExemple": "construite",
       "theme": "Les cheveux"
     },
     {
@@ -499,6 +569,7 @@
       "mot": "lang",
       "traduction": "long",
       "exemple": "Zahide hat lange Haare.",
+      "origineExemple": "construite",
       "theme": "Les cheveux"
     },
     {
@@ -506,6 +577,7 @@
       "mot": "glatt",
       "traduction": "lisse, raide",
       "exemple": "Sie hat glatte Haare.",
+      "origineExemple": "construite",
       "theme": "Les cheveux"
     },
     {
@@ -513,6 +585,7 @@
       "mot": "lockig",
       "traduction": "bouclé",
       "exemple": "Er hat lockige Haare.",
+      "origineExemple": "construite",
       "theme": "Les cheveux"
     },
     {
@@ -520,6 +593,7 @@
       "mot": "braun",
       "traduction": "brun, marron",
       "exemple": "Er hat braune Haare.",
+      "origineExemple": "cours",
       "theme": "Les cheveux"
     },
     {
@@ -527,6 +601,7 @@
       "mot": "blond",
       "traduction": "blond",
       "exemple": "Lisa ist blond.",
+      "origineExemple": "construite",
       "theme": "Les cheveux"
     },
     {
@@ -534,6 +609,7 @@
       "mot": "platinblond",
       "traduction": "blond platine",
       "exemple": "Sie hat platinblonde Haare.",
+      "origineExemple": "construite",
       "theme": "Les cheveux"
     },
     {
@@ -541,6 +617,7 @@
       "mot": "rötlich",
       "traduction": "roux, tirant sur le roux",
       "exemple": "Er hat rötliche Haare.",
+      "origineExemple": "construite",
       "theme": "Les cheveux"
     },
     {
@@ -548,6 +625,7 @@
       "mot": "die Mode",
       "traduction": "la mode",
       "exemple": "Mode soll Spaß machen.",
+      "origineExemple": "cours",
       "theme": "La mode"
     },
     {
@@ -555,6 +633,7 @@
       "mot": "der Trend",
       "traduction": "la tendance",
       "exemple": "Der Trend gefällt mir.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -562,6 +641,7 @@
       "mot": "trendig",
       "traduction": "à la mode",
       "exemple": "Die Klamotten sind trendig.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -569,6 +649,7 @@
       "mot": "der Style",
       "traduction": "le style",
       "exemple": "Nic hat einen schönen Style.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -576,6 +657,7 @@
       "mot": "die Klamotten",
       "traduction": "les fringues",
       "exemple": "Ich trage trendige Klamotten.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -583,6 +665,7 @@
       "mot": "tragen",
       "traduction": "porter (un vêtement)",
       "exemple": "Er trägt Klamotten von Dior.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -590,6 +673,7 @@
       "mot": "gefallen",
       "traduction": "plaire",
       "exemple": "Die Mode gefällt mir.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -597,6 +681,7 @@
       "mot": "der Spaß",
       "traduction": "le plaisir, l'amusement",
       "exemple": "Mode soll Spaß machen.",
+      "origineExemple": "cours",
       "theme": "La mode"
     },
     {
@@ -604,6 +689,7 @@
       "mot": "die Marke",
       "traduction": "la marque",
       "exemple": "Dior ist eine große Marke.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -611,6 +697,7 @@
       "mot": "der Modeinfluencer",
       "traduction": "l'influenceur de mode",
       "exemple": "Nic ist ein Modeinfluencer.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -618,6 +705,7 @@
       "mot": "der Lieblingsinfluencer",
       "traduction": "l'influenceur préféré",
       "exemple": "Sie sprechen über ihren Lieblingsinfluencer.",
+      "origineExemple": "construite",
       "theme": "La mode"
     },
     {
@@ -625,6 +713,7 @@
       "mot": "der Podcast",
       "traduction": "le podcast",
       "exemple": "Was hörst du? Einen Podcast.",
+      "origineExemple": "construite",
       "theme": "Écouter un document audio"
     },
     {
@@ -632,6 +721,7 @@
       "mot": "das Straßeninterview",
       "traduction": "le micro-trottoir",
       "exemple": "Das ist ein Straßeninterview.",
+      "origineExemple": "construite",
       "theme": "Écouter un document audio"
     },
     {
@@ -639,6 +729,7 @@
       "mot": "Wer spricht?",
       "traduction": "Qui parle ?",
       "exemple": "Wer spricht? Alex und Lisa.",
+      "origineExemple": "construite",
       "theme": "Écouter un document audio"
     },
     {
@@ -646,6 +737,7 @@
       "mot": "Worüber sprechen sie?",
       "traduction": "De quoi parlent-ils ?",
       "exemple": "Worüber sprechen sie? Über Mode.",
+      "origineExemple": "construite",
       "theme": "Écouter un document audio"
     },
     {
@@ -653,6 +745,7 @@
       "mot": "Was hörst du?",
       "traduction": "Qu'est-ce que tu entends ?",
       "exemple": "Was hörst du? Ein Straßeninterview.",
+      "origineExemple": "construite",
       "theme": "Écouter un document audio"
     },
     {
@@ -660,6 +753,7 @@
       "mot": "sprechen über",
       "traduction": "parler de",
       "exemple": "Alex und Lisa sprechen über Mode.",
+      "origineExemple": "construite",
       "theme": "Écouter un document audio"
     }
   ],
@@ -714,6 +808,16 @@
         {
           "type": "ordre",
           "mots": ["Ihr", "hört", "einen", "Podcast."]
+        },
+        {
+          "type": "trous",
+          "phrase": "Sie ___ schnell. (schwimmen, ils)",
+          "reponse": "schwimmen"
+        },
+        {
+          "type": "trous",
+          "phrase": "Ihr ___ Tennis. (spielen)",
+          "reponse": "spielt"
         }
       ]
     },
@@ -769,6 +873,16 @@
         {
           "type": "ordre",
           "mots": ["Keine", "Panik,", "wir", "haben", "noch", "Zeit!"]
+        },
+        {
+          "type": "trous",
+          "phrase": "Ihr ___ die neuen Schüler der 7. Klasse. (sein)",
+          "reponse": "seid"
+        },
+        {
+          "type": "trous",
+          "phrase": "Im September ___ es kälter. (werden)",
+          "reponse": "wird"
         }
       ]
     },
@@ -824,6 +938,16 @@
         {
           "type": "ordre",
           "mots": ["Mein", "Vater", "fährt", "mich", "in", "die", "Schule."]
+        },
+        {
+          "type": "trous",
+          "phrase": "Martin ___ schnell. (laufen, äu)",
+          "reponse": "läuft"
+        },
+        {
+          "type": "trous",
+          "phrase": "Um wie viel Uhr ___ du den Bus? (nehmen, i)",
+          "reponse": "nimmst"
         }
       ]
     },
@@ -878,6 +1002,21 @@
         {
           "type": "ordre",
           "mots": ["Zahide", "ist", "hübsch", "und", "schlank."]
+        },
+        {
+          "type": "trous",
+          "phrase": "Nic ___ groß und sportlich. (sein)",
+          "reponse": "ist"
+        },
+        {
+          "type": "trous",
+          "phrase": "Sie ___ blonde Haare. (haben, elle)",
+          "reponse": "hat"
+        },
+        {
+          "type": "trous",
+          "phrase": "Er hat ___ braune Haare. (kurz)",
+          "reponse": "kurze"
         }
       ]
     },
@@ -932,6 +1071,21 @@
         {
           "type": "ordre",
           "mots": ["Wo", "wohnt", "dein", "bester", "Freund?"]
+        },
+        {
+          "type": "trous",
+          "phrase": "___ spricht? Alex und Lisa. (qui)",
+          "reponse": "Wer"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ wohnt Fabian? In Regensburg. (où)",
+          "reponse": "Wo"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ sprechen sie? Über Mode. (de quoi)",
+          "reponse": "Worüber"
         }
       ]
     }
@@ -940,192 +1094,230 @@
     {
       "id": "p1",
       "texte": "Wir sind im Garten.",
-      "traduction": "Nous sommes dans le jardin."
+      "traduction": "Nous sommes dans le jardin.",
+      "origine": "cours"
     },
     {
       "id": "p2",
       "texte": "Frau Wagner, haben Sie Kinder?",
-      "traduction": "Madame Wagner, avez-vous des enfants ?"
+      "traduction": "Madame Wagner, avez-vous des enfants ?",
+      "origine": "cours"
     },
     {
       "id": "p3",
       "texte": "Keine Panik, wir haben noch Zeit!",
-      "traduction": "Pas de panique, nous avons encore le temps !"
+      "traduction": "Pas de panique, nous avons encore le temps !",
+      "origine": "cours"
     },
     {
       "id": "p4",
       "texte": "Im September wird es kälter.",
-      "traduction": "En septembre, il commence à faire plus froid."
+      "traduction": "En septembre, il commence à faire plus froid.",
+      "origine": "cours"
     },
     {
       "id": "p5",
       "texte": "Was isst du zum Frühstück?",
-      "traduction": "Qu'est-ce que tu manges au petit-déjeuner ?"
+      "traduction": "Qu'est-ce que tu manges au petit-déjeuner ?",
+      "origine": "cours"
     },
     {
       "id": "p6",
       "texte": "Ich esse Brot und Marmelade.",
-      "traduction": "Je mange du pain et de la confiture."
+      "traduction": "Je mange du pain et de la confiture.",
+      "origine": "cours"
     },
     {
       "id": "p7",
       "texte": "Mein Vater fährt mich in die Schule.",
-      "traduction": "Mon père me conduit à l'école."
+      "traduction": "Mon père me conduit à l'école.",
+      "origine": "cours"
     },
     {
       "id": "p8",
       "texte": "Martin läuft schnell.",
-      "traduction": "Martin court vite."
+      "traduction": "Martin court vite.",
+      "origine": "construite"
     },
     {
       "id": "p9",
       "texte": "Um wie viel Uhr nimmst du den Bus?",
-      "traduction": "À quelle heure prends-tu le bus ?"
+      "traduction": "À quelle heure prends-tu le bus ?",
+      "origine": "cours"
     },
     {
       "id": "p10",
       "texte": "Fabian wohnt in Regensburg.",
-      "traduction": "Fabian habite à Ratisbonne (Regensburg)."
+      "traduction": "Fabian habite à Ratisbonne (Regensburg).",
+      "origine": "construite"
     },
     {
       "id": "p11",
       "texte": "Er spielt Gitarre und Flöte.",
-      "traduction": "Il joue de la guitare et de la flûte."
+      "traduction": "Il joue de la guitare et de la flûte.",
+      "origine": "construite"
     },
     {
       "id": "p12",
       "texte": "Alex und Lisa sprechen über Mode.",
-      "traduction": "Alex et Lisa parlent de mode."
+      "traduction": "Alex et Lisa parlent de mode.",
+      "origine": "construite"
     },
     {
       "id": "p13",
       "texte": "Er hat kurze braune Haare.",
-      "traduction": "Il a les cheveux courts et bruns."
+      "traduction": "Il a les cheveux courts et bruns.",
+      "origine": "cours"
     },
     {
       "id": "p14",
       "texte": "Mode soll Spaß machen.",
-      "traduction": "La mode, ça doit être amusant."
+      "traduction": "La mode, ça doit être amusant.",
+      "origine": "cours"
     },
     {
       "id": "p15",
       "texte": "Wie viel Geld hast du noch?",
-      "traduction": "Combien d'argent te reste-t-il ?"
+      "traduction": "Combien d'argent te reste-t-il ?",
+      "origine": "cours"
     },
     {
       "id": "p16",
       "texte": "Ich heiße Fabian und wohne in Regensburg.",
-      "traduction": "Je m'appelle Fabian et j'habite à Ratisbonne."
+      "traduction": "Je m'appelle Fabian et j'habite à Ratisbonne.",
+      "origine": "construite"
     },
     {
       "id": "p17",
       "texte": "Mein Vorname ist Lisa.",
-      "traduction": "Mon prénom est Lisa."
+      "traduction": "Mon prénom est Lisa.",
+      "origine": "construite"
     },
     {
       "id": "p18",
       "texte": "Hast du ein Haustier? Ja, ich habe eine Maus.",
-      "traduction": "As-tu un animal de compagnie ? Oui, j'ai une souris."
+      "traduction": "As-tu un animal de compagnie ? Oui, j'ai une souris.",
+      "origine": "construite"
     },
     {
       "id": "p19",
       "texte": "Wir spielen Fußball und Tennis.",
-      "traduction": "Nous jouons au football et au tennis."
+      "traduction": "Nous jouons au football et au tennis.",
+      "origine": "construite"
     },
     {
       "id": "p20",
       "texte": "Ihr hört einen Podcast.",
-      "traduction": "Vous écoutez un podcast."
+      "traduction": "Vous écoutez un podcast.",
+      "origine": "construite"
     },
     {
       "id": "p21",
       "texte": "Sie schwimmen schnell.",
-      "traduction": "Ils nagent vite."
+      "traduction": "Ils nagent vite.",
+      "origine": "construite"
     },
     {
       "id": "p22",
       "texte": "Mein bester Freund surft im Internet.",
-      "traduction": "Mon meilleur ami surfe sur Internet."
+      "traduction": "Mon meilleur ami surfe sur Internet.",
+      "origine": "construite"
     },
     {
       "id": "p23",
       "texte": "Was machst du heute?",
-      "traduction": "Qu'est-ce que tu fais aujourd'hui ?"
+      "traduction": "Qu'est-ce que tu fais aujourd'hui ?",
+      "origine": "construite"
     },
     {
       "id": "p24",
       "texte": "Er liest die Übung.",
-      "traduction": "Il lit l'exercice."
+      "traduction": "Il lit l'exercice.",
+      "origine": "construite"
     },
     {
       "id": "p25",
       "texte": "Du nimmst den Bus und ich laufe.",
-      "traduction": "Tu prends le bus et moi, je cours."
+      "traduction": "Tu prends le bus et moi, je cours.",
+      "origine": "construite"
     },
     {
       "id": "p26",
       "texte": "Er gibt mir seine Handynummer.",
-      "traduction": "Il me donne son numéro de portable."
+      "traduction": "Il me donne son numéro de portable.",
+      "origine": "construite"
     },
     {
       "id": "p27",
       "texte": "Wo wohnt dein Cousin?",
-      "traduction": "Où habite ton cousin ?"
+      "traduction": "Où habite ton cousin ?",
+      "origine": "construite"
     },
     {
       "id": "p28",
       "texte": "Wer ist dein bester Freund?",
-      "traduction": "Qui est ton meilleur ami ?"
+      "traduction": "Qui est ton meilleur ami ?",
+      "origine": "construite"
     },
     {
       "id": "p29",
       "texte": "Sie ist schlank und hat lockige blonde Haare.",
-      "traduction": "Elle est mince et a les cheveux blonds et bouclés."
+      "traduction": "Elle est mince et a les cheveux blonds et bouclés.",
+      "origine": "construite"
     },
     {
       "id": "p30",
       "texte": "Er hat lange glatte Haare und braune Augen.",
-      "traduction": "Il a les cheveux longs et raides et les yeux marron."
+      "traduction": "Il a les cheveux longs et raides et les yeux marron.",
+      "origine": "construite"
     },
     {
       "id": "p31",
       "texte": "Mein Vater ist groß und sportlich.",
-      "traduction": "Mon père est grand et sportif."
+      "traduction": "Mon père est grand et sportif.",
+      "origine": "construite"
     },
     {
       "id": "p32",
       "texte": "Ihr seid glücklich.",
-      "traduction": "Vous êtes heureux."
+      "traduction": "Vous êtes heureux.",
+      "origine": "construite"
     },
     {
       "id": "p33",
       "texte": "Heute ist Donnerstag.",
-      "traduction": "Aujourd'hui, c'est jeudi."
+      "traduction": "Aujourd'hui, c'est jeudi.",
+      "origine": "cours"
     },
     {
       "id": "p34",
       "texte": "Ich habe heute keine Lust.",
-      "traduction": "Aujourd'hui, je n'ai pas envie."
+      "traduction": "Aujourd'hui, je n'ai pas envie.",
+      "origine": "construite"
     },
     {
       "id": "p35",
       "texte": "Was trägst du heute?",
-      "traduction": "Qu'est-ce que tu portes aujourd'hui ?"
+      "traduction": "Qu'est-ce que tu portes aujourd'hui ?",
+      "origine": "construite"
     },
     {
       "id": "p36",
       "texte": "Die Klamotten von dieser Marke gefallen mir.",
-      "traduction": "Les fringues de cette marque me plaisent."
+      "traduction": "Les fringues de cette marque me plaisent.",
+      "origine": "construite"
     },
     {
       "id": "p37",
       "texte": "Wer ist dein Lieblingsinfluencer?",
-      "traduction": "Qui est ton influenceur préféré ?"
+      "traduction": "Qui est ton influenceur préféré ?",
+      "origine": "construite"
     },
     {
       "id": "p38",
       "texte": "Wir schreiben die Übung.",
-      "traduction": "Nous écrivons l'exercice."
+      "traduction": "Nous écrivons l'exercice.",
+      "origine": "construite"
     }
   ]
 }

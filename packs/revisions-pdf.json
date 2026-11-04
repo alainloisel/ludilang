@@ -9,6 +9,7 @@
       "mot": "help others",
       "traduction": "aider les autres",
       "exemple": "I want to help others this year.",
+      "origineExemple": "construite",
       "theme": "Résolutions"
     },
     {
@@ -16,6 +17,7 @@
       "mot": "work hard",
       "traduction": "travailler dur",
       "exemple": "She must work hard at school.",
+      "origineExemple": "construite",
       "theme": "Résolutions"
     },
     {
@@ -23,6 +25,7 @@
       "mot": "eat less junk food",
       "traduction": "manger moins de cochonneries",
       "exemple": "I will eat less junk food this year.",
+      "origineExemple": "construite",
       "theme": "Résolutions"
     },
     {
@@ -30,6 +33,7 @@
       "mot": "exercise more",
       "traduction": "faire plus d'exercice",
       "exemple": "You can exercise more in the gym.",
+      "origineExemple": "construite",
       "theme": "Résolutions"
     },
     {
@@ -37,6 +41,7 @@
       "mot": "tell lies",
       "traduction": "dire des mensonges",
       "exemple": "We must not tell lies.",
+      "origineExemple": "construite",
       "theme": "Résolutions"
     },
     {
@@ -44,6 +49,7 @@
       "mot": "be grumpy",
       "traduction": "être grincheux",
       "exemple": "Don't be grumpy today!",
+      "origineExemple": "construite",
       "theme": "Résolutions"
     },
     {
@@ -51,6 +57,7 @@
       "mot": "a library",
       "traduction": "une bibliothèque",
       "exemple": "Is there a library in your school?",
+      "origineExemple": "cours",
       "theme": "Le collège"
     },
     {
@@ -58,6 +65,7 @@
       "mot": "lockers",
       "traduction": "des casiers",
       "exemple": "There are no lockers in the corridors.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -65,6 +73,7 @@
       "mot": "a gym",
       "traduction": "un gymnase",
       "exemple": "We play in the gym.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -72,6 +81,7 @@
       "mot": "a playground",
       "traduction": "une cour de récréation",
       "exemple": "We play games in the playground.",
+      "origineExemple": "construite",
       "theme": "Le collège"
     },
     {
@@ -79,6 +89,7 @@
       "mot": "IT",
       "traduction": "la technologie (matière)",
       "exemple": "We use computers in IT.",
+      "origineExemple": "construite",
       "theme": "Matières scolaires"
     },
     {
@@ -86,6 +97,7 @@
       "mot": "PE",
       "traduction": "l'EPS (sport)",
       "exemple": "Majority of students love PE.",
+      "origineExemple": "cours",
       "theme": "Matières scolaires"
     },
     {
@@ -93,6 +105,7 @@
       "mot": "science",
       "traduction": "les sciences",
       "exemple": "She loves science and doing experiments.",
+      "origineExemple": "construite",
       "theme": "Matières scolaires"
     },
     {
@@ -100,6 +113,7 @@
       "mot": "history",
       "traduction": "l'histoire",
       "exemple": "We learn about history and geography.",
+      "origineExemple": "construite",
       "theme": "Matières scolaires"
     },
     {
@@ -107,6 +121,7 @@
       "mot": "rock climbing",
       "traduction": "l'escalade",
       "exemple": "I like rock climbing, it is exciting.",
+      "origineExemple": "construite",
       "theme": "Loisirs"
     },
     {
@@ -114,6 +129,7 @@
       "mot": "cycling",
       "traduction": "le vélo",
       "exemple": "She likes cycling.",
+      "origineExemple": "construite",
       "theme": "Loisirs"
     },
     {
@@ -121,6 +137,7 @@
       "mot": "afraid of",
       "traduction": "avoir peur de",
       "exemple": "We are afraid of spiders.",
+      "origineExemple": "cours",
       "theme": "Sentiments et réactions"
     },
     {
@@ -128,6 +145,7 @@
       "mot": "excited",
       "traduction": "excité",
       "exemple": "I am excited about the new year.",
+      "origineExemple": "construite",
       "theme": "Sentiments et réactions"
     },
     {
@@ -135,6 +153,7 @@
       "mot": "shy",
       "traduction": "timide",
       "exemple": "I am a bit shy.",
+      "origineExemple": "cours",
       "theme": "Sentiments et réactions"
     },
     {
@@ -142,6 +161,7 @@
       "mot": "tiring",
       "traduction": "fatigant",
       "exemple": "Rock climbing is too tiring.",
+      "origineExemple": "construite",
       "theme": "Sentiments et réactions"
     },
     {
@@ -149,6 +169,7 @@
       "mot": "funny",
       "traduction": "drôle",
       "exemple": "This short movie is very funny.",
+      "origineExemple": "construite",
       "theme": "Opinions"
     },
     {
@@ -156,6 +177,7 @@
       "mot": "moving",
       "traduction": "émouvant",
       "exemple": "This book is moving.",
+      "origineExemple": "construite",
       "theme": "Opinions"
     },
     {
@@ -163,6 +185,7 @@
       "mot": "scary",
       "traduction": "effrayant",
       "exemple": "Spiders are very scary.",
+      "origineExemple": "construite",
       "theme": "Opinions"
     },
     {
@@ -170,6 +193,7 @@
       "mot": "boring",
       "traduction": "ennuyeux",
       "exemple": "I think that this film is boring.",
+      "origineExemple": "construite",
       "theme": "Opinions"
     }
   ],
@@ -212,7 +236,17 @@
           "bonne": 1
         },
         { "type": "ordre", "mots": ["There", "is", "a", "swimming", "pool."] },
-        { "type": "ordre", "mots": ["There", "aren't", "any", "lockers."] }
+        { "type": "ordre", "mots": ["There", "aren't", "any", "lockers."] },
+        {
+          "type": "trous",
+          "phrase": "There ___ some benches in the playground. (be)",
+          "reponse": "are"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ there any instruments in the music room? (be)",
+          "reponse": "Are"
+        }
       ]
     },
     {
@@ -253,7 +287,17 @@
           "bonne": 0
         },
         { "type": "ordre", "mots": ["We", "must", "do", "our", "homework."] },
-        { "type": "ordre", "mots": ["Can", "you", "speak", "English?"] }
+        { "type": "ordre", "mots": ["Can", "you", "speak", "English?"] },
+        {
+          "type": "trous",
+          "phrase": "We ___ play in the playground. (pouvoir)",
+          "reponse": "can"
+        },
+        {
+          "type": "trous",
+          "phrase": "You ___ listen to the teacher. (devoir)",
+          "reponse": "must"
+        }
       ]
     },
     {
@@ -297,6 +341,16 @@
         {
           "type": "ordre",
           "mots": ["She", "does", "not", "work", "every", "day."]
+        },
+        {
+          "type": "trous",
+          "phrase": "Tom ___ football. (hate)",
+          "reponse": "hates"
+        },
+        {
+          "type": "trous",
+          "phrase": "I ___ like rain. (do, forme négative)",
+          "reponse": "don't"
         }
       ]
     },
@@ -338,7 +392,17 @@
           "bonne": 0
         },
         { "type": "ordre", "mots": ["There", "are", "not", "any", "trees."] },
-        { "type": "ordre", "mots": ["Many", "students", "play", "football."] }
+        { "type": "ordre", "mots": ["Many", "students", "play", "football."] },
+        {
+          "type": "trous",
+          "phrase": "There are ___ students in the canteen now. (quelques)",
+          "reponse": "some"
+        },
+        {
+          "type": "trous",
+          "phrase": "There are a ___ of students in my school. (beaucoup)",
+          "reponse": "lot"
+        }
       ]
     },
     {
@@ -379,7 +443,17 @@
           "bonne": 0
         },
         { "type": "ordre", "mots": ["She", "is", "alert", "and", "happy."] },
-        { "type": "ordre", "mots": ["I", "am", "not", "afraid."] }
+        { "type": "ordre", "mots": ["I", "am", "not", "afraid."] },
+        {
+          "type": "trous",
+          "phrase": "I ___ a student. (be)",
+          "reponse": "am"
+        },
+        {
+          "type": "trous",
+          "phrase": "___ she Spanish? (be)",
+          "reponse": "Is"
+        }
       ]
     }
   ],
@@ -387,62 +461,194 @@
     {
       "id": "p1",
       "texte": "This year I will read more books.",
-      "traduction": "Cette année, je vais lire plus de livres."
+      "traduction": "Cette année, je vais lire plus de livres.",
+      "origine": "construite"
     },
     {
       "id": "p2",
       "texte": "We must not run in the corridors.",
-      "traduction": "Nous ne devons pas courir dans les couloirs."
+      "traduction": "Nous ne devons pas courir dans les couloirs.",
+      "origine": "cours"
     },
     {
       "id": "p3",
       "texte": "He can swim but he can't drive a boat.",
-      "traduction": "Il sait nager mais il ne sait pas conduire de bateau."
+      "traduction": "Il sait nager mais il ne sait pas conduire de bateau.",
+      "origine": "cours"
     },
     {
       "id": "p4",
       "texte": "In our school there are many corridors.",
-      "traduction": "Dans notre école il y a beaucoup de couloirs."
+      "traduction": "Dans notre école il y a beaucoup de couloirs.",
+      "origine": "cours"
     },
     {
       "id": "p5",
       "texte": "There are some benches in the playground.",
-      "traduction": "Il y a quelques bancs dans la cour de récréation."
+      "traduction": "Il y a quelques bancs dans la cour de récréation.",
+      "origine": "construite"
     },
     {
       "id": "p6",
       "texte": "My favourite book is One Piece.",
-      "traduction": "Mon livre préféré est One Piece."
+      "traduction": "Mon livre préféré est One Piece.",
+      "origine": "cours"
     },
     {
       "id": "p7",
       "texte": "She enjoys her classes because she loves science.",
-      "traduction": "Elle apprécie beaucoup ses cours parce qu'elle adore les sciences."
+      "traduction": "Elle apprécie beaucoup ses cours parce qu'elle adore les sciences.",
+      "origine": "construite"
     },
     {
       "id": "p8",
       "texte": "It is cloudy and chilly today.",
-      "traduction": "C'est nuageux et frais aujourd'hui."
+      "traduction": "C'est nuageux et frais aujourd'hui.",
+      "origine": "cours"
     },
     {
       "id": "p9",
       "texte": "Are there any instruments in the music room?",
-      "traduction": "Y a-t-il des instruments dans la salle de musique ?"
+      "traduction": "Y a-t-il des instruments dans la salle de musique ?",
+      "origine": "cours"
     },
     {
       "id": "p10",
       "texte": "We are afraid of spiders.",
-      "traduction": "Nous avons peur des araignées."
+      "traduction": "Nous avons peur des araignées.",
+      "origine": "cours"
     },
     {
       "id": "p11",
       "texte": "This year I would like to contact my old friends.",
-      "traduction": "Cette année, j'aimerais contacter mes anciens amis."
+      "traduction": "Cette année, j'aimerais contacter mes anciens amis.",
+      "origine": "construite"
     },
     {
       "id": "p12",
       "texte": "Eve is about a little girl who fights for the planet.",
-      "traduction": "Eve parle d'une petite fille qui se bat pour la planète."
+      "traduction": "Eve parle d'une petite fille qui se bat pour la planète.",
+      "origine": "construite"
+    },
+    {
+      "id": "p13",
+      "texte": "This year, I will help others.",
+      "traduction": "Cette année, j'aiderai les autres.",
+      "origine": "construite"
+    },
+    {
+      "id": "p14",
+      "texte": "I will work hard at school.",
+      "traduction": "Je travaillerai dur à l'école.",
+      "origine": "construite"
+    },
+    {
+      "id": "p15",
+      "texte": "I will eat less junk food.",
+      "traduction": "Je mangerai moins de malbouffe.",
+      "origine": "construite"
+    },
+    {
+      "id": "p16",
+      "texte": "I will exercise more and go cycling.",
+      "traduction": "Je ferai plus de sport et j'irai faire du vélo.",
+      "origine": "construite"
+    },
+    {
+      "id": "p17",
+      "texte": "I won't tell lies.",
+      "traduction": "Je ne dirai pas de mensonges.",
+      "origine": "construite"
+    },
+    {
+      "id": "p18",
+      "texte": "I won't be grumpy in the morning.",
+      "traduction": "Je ne serai pas grognon le matin.",
+      "origine": "construite"
+    },
+    {
+      "id": "p19",
+      "texte": "Rock climbing is tiring but I love it.",
+      "traduction": "L'escalade, c'est fatigant mais j'adore ça.",
+      "origine": "construite"
+    },
+    {
+      "id": "p20",
+      "texte": "I am excited about my new school.",
+      "traduction": "Je suis tout excité par mon nouveau collège.",
+      "origine": "construite"
+    },
+    {
+      "id": "p21",
+      "texte": "This film is very moving.",
+      "traduction": "Ce film est très émouvant.",
+      "origine": "construite"
+    },
+    {
+      "id": "p22",
+      "texte": "This book is scary.",
+      "traduction": "Ce livre fait peur.",
+      "origine": "construite"
+    },
+    {
+      "id": "p23",
+      "texte": "History is not boring!",
+      "traduction": "L'histoire, ce n'est pas ennuyeux !",
+      "origine": "construite"
+    },
+    {
+      "id": "p24",
+      "texte": "There is a library and a gym in my school.",
+      "traduction": "Il y a une bibliothèque et un gymnase dans mon collège.",
+      "origine": "construite"
+    },
+    {
+      "id": "p25",
+      "texte": "Are there any lockers in your school?",
+      "traduction": "Y a-t-il des casiers dans ton collège ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p26",
+      "texte": "We must not chew gum in class.",
+      "traduction": "Nous ne devons pas mâcher de chewing-gum en classe.",
+      "origine": "construite"
+    },
+    {
+      "id": "p27",
+      "texte": "She loves PE but she hates science.",
+      "traduction": "Elle adore l'EPS mais elle déteste les sciences.",
+      "origine": "construite"
+    },
+    {
+      "id": "p28",
+      "texte": "Many students like IT.",
+      "traduction": "Beaucoup d'élèves aiment l'informatique.",
+      "origine": "construite"
+    },
+    {
+      "id": "p29",
+      "texte": "There aren't any trees in the playground.",
+      "traduction": "Il n'y a aucun arbre dans la cour.",
+      "origine": "construite"
+    },
+    {
+      "id": "p30",
+      "texte": "Do you like cycling?",
+      "traduction": "Tu aimes le vélo ?",
+      "origine": "construite"
+    },
+    {
+      "id": "p31",
+      "texte": "I am afraid of spiders.",
+      "traduction": "J'ai peur des araignées.",
+      "origine": "construite"
+    },
+    {
+      "id": "p32",
+      "texte": "My friends are excited about the holidays.",
+      "traduction": "Mes amis sont tout excités à l'idée des vacances.",
+      "origine": "construite"
     }
   ]
 }

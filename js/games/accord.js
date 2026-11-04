@@ -122,6 +122,66 @@ const PROPOSITIONS = {
   ],
 };
 
+// Ajouts 2026-11 : [phrase, correcte ?, explication], tirés des points de
+// grammaire des cours (there is/are, did/didn't, can, does, verbes forts,
+// adjectif épithète, verbe en 2e position).
+const AJOUTS = {
+  en: [
+    ["She doesn't like football.", true, "Avec she : doesn't + base verbale."],
+    ["She don't like football.", false, "Avec she, c'est doesn't (does not), pas don't."],
+    ["There are two playgrounds in our school.", true, "Devant un nom pluriel : there are."],
+    ["There is two playgrounds in our school.", false, "Playgrounds est pluriel : il faut there are."],
+    ["I didn't do my homework.", true, "Didn't + base verbale (do)."],
+    ["I didn't did my homework.", false, "Après didn't, le verbe reste à la base verbale : I didn't do."],
+    ["He can swim.", true, "Après can : base verbale, sans to et sans -s."],
+    ["He cans swim.", false, "Can ne prend jamais de -s, même avec he."],
+    ["He can to swim.", false, "Pas de to après can : he can swim."],
+    ["We are afraid of spiders.", true, "Avec we, le verbe be devient are."],
+    ["We is afraid of spiders.", false, "Avec we, c'est are : we are."],
+    ["Is there a library in your school?", true, "Library est singulier : is there… ?"],
+    ["Are there a library in your school?", false, "Library est singulier : is there a library ?"],
+    ["My sister and I love reading comics.", true, "Ma sœur et moi = nous : pas de -s."],
+    ["My best friend like foreign languages.", false, "My best friend = he : il faut likes."],
+    ["Does she like French?", true, "Question avec she : does + base verbale."],
+    ["Does she likes French?", false, "Après does, le verbe perd son -s : does she like ?"],
+    ["They mustn't leave school without permission.", true, "Mustn't + base verbale."],
+    ["They was at school yesterday.", false, "Au pluriel, le prétérit de be est were : they were."],
+    ["Many students play hockey.", true, "Many + nom pluriel (students)."],
+    ["Many student play hockey.", false, "Après many, le nom est au pluriel : many students."],
+  ],
+  de: [
+    ["Er isst Brot und Marmelade.", true, "Essen est un verbe fort : er isst."],
+    ["Er esst Brot und Marmelade.", false, "Essen change de voyelle avec er : er isst."],
+    ["Du fährst in die Schule.", true, "Fahren prend un ä avec du : du fährst."],
+    ["Du fahrst in die Schule.", false, "Fahren est un verbe fort : du fährst (avec ä)."],
+    ["Ihr seid glücklich.", true, "Sein avec ihr : ihr seid."],
+    ["Ihr sind glücklich.", false, "Avec ihr, c'est seid (sind va avec wir et sie)."],
+    ["Wir haben noch Zeit.", true, "Haben avec wir : wir haben."],
+    ["Wir habt noch Zeit.", false, "Habt va avec ihr ; avec wir, c'est haben."],
+    ["Sie hat lange Haare.", true, "Avec sie (elle) : sie hat."],
+    ["Sie hast lange Haare.", false, "Hast va avec du ; avec sie (elle), c'est hat."],
+    ["Der blaue Pulli ist warm.", true, "Après der (nominatif), l'adjectif épithète prend -e."],
+    ["Der blau Pulli ist warm.", false, "L'adjectif épithète s'accorde : der blaue Pulli."],
+    ["Ich kaufe den blauen Pulli.", true, "Le pulli est COD : accusatif masculin, den blauen."],
+    ["Ich kaufe der blaue Pulli.", false, "Le pulli est COD, donc à l'accusatif : den blauen Pulli."],
+    ["Die Sneakers sind braun.", true, "Après sein, l'adjectif attribut ne s'accorde pas."],
+    ["Die Sneakers sind braune.", false, "Après sein, l'adjectif reste invariable : sind braun."],
+    ["Er nimmt den Bus.", true, "Nehmen est un verbe fort : er nimmt."],
+    ["Er nehmt den Bus.", false, "Nehmen change de voyelle avec er : er nimmt."],
+    ["Am Wochenende spiele ich Fußball.", true, "Le verbe reste en 2e position, le sujet passe après."],
+    ["Am Wochenende ich spiele Fußball.", false, "Le verbe conjugué doit être en 2e position : spiele ich."],
+  ],
+};
+for (const lang of ["en", "de"]) {
+  PROPOSITIONS[lang].push(
+    ...AJOUTS[lang].map(([text, correct, explication]) => ({
+      text,
+      correct,
+      explication,
+    })),
+  );
+}
+
 const NB_QUESTIONS = 8;
 
 export function start(container, ctx) {
